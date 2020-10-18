@@ -1,0 +1,12 @@
+#include "oled.h"
+
+void write_cmd(u8 command)
+{
+	
+}
+
+
+void led_init()
+{
+	
+}

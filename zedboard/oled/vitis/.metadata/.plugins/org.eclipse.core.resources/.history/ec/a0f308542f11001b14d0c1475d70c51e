@@ -1,0 +1,13 @@
+#include "oled.h"
+int main()
+{
+	oled_init();
+	while(1)
+	{
+		show_string_16(0, 0, "ABC123abc");
+		//draw_point(0, 0, 1);
+		//oled_clear();
+	}
+	return 0;
+
+}

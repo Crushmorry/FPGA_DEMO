@@ -1,0 +1,13 @@
+#include "oled.h"
+
+void write_cmd(u8 command)
+{
+	u8 i;
+	Xil_Out32(OLED_BASE_ADDR, )
+}
+
+
+void led_init()
+{
+	
+}

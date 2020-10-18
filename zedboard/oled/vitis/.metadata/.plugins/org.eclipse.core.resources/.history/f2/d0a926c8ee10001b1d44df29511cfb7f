@@ -1,0 +1,39 @@
+#include "oled.h"
+
+void write_cmd(u8 command)
+{
+
+	Xil_Out32(OLED_BASE_ADDR, Xil_In32(OLED_BASE_ADDR)&( ~ (1 << DC)));
+	for (u8 i = 0; i < 8; ++i)
+	{
+		Xil_Out32(OLED_BASE_ADDR, Xil_In32(OLED_BASE_ADDR) & ( ~ (1 << SCLK)));
+		if(command & 0x80)
+		{
+			Xil_Out32(OLED_BASE_ADDR, Xil_In32(OLED_BASE_ADDR) | (1 << SDIN));
+		}
+		else
+		{
+			Xil_Out32(OLED_BASE_ADDR, Xil_In32(OLED_BASE_ADDR) & ( ~(1 << SDIN)));
+		}
+		Xil_Out32(OLED_BASE_ADDR, Xil_In32(OLED_BASE_ADDR) | (1 << SCLK));
+		data << 1;
+	}
+}
+
+
+void led_init()
+{
+	Xil_Out32(OLED_BASE_ADDR, Xil_In32(OLED_BASE_ADDR) | (1 << VDD));
+	usleep(300);
+	Xil_Out32(OLED_BASE_ADDR, Xil_In32(OLED_BASE_ADDR) & ( ~(1 << RES)));
+	usleep(300);
+	Xil_Out32(OLED_BASE_ADDR, Xil_In32(OLED_BASE_ADDR) | (1 << RES));
+	usleep(300);
+
+	
+	write_cmd(0xAE);	//关闭面板显示
+
+	write_cmd(0x40);	//设置起始行
+	write_cmd(0x81);	//设置对比度
+	write_cmd(0xAF);	//打开面板显示
+}

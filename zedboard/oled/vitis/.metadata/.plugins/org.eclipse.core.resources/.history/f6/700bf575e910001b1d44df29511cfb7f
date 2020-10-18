@@ -1,0 +1,25 @@
+#ifndef __OLED_H_
+#define __OLED_H_
+
+#include "xil_types.h"
+#include "xil_io.h"
+#include "sleep.h"
+
+#define OLED_BASE_ADDR 0X43c00000	//在vivado里面已经分配
+
+//与vivado中管脚定义和zedboard指导手册对应
+#define DC 0
+#define RES 1
+#define SCLK 2
+#define SDIN 3
+#define VBAT 4
+#define VDD 5
+
+#define SET_DC (Xil_Out32())
+
+
+
+void led_init();
+void write_cmd(u8 command);
+
+#endif

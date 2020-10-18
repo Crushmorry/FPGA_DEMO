@@ -1,0 +1,39 @@
+2020-10-18T19:24:14.274453900255-19:24:14 **** Incremental Build of configuration Debug for project test1 ****
+000-make all 
+000-make --no-print-directory pre-build
+000-a9-linaro-pre-build-step
+000-' '
+000-make --no-print-directory main-build
+000-'Building file: ../src/main.c'
+000-'Invoking: ARM v7 gcc compiler'
+000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IE:/fpga_proj/ps/oled/vitis/oled/export/oled/sw/oled/standalone_domain/bspinclude/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+000-../src/main.c: In function 'main':
+000/test1/src/main.c17-1-1pointer targets in passing argument 3 of 'OLED_ShowString' differ in signedness [-Wpointer-sign]1-../src/main.c:17:25: warning: pointer targets in passing argument 3 of 'OLED_ShowString' differ in signedness [-Wpointer-sign]
+000-   17 |    OLED_ShowString(0,0, "0");
+000-      |                         ^~~
+000-      |                         |
+000-      |                         char *
+000-In file included from ../src/main.c:7:
+000/test1/src/oled.h60-1-1expected 'const u8 *' {aka 'const unsigned char *'} but argument is of type 'char *'0-../src/oled.h:60:42: note: expected 'const u8 *' {aka 'const unsigned char *'} but argument is of type 'char *'
+000-   60 | void OLED_ShowString(u8 x,u8 y,const u8 *p);
+000-      |                                ~~~~~~~~~~^
+000/test1/src/main.c20-1-1implicit declaration of function 'sleep'; did you mean 'usleep'? [-Wimplicit-function-declaration]1-../src/main.c:20:4: warning: implicit declaration of function 'sleep'; did you mean 'usleep'? [-Wimplicit-function-declaration]
+000-   20 |    sleep(1);
+000-      |    ^~~~~
+000-      |    usleep
+000-'Finished building: ../src/main.c'
+000-' '
+000-'Building target: test1.elf'
+000-'Invoking: ARM v7 gcc linker'
+000-arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LE:/fpga_proj/ps/oled/vitis/oled/export/oled/sw/oled/standalone_domain/bsplib/lib -o "test1.elf"  ./src/main.o ./src/oled.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+000-'Finished building target: test1.elf'
+000-' '
+000-'Invoking: ARM v7 Print Size'
+000-arm-none-eabi-size test1.elf  |tee "test1.elf.size"
+000-   text	   data	    bss	    dec	    hex	filename
+000-  46884	   2548	  23536	  72968	  11d08	test1.elf
+000-'Finished building: test1.elf.size'
+000-' '
+00255-
+19:24:14 Build Finished (took 669ms)
+

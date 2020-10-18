@@ -1,0 +1,27 @@
+#include "oled.h"
+
+void write_cmd(u8 command)
+{
+
+	Xil_Out32(OLED_BASE_ADDR, Xil_In32(OLED_BASE_ADDR)&(~(1<<DC)));
+	for (u8 i = 0; i < 8; ++i)
+	{
+		Xil_Out32(OLED_BASE_ADDR, Xil_In32(OLED_BASE_ADDR)&(~(1<<SCLK)));
+		if(command & 0x80)
+		{
+			Xil_Out32(OLED_BASE_ADDR, Xil_In32(OLED_BASE_ADDR)|(1<<SDIN));
+		}
+		else
+		{
+			Xil_Out32(OLED_BASE_ADDR, Xil_In32(OLED_BASE_ADDR)&(~(1<<SDIN)));
+		}
+		Xil_Out32(OLED_BASE_ADDR, Xil_In32(OLED_BASE_ADDR)|(1<<SCLK));
+		data << 1;
+	}
+}
+
+
+void led_init()
+{
+	
+}

@@ -1,0 +1,92 @@
+#include "oled.h"
+
+
+
+u8 OLED_GRAM[128][4];
+
+//写命令
+void write_cmd(u8 command)
+{
+
+	Xil_Out32(OLED_BASE_ADDR, Xil_In32(OLED_BASE_ADDR)&( ~ (1 << DC)));
+	for (u8 i = 0; i < 8; ++i)
+	{
+		Xil_Out32(OLED_BASE_ADDR, Xil_In32(OLED_BASE_ADDR) & ( ~ (1 << SCLK)));
+		if(command & 0x80)
+		{
+			Xil_Out32(OLED_BASE_ADDR, Xil_In32(OLED_BASE_ADDR) | (1 << SDIN));
+		}
+		else
+		{
+			Xil_Out32(OLED_BASE_ADDR, Xil_In32(OLED_BASE_ADDR) & ( ~(1 << SDIN)));
+		}
+		Xil_Out32(OLED_BASE_ADDR, Xil_In32(OLED_BASE_ADDR) | (1 << SCLK));
+		command << 1;
+	}
+}
+
+
+//写数据
+void write_data(u8 data)
+{
+	Xil_Out32(OLED_BASE_ADDR, Xil_In32(OLED_BASE_ADDR) | (1 << DC));
+	for (u8 i = 0; i < 8; ++i)
+	{
+		Xil_Out32(OLED_BASE_ADDR, Xil_In32(OLED_BASE_ADDR) & ( ~ (1 << SCLK)));
+		if(data & 0x80)
+		{
+			Xil_Out32(OLED_BASE_ADDR, Xil_In32(OLED_BASE_ADDR) | (1 << SDIN));
+		}
+		else
+		{
+			Xil_Out32(OLED_BASE_ADDR, Xil_In32(OLED_BASE_ADDR) & ( ~(1 << SDIN)));
+		}
+		Xil_Out32(OLED_BASE_ADDR, Xil_In32(OLED_BASE_ADDR) | (1 << SCLK));
+		data << 1;
+	}
+}
+
+
+//更新显存到OLED
+void oled_refresh_gram()
+{
+	for (u8 i = 0; i < 8; ++i)
+	{
+		write_cmd(0xb0 + i);	//设置页地址 (0~7)
+		write_cmd(0x00);		//设置列低地址
+		write_cmd(0x10);		//设置列高地址
+		for (u8 j = 0; j < 128; ++j) {
+			write_data(OLED_GRAM[j][i]);
+		}
+	}
+}
+
+//清空OLED,即设为全黑
+void oled_clear()
+{
+	for (u8 i = 0; i < 8; ++i)
+	{
+		for (u8 j = 0; j < 128; ++j)
+		{
+			OLED_GRAM[j][i] = 0x00;
+		}
+	}
+	oled_refresh_gram();
+}
+
+void oled_init()
+{
+	Xil_Out32(OLED_BASE_ADDR, Xil_In32(OLED_BASE_ADDR) | (1 << VDD));
+	usleep(300);
+	Xil_Out32(OLED_BASE_ADDR, Xil_In32(OLED_BASE_ADDR) & ( ~(1 << RES)));
+	usleep(300);
+	Xil_Out32(OLED_BASE_ADDR, Xil_In32(OLED_BASE_ADDR) | (1 << RES));
+	usleep(300);
+
+	
+	write_cmd(0xAE);	//关闭面板显示
+
+	write_cmd(0x40);	//设置起始行
+	write_cmd(0x81);	//设置对比度
+	write_cmd(0xAF);	//打开面板显示
+}

@@ -1,0 +1,25 @@
+2020-10-18T20:59:22.37404300255-20:59:22 **** Incremental Build of configuration Debug for project test ****
+000-make all 
+000-make --no-print-directory pre-build
+000-a9-linaro-pre-build-step
+000-' '
+000-make --no-print-directory main-build
+000-'Building file: ../src/oled.c'
+000-'Invoking: ARM v7 gcc compiler'
+000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/oled.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IE:/fpga_proj/ps/oled/vitis/oled/export/oled/sw/oled/standalone_domain/bspinclude/include -MMD -MP -MF"src/oled.d" -MT"src/oled.o" -o "src/oled.o" "../src/oled.c"
+000-'Finished building: ../src/oled.c'
+000-' '
+000-'Building target: test.elf'
+000-'Invoking: ARM v7 gcc linker'
+000-arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LE:/fpga_proj/ps/oled/vitis/oled/export/oled/sw/oled/standalone_domain/bsplib/lib -o "test.elf"  ./src/main.o ./src/oled.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+000-'Finished building target: test.elf'
+000-' '
+000-'Invoking: ARM v7 Print Size'
+000-arm-none-eabi-size test.elf  |tee "test.elf.size"
+000-   text	   data	    bss	    dec	    hex	filename
+000-  23752	   1144	  23592	  48488	   bd68	test.elf
+000-'Finished building: test.elf.size'
+000-' '
+00255-
+20:59:23 Build Finished (took 665ms)
+

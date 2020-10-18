@@ -1,0 +1,14 @@
+#include "oled.h"
+int main()
+{
+	oled_init();
+	show_string_16(0, 0, "ABC123456789");
+			oled_refresh_gram();
+	while(1)
+	{
+
+
+	}
+	return 0;
+
+}

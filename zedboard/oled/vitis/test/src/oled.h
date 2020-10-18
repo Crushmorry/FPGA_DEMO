@@ -1,0 +1,56 @@
+#ifndef __OLED_H_
+#define __OLED_H_
+
+#include "xil_types.h"
+#include "xil_io.h"
+#include "sleep.h"
+
+
+#define OLED_BASE_ADDR 0X43c00000	//在vivado里面已经分配
+
+/*
+ * zedboard板子上提供的是128x32的OLED，下面的值根据自己的OLED屏的分辨率修改
+ */
+#define MAX_CHAR_POSX_8 120 	//8位字宽对应的最大X坐标
+#define MAX_CHAR_POSY_16 48 	//16位字高对应的最大Y坐标
+
+
+//与vivado中管脚定义和zedboard指导手册对应
+#define DC 0
+#define RES 1
+#define SCLK 2
+#define SDIN 3
+#define VBAT 4
+#define VDD 5
+
+// DC
+#define Set_OLED_DC  (Xil_Out32(OLED_BASE_ADDR,Xil_In32(OLED_BASE_ADDR)|(1<<DC)))
+#define Clr_OLED_DC  (Xil_Out32(OLED_BASE_ADDR,Xil_In32(OLED_BASE_ADDR)&(~(1<<DC))))
+// RES
+#define Set_OLED_RES  (Xil_Out32(OLED_BASE_ADDR,Xil_In32(OLED_BASE_ADDR)|(1<<RES)))
+#define Clr_OLED_RES  (Xil_Out32(OLED_BASE_ADDR,Xil_In32(OLED_BASE_ADDR)&(~(1<<RES))))
+
+// SCLK
+#define Set_OLED_SCLK  (Xil_Out32(OLED_BASE_ADDR,Xil_In32(OLED_BASE_ADDR)|(1<<SCLK)))
+#define Clr_OLED_SCLK  (Xil_Out32(OLED_BASE_ADDR,Xil_In32(OLED_BASE_ADDR)&(~(1<<SCLK))))
+// SDIN
+#define Set_OLED_SDIN  (Xil_Out32(OLED_BASE_ADDR,Xil_In32(OLED_BASE_ADDR)|(1<<SDIN)))
+#define Clr_OLED_SDIN  (Xil_Out32(OLED_BASE_ADDR,Xil_In32(OLED_BASE_ADDR)&(~(1<<SDIN))))
+// OLED_VBAT
+#define Set_OLED_VBAT  (Xil_Out32(OLED_BASE_ADDR,Xil_In32(OLED_BASE_ADDR)|(1<<VBAT)))
+#define Clr_OLED_VBAT  (Xil_Out32(OLED_BASE_ADDR,Xil_In32(OLED_BASE_ADDR)&(~(1<<VBAT))))
+
+// OLED_VDD
+#define Set_OLED_VDD  (Xil_Out32(OLED_BASE_ADDR,Xil_In32(OLED_BASE_ADDR)|(1<<VDD)))
+#define Clr_OLED_VDD  (Xil_Out32(OLED_BASE_ADDR,Xil_In32(OLED_BASE_ADDR)&(~(1<<VDD))))
+
+
+void oled_init();
+void write_cmd(u8 command);
+void write_data(u8 data);
+void oled_refresh_gram();
+void oled_clear();
+void show_string_16(u8 x, u8 y, u8* string);
+void show_char(u8 x, u8 y, u8 data, u8 size, u8 mode);
+void draw_point(u8 x, u8 y, u8 flag);
+#endif

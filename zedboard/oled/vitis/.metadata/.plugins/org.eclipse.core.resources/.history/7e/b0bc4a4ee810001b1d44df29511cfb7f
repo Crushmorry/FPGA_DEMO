@@ -1,0 +1,11 @@
+#ifndef __OLED_H_
+#define __OLED_H_
+
+#include "xil_types.h"
+#include "xil_io.h"
+#include "sleep.h"
+
+void led_init();
+void write_cmd(u8 command);
+
+#endif

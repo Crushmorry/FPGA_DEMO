@@ -1,0 +1,7 @@
+#ifndef __OLED_H_
+#define __OLED_H_
+
+void led_init();
+void write_cmd();
+
+#endif
