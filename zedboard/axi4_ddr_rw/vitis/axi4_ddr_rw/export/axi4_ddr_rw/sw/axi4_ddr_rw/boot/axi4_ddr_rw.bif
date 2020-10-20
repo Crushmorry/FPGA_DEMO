@@ -1,0 +1,7 @@
+/*axi4_ddr_rw*/
+the_ROM_image:
+{
+  [bootloader]<axi4_ddr_rw/boot/fsbl.elf>
+   <bitstream> 
+  <elf,ps7_cortexa9_0>
+}
