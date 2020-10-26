@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="fsbl" location="E:/fpga_proj/ps/pl_ps_intr/vitis/fsbl" platform="E:/fpga_proj/ps/pl_ps_intr/vitis/pl_ps_intr/export/pl_ps_intr/pl_ps_intr.xpfm" platformUID="xilinx:zed::0.0(custom)" systemProject="fsbl_system" sysConfig="pl_ps_intr" runtime="cpp" cpu="domain_ps7_cortexa9_0" cpuInstance="ps7_cortexa9_0" os="standalone" mssSignature="7a75eda8c2429d982df0c3c08b489f24">
+  <configuration name="Debug" id="xilinx.gnu.armv7.exe.debug.121996700" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.armv7.exe.release.96984245" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="zynq_fsbl" hasBspSettings="true"/>
+</sdkproject:SdkProject>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="E:/fpga_proj/ps/pl_ps_intr/vitis/test1_system/_ide/bootimage/BOOT.bin" key="test1_system-imgFile"/>
+	<item value="test1_system" key="programflash.hwplatform"/>
+	<item value="false" key="test1_system-blankCheck"/>
+	<item value="qspi-x4-single" key="test1_system-flashType"/>
+	<item value="Auto Detect" key="test1_system-device"/>
+	<item value="E:/fpga_proj/ps/pl_ps_intr/vitis/pl_ps_intr/export/pl_ps_intr/sw/pl_ps_intr/boot/fsbl.elf" key="test1_system-fsblFile"/>
+	<item value="false" key="test1_system-verifyFlash"/>
+	<item value="Local" key="test1_system-target"/>
+	<item value="" key="test1_system-offSet"/>
+</section>

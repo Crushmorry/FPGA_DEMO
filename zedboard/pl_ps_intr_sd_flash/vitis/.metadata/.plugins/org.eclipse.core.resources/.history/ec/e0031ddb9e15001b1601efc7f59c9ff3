@@ -1,0 +1,13 @@
+#include "xparameters.h"
+#include "xgpio.h"
+
+#define SW_DEVICE_ID XPAR_SW_DEVICE_ID
+#define LED_DEVICE_ID XPAR_LED_DEVICE_ID
+
+
+int main()
+{
+	XGpio SW_Gpio, LED_Gpio;
+	XGpio_Initialize(&LED_Gpio, LED_DEVICE_ID);
+	XGpio_Initialize(&SW_Gpio, SW_DEVICE_ID);
+}
