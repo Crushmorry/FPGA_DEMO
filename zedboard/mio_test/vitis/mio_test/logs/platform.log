@@ -1,0 +1,2222 @@
+TRACE::2020-10-07.15:11:22::SCWPlatform::Trying to open the hw design at E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:22::SCWPlatform::DSA given E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:22::SCWPlatform::DSA absoulate path E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:25::SCWPlatform::DSA directory E:/fpga_proj/ps/mio_test/vitis/mio_test/hw
+TRACE::2020-10-07.15:11:25::SCWPlatform:: Platform Path E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:25::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-10-07.15:11:25::SCWPlatform::Do not have an existing db opened. 
+TRACE::2020-10-07.15:11:27::SCWPlatform::Opened new HwDB with name design_1_wrapper_0
+TRACE::2020-10-07.15:11:27::SCWWriter::formatted JSON is {
+	"platformName":	"mio_test",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"mio_test",
+	"platHandOff":	"E:/fpga_proj/ps/mio_test/vitis/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	""
+}
+TRACE::2020-10-07.15:11:27::SCWWriter::formatted JSON is {
+	"platformName":	"mio_test",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"mio_test",
+	"platHandOff":	"E:/fpga_proj/ps/mio_test/vitis/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"mio_test",
+	"systems":	[{
+			"systemName":	"mio_test",
+			"systemDesc":	"mio_test",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"mio_test"
+		}]
+}
+TRACE::2020-10-07.15:11:27::SCWPlatform::Boot application domains not present, creating them
+TRACE::2020-10-07.15:11:27::SCWDomain::checking for install qemu data   : 
+TRACE::2020-10-07.15:11:27::SCWDomain:: Using the QEMU Data from install at  : D:/Xilinx/Vitis/2020.1/data/emulation/platforms/zynq/qemu/
+TRACE::2020-10-07.15:11:27::SCWDomain:: Using the QEMU args  from install at  : D:/Xilinx/Vitis/2020.1/data/emulation/platforms/zynq/qemu/qemu_args.txt
+TRACE::2020-10-07.15:11:27::SCWPlatform::Trying to open the hw design at E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:27::SCWPlatform::DSA given E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:27::SCWPlatform::DSA absoulate path E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:27::SCWPlatform::DSA directory E:/fpga_proj/ps/mio_test/vitis/mio_test/hw
+TRACE::2020-10-07.15:11:27::SCWPlatform:: Platform Path E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:27::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-10-07.15:11:27::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2020-10-07.15:11:27::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2020-10-07.15:11:27::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-10-07.15:11:27::SCWPlatform::Trying to open the hw design at E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:27::SCWPlatform::DSA given E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:27::SCWPlatform::DSA absoulate path E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:27::SCWPlatform::DSA directory E:/fpga_proj/ps/mio_test/vitis/mio_test/hw
+TRACE::2020-10-07.15:11:27::SCWPlatform:: Platform Path E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:27::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-10-07.15:11:27::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2020-10-07.15:11:27::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2020-10-07.15:11:27::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-10-07.15:11:27::SCWPlatform::Trying to open the hw design at E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:27::SCWPlatform::DSA given E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:27::SCWPlatform::DSA absoulate path E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:27::SCWPlatform::DSA directory E:/fpga_proj/ps/mio_test/vitis/mio_test/hw
+TRACE::2020-10-07.15:11:27::SCWPlatform:: Platform Path E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:27::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-10-07.15:11:27::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2020-10-07.15:11:27::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2020-10-07.15:11:27::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-10-07.15:11:27::SCWPlatform::Boot application domain added for zynq_fsbl
+TRACE::2020-10-07.15:11:27::SCWPlatform::Generating the sources  .
+TRACE::2020-10-07.15:11:27::SCWBDomain::Generating boot domain sources.
+TRACE::2020-10-07.15:11:27::SCWBDomain:: Generating the zynq_fsbl Application.
+TRACE::2020-10-07.15:11:27::SCWPlatform::Trying to open the hw design at E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:27::SCWPlatform::DSA given E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:27::SCWPlatform::DSA absoulate path E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:27::SCWPlatform::DSA directory E:/fpga_proj/ps/mio_test/vitis/mio_test/hw
+TRACE::2020-10-07.15:11:27::SCWPlatform:: Platform Path E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:27::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-10-07.15:11:27::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2020-10-07.15:11:27::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2020-10-07.15:11:27::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-10-07.15:11:27::SCWMssOS::Checking the sw design at  E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-07.15:11:27::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2020-10-07.15:11:27::SCWMssOS::No sw design opened at  E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-07.15:11:27::SCWMssOS::mss does not exists at E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-07.15:11:27::SCWMssOS::Creating sw design at  E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-07.15:11:27::SCWMssOS::Adding the swdes entry, created swdb E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/system.mss with des name E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-07.15:11:27::SCWMssOS::updating the scw layer changes to swdes at   E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-07.15:11:27::SCWMssOS::Writing mss at E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-07.15:11:27::SCWMssOS::Completed writing the mss file at E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp
+TRACE::2020-10-07.15:11:27::SCWMssOS::Picking up changes from newly written mss file into SCW Layer. 
+TRACE::2020-10-07.15:11:27::SCWMssOS::Updated the changes from newly written mss file into SCW Layer. 
+TRACE::2020-10-07.15:11:27::SCWBDomain::Completed writing the mss file at E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp
+TRACE::2020-10-07.15:11:37::SCWPlatform::Generating sources Done.
+TRACE::2020-10-07.15:11:37::SCWPlatform::Trying to open the hw design at E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:37::SCWPlatform::DSA given E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:37::SCWPlatform::DSA absoulate path E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:37::SCWPlatform::DSA directory E:/fpga_proj/ps/mio_test/vitis/mio_test/hw
+TRACE::2020-10-07.15:11:37::SCWPlatform:: Platform Path E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:37::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-10-07.15:11:37::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2020-10-07.15:11:37::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2020-10-07.15:11:37::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-10-07.15:11:37::SCWMssOS::Checking the sw design at  E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-07.15:11:37::SCWMssOS::DEBUG:  swdes dump  E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/system.mss|E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/system.mss||
+
+KEYINFO::2020-10-07.15:11:37::SCWMssOS::Could not open the swdb for E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+KEYINFO::2020-10-07.15:11:37::SCWMssOS::Could not open the sw design at  E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+ERROR: [Hsi 55-1558] Software Design E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/system.mss is not found
+
+TRACE::2020-10-07.15:11:37::SCWMssOS::Cleared the swdb table entry
+TRACE::2020-10-07.15:11:37::SCWMssOS::No sw design opened at  E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-07.15:11:37::SCWMssOS::mss exists loading the mss file  E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-07.15:11:37::SCWMssOS::Opened the sw design from mss  E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-07.15:11:37::SCWMssOS::Adding the swdes entry E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/system.mss with des name system
+TRACE::2020-10-07.15:11:37::SCWMssOS::updating the scw layer about changes
+TRACE::2020-10-07.15:11:37::SCWMssOS::Opened the sw design.  E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-07.15:11:37::SCWMssOS::Saving the mss changes E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-07.15:11:37::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2020-10-07.15:11:37::SCWMssOS::Completed writemss as part of save.
+TRACE::2020-10-07.15:11:37::SCWMssOS::Commit changes completed.
+TRACE::2020-10-07.15:11:37::SCWPlatform::Trying to open the hw design at E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:37::SCWPlatform::DSA given E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:37::SCWPlatform::DSA absoulate path E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:37::SCWPlatform::DSA directory E:/fpga_proj/ps/mio_test/vitis/mio_test/hw
+TRACE::2020-10-07.15:11:37::SCWPlatform:: Platform Path E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:37::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-10-07.15:11:37::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2020-10-07.15:11:37::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2020-10-07.15:11:37::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-10-07.15:11:37::SCWMssOS::Checking the sw design at  E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-07.15:11:37::SCWMssOS::DEBUG:  swdes dump  E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-10-07.15:11:37::SCWMssOS::Sw design exists and opened at  E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-07.15:11:37::SCWPlatform::Trying to open the hw design at E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:37::SCWPlatform::DSA given E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:37::SCWPlatform::DSA absoulate path E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:37::SCWPlatform::DSA directory E:/fpga_proj/ps/mio_test/vitis/mio_test/hw
+TRACE::2020-10-07.15:11:37::SCWPlatform:: Platform Path E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:37::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-10-07.15:11:37::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2020-10-07.15:11:37::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2020-10-07.15:11:37::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-10-07.15:11:37::SCWMssOS::Checking the sw design at  E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-07.15:11:37::SCWMssOS::DEBUG:  swdes dump  E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-10-07.15:11:37::SCWMssOS::Sw design exists and opened at  E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-07.15:11:37::SCWPlatform::Trying to open the hw design at E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:37::SCWPlatform::DSA given E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:37::SCWPlatform::DSA absoulate path E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:37::SCWPlatform::DSA directory E:/fpga_proj/ps/mio_test/vitis/mio_test/hw
+TRACE::2020-10-07.15:11:37::SCWPlatform:: Platform Path E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:37::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-10-07.15:11:37::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2020-10-07.15:11:37::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2020-10-07.15:11:37::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-10-07.15:11:37::SCWMssOS::Checking the sw design at  E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-07.15:11:37::SCWMssOS::DEBUG:  swdes dump  E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-10-07.15:11:37::SCWMssOS::Sw design exists and opened at  E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-07.15:11:37::SCWWriter::formatted JSON is {
+	"platformName":	"mio_test",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"mio_test",
+	"platHandOff":	"E:/fpga_proj/ps/mio_test/vitis/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"mio_test",
+	"systems":	[{
+			"systemName":	"mio_test",
+			"systemDesc":	"mio_test",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"mio_test",
+			"sysActiveDom":	"zynq_fsbl",
+			"sysDefaultDom":	"",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.2",
+					"mssFile":	"",
+					"md5Digest":	"ec18a72016e84106a2f9e0457cfa0d20",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.3", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2020-10-07.15:11:37::SCWDomain::checking for install qemu data   : 
+TRACE::2020-10-07.15:11:37::SCWDomain:: Using the QEMU Data from install at  : D:/Xilinx/Vitis/2020.1/data/emulation/platforms/zynq/qemu/
+TRACE::2020-10-07.15:11:37::SCWDomain:: Using the QEMU args  from install at  : D:/Xilinx/Vitis/2020.1/data/emulation/platforms/zynq/qemu/qemu_args.txt
+TRACE::2020-10-07.15:11:37::SCWPlatform::Trying to open the hw design at E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:37::SCWPlatform::DSA given E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:37::SCWPlatform::DSA absoulate path E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:37::SCWPlatform::DSA directory E:/fpga_proj/ps/mio_test/vitis/mio_test/hw
+TRACE::2020-10-07.15:11:37::SCWPlatform:: Platform Path E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:37::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-10-07.15:11:37::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2020-10-07.15:11:37::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2020-10-07.15:11:37::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-10-07.15:11:37::SCWPlatform::Trying to open the hw design at E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:37::SCWPlatform::DSA given E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:37::SCWPlatform::DSA absoulate path E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:37::SCWPlatform::DSA directory E:/fpga_proj/ps/mio_test/vitis/mio_test/hw
+TRACE::2020-10-07.15:11:37::SCWPlatform:: Platform Path E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:37::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-10-07.15:11:37::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2020-10-07.15:11:37::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2020-10-07.15:11:37::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-10-07.15:11:37::SCWPlatform::Trying to open the hw design at E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:37::SCWPlatform::DSA given E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:37::SCWPlatform::DSA absoulate path E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:37::SCWPlatform::DSA directory E:/fpga_proj/ps/mio_test/vitis/mio_test/hw
+TRACE::2020-10-07.15:11:37::SCWPlatform:: Platform Path E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:37::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-10-07.15:11:37::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2020-10-07.15:11:37::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2020-10-07.15:11:37::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-10-07.15:11:37::SCWMssOS::Checking the sw design at  E:/fpga_proj/ps/mio_test/vitis/mio_test/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-10-07.15:11:37::SCWMssOS::DEBUG:  swdes dump  E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-10-07.15:11:37::SCWMssOS::No sw design opened at  E:/fpga_proj/ps/mio_test/vitis/mio_test/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-10-07.15:11:37::SCWMssOS::mss does not exists at E:/fpga_proj/ps/mio_test/vitis/mio_test/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-10-07.15:11:37::SCWMssOS::Creating sw design at  E:/fpga_proj/ps/mio_test/vitis/mio_test/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-10-07.15:11:38::SCWMssOS::Adding the swdes entry, created swdb E:/fpga_proj/ps/mio_test/vitis/mio_test/ps7_cortexa9_0/standalone_domain/bsp/system.mss with des name E:/fpga_proj/ps/mio_test/vitis/mio_test/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-10-07.15:11:38::SCWMssOS::updating the scw layer changes to swdes at   E:/fpga_proj/ps/mio_test/vitis/mio_test/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-10-07.15:11:38::SCWMssOS::Writing mss at E:/fpga_proj/ps/mio_test/vitis/mio_test/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-10-07.15:11:38::SCWMssOS::Completed writing the mss file at E:/fpga_proj/ps/mio_test/vitis/mio_test/ps7_cortexa9_0/standalone_domain/bsp
+TRACE::2020-10-07.15:11:38::SCWMssOS::Picking up changes from newly written mss file into SCW Layer. 
+TRACE::2020-10-07.15:11:38::SCWMssOS::Updated the changes from newly written mss file into SCW Layer. 
+TRACE::2020-10-07.15:11:38::SCWMssOS::Completed writing the mss file at E:/fpga_proj/ps/mio_test/vitis/mio_test/ps7_cortexa9_0/standalone_domain/bsp
+TRACE::2020-10-07.15:11:38::SCWMssOS::Forcing BSP Sources regeneration.
+TRACE::2020-10-07.15:11:39::SCWMssOS::Saving the mss changes E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-07.15:11:39::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2020-10-07.15:11:39::SCWMssOS::Completed writemss as part of save.
+TRACE::2020-10-07.15:11:39::SCWMssOS::Commit changes completed.
+TRACE::2020-10-07.15:11:39::SCWMssOS::Saving the mss changes E:/fpga_proj/ps/mio_test/vitis/mio_test/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-10-07.15:11:39::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2020-10-07.15:11:39::SCWMssOS::Running validate of swdbs.
+KEYINFO::2020-10-07.15:11:39::SCWMssOS::Could not open the swdb for E:/fpga_proj/ps/mio_test/vitis/mio_test/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+KEYINFO::2020-10-07.15:11:39::SCWMssOS::Could not open the sw design at  E:/fpga_proj/ps/mio_test/vitis/mio_test/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+ERROR: [Hsi 55-1558] Software Design E:/fpga_proj/ps/mio_test/vitis/mio_test/ps7_cortexa9_0/standalone_domain/bsp/system.mss is not found
+
+TRACE::2020-10-07.15:11:39::SCWMssOS::Cleared the swdb table entry
+TRACE::2020-10-07.15:11:39::SCWMssOS::Adding the swdes entry, mss present, able to open swdb E:/fpga_proj/ps/mio_test/vitis/mio_test/ps7_cortexa9_0/standalone_domain/bsp/system.mss with des name system_0
+TRACE::2020-10-07.15:11:39::SCWMssOS::Writing the mss file completed E:/fpga_proj/ps/mio_test/vitis/mio_test/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-10-07.15:11:39::SCWMssOS::Commit changes completed.
+TRACE::2020-10-07.15:11:39::SCWPlatform::Trying to open the hw design at E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:39::SCWPlatform::DSA given E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:39::SCWPlatform::DSA absoulate path E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:39::SCWPlatform::DSA directory E:/fpga_proj/ps/mio_test/vitis/mio_test/hw
+TRACE::2020-10-07.15:11:39::SCWPlatform:: Platform Path E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:39::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-10-07.15:11:39::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2020-10-07.15:11:39::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2020-10-07.15:11:39::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-10-07.15:11:39::SCWMssOS::Checking the sw design at  E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-07.15:11:39::SCWMssOS::DEBUG:  swdes dump  E:/fpga_proj/ps/mio_test/vitis/mio_test/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-10-07.15:11:39::SCWMssOS::Sw design exists and opened at  E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-07.15:11:39::SCWPlatform::Trying to open the hw design at E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:39::SCWPlatform::DSA given E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:39::SCWPlatform::DSA absoulate path E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:39::SCWPlatform::DSA directory E:/fpga_proj/ps/mio_test/vitis/mio_test/hw
+TRACE::2020-10-07.15:11:39::SCWPlatform:: Platform Path E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:39::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-10-07.15:11:39::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2020-10-07.15:11:39::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2020-10-07.15:11:39::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-10-07.15:11:39::SCWMssOS::Checking the sw design at  E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-07.15:11:39::SCWMssOS::DEBUG:  swdes dump  E:/fpga_proj/ps/mio_test/vitis/mio_test/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-10-07.15:11:39::SCWMssOS::Sw design exists and opened at  E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-07.15:11:39::SCWPlatform::Trying to open the hw design at E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:39::SCWPlatform::DSA given E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:39::SCWPlatform::DSA absoulate path E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:39::SCWPlatform::DSA directory E:/fpga_proj/ps/mio_test/vitis/mio_test/hw
+TRACE::2020-10-07.15:11:39::SCWPlatform:: Platform Path E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:39::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-10-07.15:11:39::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2020-10-07.15:11:39::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2020-10-07.15:11:39::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-10-07.15:11:39::SCWMssOS::Checking the sw design at  E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-07.15:11:39::SCWMssOS::DEBUG:  swdes dump  E:/fpga_proj/ps/mio_test/vitis/mio_test/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-10-07.15:11:39::SCWMssOS::Sw design exists and opened at  E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-07.15:11:39::SCWPlatform::Trying to open the hw design at E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:39::SCWPlatform::DSA given E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:39::SCWPlatform::DSA absoulate path E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:39::SCWPlatform::DSA directory E:/fpga_proj/ps/mio_test/vitis/mio_test/hw
+TRACE::2020-10-07.15:11:39::SCWPlatform:: Platform Path E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:39::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-10-07.15:11:39::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2020-10-07.15:11:39::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2020-10-07.15:11:39::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-10-07.15:11:39::SCWMssOS::Checking the sw design at  E:/fpga_proj/ps/mio_test/vitis/mio_test/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-10-07.15:11:39::SCWMssOS::DEBUG:  swdes dump  E:/fpga_proj/ps/mio_test/vitis/mio_test/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-10-07.15:11:39::SCWMssOS::Sw design exists and opened at  E:/fpga_proj/ps/mio_test/vitis/mio_test/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-10-07.15:11:39::SCWPlatform::Trying to open the hw design at E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:39::SCWPlatform::DSA given E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:39::SCWPlatform::DSA absoulate path E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:39::SCWPlatform::DSA directory E:/fpga_proj/ps/mio_test/vitis/mio_test/hw
+TRACE::2020-10-07.15:11:39::SCWPlatform:: Platform Path E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:39::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-10-07.15:11:39::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2020-10-07.15:11:39::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2020-10-07.15:11:39::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-10-07.15:11:39::SCWMssOS::Checking the sw design at  E:/fpga_proj/ps/mio_test/vitis/mio_test/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-10-07.15:11:39::SCWMssOS::DEBUG:  swdes dump  E:/fpga_proj/ps/mio_test/vitis/mio_test/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-10-07.15:11:39::SCWMssOS::Sw design exists and opened at  E:/fpga_proj/ps/mio_test/vitis/mio_test/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-10-07.15:11:39::SCWPlatform::Trying to open the hw design at E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:39::SCWPlatform::DSA given E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:39::SCWPlatform::DSA absoulate path E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:39::SCWPlatform::DSA directory E:/fpga_proj/ps/mio_test/vitis/mio_test/hw
+TRACE::2020-10-07.15:11:40::SCWPlatform:: Platform Path E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:40::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-10-07.15:11:40::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2020-10-07.15:11:40::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2020-10-07.15:11:40::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-10-07.15:11:40::SCWMssOS::Checking the sw design at  E:/fpga_proj/ps/mio_test/vitis/mio_test/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-10-07.15:11:40::SCWMssOS::DEBUG:  swdes dump  E:/fpga_proj/ps/mio_test/vitis/mio_test/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-10-07.15:11:40::SCWMssOS::Sw design exists and opened at  E:/fpga_proj/ps/mio_test/vitis/mio_test/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-10-07.15:11:40::SCWWriter::formatted JSON is {
+	"platformName":	"mio_test",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"mio_test",
+	"platHandOff":	"E:/fpga_proj/ps/mio_test/vitis/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"mio_test",
+	"systems":	[{
+			"systemName":	"mio_test",
+			"systemDesc":	"mio_test",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"mio_test",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.2",
+					"mssFile":	"",
+					"md5Digest":	"ec18a72016e84106a2f9e0457cfa0d20",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.3", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone_domain",
+					"domainDesc":	"standalone_domain",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"D:/Xilinx/Vitis/2020.1/data/emulation/platforms/zynq/qemu/qemu_args.txt",
+					"qemuData":	"D:/Xilinx/Vitis/2020.1/data/emulation/platforms/zynq/qemu/",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.2",
+					"mssFile":	"",
+					"md5Digest":	"6dad00fbf9d4904c359f972e845bd28e",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+LOG::2020-10-07.15:11:40::SCWPlatform::Started generating the artifacts platform mio_test
+TRACE::2020-10-07.15:11:40::SCWPlatform::Sanity checking of platform is completed
+LOG::2020-10-07.15:11:40::SCWPlatform::Started generating the artifacts for system configuration mio_test
+LOG::2020-10-07.15:11:40::SCWSystem::Checking the domain zynq_fsbl
+LOG::2020-10-07.15:11:40::SCWSystem::Doing application build for :  zynq_fsbl
+TRACE::2020-10-07.15:11:40::SCWBDomain::Not a forced makefile updation, No changes are present. 
+TRACE::2020-10-07.15:11:40::SCWDomain::Skipping the build for domain :  zynq_fsbl
+LOG::2020-10-07.15:11:40::SCWSystem::Checking the domain standalone_domain
+LOG::2020-10-07.15:11:40::SCWSystem::Not a boot domain 
+LOG::2020-10-07.15:11:40::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2020-10-07.15:11:40::SCWDomain::Generating domain artifcats
+TRACE::2020-10-07.15:11:40::SCWMssOS::Generating standalone artifcats
+TRACE::2020-10-07.15:11:40::SCWMssOS::Copying the qemu file from  D:/Xilinx/Vitis/2020.1/data/emulation/platforms/zynq/qemu/qemu_args.txt To E:/fpga_proj/ps/mio_test/vitis/mio_test/export/mio_test/sw/mio_test/qemu/
+TRACE::2020-10-07.15:11:40::SCWMssOS::Copying the qemu file from  D:/Xilinx/Vitis/2020.1/data/emulation/platforms/zynq/qemu/qemu_args.txt To E:/fpga_proj/ps/mio_test/vitis/mio_test/export/mio_test/sw/mio_test/standalone_domain/qemu/
+TRACE::2020-10-07.15:11:40::SCWMssOS:: Copying the user libraries. 
+TRACE::2020-10-07.15:11:40::SCWPlatform::Trying to open the hw design at E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:40::SCWPlatform::DSA given E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:40::SCWPlatform::DSA absoulate path E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:40::SCWPlatform::DSA directory E:/fpga_proj/ps/mio_test/vitis/mio_test/hw
+TRACE::2020-10-07.15:11:40::SCWPlatform:: Platform Path E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:40::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-10-07.15:11:40::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2020-10-07.15:11:40::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2020-10-07.15:11:40::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-10-07.15:11:40::SCWMssOS::Checking the sw design at  E:/fpga_proj/ps/mio_test/vitis/mio_test/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-10-07.15:11:40::SCWMssOS::DEBUG:  swdes dump  E:/fpga_proj/ps/mio_test/vitis/mio_test/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-10-07.15:11:40::SCWMssOS::Sw design exists and opened at  E:/fpga_proj/ps/mio_test/vitis/mio_test/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-10-07.15:11:40::SCWMssOS::Completed writing the mss file at E:/fpga_proj/ps/mio_test/vitis/mio_test/ps7_cortexa9_0/standalone_domain/bsp
+TRACE::2020-10-07.15:11:40::SCWMssOS::Mss edits present, copying mssfile into export location E:/fpga_proj/ps/mio_test/vitis/mio_test/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-10-07.15:11:40::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2020-10-07.15:11:40::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2020-10-07.15:11:40::SCWDomain::Skipping the build for domain :  standalone_domain
+TRACE::2020-10-07.15:11:40::SCWMssOS::skipping the bsp build ... 
+TRACE::2020-10-07.15:11:40::SCWMssOS::Copying to export directory.
+TRACE::2020-10-07.15:11:40::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2020-10-07.15:11:40::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+TRACE::2020-10-07.15:11:40::SCWMssOS:: Completed Standalone Artifacts creation 
+LOG::2020-10-07.15:11:40::SCWSystem::Completed Processing the domain standalone_domain
+LOG::2020-10-07.15:11:40::SCWSystem::Completed Processing the sysconfig mio_test
+LOG::2020-10-07.15:11:40::SCWPlatform::Completed generating the artifacts for system configuration mio_test
+TRACE::2020-10-07.15:11:40::SCWPlatform::Started preparing the platform 
+TRACE::2020-10-07.15:11:40::SCWSystem::Writing the bif file for system config mio_test
+TRACE::2020-10-07.15:11:40::SCWSystem::dir created 
+TRACE::2020-10-07.15:11:40::SCWSystem::Writing the bif 
+TRACE::2020-10-07.15:11:40::SCWPlatform::Started writing the spfm file 
+TRACE::2020-10-07.15:11:40::SCWPlatform::Started writing the xpfm file 
+TRACE::2020-10-07.15:11:40::SCWPlatform::Completed generating the platform
+TRACE::2020-10-07.15:11:40::SCWMssOS::Saving the mss changes E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-07.15:11:40::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2020-10-07.15:11:40::SCWMssOS::Completed writemss as part of save.
+TRACE::2020-10-07.15:11:40::SCWMssOS::Commit changes completed.
+TRACE::2020-10-07.15:11:40::SCWMssOS::Saving the mss changes E:/fpga_proj/ps/mio_test/vitis/mio_test/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-10-07.15:11:40::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2020-10-07.15:11:40::SCWMssOS::Completed writemss as part of save.
+TRACE::2020-10-07.15:11:40::SCWMssOS::Commit changes completed.
+TRACE::2020-10-07.15:11:40::SCWPlatform::Trying to open the hw design at E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:40::SCWPlatform::DSA given E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:40::SCWPlatform::DSA absoulate path E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:40::SCWPlatform::DSA directory E:/fpga_proj/ps/mio_test/vitis/mio_test/hw
+TRACE::2020-10-07.15:11:40::SCWPlatform:: Platform Path E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:40::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-10-07.15:11:40::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2020-10-07.15:11:40::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2020-10-07.15:11:40::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-10-07.15:11:40::SCWMssOS::Checking the sw design at  E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-07.15:11:40::SCWMssOS::DEBUG:  swdes dump  E:/fpga_proj/ps/mio_test/vitis/mio_test/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-10-07.15:11:40::SCWMssOS::Sw design exists and opened at  E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-07.15:11:40::SCWPlatform::Trying to open the hw design at E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:40::SCWPlatform::DSA given E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:40::SCWPlatform::DSA absoulate path E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:40::SCWPlatform::DSA directory E:/fpga_proj/ps/mio_test/vitis/mio_test/hw
+TRACE::2020-10-07.15:11:40::SCWPlatform:: Platform Path E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:40::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-10-07.15:11:40::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2020-10-07.15:11:40::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2020-10-07.15:11:40::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-10-07.15:11:40::SCWMssOS::Checking the sw design at  E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-07.15:11:40::SCWMssOS::DEBUG:  swdes dump  E:/fpga_proj/ps/mio_test/vitis/mio_test/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-10-07.15:11:40::SCWMssOS::Sw design exists and opened at  E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-07.15:11:40::SCWPlatform::Trying to open the hw design at E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:40::SCWPlatform::DSA given E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:40::SCWPlatform::DSA absoulate path E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:40::SCWPlatform::DSA directory E:/fpga_proj/ps/mio_test/vitis/mio_test/hw
+TRACE::2020-10-07.15:11:40::SCWPlatform:: Platform Path E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:40::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-10-07.15:11:40::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2020-10-07.15:11:40::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2020-10-07.15:11:40::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-10-07.15:11:40::SCWMssOS::Checking the sw design at  E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-07.15:11:40::SCWMssOS::DEBUG:  swdes dump  E:/fpga_proj/ps/mio_test/vitis/mio_test/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-10-07.15:11:40::SCWMssOS::Sw design exists and opened at  E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-07.15:11:40::SCWPlatform::Trying to open the hw design at E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:40::SCWPlatform::DSA given E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:40::SCWPlatform::DSA absoulate path E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:40::SCWPlatform::DSA directory E:/fpga_proj/ps/mio_test/vitis/mio_test/hw
+TRACE::2020-10-07.15:11:40::SCWPlatform:: Platform Path E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:40::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-10-07.15:11:40::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2020-10-07.15:11:40::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2020-10-07.15:11:40::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-10-07.15:11:40::SCWMssOS::Checking the sw design at  E:/fpga_proj/ps/mio_test/vitis/mio_test/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-10-07.15:11:40::SCWMssOS::DEBUG:  swdes dump  E:/fpga_proj/ps/mio_test/vitis/mio_test/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-10-07.15:11:40::SCWMssOS::Sw design exists and opened at  E:/fpga_proj/ps/mio_test/vitis/mio_test/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-10-07.15:11:40::SCWPlatform::Trying to open the hw design at E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:40::SCWPlatform::DSA given E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:40::SCWPlatform::DSA absoulate path E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:40::SCWPlatform::DSA directory E:/fpga_proj/ps/mio_test/vitis/mio_test/hw
+TRACE::2020-10-07.15:11:40::SCWPlatform:: Platform Path E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:40::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-10-07.15:11:40::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2020-10-07.15:11:40::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2020-10-07.15:11:40::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-10-07.15:11:40::SCWMssOS::Checking the sw design at  E:/fpga_proj/ps/mio_test/vitis/mio_test/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-10-07.15:11:40::SCWMssOS::DEBUG:  swdes dump  E:/fpga_proj/ps/mio_test/vitis/mio_test/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-10-07.15:11:40::SCWMssOS::Sw design exists and opened at  E:/fpga_proj/ps/mio_test/vitis/mio_test/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-10-07.15:11:40::SCWPlatform::Trying to open the hw design at E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:40::SCWPlatform::DSA given E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:40::SCWPlatform::DSA absoulate path E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:40::SCWPlatform::DSA directory E:/fpga_proj/ps/mio_test/vitis/mio_test/hw
+TRACE::2020-10-07.15:11:40::SCWPlatform:: Platform Path E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:40::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-10-07.15:11:40::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2020-10-07.15:11:40::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2020-10-07.15:11:40::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-10-07.15:11:40::SCWMssOS::Checking the sw design at  E:/fpga_proj/ps/mio_test/vitis/mio_test/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-10-07.15:11:40::SCWMssOS::DEBUG:  swdes dump  E:/fpga_proj/ps/mio_test/vitis/mio_test/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-10-07.15:11:40::SCWMssOS::Sw design exists and opened at  E:/fpga_proj/ps/mio_test/vitis/mio_test/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-10-07.15:11:40::SCWWriter::formatted JSON is {
+	"platformName":	"mio_test",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"mio_test",
+	"platHandOff":	"E:/fpga_proj/ps/mio_test/vitis/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"mio_test",
+	"systems":	[{
+			"systemName":	"mio_test",
+			"systemDesc":	"mio_test",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"mio_test",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.2",
+					"mssFile":	"",
+					"md5Digest":	"ec18a72016e84106a2f9e0457cfa0d20",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.3", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone_domain",
+					"domainDesc":	"standalone_domain",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"D:/Xilinx/Vitis/2020.1/data/emulation/platforms/zynq/qemu/qemu_args.txt",
+					"qemuData":	"D:/Xilinx/Vitis/2020.1/data/emulation/platforms/zynq/qemu/",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.2",
+					"mssFile":	"",
+					"md5Digest":	"6dad00fbf9d4904c359f972e845bd28e",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2020-10-07.15:11:40::SCWPlatform::updated the xpfm file.
+TRACE::2020-10-07.15:11:40::SCWPlatform::Trying to open the hw design at E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:40::SCWPlatform::DSA given E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:40::SCWPlatform::DSA absoulate path E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:40::SCWPlatform::DSA directory E:/fpga_proj/ps/mio_test/vitis/mio_test/hw
+TRACE::2020-10-07.15:11:40::SCWPlatform:: Platform Path E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:40::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-10-07.15:11:40::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2020-10-07.15:11:40::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2020-10-07.15:11:40::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-10-07.15:11:40::SCWMssOS::Checking the sw design at  E:/fpga_proj/ps/mio_test/vitis/mio_test/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-10-07.15:11:40::SCWMssOS::DEBUG:  swdes dump  E:/fpga_proj/ps/mio_test/vitis/mio_test/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-10-07.15:11:40::SCWMssOS::Sw design exists and opened at  E:/fpga_proj/ps/mio_test/vitis/mio_test/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-10-07.15:11:40::SCWMssOS::Saving the mss changes E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-07.15:11:40::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2020-10-07.15:11:40::SCWMssOS::Completed writemss as part of save.
+TRACE::2020-10-07.15:11:40::SCWMssOS::Commit changes completed.
+TRACE::2020-10-07.15:11:40::SCWMssOS::Saving the mss changes E:/fpga_proj/ps/mio_test/vitis/mio_test/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-10-07.15:11:40::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2020-10-07.15:11:40::SCWMssOS::Completed writemss as part of save.
+TRACE::2020-10-07.15:11:40::SCWMssOS::Commit changes completed.
+TRACE::2020-10-07.15:11:40::SCWPlatform::Trying to open the hw design at E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:40::SCWPlatform::DSA given E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:40::SCWPlatform::DSA absoulate path E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:40::SCWPlatform::DSA directory E:/fpga_proj/ps/mio_test/vitis/mio_test/hw
+TRACE::2020-10-07.15:11:40::SCWPlatform:: Platform Path E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:40::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-10-07.15:11:40::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2020-10-07.15:11:40::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2020-10-07.15:11:40::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-10-07.15:11:40::SCWMssOS::Checking the sw design at  E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-07.15:11:40::SCWMssOS::DEBUG:  swdes dump  E:/fpga_proj/ps/mio_test/vitis/mio_test/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-10-07.15:11:40::SCWMssOS::Sw design exists and opened at  E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-07.15:11:40::SCWPlatform::Trying to open the hw design at E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:40::SCWPlatform::DSA given E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:40::SCWPlatform::DSA absoulate path E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:40::SCWPlatform::DSA directory E:/fpga_proj/ps/mio_test/vitis/mio_test/hw
+TRACE::2020-10-07.15:11:40::SCWPlatform:: Platform Path E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:40::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-10-07.15:11:40::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2020-10-07.15:11:40::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2020-10-07.15:11:40::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-10-07.15:11:40::SCWMssOS::Checking the sw design at  E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-07.15:11:40::SCWMssOS::DEBUG:  swdes dump  E:/fpga_proj/ps/mio_test/vitis/mio_test/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-10-07.15:11:40::SCWMssOS::Sw design exists and opened at  E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-07.15:11:40::SCWPlatform::Trying to open the hw design at E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:40::SCWPlatform::DSA given E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:40::SCWPlatform::DSA absoulate path E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:40::SCWPlatform::DSA directory E:/fpga_proj/ps/mio_test/vitis/mio_test/hw
+TRACE::2020-10-07.15:11:40::SCWPlatform:: Platform Path E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:40::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-10-07.15:11:40::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2020-10-07.15:11:40::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2020-10-07.15:11:40::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-10-07.15:11:40::SCWMssOS::Checking the sw design at  E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-07.15:11:40::SCWMssOS::DEBUG:  swdes dump  E:/fpga_proj/ps/mio_test/vitis/mio_test/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-10-07.15:11:40::SCWMssOS::Sw design exists and opened at  E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-07.15:11:40::SCWPlatform::Trying to open the hw design at E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:40::SCWPlatform::DSA given E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:40::SCWPlatform::DSA absoulate path E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:40::SCWPlatform::DSA directory E:/fpga_proj/ps/mio_test/vitis/mio_test/hw
+TRACE::2020-10-07.15:11:40::SCWPlatform:: Platform Path E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:40::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-10-07.15:11:40::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2020-10-07.15:11:40::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2020-10-07.15:11:40::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-10-07.15:11:40::SCWMssOS::Checking the sw design at  E:/fpga_proj/ps/mio_test/vitis/mio_test/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-10-07.15:11:40::SCWMssOS::DEBUG:  swdes dump  E:/fpga_proj/ps/mio_test/vitis/mio_test/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-10-07.15:11:40::SCWMssOS::Sw design exists and opened at  E:/fpga_proj/ps/mio_test/vitis/mio_test/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-10-07.15:11:40::SCWPlatform::Trying to open the hw design at E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:40::SCWPlatform::DSA given E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:40::SCWPlatform::DSA absoulate path E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:40::SCWPlatform::DSA directory E:/fpga_proj/ps/mio_test/vitis/mio_test/hw
+TRACE::2020-10-07.15:11:40::SCWPlatform:: Platform Path E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:40::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-10-07.15:11:40::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2020-10-07.15:11:40::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2020-10-07.15:11:40::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-10-07.15:11:40::SCWMssOS::Checking the sw design at  E:/fpga_proj/ps/mio_test/vitis/mio_test/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-10-07.15:11:40::SCWMssOS::DEBUG:  swdes dump  E:/fpga_proj/ps/mio_test/vitis/mio_test/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-10-07.15:11:40::SCWMssOS::Sw design exists and opened at  E:/fpga_proj/ps/mio_test/vitis/mio_test/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-10-07.15:11:40::SCWPlatform::Trying to open the hw design at E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:40::SCWPlatform::DSA given E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:40::SCWPlatform::DSA absoulate path E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:40::SCWPlatform::DSA directory E:/fpga_proj/ps/mio_test/vitis/mio_test/hw
+TRACE::2020-10-07.15:11:40::SCWPlatform:: Platform Path E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:40::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-10-07.15:11:40::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2020-10-07.15:11:40::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2020-10-07.15:11:40::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-10-07.15:11:40::SCWMssOS::Checking the sw design at  E:/fpga_proj/ps/mio_test/vitis/mio_test/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-10-07.15:11:40::SCWMssOS::DEBUG:  swdes dump  E:/fpga_proj/ps/mio_test/vitis/mio_test/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-10-07.15:11:40::SCWMssOS::Sw design exists and opened at  E:/fpga_proj/ps/mio_test/vitis/mio_test/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-10-07.15:11:40::SCWWriter::formatted JSON is {
+	"platformName":	"mio_test",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"mio_test",
+	"platHandOff":	"E:/fpga_proj/ps/mio_test/vitis/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"mio_test",
+	"systems":	[{
+			"systemName":	"mio_test",
+			"systemDesc":	"mio_test",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"mio_test",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.2",
+					"mssFile":	"",
+					"md5Digest":	"ec18a72016e84106a2f9e0457cfa0d20",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.3", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone_domain",
+					"domainDesc":	"standalone_domain",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"D:/Xilinx/Vitis/2020.1/data/emulation/platforms/zynq/qemu/qemu_args.txt",
+					"qemuData":	"D:/Xilinx/Vitis/2020.1/data/emulation/platforms/zynq/qemu/",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.2",
+					"mssFile":	"",
+					"md5Digest":	"6dad00fbf9d4904c359f972e845bd28e",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2020-10-07.15:11:40::SCWPlatform::Trying to open the hw design at E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:41::SCWPlatform::DSA given E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:41::SCWPlatform::DSA absoulate path E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:41::SCWPlatform::DSA directory E:/fpga_proj/ps/mio_test/vitis/mio_test/hw
+TRACE::2020-10-07.15:11:41::SCWPlatform:: Platform Path E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:41::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-10-07.15:11:41::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2020-10-07.15:11:41::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2020-10-07.15:11:41::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-10-07.15:11:41::SCWMssOS::Checking the sw design at  E:/fpga_proj/ps/mio_test/vitis/mio_test/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-10-07.15:11:41::SCWMssOS::DEBUG:  swdes dump  E:/fpga_proj/ps/mio_test/vitis/mio_test/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-10-07.15:11:41::SCWMssOS::Sw design exists and opened at  E:/fpga_proj/ps/mio_test/vitis/mio_test/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-10-07.15:11:41::SCWPlatform::Trying to open the hw design at E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:41::SCWPlatform::DSA given E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:41::SCWPlatform::DSA absoulate path E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:41::SCWPlatform::DSA directory E:/fpga_proj/ps/mio_test/vitis/mio_test/hw
+TRACE::2020-10-07.15:11:41::SCWPlatform:: Platform Path E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:41::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-10-07.15:11:41::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2020-10-07.15:11:41::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2020-10-07.15:11:41::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-10-07.15:11:41::SCWMssOS::Checking the sw design at  E:/fpga_proj/ps/mio_test/vitis/mio_test/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-10-07.15:11:41::SCWMssOS::DEBUG:  swdes dump  E:/fpga_proj/ps/mio_test/vitis/mio_test/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-10-07.15:11:41::SCWMssOS::Sw design exists and opened at  E:/fpga_proj/ps/mio_test/vitis/mio_test/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-10-07.15:11:41::SCWPlatform::Trying to open the hw design at E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:41::SCWPlatform::DSA given E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:41::SCWPlatform::DSA absoulate path E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:41::SCWPlatform::DSA directory E:/fpga_proj/ps/mio_test/vitis/mio_test/hw
+TRACE::2020-10-07.15:11:41::SCWPlatform:: Platform Path E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:41::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-10-07.15:11:41::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2020-10-07.15:11:41::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2020-10-07.15:11:41::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-10-07.15:11:41::SCWMssOS::Checking the sw design at  E:/fpga_proj/ps/mio_test/vitis/mio_test/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-10-07.15:11:41::SCWMssOS::DEBUG:  swdes dump  E:/fpga_proj/ps/mio_test/vitis/mio_test/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-10-07.15:11:41::SCWMssOS::Sw design exists and opened at  E:/fpga_proj/ps/mio_test/vitis/mio_test/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-10-07.15:11:41::SCWMssOS::Saving the mss changes E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-07.15:11:41::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2020-10-07.15:11:41::SCWMssOS::Completed writemss as part of save.
+TRACE::2020-10-07.15:11:41::SCWMssOS::Commit changes completed.
+TRACE::2020-10-07.15:11:41::SCWMssOS::Saving the mss changes E:/fpga_proj/ps/mio_test/vitis/mio_test/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-10-07.15:11:41::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2020-10-07.15:11:41::SCWMssOS::Completed writemss as part of save.
+TRACE::2020-10-07.15:11:41::SCWMssOS::Commit changes completed.
+TRACE::2020-10-07.15:11:41::SCWPlatform::Trying to open the hw design at E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:41::SCWPlatform::DSA given E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:41::SCWPlatform::DSA absoulate path E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:41::SCWPlatform::DSA directory E:/fpga_proj/ps/mio_test/vitis/mio_test/hw
+TRACE::2020-10-07.15:11:41::SCWPlatform:: Platform Path E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:41::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-10-07.15:11:41::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2020-10-07.15:11:41::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2020-10-07.15:11:41::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-10-07.15:11:41::SCWMssOS::Checking the sw design at  E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-07.15:11:41::SCWMssOS::DEBUG:  swdes dump  E:/fpga_proj/ps/mio_test/vitis/mio_test/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-10-07.15:11:41::SCWMssOS::Sw design exists and opened at  E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-07.15:11:41::SCWPlatform::Trying to open the hw design at E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:41::SCWPlatform::DSA given E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:41::SCWPlatform::DSA absoulate path E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:41::SCWPlatform::DSA directory E:/fpga_proj/ps/mio_test/vitis/mio_test/hw
+TRACE::2020-10-07.15:11:41::SCWPlatform:: Platform Path E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:41::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-10-07.15:11:41::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2020-10-07.15:11:41::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2020-10-07.15:11:41::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-10-07.15:11:41::SCWMssOS::Checking the sw design at  E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-07.15:11:41::SCWMssOS::DEBUG:  swdes dump  E:/fpga_proj/ps/mio_test/vitis/mio_test/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-10-07.15:11:41::SCWMssOS::Sw design exists and opened at  E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-07.15:11:41::SCWPlatform::Trying to open the hw design at E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:41::SCWPlatform::DSA given E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:41::SCWPlatform::DSA absoulate path E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:41::SCWPlatform::DSA directory E:/fpga_proj/ps/mio_test/vitis/mio_test/hw
+TRACE::2020-10-07.15:11:41::SCWPlatform:: Platform Path E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:41::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-10-07.15:11:41::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2020-10-07.15:11:41::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2020-10-07.15:11:41::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-10-07.15:11:41::SCWMssOS::Checking the sw design at  E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-07.15:11:41::SCWMssOS::DEBUG:  swdes dump  E:/fpga_proj/ps/mio_test/vitis/mio_test/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-10-07.15:11:41::SCWMssOS::Sw design exists and opened at  E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-07.15:11:41::SCWPlatform::Trying to open the hw design at E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:41::SCWPlatform::DSA given E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:41::SCWPlatform::DSA absoulate path E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:41::SCWPlatform::DSA directory E:/fpga_proj/ps/mio_test/vitis/mio_test/hw
+TRACE::2020-10-07.15:11:41::SCWPlatform:: Platform Path E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:41::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-10-07.15:11:41::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2020-10-07.15:11:41::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2020-10-07.15:11:41::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-10-07.15:11:41::SCWMssOS::Checking the sw design at  E:/fpga_proj/ps/mio_test/vitis/mio_test/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-10-07.15:11:41::SCWMssOS::DEBUG:  swdes dump  E:/fpga_proj/ps/mio_test/vitis/mio_test/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-10-07.15:11:41::SCWMssOS::Sw design exists and opened at  E:/fpga_proj/ps/mio_test/vitis/mio_test/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-10-07.15:11:41::SCWPlatform::Trying to open the hw design at E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:41::SCWPlatform::DSA given E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:41::SCWPlatform::DSA absoulate path E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:41::SCWPlatform::DSA directory E:/fpga_proj/ps/mio_test/vitis/mio_test/hw
+TRACE::2020-10-07.15:11:41::SCWPlatform:: Platform Path E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:41::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-10-07.15:11:41::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2020-10-07.15:11:41::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2020-10-07.15:11:41::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-10-07.15:11:41::SCWMssOS::Checking the sw design at  E:/fpga_proj/ps/mio_test/vitis/mio_test/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-10-07.15:11:41::SCWMssOS::DEBUG:  swdes dump  E:/fpga_proj/ps/mio_test/vitis/mio_test/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-10-07.15:11:41::SCWMssOS::Sw design exists and opened at  E:/fpga_proj/ps/mio_test/vitis/mio_test/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-10-07.15:11:41::SCWPlatform::Trying to open the hw design at E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:41::SCWPlatform::DSA given E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:41::SCWPlatform::DSA absoulate path E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:41::SCWPlatform::DSA directory E:/fpga_proj/ps/mio_test/vitis/mio_test/hw
+TRACE::2020-10-07.15:11:41::SCWPlatform:: Platform Path E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:41::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-10-07.15:11:41::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2020-10-07.15:11:41::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2020-10-07.15:11:41::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-10-07.15:11:41::SCWMssOS::Checking the sw design at  E:/fpga_proj/ps/mio_test/vitis/mio_test/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-10-07.15:11:41::SCWMssOS::DEBUG:  swdes dump  E:/fpga_proj/ps/mio_test/vitis/mio_test/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-10-07.15:11:41::SCWMssOS::Sw design exists and opened at  E:/fpga_proj/ps/mio_test/vitis/mio_test/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-10-07.15:11:41::SCWWriter::formatted JSON is {
+	"platformName":	"mio_test",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"mio_test",
+	"platHandOff":	"E:/fpga_proj/ps/mio_test/vitis/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"mio_test",
+	"systems":	[{
+			"systemName":	"mio_test",
+			"systemDesc":	"mio_test",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"mio_test",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.2",
+					"mssFile":	"",
+					"md5Digest":	"ec18a72016e84106a2f9e0457cfa0d20",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.3", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on ps7_cortexa9_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"D:/Xilinx/Vitis/2020.1/data/emulation/platforms/zynq/qemu/qemu_args.txt",
+					"qemuData":	"D:/Xilinx/Vitis/2020.1/data/emulation/platforms/zynq/qemu/",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.2",
+					"mssFile":	"",
+					"md5Digest":	"6dad00fbf9d4904c359f972e845bd28e",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2020-10-07.15:11:41::SCWMssOS::Saving the mss changes E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-07.15:11:41::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2020-10-07.15:11:41::SCWMssOS::Completed writemss as part of save.
+TRACE::2020-10-07.15:11:41::SCWMssOS::Commit changes completed.
+TRACE::2020-10-07.15:11:41::SCWMssOS::Saving the mss changes E:/fpga_proj/ps/mio_test/vitis/mio_test/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-10-07.15:11:41::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2020-10-07.15:11:41::SCWMssOS::Completed writemss as part of save.
+TRACE::2020-10-07.15:11:41::SCWMssOS::Commit changes completed.
+TRACE::2020-10-07.15:11:41::SCWPlatform::Trying to open the hw design at E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:41::SCWPlatform::DSA given E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:41::SCWPlatform::DSA absoulate path E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:41::SCWPlatform::DSA directory E:/fpga_proj/ps/mio_test/vitis/mio_test/hw
+TRACE::2020-10-07.15:11:41::SCWPlatform:: Platform Path E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:41::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-10-07.15:11:41::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2020-10-07.15:11:41::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2020-10-07.15:11:41::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-10-07.15:11:41::SCWMssOS::Checking the sw design at  E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-07.15:11:41::SCWMssOS::DEBUG:  swdes dump  E:/fpga_proj/ps/mio_test/vitis/mio_test/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-10-07.15:11:41::SCWMssOS::Sw design exists and opened at  E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-07.15:11:41::SCWPlatform::Trying to open the hw design at E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:41::SCWPlatform::DSA given E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:41::SCWPlatform::DSA absoulate path E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:41::SCWPlatform::DSA directory E:/fpga_proj/ps/mio_test/vitis/mio_test/hw
+TRACE::2020-10-07.15:11:41::SCWPlatform:: Platform Path E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:41::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-10-07.15:11:41::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2020-10-07.15:11:41::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2020-10-07.15:11:41::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-10-07.15:11:41::SCWMssOS::Checking the sw design at  E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-07.15:11:41::SCWMssOS::DEBUG:  swdes dump  E:/fpga_proj/ps/mio_test/vitis/mio_test/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-10-07.15:11:41::SCWMssOS::Sw design exists and opened at  E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-07.15:11:41::SCWPlatform::Trying to open the hw design at E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:41::SCWPlatform::DSA given E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:41::SCWPlatform::DSA absoulate path E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:41::SCWPlatform::DSA directory E:/fpga_proj/ps/mio_test/vitis/mio_test/hw
+TRACE::2020-10-07.15:11:41::SCWPlatform:: Platform Path E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:41::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-10-07.15:11:41::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2020-10-07.15:11:41::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2020-10-07.15:11:41::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-10-07.15:11:41::SCWMssOS::Checking the sw design at  E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-07.15:11:41::SCWMssOS::DEBUG:  swdes dump  E:/fpga_proj/ps/mio_test/vitis/mio_test/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-10-07.15:11:41::SCWMssOS::Sw design exists and opened at  E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-07.15:11:41::SCWPlatform::Trying to open the hw design at E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:41::SCWPlatform::DSA given E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:41::SCWPlatform::DSA absoulate path E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:41::SCWPlatform::DSA directory E:/fpga_proj/ps/mio_test/vitis/mio_test/hw
+TRACE::2020-10-07.15:11:41::SCWPlatform:: Platform Path E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:41::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-10-07.15:11:41::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2020-10-07.15:11:41::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2020-10-07.15:11:41::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-10-07.15:11:41::SCWMssOS::Checking the sw design at  E:/fpga_proj/ps/mio_test/vitis/mio_test/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-10-07.15:11:41::SCWMssOS::DEBUG:  swdes dump  E:/fpga_proj/ps/mio_test/vitis/mio_test/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-10-07.15:11:41::SCWMssOS::Sw design exists and opened at  E:/fpga_proj/ps/mio_test/vitis/mio_test/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-10-07.15:11:41::SCWPlatform::Trying to open the hw design at E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:41::SCWPlatform::DSA given E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:41::SCWPlatform::DSA absoulate path E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:41::SCWPlatform::DSA directory E:/fpga_proj/ps/mio_test/vitis/mio_test/hw
+TRACE::2020-10-07.15:11:41::SCWPlatform:: Platform Path E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:41::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-10-07.15:11:41::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2020-10-07.15:11:41::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2020-10-07.15:11:41::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-10-07.15:11:41::SCWMssOS::Checking the sw design at  E:/fpga_proj/ps/mio_test/vitis/mio_test/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-10-07.15:11:41::SCWMssOS::DEBUG:  swdes dump  E:/fpga_proj/ps/mio_test/vitis/mio_test/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-10-07.15:11:41::SCWMssOS::Sw design exists and opened at  E:/fpga_proj/ps/mio_test/vitis/mio_test/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-10-07.15:11:41::SCWPlatform::Trying to open the hw design at E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:41::SCWPlatform::DSA given E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:41::SCWPlatform::DSA absoulate path E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:41::SCWPlatform::DSA directory E:/fpga_proj/ps/mio_test/vitis/mio_test/hw
+TRACE::2020-10-07.15:11:41::SCWPlatform:: Platform Path E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:41::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-10-07.15:11:41::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2020-10-07.15:11:41::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2020-10-07.15:11:41::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-10-07.15:11:41::SCWMssOS::Checking the sw design at  E:/fpga_proj/ps/mio_test/vitis/mio_test/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-10-07.15:11:41::SCWMssOS::DEBUG:  swdes dump  E:/fpga_proj/ps/mio_test/vitis/mio_test/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-10-07.15:11:41::SCWMssOS::Sw design exists and opened at  E:/fpga_proj/ps/mio_test/vitis/mio_test/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-10-07.15:11:41::SCWWriter::formatted JSON is {
+	"platformName":	"mio_test",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"mio_test",
+	"platHandOff":	"E:/fpga_proj/ps/mio_test/vitis/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"mio_test",
+	"systems":	[{
+			"systemName":	"mio_test",
+			"systemDesc":	"mio_test",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"mio_test",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.2",
+					"mssFile":	"",
+					"md5Digest":	"ec18a72016e84106a2f9e0457cfa0d20",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.3", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on ps7_cortexa9_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"D:/Xilinx/Vitis/2020.1/data/emulation/platforms/zynq/qemu/qemu_args.txt",
+					"qemuData":	"D:/Xilinx/Vitis/2020.1/data/emulation/platforms/zynq/qemu/",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.2",
+					"mssFile":	"",
+					"md5Digest":	"6dad00fbf9d4904c359f972e845bd28e",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2020-10-07.15:11:42::SCWPlatform::Clearing the existing platform
+TRACE::2020-10-07.15:11:42::SCWSystem::Clearing the existing sysconfig
+TRACE::2020-10-07.15:11:42::SCWBDomain::clearing the fsbl build
+TRACE::2020-10-07.15:11:42::SCWMssOS::Removing the swdes entry for  E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-07.15:11:42::SCWMssOS::Removing the swdes entry for  E:/fpga_proj/ps/mio_test/vitis/mio_test/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-10-07.15:11:42::SCWSystem::Clearing the domains completed.
+TRACE::2020-10-07.15:11:42::SCWPlatform::Clearing the opened hw db.
+TRACE::2020-10-07.15:11:42::SCWPlatform::DSA given E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:42::SCWPlatform::DSA absoulate path E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:42::SCWPlatform:: Platform location is E:/fpga_proj/ps/mio_test/vitis/mio_test/hw
+TRACE::2020-10-07.15:11:42::SCWPlatform:: Platform Path E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:42::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-10-07.15:11:42::SCWPlatform::Removing the HwDB with name E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:42::SCWPlatform::Trying to open the hw design at E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:42::SCWPlatform::DSA given E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:42::SCWPlatform::DSA absoulate path E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:42::SCWPlatform::DSA directory E:/fpga_proj/ps/mio_test/vitis/mio_test/hw
+TRACE::2020-10-07.15:11:42::SCWPlatform:: Platform Path E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:42::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-10-07.15:11:42::SCWPlatform::Do not have an existing db opened. 
+TRACE::2020-10-07.15:11:44::SCWPlatform::Opened new HwDB with name design_1_wrapper_1
+TRACE::2020-10-07.15:11:44::SCWReader::Active system found as  mio_test
+TRACE::2020-10-07.15:11:44::SCWReader::Handling sysconfig mio_test
+TRACE::2020-10-07.15:11:44::SCWDomain::checking for install qemu data   : 
+TRACE::2020-10-07.15:11:44::SCWDomain:: Using the QEMU Data from install at  : D:/Xilinx/Vitis/2020.1/data/emulation/platforms/zynq/qemu/
+TRACE::2020-10-07.15:11:44::SCWDomain:: Using the QEMU args  from install at  : D:/Xilinx/Vitis/2020.1/data/emulation/platforms/zynq/qemu/qemu_args.txt
+TRACE::2020-10-07.15:11:44::SCWPlatform::Trying to open the hw design at E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:44::SCWPlatform::DSA given E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:44::SCWPlatform::DSA absoulate path E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:44::SCWPlatform::DSA directory E:/fpga_proj/ps/mio_test/vitis/mio_test/hw
+TRACE::2020-10-07.15:11:44::SCWPlatform:: Platform Path E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:44::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-10-07.15:11:44::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2020-10-07.15:11:44::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2020-10-07.15:11:44::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-10-07.15:11:44::SCWPlatform::Trying to open the hw design at E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:44::SCWPlatform::DSA given E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:44::SCWPlatform::DSA absoulate path E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:44::SCWPlatform::DSA directory E:/fpga_proj/ps/mio_test/vitis/mio_test/hw
+TRACE::2020-10-07.15:11:44::SCWPlatform:: Platform Path E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:44::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-10-07.15:11:44::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2020-10-07.15:11:44::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2020-10-07.15:11:44::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-10-07.15:11:44::SCWPlatform::Trying to open the hw design at E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:44::SCWPlatform::DSA given E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:44::SCWPlatform::DSA absoulate path E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:44::SCWPlatform::DSA directory E:/fpga_proj/ps/mio_test/vitis/mio_test/hw
+TRACE::2020-10-07.15:11:44::SCWPlatform:: Platform Path E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:44::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-10-07.15:11:44::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2020-10-07.15:11:44::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2020-10-07.15:11:44::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-10-07.15:11:44::SCWReader::Boot application domain added for zynq_fsbl
+TRACE::2020-10-07.15:11:44::SCWPlatform::Trying to open the hw design at E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:44::SCWPlatform::DSA given E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:44::SCWPlatform::DSA absoulate path E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:44::SCWPlatform::DSA directory E:/fpga_proj/ps/mio_test/vitis/mio_test/hw
+TRACE::2020-10-07.15:11:44::SCWPlatform:: Platform Path E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:44::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-10-07.15:11:44::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2020-10-07.15:11:44::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2020-10-07.15:11:44::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-10-07.15:11:44::SCWMssOS::Checking the sw design at  E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-07.15:11:44::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2020-10-07.15:11:44::SCWMssOS::No sw design opened at  E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-07.15:11:44::SCWMssOS::mss exists loading the mss file  E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-07.15:11:44::SCWMssOS::Opened the sw design from mss  E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-07.15:11:44::SCWMssOS::Adding the swdes entry E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/system.mss with des name system
+TRACE::2020-10-07.15:11:44::SCWMssOS::updating the scw layer about changes
+TRACE::2020-10-07.15:11:44::SCWMssOS::Opened the sw design.  E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-07.15:11:44::SCWPlatform::Trying to open the hw design at E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:44::SCWPlatform::DSA given E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:44::SCWPlatform::DSA absoulate path E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:44::SCWPlatform::DSA directory E:/fpga_proj/ps/mio_test/vitis/mio_test/hw
+TRACE::2020-10-07.15:11:44::SCWPlatform:: Platform Path E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:44::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-10-07.15:11:44::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2020-10-07.15:11:44::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2020-10-07.15:11:44::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-10-07.15:11:44::SCWMssOS::Checking the sw design at  E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-07.15:11:44::SCWMssOS::DEBUG:  swdes dump  E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-10-07.15:11:44::SCWMssOS::Sw design exists and opened at  E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-07.15:11:44::SCWMssOS:: library already available in sw design:  xilffs:4.3
+TRACE::2020-10-07.15:11:44::SCWPlatform::Trying to open the hw design at E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:44::SCWPlatform::DSA given E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:44::SCWPlatform::DSA absoulate path E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:44::SCWPlatform::DSA directory E:/fpga_proj/ps/mio_test/vitis/mio_test/hw
+TRACE::2020-10-07.15:11:44::SCWPlatform:: Platform Path E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:44::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-10-07.15:11:44::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2020-10-07.15:11:44::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2020-10-07.15:11:44::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-10-07.15:11:44::SCWMssOS::Checking the sw design at  E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-07.15:11:44::SCWMssOS::DEBUG:  swdes dump  E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-10-07.15:11:44::SCWMssOS::Sw design exists and opened at  E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-07.15:11:44::SCWMssOS:: library already available in sw design:  xilrsa:1.6
+TRACE::2020-10-07.15:11:44::SCWMssOS::Saving the mss changes E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-07.15:11:44::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2020-10-07.15:11:44::SCWMssOS::Completed writemss as part of save.
+TRACE::2020-10-07.15:11:44::SCWMssOS::Commit changes completed.
+TRACE::2020-10-07.15:11:44::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2020-10-07.15:11:44::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2020-10-07.15:11:44::SCWPlatform::Trying to open the hw design at E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:44::SCWPlatform::DSA given E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:44::SCWPlatform::DSA absoulate path E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:44::SCWPlatform::DSA directory E:/fpga_proj/ps/mio_test/vitis/mio_test/hw
+TRACE::2020-10-07.15:11:44::SCWPlatform:: Platform Path E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:44::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-10-07.15:11:44::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2020-10-07.15:11:44::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2020-10-07.15:11:44::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-10-07.15:11:44::SCWMssOS::Checking the sw design at  E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-07.15:11:44::SCWMssOS::DEBUG:  swdes dump  E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-10-07.15:11:44::SCWMssOS::Sw design exists and opened at  E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-07.15:11:44::SCWReader::No isolation master present  
+TRACE::2020-10-07.15:11:44::SCWDomain::checking for install qemu data   : 
+TRACE::2020-10-07.15:11:44::SCWDomain:: Using the QEMU Data from install at  : D:/Xilinx/Vitis/2020.1/data/emulation/platforms/zynq/qemu/
+TRACE::2020-10-07.15:11:44::SCWDomain:: Using the QEMU args  from install at  : D:/Xilinx/Vitis/2020.1/data/emulation/platforms/zynq/qemu/qemu_args.txt
+TRACE::2020-10-07.15:11:44::SCWPlatform::Trying to open the hw design at E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:44::SCWPlatform::DSA given E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:44::SCWPlatform::DSA absoulate path E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:44::SCWPlatform::DSA directory E:/fpga_proj/ps/mio_test/vitis/mio_test/hw
+TRACE::2020-10-07.15:11:44::SCWPlatform:: Platform Path E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:44::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-10-07.15:11:44::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2020-10-07.15:11:44::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2020-10-07.15:11:44::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-10-07.15:11:44::SCWPlatform::Trying to open the hw design at E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:44::SCWPlatform::DSA given E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:44::SCWPlatform::DSA absoulate path E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:44::SCWPlatform::DSA directory E:/fpga_proj/ps/mio_test/vitis/mio_test/hw
+TRACE::2020-10-07.15:11:44::SCWPlatform:: Platform Path E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:44::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-10-07.15:11:44::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2020-10-07.15:11:44::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2020-10-07.15:11:44::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-10-07.15:11:44::SCWPlatform::Trying to open the hw design at E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:44::SCWPlatform::DSA given E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:44::SCWPlatform::DSA absoulate path E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:44::SCWPlatform::DSA directory E:/fpga_proj/ps/mio_test/vitis/mio_test/hw
+TRACE::2020-10-07.15:11:44::SCWPlatform:: Platform Path E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:44::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-10-07.15:11:44::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2020-10-07.15:11:44::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2020-10-07.15:11:44::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-10-07.15:11:44::SCWMssOS::Checking the sw design at  E:/fpga_proj/ps/mio_test/vitis/mio_test/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-10-07.15:11:44::SCWMssOS::DEBUG:  swdes dump  E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-10-07.15:11:44::SCWMssOS::No sw design opened at  E:/fpga_proj/ps/mio_test/vitis/mio_test/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-10-07.15:11:44::SCWMssOS::mss exists loading the mss file  E:/fpga_proj/ps/mio_test/vitis/mio_test/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-10-07.15:11:44::SCWMssOS::Opened the sw design from mss  E:/fpga_proj/ps/mio_test/vitis/mio_test/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-10-07.15:11:44::SCWMssOS::Adding the swdes entry E:/fpga_proj/ps/mio_test/vitis/mio_test/ps7_cortexa9_0/standalone_domain/bsp/system.mss with des name system_0
+TRACE::2020-10-07.15:11:44::SCWMssOS::updating the scw layer about changes
+TRACE::2020-10-07.15:11:44::SCWMssOS::Opened the sw design.  E:/fpga_proj/ps/mio_test/vitis/mio_test/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-10-07.15:11:44::SCWMssOS::Saving the mss changes E:/fpga_proj/ps/mio_test/vitis/mio_test/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-10-07.15:11:44::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2020-10-07.15:11:44::SCWMssOS::Completed writemss as part of save.
+TRACE::2020-10-07.15:11:44::SCWMssOS::Commit changes completed.
+TRACE::2020-10-07.15:11:44::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2020-10-07.15:11:44::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2020-10-07.15:11:44::SCWPlatform::Trying to open the hw design at E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:44::SCWPlatform::DSA given E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:44::SCWPlatform::DSA absoulate path E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:44::SCWPlatform::DSA directory E:/fpga_proj/ps/mio_test/vitis/mio_test/hw
+TRACE::2020-10-07.15:11:44::SCWPlatform:: Platform Path E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:11:44::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-10-07.15:11:44::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2020-10-07.15:11:44::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2020-10-07.15:11:44::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-10-07.15:11:44::SCWMssOS::Checking the sw design at  E:/fpga_proj/ps/mio_test/vitis/mio_test/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-10-07.15:11:44::SCWMssOS::DEBUG:  swdes dump  E:/fpga_proj/ps/mio_test/vitis/mio_test/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-10-07.15:11:44::SCWMssOS::Sw design exists and opened at  E:/fpga_proj/ps/mio_test/vitis/mio_test/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-10-07.15:11:44::SCWReader::No isolation master present  
+LOG::2020-10-07.15:54:49::SCWPlatform::Started generating the artifacts platform mio_test
+TRACE::2020-10-07.15:54:49::SCWPlatform::Sanity checking of platform is completed
+LOG::2020-10-07.15:54:49::SCWPlatform::Started generating the artifacts for system configuration mio_test
+LOG::2020-10-07.15:54:49::SCWSystem::Checking the domain zynq_fsbl
+LOG::2020-10-07.15:54:49::SCWSystem::Doing application build for :  zynq_fsbl
+TRACE::2020-10-07.15:54:49::SCWBDomain::Not a forced makefile updation, No changes are present. 
+TRACE::2020-10-07.15:54:49::SCWDomain::Building the domain as part of full build :  zynq_fsbl
+TRACE::2020-10-07.15:54:49::SCWPlatform::Trying to open the hw design at E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:54:49::SCWPlatform::DSA given E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:54:49::SCWPlatform::DSA absoulate path E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:54:49::SCWPlatform::DSA directory E:/fpga_proj/ps/mio_test/vitis/mio_test/hw
+TRACE::2020-10-07.15:54:49::SCWPlatform:: Platform Path E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:54:49::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-10-07.15:54:49::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2020-10-07.15:54:49::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2020-10-07.15:54:49::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-10-07.15:54:49::SCWMssOS::Checking the sw design at  E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-07.15:54:49::SCWMssOS::DEBUG:  swdes dump  E:/fpga_proj/ps/mio_test/vitis/mio_test/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-10-07.15:54:49::SCWMssOS::Sw design exists and opened at  E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-07.15:54:49::SCWBDomain::Completed writing the mss file at E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp
+TRACE::2020-10-07.15:54:49::SCWBDomain::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2020-10-07.15:54:49::SCWBDomain::Not a forced makefile updation, No changes are present. 
+TRACE::2020-10-07.15:54:49::SCWBDomain::System Command Ran  E:&  cd  E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl & make 
+TRACE::2020-10-07.15:54:49::SCWBDomain::make -C zynq_fsbl_bsp
+
+TRACE::2020-10-07.15:54:49::SCWBDomain::make[1]: Entering directory 'E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp'
+
+TRACE::2020-10-07.15:54:49::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_7/src"
+
+TRACE::2020-10-07.15:54:49::SCWBDomain::make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none
+TRACE::2020-10-07.15:54:49::SCWBDomain::-eabi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=h
+TRACE::2020-10-07.15:54:49::SCWBDomain::ard -nostartfiles -g -Wall -Wextra"
+
+TRACE::2020-10-07.15:54:49::SCWBDomain::make[2]: Entering directory 'E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/coresightps_
+TRACE::2020-10-07.15:54:49::SCWBDomain::dcc_v1_7/src'
+
+TRACE::2020-10-07.15:54:49::SCWBDomain::make[2]: Leaving directory 'E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/coresightps_d
+TRACE::2020-10-07.15:54:49::SCWBDomain::cc_v1_7/src'
+
+TRACE::2020-10-07.15:54:49::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_9/src"
+
+TRACE::2020-10-07.15:54:49::SCWBDomain::make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_9/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-ea
+TRACE::2020-10-07.15:54:49::SCWBDomain::bi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard
+TRACE::2020-10-07.15:54:49::SCWBDomain:: -nostartfiles -g -Wall -Wextra"
+
+TRACE::2020-10-07.15:54:49::SCWBDomain::make[2]: Entering directory 'E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/cpu_cortexa9
+TRACE::2020-10-07.15:54:49::SCWBDomain::_v2_9/src'
+
+TRACE::2020-10-07.15:54:49::SCWBDomain::make[2]: Leaving directory 'E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/cpu_cortexa9_
+TRACE::2020-10-07.15:54:49::SCWBDomain::v2_9/src'
+
+TRACE::2020-10-07.15:54:49::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_1/src"
+
+TRACE::2020-10-07.15:54:49::SCWBDomain::make -C ps7_cortexa9_0/libsrc/ddrps_v1_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+TRACE::2020-10-07.15:54:49::SCWBDomain::"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+TRACE::2020-10-07.15:54:49::SCWBDomain::rtfiles -g -Wall -Wextra"
+
+TRACE::2020-10-07.15:54:49::SCWBDomain::make[2]: Entering directory 'E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/ddrps_v1_1/s
+TRACE::2020-10-07.15:54:49::SCWBDomain::rc'
+
+TRACE::2020-10-07.15:54:49::SCWBDomain::make[2]: Leaving directory 'E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/ddrps_v1_1/sr
+TRACE::2020-10-07.15:54:49::SCWBDomain::c'
+
+TRACE::2020-10-07.15:54:49::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_6/src"
+
+TRACE::2020-10-07.15:54:49::SCWBDomain::make -C ps7_cortexa9_0/libsrc/devcfg_v3_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2020-10-07.15:54:49::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2020-10-07.15:54:49::SCWBDomain::artfiles -g -Wall -Wextra"
+
+TRACE::2020-10-07.15:54:49::SCWBDomain::make[2]: Entering directory 'E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/devcfg_v3_6/
+TRACE::2020-10-07.15:54:49::SCWBDomain::src'
+
+TRACE::2020-10-07.15:54:49::SCWBDomain::make[2]: Leaving directory 'E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/devcfg_v3_6/s
+TRACE::2020-10-07.15:54:49::SCWBDomain::rc'
+
+TRACE::2020-10-07.15:54:49::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_6/src"
+
+TRACE::2020-10-07.15:54:49::SCWBDomain::make -C ps7_cortexa9_0/libsrc/dmaps_v2_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+TRACE::2020-10-07.15:54:49::SCWBDomain::"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+TRACE::2020-10-07.15:54:49::SCWBDomain::rtfiles -g -Wall -Wextra"
+
+TRACE::2020-10-07.15:54:49::SCWBDomain::make[2]: Entering directory 'E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/dmaps_v2_6/s
+TRACE::2020-10-07.15:54:49::SCWBDomain::rc'
+
+TRACE::2020-10-07.15:54:49::SCWBDomain::make[2]: Leaving directory 'E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/dmaps_v2_6/sr
+TRACE::2020-10-07.15:54:49::SCWBDomain::c'
+
+TRACE::2020-10-07.15:54:49::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_7/src"
+
+TRACE::2020-10-07.15:54:49::SCWBDomain::make -C ps7_cortexa9_0/libsrc/gpiops_v3_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2020-10-07.15:54:49::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2020-10-07.15:54:49::SCWBDomain::artfiles -g -Wall -Wextra"
+
+TRACE::2020-10-07.15:54:49::SCWBDomain::make[2]: Entering directory 'E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/gpiops_v3_7/
+TRACE::2020-10-07.15:54:49::SCWBDomain::src'
+
+TRACE::2020-10-07.15:54:49::SCWBDomain::make[2]: Leaving directory 'E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/gpiops_v3_7/s
+TRACE::2020-10-07.15:54:49::SCWBDomain::rc'
+
+TRACE::2020-10-07.15:54:49::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/scugic_v4_2/src"
+
+TRACE::2020-10-07.15:54:49::SCWBDomain::make -C ps7_cortexa9_0/libsrc/scugic_v4_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2020-10-07.15:54:49::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2020-10-07.15:54:49::SCWBDomain::artfiles -g -Wall -Wextra"
+
+TRACE::2020-10-07.15:54:49::SCWBDomain::make[2]: Entering directory 'E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/scugic_v4_2/
+TRACE::2020-10-07.15:54:49::SCWBDomain::src'
+
+TRACE::2020-10-07.15:54:49::SCWBDomain::make[2]: Leaving directory 'E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/scugic_v4_2/s
+TRACE::2020-10-07.15:54:49::SCWBDomain::rc'
+
+TRACE::2020-10-07.15:54:49::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_2/src"
+
+TRACE::2020-10-07.15:54:49::SCWBDomain::make -C ps7_cortexa9_0/libsrc/scutimer_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-a
+TRACE::2020-10-07.15:54:49::SCWBDomain::s" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -no
+TRACE::2020-10-07.15:54:49::SCWBDomain::startfiles -g -Wall -Wextra"
+
+TRACE::2020-10-07.15:54:49::SCWBDomain::make[2]: Entering directory 'E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/scutimer_v2_
+TRACE::2020-10-07.15:54:49::SCWBDomain::2/src'
+
+TRACE::2020-10-07.15:54:49::SCWBDomain::make[2]: Leaving directory 'E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/scutimer_v2_2
+TRACE::2020-10-07.15:54:49::SCWBDomain::/src'
+
+TRACE::2020-10-07.15:54:49::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_2/src"
+
+TRACE::2020-10-07.15:54:49::SCWBDomain::make -C ps7_cortexa9_0/libsrc/scuwdt_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2020-10-07.15:54:49::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2020-10-07.15:54:49::SCWBDomain::artfiles -g -Wall -Wextra"
+
+TRACE::2020-10-07.15:54:49::SCWBDomain::make[2]: Entering directory 'E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/scuwdt_v2_2/
+TRACE::2020-10-07.15:54:49::SCWBDomain::src'
+
+TRACE::2020-10-07.15:54:49::SCWBDomain::make[2]: Leaving directory 'E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/scuwdt_v2_2/s
+TRACE::2020-10-07.15:54:49::SCWBDomain::rc'
+
+TRACE::2020-10-07.15:54:49::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/standalone_v7_2/src"
+
+TRACE::2020-10-07.15:54:49::SCWBDomain::make -C ps7_cortexa9_0/libsrc/standalone_v7_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2020-10-07.15:54:49::SCWBDomain::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2020-10-07.15:54:49::SCWBDomain::nostartfiles -g -Wall -Wextra"
+
+TRACE::2020-10-07.15:54:49::SCWBDomain::make[2]: Entering directory 'E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/standalone_v
+TRACE::2020-10-07.15:54:49::SCWBDomain::7_2/src'
+
+TRACE::2020-10-07.15:54:50::SCWBDomain::make[3]: Entering directory 'E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/standalone_v
+TRACE::2020-10-07.15:54:50::SCWBDomain::7_2/src/profile'
+
+TRACE::2020-10-07.15:54:50::SCWBDomain::make[3]: Leaving directory 'E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/standalone_v7
+TRACE::2020-10-07.15:54:50::SCWBDomain::_2/src/profile'
+
+TRACE::2020-10-07.15:54:50::SCWBDomain::make[2]: Leaving directory 'E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/standalone_v7
+TRACE::2020-10-07.15:54:50::SCWBDomain::_2/src'
+
+TRACE::2020-10-07.15:54:50::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_4/src"
+
+TRACE::2020-10-07.15:54:50::SCWBDomain::make -C ps7_cortexa9_0/libsrc/xadcps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2020-10-07.15:54:50::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2020-10-07.15:54:50::SCWBDomain::artfiles -g -Wall -Wextra"
+
+TRACE::2020-10-07.15:54:50::SCWBDomain::make[2]: Entering directory 'E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/xadcps_v2_4/
+TRACE::2020-10-07.15:54:50::SCWBDomain::src'
+
+TRACE::2020-10-07.15:54:50::SCWBDomain::make[2]: Leaving directory 'E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/xadcps_v2_4/s
+TRACE::2020-10-07.15:54:50::SCWBDomain::rc'
+
+TRACE::2020-10-07.15:54:50::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/xilffs_v4_3/src"
+
+TRACE::2020-10-07.15:54:50::SCWBDomain::make -C ps7_cortexa9_0/libsrc/xilffs_v4_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2020-10-07.15:54:50::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2020-10-07.15:54:50::SCWBDomain::artfiles -g -Wall -Wextra"
+
+TRACE::2020-10-07.15:54:50::SCWBDomain::make[2]: Entering directory 'E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/xilffs_v4_3/
+TRACE::2020-10-07.15:54:50::SCWBDomain::src'
+
+TRACE::2020-10-07.15:54:50::SCWBDomain::make[2]: Leaving directory 'E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/xilffs_v4_3/s
+TRACE::2020-10-07.15:54:50::SCWBDomain::rc'
+
+TRACE::2020-10-07.15:54:50::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/xilrsa_v1_6/src"
+
+TRACE::2020-10-07.15:54:50::SCWBDomain::make -C ps7_cortexa9_0/libsrc/xilrsa_v1_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2020-10-07.15:54:50::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2020-10-07.15:54:50::SCWBDomain::artfiles -g -Wall -Wextra"
+
+TRACE::2020-10-07.15:54:50::SCWBDomain::make[2]: Entering directory 'E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/xilrsa_v1_6/
+TRACE::2020-10-07.15:54:50::SCWBDomain::src'
+
+TRACE::2020-10-07.15:54:50::SCWBDomain::make[2]: Leaving directory 'E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/xilrsa_v1_6/s
+TRACE::2020-10-07.15:54:50::SCWBDomain::rc'
+
+TRACE::2020-10-07.15:54:50::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_7/src"
+
+TRACE::2020-10-07.15:54:50::SCWBDomain::make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-ea
+TRACE::2020-10-07.15:54:50::SCWBDomain::bi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard
+TRACE::2020-10-07.15:54:50::SCWBDomain:: -nostartfiles -g -Wall -Wextra"
+
+TRACE::2020-10-07.15:54:50::SCWBDomain::make[2]: Entering directory 'E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/coresightps_
+TRACE::2020-10-07.15:54:50::SCWBDomain::dcc_v1_7/src'
+
+TRACE::2020-10-07.15:54:50::SCWBDomain::"Compiling coresightps_dcc"
+
+TRACE::2020-10-07.15:54:50::SCWBDomain::make[2]: Leaving directory 'E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/coresightps_d
+TRACE::2020-10-07.15:54:50::SCWBDomain::cc_v1_7/src'
+
+TRACE::2020-10-07.15:54:50::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_9/src"
+
+TRACE::2020-10-07.15:54:50::SCWBDomain::make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_9/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-
+TRACE::2020-10-07.15:54:50::SCWBDomain::as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -n
+TRACE::2020-10-07.15:54:50::SCWBDomain::ostartfiles -g -Wall -Wextra"
+
+TRACE::2020-10-07.15:54:50::SCWBDomain::make[2]: Entering directory 'E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/cpu_cortexa9
+TRACE::2020-10-07.15:54:50::SCWBDomain::_v2_9/src'
+
+TRACE::2020-10-07.15:54:50::SCWBDomain::"Compiling cpu_cortexa9"
+
+TRACE::2020-10-07.15:54:50::SCWBDomain::make[2]: Leaving directory 'E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/cpu_cortexa9_
+TRACE::2020-10-07.15:54:50::SCWBDomain::v2_9/src'
+
+TRACE::2020-10-07.15:54:50::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_1/src"
+
+TRACE::2020-10-07.15:54:50::SCWBDomain::make -C ps7_cortexa9_0/libsrc/ddrps_v1_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "AR
+TRACE::2020-10-07.15:54:50::SCWBDomain::CHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartf
+TRACE::2020-10-07.15:54:50::SCWBDomain::iles -g -Wall -Wextra"
+
+TRACE::2020-10-07.15:54:50::SCWBDomain::make[2]: Entering directory 'E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/ddrps_v1_1/s
+TRACE::2020-10-07.15:54:50::SCWBDomain::rc'
+
+TRACE::2020-10-07.15:54:50::SCWBDomain::"Compiling ddrps"
+
+TRACE::2020-10-07.15:54:50::SCWBDomain::make[2]: Leaving directory 'E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/ddrps_v1_1/sr
+TRACE::2020-10-07.15:54:50::SCWBDomain::c'
+
+TRACE::2020-10-07.15:54:50::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_6/src"
+
+TRACE::2020-10-07.15:54:50::SCWBDomain::make -C ps7_cortexa9_0/libsrc/devcfg_v3_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2020-10-07.15:54:50::SCWBDomain::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2020-10-07.15:54:50::SCWBDomain::files -g -Wall -Wextra"
+
+TRACE::2020-10-07.15:54:50::SCWBDomain::make[2]: Entering directory 'E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/devcfg_v3_6/
+TRACE::2020-10-07.15:54:50::SCWBDomain::src'
+
+TRACE::2020-10-07.15:54:50::SCWBDomain::"Compiling devcfg"
+
+TRACE::2020-10-07.15:54:51::SCWBDomain::make[2]: Leaving directory 'E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/devcfg_v3_6/s
+TRACE::2020-10-07.15:54:51::SCWBDomain::rc'
+
+TRACE::2020-10-07.15:54:51::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_6/src"
+
+TRACE::2020-10-07.15:54:51::SCWBDomain::make -C ps7_cortexa9_0/libsrc/dmaps_v2_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "AR
+TRACE::2020-10-07.15:54:51::SCWBDomain::CHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartf
+TRACE::2020-10-07.15:54:51::SCWBDomain::iles -g -Wall -Wextra"
+
+TRACE::2020-10-07.15:54:51::SCWBDomain::make[2]: Entering directory 'E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/dmaps_v2_6/s
+TRACE::2020-10-07.15:54:51::SCWBDomain::rc'
+
+TRACE::2020-10-07.15:54:51::SCWBDomain::"Compiling dmaps"
+
+TRACE::2020-10-07.15:54:52::SCWBDomain::make[2]: Leaving directory 'E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/dmaps_v2_6/sr
+TRACE::2020-10-07.15:54:52::SCWBDomain::c'
+
+TRACE::2020-10-07.15:54:52::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_7/src"
+
+TRACE::2020-10-07.15:54:52::SCWBDomain::make -C ps7_cortexa9_0/libsrc/gpiops_v3_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2020-10-07.15:54:52::SCWBDomain::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2020-10-07.15:54:52::SCWBDomain::files -g -Wall -Wextra"
+
+TRACE::2020-10-07.15:54:52::SCWBDomain::make[2]: Entering directory 'E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/gpiops_v3_7/
+TRACE::2020-10-07.15:54:52::SCWBDomain::src'
+
+TRACE::2020-10-07.15:54:52::SCWBDomain::"Compiling gpiops"
+
+TRACE::2020-10-07.15:54:52::SCWBDomain::make[2]: Leaving directory 'E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/gpiops_v3_7/s
+TRACE::2020-10-07.15:54:52::SCWBDomain::rc'
+
+TRACE::2020-10-07.15:54:52::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v4_2/src"
+
+TRACE::2020-10-07.15:54:52::SCWBDomain::make -C ps7_cortexa9_0/libsrc/scugic_v4_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2020-10-07.15:54:52::SCWBDomain::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2020-10-07.15:54:52::SCWBDomain::files -g -Wall -Wextra"
+
+TRACE::2020-10-07.15:54:52::SCWBDomain::make[2]: Entering directory 'E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/scugic_v4_2/
+TRACE::2020-10-07.15:54:52::SCWBDomain::src'
+
+TRACE::2020-10-07.15:54:52::SCWBDomain::"Compiling scugic"
+
+TRACE::2020-10-07.15:54:53::SCWBDomain::make[2]: Leaving directory 'E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/scugic_v4_2/s
+TRACE::2020-10-07.15:54:53::SCWBDomain::rc'
+
+TRACE::2020-10-07.15:54:53::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_2/src"
+
+TRACE::2020-10-07.15:54:53::SCWBDomain::make -C ps7_cortexa9_0/libsrc/scutimer_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+TRACE::2020-10-07.15:54:53::SCWBDomain::"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+TRACE::2020-10-07.15:54:53::SCWBDomain::rtfiles -g -Wall -Wextra"
+
+TRACE::2020-10-07.15:54:53::SCWBDomain::make[2]: Entering directory 'E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/scutimer_v2_
+TRACE::2020-10-07.15:54:53::SCWBDomain::2/src'
+
+TRACE::2020-10-07.15:54:53::SCWBDomain::"Compiling scutimer"
+
+TRACE::2020-10-07.15:54:54::SCWBDomain::make[2]: Leaving directory 'E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/scutimer_v2_2
+TRACE::2020-10-07.15:54:54::SCWBDomain::/src'
+
+TRACE::2020-10-07.15:54:54::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_2/src"
+
+TRACE::2020-10-07.15:54:54::SCWBDomain::make -C ps7_cortexa9_0/libsrc/scuwdt_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2020-10-07.15:54:54::SCWBDomain::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2020-10-07.15:54:54::SCWBDomain::files -g -Wall -Wextra"
+
+TRACE::2020-10-07.15:54:54::SCWBDomain::make[2]: Entering directory 'E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/scuwdt_v2_2/
+TRACE::2020-10-07.15:54:54::SCWBDomain::src'
+
+TRACE::2020-10-07.15:54:54::SCWBDomain::"Compiling scuwdt"
+
+TRACE::2020-10-07.15:54:54::SCWBDomain::make[2]: Leaving directory 'E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/scuwdt_v2_2/s
+TRACE::2020-10-07.15:54:54::SCWBDomain::rc'
+
+TRACE::2020-10-07.15:54:54::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v7_2/src"
+
+TRACE::2020-10-07.15:54:54::SCWBDomain::make -C ps7_cortexa9_0/libsrc/standalone_v7_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2020-10-07.15:54:54::SCWBDomain::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2020-10-07.15:54:54::SCWBDomain::tartfiles -g -Wall -Wextra"
+
+TRACE::2020-10-07.15:54:54::SCWBDomain::make[2]: Entering directory 'E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/standalone_v
+TRACE::2020-10-07.15:54:54::SCWBDomain::7_2/src'
+
+TRACE::2020-10-07.15:54:54::SCWBDomain::"Compiling standalone"
+
+TRACE::2020-10-07.15:54:58::SCWBDomain::make[3]: Entering directory 'E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/standalone_v
+TRACE::2020-10-07.15:54:58::SCWBDomain::7_2/src/profile'
+
+TRACE::2020-10-07.15:54:58::SCWBDomain::make[3]: Leaving directory 'E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/standalone_v7
+TRACE::2020-10-07.15:54:58::SCWBDomain::_2/src/profile'
+
+TRACE::2020-10-07.15:54:58::SCWBDomain::make[2]: Leaving directory 'E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/standalone_v7
+TRACE::2020-10-07.15:54:58::SCWBDomain::_2/src'
+
+TRACE::2020-10-07.15:54:58::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_4/src"
+
+TRACE::2020-10-07.15:54:58::SCWBDomain::make -C ps7_cortexa9_0/libsrc/xadcps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2020-10-07.15:54:58::SCWBDomain::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2020-10-07.15:54:58::SCWBDomain::files -g -Wall -Wextra"
+
+TRACE::2020-10-07.15:54:58::SCWBDomain::make[2]: Entering directory 'E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/xadcps_v2_4/
+TRACE::2020-10-07.15:54:58::SCWBDomain::src'
+
+TRACE::2020-10-07.15:54:58::SCWBDomain::"Compiling xadcps"
+
+TRACE::2020-10-07.15:54:58::SCWBDomain::make[2]: Leaving directory 'E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/xadcps_v2_4/s
+TRACE::2020-10-07.15:54:58::SCWBDomain::rc'
+
+TRACE::2020-10-07.15:54:58::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/xilffs_v4_3/src"
+
+TRACE::2020-10-07.15:54:58::SCWBDomain::make -C ps7_cortexa9_0/libsrc/xilffs_v4_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2020-10-07.15:54:58::SCWBDomain::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2020-10-07.15:54:58::SCWBDomain::files -g -Wall -Wextra"
+
+TRACE::2020-10-07.15:54:58::SCWBDomain::make[2]: Entering directory 'E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/xilffs_v4_3/
+TRACE::2020-10-07.15:54:58::SCWBDomain::src'
+
+TRACE::2020-10-07.15:54:58::SCWBDomain::"Compiling XilFFs Library"
+
+TRACE::2020-10-07.15:54:59::SCWBDomain::make[2]: Leaving directory 'E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/xilffs_v4_3/s
+TRACE::2020-10-07.15:54:59::SCWBDomain::rc'
+
+TRACE::2020-10-07.15:54:59::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/xilrsa_v1_6/src"
+
+TRACE::2020-10-07.15:54:59::SCWBDomain::make -C ps7_cortexa9_0/libsrc/xilrsa_v1_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2020-10-07.15:54:59::SCWBDomain::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2020-10-07.15:54:59::SCWBDomain::files -g -Wall -Wextra"
+
+TRACE::2020-10-07.15:54:59::SCWBDomain::make[2]: Entering directory 'E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/xilrsa_v1_6/
+TRACE::2020-10-07.15:54:59::SCWBDomain::src'
+
+TRACE::2020-10-07.15:54:59::SCWBDomain::make[2]: Leaving directory 'E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/xilrsa_v1_6/s
+TRACE::2020-10-07.15:54:59::SCWBDomain::rc'
+
+TRACE::2020-10-07.15:54:59::SCWBDomain::'Finished building libraries'
+
+TRACE::2020-10-07.15:54:59::SCWBDomain::make[1]: Leaving directory 'E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp'
+
+TRACE::2020-10-07.15:54:59::SCWBDomain::arm-none-eabi-gcc -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -O2 -c -c sd.c -o sd.o -Izynq_fsbl_bsp/ps7_cort
+TRACE::2020-10-07.15:54:59::SCWBDomain::exa9_0/include -I.
+
+TRACE::2020-10-07.15:54:59::SCWBDomain::arm-none-eabi-gcc -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -O2 -c -c nand.c -o nand.o -Izynq_fsbl_bsp/ps7_
+TRACE::2020-10-07.15:54:59::SCWBDomain::cortexa9_0/include -I.
+
+TRACE::2020-10-07.15:54:59::SCWBDomain::arm-none-eabi-gcc -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -O2 -c -c nor.c -o nor.o -Izynq_fsbl_bsp/ps7_co
+TRACE::2020-10-07.15:54:59::SCWBDomain::rtexa9_0/include -I.
+
+TRACE::2020-10-07.15:54:59::SCWBDomain::arm-none-eabi-gcc -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -O2 -c -c image_mover.c -o image_mover.o -Izynq
+TRACE::2020-10-07.15:54:59::SCWBDomain::_fsbl_bsp/ps7_cortexa9_0/include -I.
+
+TRACE::2020-10-07.15:54:59::SCWBDomain::arm-none-eabi-gcc -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -O2 -c -c md5.c -o md5.o -Izynq_fsbl_bsp/ps7_co
+TRACE::2020-10-07.15:54:59::SCWBDomain::rtexa9_0/include -I.
+
+TRACE::2020-10-07.15:54:59::SCWBDomain::arm-none-eabi-gcc -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -O2 -c -c fsbl_hooks.c -o fsbl_hooks.o -Izynq_f
+TRACE::2020-10-07.15:54:59::SCWBDomain::sbl_bsp/ps7_cortexa9_0/include -I.
+
+TRACE::2020-10-07.15:55:00::SCWBDomain::arm-none-eabi-gcc -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -O2 -c -c main.c -o main.o -Izynq_fsbl_bsp/ps7_
+TRACE::2020-10-07.15:55:00::SCWBDomain::cortexa9_0/include -I.
+
+TRACE::2020-10-07.15:55:00::SCWBDomain::arm-none-eabi-gcc -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -O2 -c -c rsa.c -o rsa.o -Izynq_fsbl_bsp/ps7_co
+TRACE::2020-10-07.15:55:00::SCWBDomain::rtexa9_0/include -I.
+
+TRACE::2020-10-07.15:55:00::SCWBDomain::arm-none-eabi-gcc -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -O2 -c -c qspi.c -o qspi.o -Izynq_fsbl_bsp/ps7_
+TRACE::2020-10-07.15:55:00::SCWBDomain::cortexa9_0/include -I.
+
+TRACE::2020-10-07.15:55:00::SCWBDomain::arm-none-eabi-gcc -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -O2 -c -c ps7_init.c -o ps7_init.o -Izynq_fsbl_
+TRACE::2020-10-07.15:55:00::SCWBDomain::bsp/ps7_cortexa9_0/include -I.
+
+TRACE::2020-10-07.15:55:00::SCWBDomain::arm-none-eabi-gcc -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -O2 -c -c pcap.c -o pcap.o -Izynq_fsbl_bsp/ps7_
+TRACE::2020-10-07.15:55:00::SCWBDomain::cortexa9_0/include -I.
+
+TRACE::2020-10-07.15:55:00::SCWBDomain::arm-none-eabi-gcc -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -O2 -c -c fsbl_handoff.S -o fsbl_handoff.o -Izy
+TRACE::2020-10-07.15:55:00::SCWBDomain::nq_fsbl_bsp/ps7_cortexa9_0/include -I.
+
+TRACE::2020-10-07.15:55:00::SCWBDomain::arm-none-eabi-gcc -o executable.elf  sd.o  nand.o  nor.o  image_mover.o  md5.o  fsbl_hooks.o  main.o  rsa.o  qspi.o  ps7_init.o
+TRACE::2020-10-07.15:55:00::SCWBDomain::  pcap.o  fsbl_handoff.o -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=
+TRACE::2020-10-07.15:55:00::SCWBDomain::hard -Wl,-build-id=none -specs=Xilinx.spec  -lrsa -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxi
+TRACE::2020-10-07.15:55:00::SCWBDomain::l,-lgcc,-lc,--end-group -Wl,--start-group,-lrsa,-lxil,-lgcc,-lc,--end-group                             -Wl,--gc-sections -Lzyn
+TRACE::2020-10-07.15:55:00::SCWBDomain::q_fsbl_bsp/ps7_cortexa9_0/lib -L./ -Tlscript.ld
+
+LOG::2020-10-07.15:55:00::SCWSystem::Checking the domain standalone_domain
+LOG::2020-10-07.15:55:00::SCWSystem::Not a boot domain 
+LOG::2020-10-07.15:55:00::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2020-10-07.15:55:00::SCWDomain::Generating domain artifcats
+TRACE::2020-10-07.15:55:00::SCWMssOS::Generating standalone artifcats
+TRACE::2020-10-07.15:55:00::SCWMssOS::Copying the qemu file from  D:/Xilinx/Vitis/2020.1/data/emulation/platforms/zynq/qemu/qemu_args.txt To E:/fpga_proj/ps/mio_test/vitis/mio_test/export/mio_test/sw/mio_test/qemu/
+TRACE::2020-10-07.15:55:00::SCWMssOS::Copying the qemu file from  D:/Xilinx/Vitis/2020.1/data/emulation/platforms/zynq/qemu/qemu_args.txt To E:/fpga_proj/ps/mio_test/vitis/mio_test/export/mio_test/sw/mio_test/standalone_domain/qemu/
+TRACE::2020-10-07.15:55:00::SCWMssOS:: Copying the user libraries. 
+TRACE::2020-10-07.15:55:00::SCWPlatform::Trying to open the hw design at E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:55:00::SCWPlatform::DSA given E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:55:00::SCWPlatform::DSA absoulate path E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:55:00::SCWPlatform::DSA directory E:/fpga_proj/ps/mio_test/vitis/mio_test/hw
+TRACE::2020-10-07.15:55:00::SCWPlatform:: Platform Path E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:55:00::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-10-07.15:55:00::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2020-10-07.15:55:00::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2020-10-07.15:55:00::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-10-07.15:55:00::SCWMssOS::Checking the sw design at  E:/fpga_proj/ps/mio_test/vitis/mio_test/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-10-07.15:55:00::SCWMssOS::DEBUG:  swdes dump  E:/fpga_proj/ps/mio_test/vitis/mio_test/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-10-07.15:55:00::SCWMssOS::Sw design exists and opened at  E:/fpga_proj/ps/mio_test/vitis/mio_test/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-10-07.15:55:00::SCWMssOS::Completed writing the mss file at E:/fpga_proj/ps/mio_test/vitis/mio_test/ps7_cortexa9_0/standalone_domain/bsp
+TRACE::2020-10-07.15:55:00::SCWMssOS::Mss edits present, copying mssfile into export location E:/fpga_proj/ps/mio_test/vitis/mio_test/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-10-07.15:55:00::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2020-10-07.15:55:00::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2020-10-07.15:55:00::SCWDomain::Building the domain as part of full build :  standalone_domain
+TRACE::2020-10-07.15:55:00::SCWMssOS::doing bsp build ... 
+TRACE::2020-10-07.15:55:00::SCWMssOS::System Command Ran  E: & cd  E:/fpga_proj/ps/mio_test/vitis/mio_test/ps7_cortexa9_0/standalone_domain/bsp & make 
+TRACE::2020-10-07.15:55:00::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_7/src"
+
+TRACE::2020-10-07.15:55:00::SCWMssOS::make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none
+TRACE::2020-10-07.15:55:00::SCWMssOS::-eabi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=h
+TRACE::2020-10-07.15:55:00::SCWMssOS::ard -nostartfiles -g -Wall -Wextra"
+
+TRACE::2020-10-07.15:55:01::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_9/src"
+
+TRACE::2020-10-07.15:55:01::SCWMssOS::make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_9/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-ea
+TRACE::2020-10-07.15:55:01::SCWMssOS::bi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard
+TRACE::2020-10-07.15:55:01::SCWMssOS:: -nostartfiles -g -Wall -Wextra"
+
+TRACE::2020-10-07.15:55:01::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_1/src"
+
+TRACE::2020-10-07.15:55:01::SCWMssOS::make -C ps7_cortexa9_0/libsrc/ddrps_v1_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+TRACE::2020-10-07.15:55:01::SCWMssOS::"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+TRACE::2020-10-07.15:55:01::SCWMssOS::rtfiles -g -Wall -Wextra"
+
+TRACE::2020-10-07.15:55:01::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_6/src"
+
+TRACE::2020-10-07.15:55:01::SCWMssOS::make -C ps7_cortexa9_0/libsrc/devcfg_v3_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2020-10-07.15:55:01::SCWMssOS:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2020-10-07.15:55:01::SCWMssOS::artfiles -g -Wall -Wextra"
+
+TRACE::2020-10-07.15:55:01::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_6/src"
+
+TRACE::2020-10-07.15:55:01::SCWMssOS::make -C ps7_cortexa9_0/libsrc/dmaps_v2_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+TRACE::2020-10-07.15:55:01::SCWMssOS::"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+TRACE::2020-10-07.15:55:01::SCWMssOS::rtfiles -g -Wall -Wextra"
+
+TRACE::2020-10-07.15:55:01::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_7/src"
+
+TRACE::2020-10-07.15:55:01::SCWMssOS::make -C ps7_cortexa9_0/libsrc/gpiops_v3_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2020-10-07.15:55:01::SCWMssOS:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2020-10-07.15:55:01::SCWMssOS::artfiles -g -Wall -Wextra"
+
+TRACE::2020-10-07.15:55:01::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/scugic_v4_2/src"
+
+TRACE::2020-10-07.15:55:01::SCWMssOS::make -C ps7_cortexa9_0/libsrc/scugic_v4_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2020-10-07.15:55:01::SCWMssOS:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2020-10-07.15:55:01::SCWMssOS::artfiles -g -Wall -Wextra"
+
+TRACE::2020-10-07.15:55:01::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_2/src"
+
+TRACE::2020-10-07.15:55:01::SCWMssOS::make -C ps7_cortexa9_0/libsrc/scutimer_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-a
+TRACE::2020-10-07.15:55:01::SCWMssOS::s" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -no
+TRACE::2020-10-07.15:55:01::SCWMssOS::startfiles -g -Wall -Wextra"
+
+TRACE::2020-10-07.15:55:01::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_2/src"
+
+TRACE::2020-10-07.15:55:01::SCWMssOS::make -C ps7_cortexa9_0/libsrc/scuwdt_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2020-10-07.15:55:01::SCWMssOS:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2020-10-07.15:55:01::SCWMssOS::artfiles -g -Wall -Wextra"
+
+TRACE::2020-10-07.15:55:01::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/standalone_v7_2/src"
+
+TRACE::2020-10-07.15:55:01::SCWMssOS::make -C ps7_cortexa9_0/libsrc/standalone_v7_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2020-10-07.15:55:01::SCWMssOS::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2020-10-07.15:55:01::SCWMssOS::nostartfiles -g -Wall -Wextra"
+
+TRACE::2020-10-07.15:55:01::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_4/src"
+
+TRACE::2020-10-07.15:55:01::SCWMssOS::make -C ps7_cortexa9_0/libsrc/xadcps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2020-10-07.15:55:01::SCWMssOS:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2020-10-07.15:55:01::SCWMssOS::artfiles -g -Wall -Wextra"
+
+TRACE::2020-10-07.15:55:01::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_7/src"
+
+TRACE::2020-10-07.15:55:01::SCWMssOS::make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-ea
+TRACE::2020-10-07.15:55:01::SCWMssOS::bi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard
+TRACE::2020-10-07.15:55:01::SCWMssOS:: -nostartfiles -g -Wall -Wextra"
+
+TRACE::2020-10-07.15:55:01::SCWMssOS::"Compiling coresightps_dcc"
+
+TRACE::2020-10-07.15:55:01::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_9/src"
+
+TRACE::2020-10-07.15:55:01::SCWMssOS::make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_9/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-
+TRACE::2020-10-07.15:55:01::SCWMssOS::as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -n
+TRACE::2020-10-07.15:55:01::SCWMssOS::ostartfiles -g -Wall -Wextra"
+
+TRACE::2020-10-07.15:55:02::SCWMssOS::"Compiling cpu_cortexa9"
+
+TRACE::2020-10-07.15:55:02::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_1/src"
+
+TRACE::2020-10-07.15:55:02::SCWMssOS::make -C ps7_cortexa9_0/libsrc/ddrps_v1_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "AR
+TRACE::2020-10-07.15:55:02::SCWMssOS::CHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartf
+TRACE::2020-10-07.15:55:02::SCWMssOS::iles -g -Wall -Wextra"
+
+TRACE::2020-10-07.15:55:02::SCWMssOS::"Compiling ddrps"
+
+TRACE::2020-10-07.15:55:02::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_6/src"
+
+TRACE::2020-10-07.15:55:02::SCWMssOS::make -C ps7_cortexa9_0/libsrc/devcfg_v3_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2020-10-07.15:55:02::SCWMssOS::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2020-10-07.15:55:02::SCWMssOS::files -g -Wall -Wextra"
+
+TRACE::2020-10-07.15:55:02::SCWMssOS::"Compiling devcfg"
+
+TRACE::2020-10-07.15:55:02::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_6/src"
+
+TRACE::2020-10-07.15:55:02::SCWMssOS::make -C ps7_cortexa9_0/libsrc/dmaps_v2_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "AR
+TRACE::2020-10-07.15:55:02::SCWMssOS::CHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartf
+TRACE::2020-10-07.15:55:02::SCWMssOS::iles -g -Wall -Wextra"
+
+TRACE::2020-10-07.15:55:02::SCWMssOS::"Compiling dmaps"
+
+TRACE::2020-10-07.15:55:03::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_7/src"
+
+TRACE::2020-10-07.15:55:03::SCWMssOS::make -C ps7_cortexa9_0/libsrc/gpiops_v3_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2020-10-07.15:55:03::SCWMssOS::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2020-10-07.15:55:03::SCWMssOS::files -g -Wall -Wextra"
+
+TRACE::2020-10-07.15:55:03::SCWMssOS::"Compiling gpiops"
+
+TRACE::2020-10-07.15:55:04::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v4_2/src"
+
+TRACE::2020-10-07.15:55:04::SCWMssOS::make -C ps7_cortexa9_0/libsrc/scugic_v4_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2020-10-07.15:55:04::SCWMssOS::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2020-10-07.15:55:04::SCWMssOS::files -g -Wall -Wextra"
+
+TRACE::2020-10-07.15:55:04::SCWMssOS::"Compiling scugic"
+
+TRACE::2020-10-07.15:55:05::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_2/src"
+
+TRACE::2020-10-07.15:55:05::SCWMssOS::make -C ps7_cortexa9_0/libsrc/scutimer_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+TRACE::2020-10-07.15:55:05::SCWMssOS::"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+TRACE::2020-10-07.15:55:05::SCWMssOS::rtfiles -g -Wall -Wextra"
+
+TRACE::2020-10-07.15:55:05::SCWMssOS::"Compiling scutimer"
+
+TRACE::2020-10-07.15:55:05::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_2/src"
+
+TRACE::2020-10-07.15:55:05::SCWMssOS::make -C ps7_cortexa9_0/libsrc/scuwdt_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2020-10-07.15:55:05::SCWMssOS::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2020-10-07.15:55:05::SCWMssOS::files -g -Wall -Wextra"
+
+TRACE::2020-10-07.15:55:05::SCWMssOS::"Compiling scuwdt"
+
+TRACE::2020-10-07.15:55:06::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v7_2/src"
+
+TRACE::2020-10-07.15:55:06::SCWMssOS::make -C ps7_cortexa9_0/libsrc/standalone_v7_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2020-10-07.15:55:06::SCWMssOS::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2020-10-07.15:55:06::SCWMssOS::tartfiles -g -Wall -Wextra"
+
+TRACE::2020-10-07.15:55:06::SCWMssOS::"Compiling standalone"
+
+TRACE::2020-10-07.15:55:09::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_4/src"
+
+TRACE::2020-10-07.15:55:09::SCWMssOS::make -C ps7_cortexa9_0/libsrc/xadcps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2020-10-07.15:55:09::SCWMssOS::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2020-10-07.15:55:09::SCWMssOS::files -g -Wall -Wextra"
+
+TRACE::2020-10-07.15:55:09::SCWMssOS::"Compiling xadcps"
+
+TRACE::2020-10-07.15:55:10::SCWMssOS::'Finished building libraries'
+
+TRACE::2020-10-07.15:55:10::SCWMssOS::Copying to export directory.
+TRACE::2020-10-07.15:55:10::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2020-10-07.15:55:10::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2020-10-07.15:55:10::SCWSystem::Completed Processing the domain standalone_domain
+LOG::2020-10-07.15:55:10::SCWSystem::Completed Processing the sysconfig mio_test
+LOG::2020-10-07.15:55:10::SCWPlatform::Completed generating the artifacts for system configuration mio_test
+TRACE::2020-10-07.15:55:10::SCWPlatform::Started preparing the platform 
+TRACE::2020-10-07.15:55:10::SCWSystem::Writing the bif file for system config mio_test
+TRACE::2020-10-07.15:55:10::SCWSystem::dir created 
+TRACE::2020-10-07.15:55:10::SCWSystem::Writing the bif 
+TRACE::2020-10-07.15:55:10::SCWPlatform::Started writing the spfm file 
+TRACE::2020-10-07.15:55:10::SCWPlatform::Started writing the xpfm file 
+TRACE::2020-10-07.15:55:10::SCWPlatform::Completed generating the platform
+TRACE::2020-10-07.15:55:10::SCWMssOS::Saving the mss changes E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-07.15:55:10::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2020-10-07.15:55:10::SCWMssOS::Completed writemss as part of save.
+TRACE::2020-10-07.15:55:10::SCWMssOS::Commit changes completed.
+TRACE::2020-10-07.15:55:10::SCWMssOS::Saving the mss changes E:/fpga_proj/ps/mio_test/vitis/mio_test/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-10-07.15:55:10::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2020-10-07.15:55:10::SCWMssOS::Completed writemss as part of save.
+TRACE::2020-10-07.15:55:10::SCWMssOS::Commit changes completed.
+TRACE::2020-10-07.15:55:10::SCWPlatform::Trying to open the hw design at E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:55:10::SCWPlatform::DSA given E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:55:10::SCWPlatform::DSA absoulate path E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:55:10::SCWPlatform::DSA directory E:/fpga_proj/ps/mio_test/vitis/mio_test/hw
+TRACE::2020-10-07.15:55:10::SCWPlatform:: Platform Path E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:55:10::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-10-07.15:55:10::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2020-10-07.15:55:10::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2020-10-07.15:55:10::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-10-07.15:55:10::SCWMssOS::Checking the sw design at  E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-07.15:55:10::SCWMssOS::DEBUG:  swdes dump  E:/fpga_proj/ps/mio_test/vitis/mio_test/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-10-07.15:55:10::SCWMssOS::Sw design exists and opened at  E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-07.15:55:10::SCWPlatform::Trying to open the hw design at E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:55:10::SCWPlatform::DSA given E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:55:10::SCWPlatform::DSA absoulate path E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:55:10::SCWPlatform::DSA directory E:/fpga_proj/ps/mio_test/vitis/mio_test/hw
+TRACE::2020-10-07.15:55:10::SCWPlatform:: Platform Path E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:55:10::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-10-07.15:55:10::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2020-10-07.15:55:10::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2020-10-07.15:55:10::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-10-07.15:55:10::SCWMssOS::Checking the sw design at  E:/fpga_proj/ps/mio_test/vitis/mio_test/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-10-07.15:55:10::SCWMssOS::DEBUG:  swdes dump  E:/fpga_proj/ps/mio_test/vitis/mio_test/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-10-07.15:55:10::SCWMssOS::Sw design exists and opened at  E:/fpga_proj/ps/mio_test/vitis/mio_test/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-10-07.15:55:10::SCWWriter::formatted JSON is {
+	"platformName":	"mio_test",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"mio_test",
+	"platHandOff":	"E:/fpga_proj/ps/mio_test/vitis/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"mio_test",
+	"systems":	[{
+			"systemName":	"mio_test",
+			"systemDesc":	"mio_test",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"mio_test",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.2",
+					"mssFile":	"",
+					"md5Digest":	"ec18a72016e84106a2f9e0457cfa0d20",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.3", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on ps7_cortexa9_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"D:/Xilinx/Vitis/2020.1/data/emulation/platforms/zynq/qemu/qemu_args.txt",
+					"qemuData":	"D:/Xilinx/Vitis/2020.1/data/emulation/platforms/zynq/qemu/",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.2",
+					"mssFile":	"",
+					"md5Digest":	"6dad00fbf9d4904c359f972e845bd28e",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2020-10-07.15:55:10::SCWPlatform::updated the xpfm file.
+TRACE::2020-10-07.15:55:10::SCWPlatform::Trying to open the hw design at E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:55:10::SCWPlatform::DSA given E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:55:10::SCWPlatform::DSA absoulate path E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:55:10::SCWPlatform::DSA directory E:/fpga_proj/ps/mio_test/vitis/mio_test/hw
+TRACE::2020-10-07.15:55:10::SCWPlatform:: Platform Path E:/fpga_proj/ps/mio_test/vitis/mio_test/hw/design_1_wrapper.xsa
+TRACE::2020-10-07.15:55:10::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-10-07.15:55:10::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2020-10-07.15:55:10::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2020-10-07.15:55:10::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-10-07.15:55:10::SCWMssOS::Checking the sw design at  E:/fpga_proj/ps/mio_test/vitis/mio_test/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-10-07.15:55:10::SCWMssOS::DEBUG:  swdes dump  E:/fpga_proj/ps/mio_test/vitis/mio_test/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+E:/fpga_proj/ps/mio_test/vitis/mio_test/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-10-07.15:55:10::SCWMssOS::Sw design exists and opened at  E:/fpga_proj/ps/mio_test/vitis/mio_test/ps7_cortexa9_0/standalone_domain/bsp/system.mss

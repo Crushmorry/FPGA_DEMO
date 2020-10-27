@@ -1,0 +1,14 @@
+#include "xgpiops.h"
+#include "xparameters.h"
+#include "sleep.h"
+#include "xstatus.h"
+
+#define XGPIO_DEVICE_ID XPAR_PS7_GPIO_0_DEVICE_ID
+#define MIOLED 7
+XGpioPs gpio;
+int main()
+{
+
+	return 0;
+}
+

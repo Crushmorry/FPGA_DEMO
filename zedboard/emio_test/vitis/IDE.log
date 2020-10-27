@@ -1,0 +1,279 @@
+19:11:45 INFO  : Registering command handlers for Vitis TCF services
+19:11:45 INFO  : Launching XSCT server: xsct.bat -n  -interactive E:\fpga_proj\ps\emio_test\vitis\temp_xsdb_launch_script.tcl
+19:11:48 INFO  : Platform repository initialization has completed.
+19:11:48 INFO  : XSCT server has started successfully.
+19:11:50 INFO  : Successfully done setting XSCT server connection channel  
+19:11:50 INFO  : plnx-install-location is set to ''
+19:11:50 INFO  : Successfully done query RDI_DATADIR 
+19:11:50 INFO  : Successfully done setting workspace for the tool. 
+19:12:58 INFO  : Result from executing command 'getProjects': emio_test
+19:12:58 INFO  : Result from executing command 'getPlatforms': 
+19:31:13 INFO  : Result from executing command 'getProjects': emio_test
+19:31:13 INFO  : Result from executing command 'getPlatforms': emio_test|E:/fpga_proj/ps/emio_test/vitis/emio_test/export/emio_test/emio_test.xpfm
+19:31:13 INFO  : Checking for BSP changes to sync application flags for project 'test1'...
+19:31:39 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:31:40 INFO  : Jtag cable 'Digilent Zed 210248553016' is selected.
+19:31:40 INFO  : 'jtag frequency' command is executed.
+19:31:40 INFO  : Context for 'APU' is selected.
+19:31:40 INFO  : System reset is completed.
+19:31:43 INFO  : 'after 3000' command is executed.
+19:31:43 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248553016" && level==0 && jtag_device_ctx=="jsn-Zed-210248553016-23727093-0"}' command is executed.
+19:31:45 INFO  : FPGA configured successfully with bitstream "E:/fpga_proj/ps/emio_test/vitis/test1/_ide/bitstream/design_1_wrapper.bit"
+19:31:46 INFO  : Context for 'APU' is selected.
+19:31:46 INFO  : Hardware design and registers information is loaded from 'E:/fpga_proj/ps/emio_test/vitis/emio_test/export/emio_test/hw/design_1_wrapper.xsa'.
+19:31:46 INFO  : 'configparams force-mem-access 1' command is executed.
+19:31:46 INFO  : Context for 'APU' is selected.
+19:31:46 INFO  : Sourcing of 'E:/fpga_proj/ps/emio_test/vitis/test1/_ide/psinit/ps7_init.tcl' is done.
+19:31:46 INFO  : 'ps7_init' command is executed.
+19:31:46 INFO  : 'ps7_post_config' command is executed.
+19:31:46 INFO  : 'configparams force-mem-access 0' command is executed.
+19:31:46 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248553016" && level==0 && jtag_device_ctx=="jsn-Zed-210248553016-23727093-0"}
+fpga -file E:/fpga_proj/ps/emio_test/vitis/test1/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw E:/fpga_proj/ps/emio_test/vitis/emio_test/export/emio_test/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source E:/fpga_proj/ps/emio_test/vitis/test1/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+configparams force-mem-access 0
+----------------End of Script----------------
+
+19:31:46 INFO  : Launch script is exported to file 'E:\fpga_proj\ps\emio_test\vitis\.sdk\launch_scripts\single_application_debug\systemdebugger_test1_system_standalone.tcl'
+19:32:21 INFO  : Disconnected from the channel tcfchan#2.
+19:32:23 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:32:23 INFO  : Jtag cable 'Digilent Zed 210248553016' is selected.
+19:32:24 INFO  : 'jtag frequency' command is executed.
+19:32:24 INFO  : Context for 'APU' is selected.
+19:32:24 INFO  : System reset is completed.
+19:32:27 INFO  : 'after 3000' command is executed.
+19:32:27 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248553016" && level==0 && jtag_device_ctx=="jsn-Zed-210248553016-23727093-0"}' command is executed.
+19:32:29 INFO  : FPGA configured successfully with bitstream "E:/fpga_proj/ps/emio_test/vitis/test1/_ide/bitstream/design_1_wrapper.bit"
+19:32:29 INFO  : Context for 'APU' is selected.
+19:32:29 INFO  : Hardware design and registers information is loaded from 'E:/fpga_proj/ps/emio_test/vitis/emio_test/export/emio_test/hw/design_1_wrapper.xsa'.
+19:32:29 INFO  : 'configparams force-mem-access 1' command is executed.
+19:32:29 INFO  : Context for 'APU' is selected.
+19:32:29 INFO  : Sourcing of 'E:/fpga_proj/ps/emio_test/vitis/test1/_ide/psinit/ps7_init.tcl' is done.
+19:32:29 INFO  : 'ps7_init' command is executed.
+19:32:29 INFO  : 'ps7_post_config' command is executed.
+19:32:29 INFO  : 'configparams force-mem-access 0' command is executed.
+19:32:29 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248553016" && level==0 && jtag_device_ctx=="jsn-Zed-210248553016-23727093-0"}
+fpga -file E:/fpga_proj/ps/emio_test/vitis/test1/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw E:/fpga_proj/ps/emio_test/vitis/emio_test/export/emio_test/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source E:/fpga_proj/ps/emio_test/vitis/test1/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+configparams force-mem-access 0
+----------------End of Script----------------
+
+19:32:30 INFO  : Launch script is exported to file 'E:\fpga_proj\ps\emio_test\vitis\.sdk\launch_scripts\single_application_debug\systemdebugger_test1_system_standalone.tcl'
+19:33:28 INFO  : Disconnected from the channel tcfchan#3.
+19:33:43 INFO  : Checking for BSP changes to sync application flags for project 'test1'...
+19:34:23 INFO  : Checking for BSP changes to sync application flags for project 'test1'...
+19:36:19 INFO  : Checking for BSP changes to sync application flags for project 'test2'...
+19:36:37 INFO  : Checking for BSP changes to sync application flags for project 'test2'...
+19:36:53 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:36:53 INFO  : Jtag cable 'Digilent Zed 210248553016' is selected.
+19:36:53 INFO  : 'jtag frequency' command is executed.
+19:36:53 INFO  : Context for 'APU' is selected.
+19:36:53 INFO  : System reset is completed.
+19:36:56 INFO  : 'after 3000' command is executed.
+19:36:56 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248553016" && level==0 && jtag_device_ctx=="jsn-Zed-210248553016-23727093-0"}' command is executed.
+19:36:59 INFO  : FPGA configured successfully with bitstream "E:/fpga_proj/ps/emio_test/vitis/test2/_ide/bitstream/design_1_wrapper.bit"
+19:36:59 INFO  : Context for 'APU' is selected.
+19:36:59 INFO  : Hardware design and registers information is loaded from 'E:/fpga_proj/ps/emio_test/vitis/emio_test/export/emio_test/hw/design_1_wrapper.xsa'.
+19:36:59 INFO  : 'configparams force-mem-access 1' command is executed.
+19:36:59 INFO  : Context for 'APU' is selected.
+19:36:59 INFO  : Sourcing of 'E:/fpga_proj/ps/emio_test/vitis/test2/_ide/psinit/ps7_init.tcl' is done.
+19:36:59 INFO  : 'ps7_init' command is executed.
+19:36:59 INFO  : 'ps7_post_config' command is executed.
+19:36:59 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+19:36:59 INFO  : The application 'E:/fpga_proj/ps/emio_test/vitis/test2/Debug/test2.elf' is downloaded to processor 'ps7_cortexa9_0'.
+19:36:59 INFO  : 'configparams force-mem-access 0' command is executed.
+19:36:59 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248553016" && level==0 && jtag_device_ctx=="jsn-Zed-210248553016-23727093-0"}
+fpga -file E:/fpga_proj/ps/emio_test/vitis/test2/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw E:/fpga_proj/ps/emio_test/vitis/emio_test/export/emio_test/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source E:/fpga_proj/ps/emio_test/vitis/test2/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow E:/fpga_proj/ps/emio_test/vitis/test2/Debug/test2.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+19:36:59 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+19:36:59 INFO  : 'con' command is executed.
+19:36:59 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+19:36:59 INFO  : Launch script is exported to file 'E:\fpga_proj\ps\emio_test\vitis\.sdk\launch_scripts\single_application_debug\debugger_test2-default.tcl'
+19:40:21 INFO  : Checking for BSP changes to sync application flags for project 'test2'...
+19:41:17 INFO  : Result from executing command 'getProjects': emio_test
+19:41:17 INFO  : Result from executing command 'getPlatforms': emio_test|E:/fpga_proj/ps/emio_test/vitis/emio_test/export/emio_test/emio_test.xpfm
+19:41:17 INFO  : Checking for BSP changes to sync application flags for project 'test2'...
+19:41:40 INFO  : Disconnected from the channel tcfchan#5.
+19:41:41 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:41:42 INFO  : Jtag cable 'Digilent Zed 210248553016' is selected.
+19:41:42 INFO  : 'jtag frequency' command is executed.
+19:41:42 INFO  : Context for 'APU' is selected.
+19:41:42 INFO  : System reset is completed.
+19:41:45 INFO  : 'after 3000' command is executed.
+19:41:46 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248553016" && level==0 && jtag_device_ctx=="jsn-Zed-210248553016-23727093-0"}' command is executed.
+19:41:48 INFO  : FPGA configured successfully with bitstream "E:/fpga_proj/ps/emio_test/vitis/test2/_ide/bitstream/design_1_wrapper.bit"
+19:41:48 INFO  : Context for 'APU' is selected.
+19:41:48 INFO  : Hardware design and registers information is loaded from 'E:/fpga_proj/ps/emio_test/vitis/emio_test/export/emio_test/hw/design_1_wrapper.xsa'.
+19:41:48 INFO  : 'configparams force-mem-access 1' command is executed.
+19:41:48 INFO  : Context for 'APU' is selected.
+19:41:48 INFO  : Sourcing of 'E:/fpga_proj/ps/emio_test/vitis/test2/_ide/psinit/ps7_init.tcl' is done.
+19:41:48 INFO  : 'ps7_init' command is executed.
+19:41:48 INFO  : 'ps7_post_config' command is executed.
+19:41:48 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+19:41:48 INFO  : The application 'E:/fpga_proj/ps/emio_test/vitis/test2/Debug/test2.elf' is downloaded to processor 'ps7_cortexa9_0'.
+19:41:48 INFO  : 'configparams force-mem-access 0' command is executed.
+19:41:48 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248553016" && level==0 && jtag_device_ctx=="jsn-Zed-210248553016-23727093-0"}
+fpga -file E:/fpga_proj/ps/emio_test/vitis/test2/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw E:/fpga_proj/ps/emio_test/vitis/emio_test/export/emio_test/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source E:/fpga_proj/ps/emio_test/vitis/test2/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow E:/fpga_proj/ps/emio_test/vitis/test2/Debug/test2.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+19:41:49 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+19:41:49 INFO  : 'con' command is executed.
+19:41:49 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+19:41:49 INFO  : Launch script is exported to file 'E:\fpga_proj\ps\emio_test\vitis\.sdk\launch_scripts\single_application_debug\systemdebugger_test2_system_standalone.tcl'
+19:42:32 INFO  : Checking for BSP changes to sync application flags for project 'test2'...
+19:42:43 INFO  : Disconnected from the channel tcfchan#9.
+19:42:43 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:42:44 INFO  : Jtag cable 'Digilent Zed 210248553016' is selected.
+19:42:44 INFO  : 'jtag frequency' command is executed.
+19:42:44 INFO  : Context for 'APU' is selected.
+19:42:44 INFO  : System reset is completed.
+19:42:47 INFO  : 'after 3000' command is executed.
+19:42:47 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248553016" && level==0 && jtag_device_ctx=="jsn-Zed-210248553016-23727093-0"}' command is executed.
+19:42:49 INFO  : FPGA configured successfully with bitstream "E:/fpga_proj/ps/emio_test/vitis/test2/_ide/bitstream/design_1_wrapper.bit"
+19:42:49 INFO  : Context for 'APU' is selected.
+19:42:49 INFO  : Hardware design and registers information is loaded from 'E:/fpga_proj/ps/emio_test/vitis/emio_test/export/emio_test/hw/design_1_wrapper.xsa'.
+19:42:49 INFO  : 'configparams force-mem-access 1' command is executed.
+19:42:49 INFO  : Context for 'APU' is selected.
+19:42:49 INFO  : Sourcing of 'E:/fpga_proj/ps/emio_test/vitis/test2/_ide/psinit/ps7_init.tcl' is done.
+19:42:49 INFO  : 'ps7_init' command is executed.
+19:42:49 INFO  : 'ps7_post_config' command is executed.
+19:42:49 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+19:42:50 INFO  : The application 'E:/fpga_proj/ps/emio_test/vitis/test2/Debug/test2.elf' is downloaded to processor 'ps7_cortexa9_0'.
+19:42:50 INFO  : 'configparams force-mem-access 0' command is executed.
+19:42:50 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248553016" && level==0 && jtag_device_ctx=="jsn-Zed-210248553016-23727093-0"}
+fpga -file E:/fpga_proj/ps/emio_test/vitis/test2/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw E:/fpga_proj/ps/emio_test/vitis/emio_test/export/emio_test/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source E:/fpga_proj/ps/emio_test/vitis/test2/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow E:/fpga_proj/ps/emio_test/vitis/test2/Debug/test2.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+19:42:50 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+19:42:50 INFO  : 'con' command is executed.
+19:42:50 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+19:42:50 INFO  : Launch script is exported to file 'E:\fpga_proj\ps\emio_test\vitis\.sdk\launch_scripts\single_application_debug\systemdebugger_test2_system_standalone.tcl'
+19:44:05 INFO  : Result from executing command 'getProjects': emio_test
+19:44:05 INFO  : Result from executing command 'getPlatforms': emio_test|E:/fpga_proj/ps/emio_test/vitis/emio_test/export/emio_test/emio_test.xpfm
+19:44:05 INFO  : Checking for BSP changes to sync application flags for project 'test1'...
+19:44:23 INFO  : Disconnected from the channel tcfchan#11.
+19:44:24 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:44:24 INFO  : Jtag cable 'Digilent Zed 210248553016' is selected.
+19:44:24 INFO  : 'jtag frequency' command is executed.
+19:44:24 INFO  : Context for 'APU' is selected.
+19:44:24 INFO  : System reset is completed.
+19:44:27 INFO  : 'after 3000' command is executed.
+19:44:27 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248553016" && level==0 && jtag_device_ctx=="jsn-Zed-210248553016-23727093-0"}' command is executed.
+19:44:30 INFO  : FPGA configured successfully with bitstream "E:/fpga_proj/ps/emio_test/vitis/test1/_ide/bitstream/design_1_wrapper.bit"
+19:44:30 INFO  : Context for 'APU' is selected.
+19:44:30 INFO  : Hardware design and registers information is loaded from 'E:/fpga_proj/ps/emio_test/vitis/emio_test/export/emio_test/hw/design_1_wrapper.xsa'.
+19:44:30 INFO  : 'configparams force-mem-access 1' command is executed.
+19:44:30 INFO  : Context for 'APU' is selected.
+19:44:30 INFO  : Sourcing of 'E:/fpga_proj/ps/emio_test/vitis/test1/_ide/psinit/ps7_init.tcl' is done.
+19:44:30 INFO  : 'ps7_init' command is executed.
+19:44:30 INFO  : 'ps7_post_config' command is executed.
+19:44:30 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+19:44:30 INFO  : The application 'E:/fpga_proj/ps/emio_test/vitis/test1/Debug/test1.elf' is downloaded to processor 'ps7_cortexa9_0'.
+19:44:30 INFO  : 'configparams force-mem-access 0' command is executed.
+19:44:30 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248553016" && level==0 && jtag_device_ctx=="jsn-Zed-210248553016-23727093-0"}
+fpga -file E:/fpga_proj/ps/emio_test/vitis/test1/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw E:/fpga_proj/ps/emio_test/vitis/emio_test/export/emio_test/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source E:/fpga_proj/ps/emio_test/vitis/test1/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow E:/fpga_proj/ps/emio_test/vitis/test1/Debug/test1.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+19:44:30 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+19:44:30 INFO  : 'con' command is executed.
+19:44:30 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+19:44:30 INFO  : Launch script is exported to file 'E:\fpga_proj\ps\emio_test\vitis\.sdk\launch_scripts\single_application_debug\systemdebugger_test1_system_standalone.tcl'
+19:45:09 INFO  : Disconnected from the channel tcfchan#15.
