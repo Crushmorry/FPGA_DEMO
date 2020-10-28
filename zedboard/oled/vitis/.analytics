@@ -297,3 +297,8 @@ timestamp=[2020-10-18 20:57:41], mode=BUILD, duration=0:00:00.837, duration_ms=8
 timestamp=[2020-10-18 20:58:03], mode=BUILD, duration=0:00:00.677, duration_ms=677, data={name=test, configuration=Debug, clean_build=false}
 timestamp=[2020-10-18 20:58:55], mode=BUILD, duration=0:00:00.678, duration_ms=678, data={name=test, configuration=Debug, clean_build=false}
 timestamp=[2020-10-18 20:59:23], mode=BUILD, duration=0:00:00.678, duration_ms=678, data={name=test, configuration=Debug, clean_build=false}
+timestamp=[2020-10-28 17:20:13], mode=WORKBENCH_START, duration=0:00:10.486, duration_ms=10486, data={}
+timestamp=[2020-10-28 17:20:14], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.039, duration_ms=39, data={}
+timestamp=[2020-10-28 17:20:14], mode=WORKBENCH_UI_INIT, duration=0:00:01.197, duration_ms=1197, data={editors_count=6, platform_editors_count=0, projects_count=6, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,oled,test,test1,test1_system,test_system}
+timestamp=[2020-10-28 17:20:36], mode=PLATFORM_GENERATION, duration=0:00:18.565, duration_ms=18565, data={name=oled}
+timestamp=[2020-10-28 17:20:40], mode=BUILD, duration=0:00:01.591, duration_ms=1591, data={name=test, configuration=Debug, clean_build=false}

@@ -1,0 +1,10 @@
+20:49:16 **** Build of configuration Debug for project test1_system ****
+make all 
+Generating bif file for the system project
+generate_system_bif.bat 50482 E:/fpga_proj/ps/uart_intr/vitis/uart_intr/export/uart_intr/uart_intr.xpfm standalone_domain E:/fpga_proj/ps/uart_intr/vitis/test1_system/Debug/system.bif
+sdcard_gen --xpfm E:/fpga_proj/ps/uart_intr/vitis/uart_intr/export/uart_intr/uart_intr.xpfm --sys_config uart_intr --bif E:/fpga_proj/ps/uart_intr/vitis/test1_system/Debug/system.bif --bitstream E:/fpga_proj/ps/uart_intr/vitis/test1/_ide/bitstream/design_1_wrapper.bit --elf E:/fpga_proj/ps/uart_intr/vitis/test1/Debug/test1.elf,ps7_cortexa9_0
+creating BOOT.BIN using E:/fpga_proj/ps/uart_intr/vitis/test1/_ide/bitstream/design_1_wrapper.bit
+Running D:/Xilinx/Vitis/2020.1/bin/bootgen  -image E:/fpga_proj/ps/uart_intr/vitis/test1_system/Debug/sd_card_temp/boot.bif -w -o i BOOT.BIN
+
+20:49:23 Build Finished (took 6s.956ms)
+

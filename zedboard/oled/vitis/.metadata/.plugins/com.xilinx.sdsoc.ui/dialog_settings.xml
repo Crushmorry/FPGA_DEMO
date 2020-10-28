@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
-	<item value="E:\fpga_proj\ps\oled\vitis\oled\export\oled" key="sdx.custom.platform.repository.last.directory.dialog.location"/>
-	<item value="E:\fpga_proj\ps\oled\vitis\oled\export\oled" key="sdx.custom.platform.repository.locations"/>
+	<item value="E:\FPGA_DEMO\zedboard\oled\vitis\oled\export\oled" key="sdx.custom.platform.repository.last.directory.dialog.location"/>
+	<item value="E:\fpga_proj\ps\oled\vitis\oled\export\oled;E:\FPGA_DEMO\zedboard\oled\vitis\oled\export\oled" key="sdx.custom.platform.repository.locations"/>
 </section>

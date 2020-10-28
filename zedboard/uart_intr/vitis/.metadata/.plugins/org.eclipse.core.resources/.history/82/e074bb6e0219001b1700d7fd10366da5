@@ -1,0 +1,90 @@
+#include "stdio.h"
+#include "xparameters.h"
+#include "xuartps.h"
+#include "xscugic.h"
+#include "xgpio.h"
+#include "sleep.h"
+
+#define UART_DEVICE_ID XPAR_PS7_UART_1_DEVICE_ID
+#define UART_INTR_ID XPAR_XUARTPS_1_INTR
+
+#define BTN_DEVICE_ID XPAR_BTN_DEVICE_ID
+#define BTN_INTR_ID XPAR_FABRIC_GPIO_0_VEC_ID
+
+#define LED_DEVICE_ID XPAR_LED_DEVICE_ID
+
+#define SCUGIC_DEVICE_ID XPAR_PS7_SCUGIC_0_DEVICE_ID
+
+
+XGpio btn, led;
+
+void btn_intr_handler(void * callback);
+void uart_intr_handler(void* callback);
+int main()
+{
+	XUartPs uart;
+	XUartPs_Config *uart_cfg;
+	uart_cfg = XUartPs_LookupConfig(UART_DEVICE_ID);
+	XUartPs_CfgInitialize(&uart, uart_cfg, uart_cfg->BaseAddress);
+	XUartPs_SetBaudRate(&uart, 9600);
+	XUartPs_SetOperMode(&uart, XUARTPS_OPER_MODE_NORMAL);
+	XUartPs_SetFifoThreshold(&uart, 1);
+	XUartPs_SetInterruptMask(&uart, 1);
+
+
+
+	XGpio_Config *btn_cfg, *led_cfg;
+	led_cfg = XGpio_LookupConfig(LED_DEVICE_ID);
+	XGpio_CfgInitialize(&led, led_cfg, led_cfg->BaseAddress);
+	XGpio_SetDataDirection(&led, 1, 0x0000);
+	btn_cfg = XGpio_LookupConfig(BTN_DEVICE_ID);
+	XGpio_CfgInitialize(&btn, btn_cfg, btn_cfg->BaseAddress);
+	XGpio_SetDataDirection(&btn, 1, 0x000F);
+	XGpio_InterruptEnable(&btn, 0x000F);
+	XGpio_InterruptGlobalEnable(&btn);
+
+	XScuGic scugic;
+	XScuGic_Config *scugic_cfg;
+	scugic_cfg = XScuGic_LookupConfig(SCUGIC_DEVICE_ID);
+	XScuGic_CfgInitialize(&scugic, scugic_cfg, scugic_cfg->CpuBaseAddress);
+	XScuGic_Connect(&scugic, BTN_INTR_ID, btn_intr_handler, &btn);
+	XScuGic_SetPriorityTriggerType(&scugic, BTN_INTR_ID, 0xA5, 0x3);
+	XScuGic_Enable(&scugic, BTN_INTR_ID);
+	XScuGic_Connect(&scugic, XPAR_XUARTPS_1_INTR, Handler, CallBackRef)
+
+	Xil_ExceptionInit();
+	Xil_ExceptionRegisterHandler(XIL_EXCEPTION_ID_INT, (Xil_ExceptionHandler)XScuGic_InterruptHandler, &scugic);
+	Xil_ExceptionEnable();
+
+	while(1);
+
+
+	return 0;
+}
+
+
+void btn_intr_handler(void * callback)
+{
+
+	XGpio *btn = (XGpio*)callback;
+	XGpio_InterruptDisable(btn, 0x000F);
+
+	int key = XGpio_DiscreteRead(btn, 1);
+	switch(key)
+	{
+	case 0x01:
+		XGpio_DiscreteWrite(&led, 1, (XGpio_DiscreteRead(&led, 1) ^ (1 << 0)));
+		break;
+	case 0x02:
+		XGpio_DiscreteWrite(&led, 1, (XGpio_DiscreteRead(&led, 1) ^ (1 << 1)));
+		break;
+	case 0x04:
+		XGpio_DiscreteWrite(&led, 1, (XGpio_DiscreteRead(&led, 1) ^ (1 << 2)));
+		break;
+	case 0x08:
+		XGpio_DiscreteWrite(&led, 1, (XGpio_DiscreteRead(&led, 1) ^ (1 << 3)));
+		break;
+	}
+	XGpio_InterruptClear(btn, 0x000F);
+	XGpio_InterruptEnable(btn, 0x000F);
+}

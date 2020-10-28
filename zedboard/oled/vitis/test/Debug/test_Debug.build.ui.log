@@ -1,17 +1,32 @@
-2020-10-18T20:59:22.37404300255-20:59:22 **** Incremental Build of configuration Debug for project test ****
+2020-10-28T17:20:38.426227200255-17:20:38 **** Build of configuration Debug for project test ****
 000-make all 
 000-make --no-print-directory pre-build
 000-a9-linaro-pre-build-step
 000-' '
 000-make --no-print-directory main-build
+000-'Building file: ../src/main.c'
+000-'Invoking: ARM v7 gcc compiler'
+000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IE:/FPGA_DEMO/zedboard/oled/vitis/oled/export/oled/sw/oled/standalone_domain/bspinclude/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+000-../src/main.c: In function 'main':
+000/test/src/main.c5-1-1pointer targets in passing argument 3 of 'show_string_16' differ in signedness [-Wpointer-sign]1-../src/main.c:5:23: warning: pointer targets in passing argument 3 of 'show_string_16' differ in signedness [-Wpointer-sign]
+000-    5 |  show_string_16(0, 0, "ABCDEFGHIGKLMNOPQRSTUVWXYZ1234567");
+000-      |                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+000-      |                       |
+000-      |                       char *
+000-In file included from ../src/main.c:1:
+000/test/src/oled.h53-1-1expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'0-../src/oled.h:53:37: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+000-   53 | void show_string_16(u8 x, u8 y, u8* string);
+000-      |                                 ~~~~^~~~~~
+000-'Finished building: ../src/main.c'
+000-' '
 000-'Building file: ../src/oled.c'
 000-'Invoking: ARM v7 gcc compiler'
-000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/oled.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IE:/fpga_proj/ps/oled/vitis/oled/export/oled/sw/oled/standalone_domain/bspinclude/include -MMD -MP -MF"src/oled.d" -MT"src/oled.o" -o "src/oled.o" "../src/oled.c"
+000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/oled.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IE:/FPGA_DEMO/zedboard/oled/vitis/oled/export/oled/sw/oled/standalone_domain/bspinclude/include -MMD -MP -MF"src/oled.d" -MT"src/oled.o" -o "src/oled.o" "../src/oled.c"
 000-'Finished building: ../src/oled.c'
 000-' '
 000-'Building target: test.elf'
 000-'Invoking: ARM v7 gcc linker'
-000-arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LE:/fpga_proj/ps/oled/vitis/oled/export/oled/sw/oled/standalone_domain/bsplib/lib -o "test.elf"  ./src/main.o ./src/oled.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+000-arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LE:/FPGA_DEMO/zedboard/oled/vitis/oled/export/oled/sw/oled/standalone_domain/bsplib/lib -o "test.elf"  ./src/main.o ./src/oled.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
 000-'Finished building target: test.elf'
 000-' '
 000-'Invoking: ARM v7 Print Size'
@@ -21,5 +36,5 @@
 000-'Finished building: test.elf.size'
 000-' '
 00255-
-20:59:23 Build Finished (took 665ms)
+17:20:39 Build Finished (took 1s.556ms)
 

@@ -1,0 +1,7 @@
+/*uart_intr*/
+the_ROM_image:
+{
+  [bootloader]<uart_intr/boot/fsbl.elf>
+   <bitstream> 
+  <elf,ps7_cortexa9_0>
+}
