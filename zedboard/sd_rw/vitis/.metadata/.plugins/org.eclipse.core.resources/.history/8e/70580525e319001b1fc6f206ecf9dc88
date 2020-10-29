@@ -1,0 +1,15 @@
+#include "xil_printf.h"
+#include "xparameters.h"
+#include "ff.h"
+#include "xdevcfg.h"
+
+#define FILE_NAME "aaa.txt"
+const char* data = "hello world ƒ„∫√ ¿ΩÁ\r\n";
+static FATFS fatfs;
+int main()
+{
+	printf("hello world\r\n");
+	FRESULT fresult;
+
+	return 0;
+}

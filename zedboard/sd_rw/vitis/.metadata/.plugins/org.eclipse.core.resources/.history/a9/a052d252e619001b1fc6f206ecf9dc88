@@ -1,0 +1,22 @@
+#include "xil_printf.h"
+#include "xparameters.h"
+#include "ff.h"
+#include "xdevcfg.h"
+
+#define FILE_NAME "aaa.txt"
+const char* data = "hello world 你好世界\r\n";
+static FATFS fatfs;
+int main()
+{
+	printf("hello world\r\n");
+	FRESULT fresult;
+	fresult = f_mount(&fatfs, "", 1);
+	if(fresult != FR_OK){
+		xil_printf("格式化SD卡，设置格式为FATAS\n\r");
+
+	}
+
+
+
+	return 0;
+}
