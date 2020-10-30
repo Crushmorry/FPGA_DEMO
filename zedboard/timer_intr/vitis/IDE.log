@@ -1,0 +1,160 @@
+13:00:52 INFO  : Registering command handlers for Vitis TCF services
+13:00:52 INFO  : Launching XSCT server: xsct.bat -n  -interactive E:\fpga_proj\ps\timer_intr\vitis\temp_xsdb_launch_script.tcl
+13:00:55 INFO  : Platform repository initialization has completed.
+13:00:55 INFO  : XSCT server has started successfully.
+13:00:55 INFO  : Successfully done setting XSCT server connection channel  
+13:00:57 INFO  : plnx-install-location is set to ''
+13:00:57 INFO  : Successfully done setting workspace for the tool. 
+13:00:57 INFO  : Successfully done query RDI_DATADIR 
+13:01:59 INFO  : Result from executing command 'getProjects': timer_intr
+13:01:59 INFO  : Result from executing command 'getPlatforms': 
+13:52:50 INFO  : Result from executing command 'getProjects': timer_intr
+13:52:50 INFO  : Result from executing command 'getPlatforms': timer_intr|E:/fpga_proj/ps/timer_intr/vitis/timer_intr/export/timer_intr/timer_intr.xpfm
+13:52:50 INFO  : Checking for BSP changes to sync application flags for project 'test1'...
+13:53:17 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:53:35 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+----------------End of Script----------------
+
+13:53:35 ERROR : Could not find ARM device on the board for connection 'Local'.
+Check if the target is in:
+1. Split JTAG - No operations are possible with ARM DAP.
+2. Non JTAG bootmode - Bootrom may need time to enable DAP.
+Please try again.
+
+
+Troubleshooting hints:
+1. Check whether board is connected to system properly.
+2. In case of zynq board, check whether Digilent/Xilinx cable switch settings are correct.
+3. If you are using Xilinx Platform Cable USB, ensure that status LED is green.
+13:53:44 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:53:45 INFO  : Jtag cable 'Digilent Zed 210248553016' is selected.
+13:53:45 INFO  : 'jtag frequency' command is executed.
+13:53:45 INFO  : Context for 'APU' is selected.
+13:53:45 INFO  : System reset is completed.
+13:53:48 INFO  : 'after 3000' command is executed.
+13:53:48 INFO  : Context for 'APU' is selected.
+13:53:48 INFO  : Hardware design and registers information is loaded from 'E:/fpga_proj/ps/timer_intr/vitis/timer_intr/export/timer_intr/hw/design_1_wrapper.xsa'.
+13:53:48 INFO  : 'configparams force-mem-access 1' command is executed.
+13:53:49 INFO  : Context for 'APU' is selected.
+13:53:49 INFO  : Sourcing of 'E:/fpga_proj/ps/timer_intr/vitis/test1/_ide/psinit/ps7_init.tcl' is done.
+13:53:49 INFO  : 'ps7_init' command is executed.
+13:53:49 INFO  : 'ps7_post_config' command is executed.
+13:53:49 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+13:53:49 INFO  : The application 'E:/fpga_proj/ps/timer_intr/vitis/test1/Debug/test1.elf' is downloaded to processor 'ps7_cortexa9_0'.
+13:53:49 INFO  : 'configparams force-mem-access 0' command is executed.
+13:53:49 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw E:/fpga_proj/ps/timer_intr/vitis/timer_intr/export/timer_intr/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source E:/fpga_proj/ps/timer_intr/vitis/test1/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow E:/fpga_proj/ps/timer_intr/vitis/test1/Debug/test1.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+13:53:49 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+13:53:49 INFO  : 'con' command is executed.
+13:53:49 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+13:53:49 INFO  : Launch script is exported to file 'E:\fpga_proj\ps\timer_intr\vitis\.sdk\launch_scripts\single_application_debug\debugger_test1-default.tcl'
+14:23:48 INFO  : Checking for BSP changes to sync application flags for project 'test1'...
+14:24:50 INFO  : Checking for BSP changes to sync application flags for project 'test1'...
+14:25:30 INFO  : Checking for BSP changes to sync application flags for project 'test1'...
+14:26:49 INFO  : Checking for BSP changes to sync application flags for project 'test1'...
+14:27:00 INFO  : Disconnected from the channel tcfchan#2.
+14:27:01 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:27:01 INFO  : Jtag cable 'Digilent Zed 210248553016' is selected.
+14:27:01 INFO  : 'jtag frequency' command is executed.
+14:27:02 INFO  : Context for 'APU' is selected.
+14:27:02 INFO  : System reset is completed.
+14:27:05 INFO  : 'after 3000' command is executed.
+14:27:05 INFO  : Context for 'APU' is selected.
+14:27:05 INFO  : Hardware design and registers information is loaded from 'E:/fpga_proj/ps/timer_intr/vitis/timer_intr/export/timer_intr/hw/design_1_wrapper.xsa'.
+14:27:05 INFO  : 'configparams force-mem-access 1' command is executed.
+14:27:05 INFO  : Context for 'APU' is selected.
+14:27:05 INFO  : Sourcing of 'E:/fpga_proj/ps/timer_intr/vitis/test1/_ide/psinit/ps7_init.tcl' is done.
+14:27:05 INFO  : 'ps7_init' command is executed.
+14:27:05 INFO  : 'ps7_post_config' command is executed.
+14:27:05 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:27:05 INFO  : The application 'E:/fpga_proj/ps/timer_intr/vitis/test1/Debug/test1.elf' is downloaded to processor 'ps7_cortexa9_0'.
+14:27:05 INFO  : 'configparams force-mem-access 0' command is executed.
+14:27:05 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw E:/fpga_proj/ps/timer_intr/vitis/timer_intr/export/timer_intr/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source E:/fpga_proj/ps/timer_intr/vitis/test1/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow E:/fpga_proj/ps/timer_intr/vitis/test1/Debug/test1.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+14:27:05 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:27:05 INFO  : 'con' command is executed.
+14:27:05 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+14:27:05 INFO  : Launch script is exported to file 'E:\fpga_proj\ps\timer_intr\vitis\.sdk\launch_scripts\single_application_debug\systemdebugger_test1_system_standalone.tcl'
+14:30:25 INFO  : Checking for BSP changes to sync application flags for project 'test1'...
+14:30:28 INFO  : Disconnected from the channel tcfchan#3.
+14:30:28 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:30:28 INFO  : Jtag cable 'Digilent Zed 210248553016' is selected.
+14:30:28 INFO  : 'jtag frequency' command is executed.
+14:30:28 INFO  : Context for 'APU' is selected.
+14:30:28 INFO  : System reset is completed.
+14:30:31 INFO  : 'after 3000' command is executed.
+14:30:31 INFO  : Context for 'APU' is selected.
+14:30:31 INFO  : Hardware design and registers information is loaded from 'E:/fpga_proj/ps/timer_intr/vitis/timer_intr/export/timer_intr/hw/design_1_wrapper.xsa'.
+14:30:31 INFO  : 'configparams force-mem-access 1' command is executed.
+14:30:31 INFO  : Context for 'APU' is selected.
+14:30:31 INFO  : Sourcing of 'E:/fpga_proj/ps/timer_intr/vitis/test1/_ide/psinit/ps7_init.tcl' is done.
+14:30:31 INFO  : 'ps7_init' command is executed.
+14:30:31 INFO  : 'ps7_post_config' command is executed.
+14:30:31 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:30:32 INFO  : The application 'E:/fpga_proj/ps/timer_intr/vitis/test1/Debug/test1.elf' is downloaded to processor 'ps7_cortexa9_0'.
+14:30:32 INFO  : 'configparams force-mem-access 0' command is executed.
+14:30:32 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw E:/fpga_proj/ps/timer_intr/vitis/timer_intr/export/timer_intr/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source E:/fpga_proj/ps/timer_intr/vitis/test1/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow E:/fpga_proj/ps/timer_intr/vitis/test1/Debug/test1.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+14:30:32 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:30:32 INFO  : 'con' command is executed.
+14:30:32 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+14:30:32 INFO  : Launch script is exported to file 'E:\fpga_proj\ps\timer_intr\vitis\.sdk\launch_scripts\single_application_debug\systemdebugger_test1_system_standalone.tcl'
+14:53:52 INFO  : Disconnected from the channel tcfchan#4.

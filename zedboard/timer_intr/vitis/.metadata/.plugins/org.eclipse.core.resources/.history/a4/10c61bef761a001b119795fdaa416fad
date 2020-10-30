@@ -1,0 +1,27 @@
+#include "xgpiops.h"
+#include "xparameters.h"
+#include "xscugic.h"
+#include "xscutimer.h"
+#include "xil_exception.h"
+
+#define GPIOPS_DEVICE_ID XPAR_PS7_GPIO_0_DEVICE_ID
+#define TIMER_DEVICE_ID XPAR_PS7_SCUTIMER_0_DEVICE_ID
+#define MIO_LED 7
+#define TIMER_LOAD_VALUE 0x9EF21AA
+int main()
+{
+	XGpioPs led;
+	XGpioPs_Config *led_cfg;
+	led_cfg = XGpioPs_LookupConfig(GPIOPS_DEVICE_ID);
+	XGpioPs_CfgInitialize(&led, led_cfg, led_cfg->BaseAddr);
+	XGpioPs_SetDirectionPin(&led, MIO_LED, 1);
+	XGpioPs_SetOutputEnablePin(&led, MIO_LED, 1);
+
+	XScuTimer timer;
+	XScuTimer_Config *timer_cfg;
+	timer_cfg = XScuTimer_LookupConfig(TIMER_DEVICE_ID);
+	XScuTimer_LoadTimer(timer,TIMER_LOAD_VALUE);
+	XScuTimer_EnableAutoReload(timer);
+	while(1);
+	return 0;
+}
