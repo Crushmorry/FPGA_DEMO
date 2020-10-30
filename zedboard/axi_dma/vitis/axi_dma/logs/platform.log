@@ -1,0 +1,2500 @@
+TRACE::2020-10-30.15:46:56::SCWPlatform::Trying to open the hw design at E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:46:56::SCWPlatform::DSA given E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:46:56::SCWPlatform::DSA absoulate path E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:46:58::SCWPlatform::DSA directory E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw
+TRACE::2020-10-30.15:46:58::SCWPlatform:: Platform Path E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:46:58::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-10-30.15:46:58::SCWPlatform::Do not have an existing db opened. 
+TRACE::2020-10-30.15:47:01::SCWPlatform::Opened new HwDB with name design_1_wrapper_0
+TRACE::2020-10-30.15:47:01::SCWWriter::formatted JSON is {
+	"platformName":	"axi_dma",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"axi_dma",
+	"platHandOff":	"E:/fpga_proj/ps/axi_dma/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	""
+}
+TRACE::2020-10-30.15:47:01::SCWWriter::formatted JSON is {
+	"platformName":	"axi_dma",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"axi_dma",
+	"platHandOff":	"E:/fpga_proj/ps/axi_dma/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"axi_dma",
+	"systems":	[{
+			"systemName":	"axi_dma",
+			"systemDesc":	"axi_dma",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"axi_dma"
+		}]
+}
+TRACE::2020-10-30.15:47:01::SCWPlatform::Boot application domains not present, creating them
+TRACE::2020-10-30.15:47:01::SCWDomain::checking for install qemu data   : 
+TRACE::2020-10-30.15:47:01::SCWDomain:: Using the QEMU Data from install at  : D:/Xilinx/Vitis/2020.1/data/emulation/platforms/zynq/qemu/
+TRACE::2020-10-30.15:47:01::SCWDomain:: Using the QEMU args  from install at  : D:/Xilinx/Vitis/2020.1/data/emulation/platforms/zynq/qemu/qemu_args.txt
+TRACE::2020-10-30.15:47:01::SCWPlatform::Trying to open the hw design at E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:01::SCWPlatform::DSA given E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:01::SCWPlatform::DSA absoulate path E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:01::SCWPlatform::DSA directory E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw
+TRACE::2020-10-30.15:47:01::SCWPlatform:: Platform Path E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:01::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-10-30.15:47:01::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2020-10-30.15:47:01::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2020-10-30.15:47:01::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-10-30.15:47:01::SCWPlatform::Trying to open the hw design at E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:01::SCWPlatform::DSA given E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:01::SCWPlatform::DSA absoulate path E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:01::SCWPlatform::DSA directory E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw
+TRACE::2020-10-30.15:47:01::SCWPlatform:: Platform Path E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:01::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-10-30.15:47:01::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2020-10-30.15:47:01::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2020-10-30.15:47:01::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-10-30.15:47:01::SCWPlatform::Trying to open the hw design at E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:01::SCWPlatform::DSA given E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:01::SCWPlatform::DSA absoulate path E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:01::SCWPlatform::DSA directory E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw
+TRACE::2020-10-30.15:47:01::SCWPlatform:: Platform Path E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:01::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-10-30.15:47:01::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2020-10-30.15:47:01::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2020-10-30.15:47:01::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-10-30.15:47:01::SCWPlatform::Boot application domain added for zynq_fsbl
+TRACE::2020-10-30.15:47:01::SCWPlatform::Generating the sources  .
+TRACE::2020-10-30.15:47:01::SCWBDomain::Generating boot domain sources.
+TRACE::2020-10-30.15:47:01::SCWBDomain:: Generating the zynq_fsbl Application.
+TRACE::2020-10-30.15:47:01::SCWPlatform::Trying to open the hw design at E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:01::SCWPlatform::DSA given E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:01::SCWPlatform::DSA absoulate path E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:01::SCWPlatform::DSA directory E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw
+TRACE::2020-10-30.15:47:01::SCWPlatform:: Platform Path E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:01::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-10-30.15:47:01::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2020-10-30.15:47:01::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2020-10-30.15:47:01::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-10-30.15:47:01::SCWMssOS::Checking the sw design at  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-30.15:47:01::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2020-10-30.15:47:01::SCWMssOS::No sw design opened at  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-30.15:47:01::SCWMssOS::mss does not exists at E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-30.15:47:01::SCWMssOS::Creating sw design at  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-30.15:47:01::SCWMssOS::Adding the swdes entry, created swdb E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/system.mss with des name E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-30.15:47:01::SCWMssOS::updating the scw layer changes to swdes at   E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-30.15:47:01::SCWMssOS::Writing mss at E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-30.15:47:01::SCWMssOS::Completed writing the mss file at E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp
+TRACE::2020-10-30.15:47:01::SCWMssOS::Picking up changes from newly written mss file into SCW Layer. 
+TRACE::2020-10-30.15:47:01::SCWMssOS::Updated the changes from newly written mss file into SCW Layer. 
+TRACE::2020-10-30.15:47:01::SCWBDomain::Completed writing the mss file at E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp
+TRACE::2020-10-30.15:47:11::SCWPlatform::Generating sources Done.
+TRACE::2020-10-30.15:47:11::SCWPlatform::Trying to open the hw design at E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:11::SCWPlatform::DSA given E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:11::SCWPlatform::DSA absoulate path E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:11::SCWPlatform::DSA directory E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw
+TRACE::2020-10-30.15:47:11::SCWPlatform:: Platform Path E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:11::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-10-30.15:47:11::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2020-10-30.15:47:11::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2020-10-30.15:47:11::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-10-30.15:47:11::SCWMssOS::Checking the sw design at  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-30.15:47:11::SCWMssOS::DEBUG:  swdes dump  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/system.mss|E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/system.mss||
+
+KEYINFO::2020-10-30.15:47:11::SCWMssOS::Could not open the swdb for E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/system.mss
+KEYINFO::2020-10-30.15:47:11::SCWMssOS::Could not open the sw design at  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/system.mss
+ERROR: [Hsi 55-1558] Software Design E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/system.mss is not found
+
+TRACE::2020-10-30.15:47:11::SCWMssOS::Cleared the swdb table entry
+TRACE::2020-10-30.15:47:11::SCWMssOS::No sw design opened at  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-30.15:47:11::SCWMssOS::mss exists loading the mss file  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-30.15:47:11::SCWMssOS::Opened the sw design from mss  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-30.15:47:11::SCWMssOS::Adding the swdes entry E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/system.mss with des name system
+TRACE::2020-10-30.15:47:11::SCWMssOS::updating the scw layer about changes
+TRACE::2020-10-30.15:47:11::SCWMssOS::Opened the sw design.  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-30.15:47:11::SCWMssOS::Saving the mss changes E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-30.15:47:11::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2020-10-30.15:47:11::SCWMssOS::Completed writemss as part of save.
+TRACE::2020-10-30.15:47:11::SCWMssOS::Commit changes completed.
+TRACE::2020-10-30.15:47:11::SCWPlatform::Trying to open the hw design at E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:11::SCWPlatform::DSA given E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:11::SCWPlatform::DSA absoulate path E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:11::SCWPlatform::DSA directory E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw
+TRACE::2020-10-30.15:47:11::SCWPlatform:: Platform Path E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:11::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-10-30.15:47:11::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2020-10-30.15:47:11::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2020-10-30.15:47:11::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-10-30.15:47:11::SCWMssOS::Checking the sw design at  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-30.15:47:11::SCWMssOS::DEBUG:  swdes dump  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-10-30.15:47:11::SCWMssOS::Sw design exists and opened at  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-30.15:47:11::SCWPlatform::Trying to open the hw design at E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:11::SCWPlatform::DSA given E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:11::SCWPlatform::DSA absoulate path E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:11::SCWPlatform::DSA directory E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw
+TRACE::2020-10-30.15:47:11::SCWPlatform:: Platform Path E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:11::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-10-30.15:47:11::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2020-10-30.15:47:11::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2020-10-30.15:47:11::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-10-30.15:47:11::SCWMssOS::Checking the sw design at  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-30.15:47:11::SCWMssOS::DEBUG:  swdes dump  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-10-30.15:47:11::SCWMssOS::Sw design exists and opened at  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-30.15:47:11::SCWPlatform::Trying to open the hw design at E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:11::SCWPlatform::DSA given E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:11::SCWPlatform::DSA absoulate path E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:11::SCWPlatform::DSA directory E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw
+TRACE::2020-10-30.15:47:11::SCWPlatform:: Platform Path E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:11::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-10-30.15:47:11::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2020-10-30.15:47:11::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2020-10-30.15:47:11::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-10-30.15:47:11::SCWMssOS::Checking the sw design at  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-30.15:47:11::SCWMssOS::DEBUG:  swdes dump  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-10-30.15:47:11::SCWMssOS::Sw design exists and opened at  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-30.15:47:11::SCWWriter::formatted JSON is {
+	"platformName":	"axi_dma",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"axi_dma",
+	"platHandOff":	"E:/fpga_proj/ps/axi_dma/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"axi_dma",
+	"systems":	[{
+			"systemName":	"axi_dma",
+			"systemDesc":	"axi_dma",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"axi_dma",
+			"sysActiveDom":	"zynq_fsbl",
+			"sysDefaultDom":	"",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.2",
+					"mssFile":	"",
+					"md5Digest":	"7fca24949fb867387f28213cb00c4977",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.3", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2020-10-30.15:47:11::SCWDomain::checking for install qemu data   : 
+TRACE::2020-10-30.15:47:11::SCWDomain:: Using the QEMU Data from install at  : D:/Xilinx/Vitis/2020.1/data/emulation/platforms/zynq/qemu/
+TRACE::2020-10-30.15:47:11::SCWDomain:: Using the QEMU args  from install at  : D:/Xilinx/Vitis/2020.1/data/emulation/platforms/zynq/qemu/qemu_args.txt
+TRACE::2020-10-30.15:47:11::SCWPlatform::Trying to open the hw design at E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:11::SCWPlatform::DSA given E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:11::SCWPlatform::DSA absoulate path E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:11::SCWPlatform::DSA directory E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw
+TRACE::2020-10-30.15:47:11::SCWPlatform:: Platform Path E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:11::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-10-30.15:47:11::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2020-10-30.15:47:11::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2020-10-30.15:47:11::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-10-30.15:47:11::SCWPlatform::Trying to open the hw design at E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:11::SCWPlatform::DSA given E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:11::SCWPlatform::DSA absoulate path E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:11::SCWPlatform::DSA directory E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw
+TRACE::2020-10-30.15:47:11::SCWPlatform:: Platform Path E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:11::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-10-30.15:47:11::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2020-10-30.15:47:11::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2020-10-30.15:47:11::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-10-30.15:47:11::SCWPlatform::Trying to open the hw design at E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:11::SCWPlatform::DSA given E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:11::SCWPlatform::DSA absoulate path E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:11::SCWPlatform::DSA directory E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw
+TRACE::2020-10-30.15:47:11::SCWPlatform:: Platform Path E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:11::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-10-30.15:47:11::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2020-10-30.15:47:11::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2020-10-30.15:47:11::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-10-30.15:47:11::SCWMssOS::Checking the sw design at  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-10-30.15:47:11::SCWMssOS::DEBUG:  swdes dump  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-10-30.15:47:11::SCWMssOS::No sw design opened at  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-10-30.15:47:11::SCWMssOS::mss does not exists at E:/fpga_proj/ps/axi_dma/vitis/axi_dma/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-10-30.15:47:11::SCWMssOS::Creating sw design at  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-10-30.15:47:11::SCWMssOS::Adding the swdes entry, created swdb E:/fpga_proj/ps/axi_dma/vitis/axi_dma/ps7_cortexa9_0/standalone_domain/bsp/system.mss with des name E:/fpga_proj/ps/axi_dma/vitis/axi_dma/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-10-30.15:47:11::SCWMssOS::updating the scw layer changes to swdes at   E:/fpga_proj/ps/axi_dma/vitis/axi_dma/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-10-30.15:47:11::SCWMssOS::Writing mss at E:/fpga_proj/ps/axi_dma/vitis/axi_dma/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-10-30.15:47:11::SCWMssOS::Completed writing the mss file at E:/fpga_proj/ps/axi_dma/vitis/axi_dma/ps7_cortexa9_0/standalone_domain/bsp
+TRACE::2020-10-30.15:47:11::SCWMssOS::Picking up changes from newly written mss file into SCW Layer. 
+TRACE::2020-10-30.15:47:11::SCWMssOS::Updated the changes from newly written mss file into SCW Layer. 
+TRACE::2020-10-30.15:47:11::SCWMssOS::Completed writing the mss file at E:/fpga_proj/ps/axi_dma/vitis/axi_dma/ps7_cortexa9_0/standalone_domain/bsp
+TRACE::2020-10-30.15:47:11::SCWMssOS::Forcing BSP Sources regeneration.
+TRACE::2020-10-30.15:47:13::SCWMssOS::Saving the mss changes E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-30.15:47:13::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2020-10-30.15:47:13::SCWMssOS::Completed writemss as part of save.
+TRACE::2020-10-30.15:47:13::SCWMssOS::Commit changes completed.
+TRACE::2020-10-30.15:47:13::SCWMssOS::Saving the mss changes E:/fpga_proj/ps/axi_dma/vitis/axi_dma/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-10-30.15:47:13::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2020-10-30.15:47:13::SCWMssOS::Running validate of swdbs.
+KEYINFO::2020-10-30.15:47:13::SCWMssOS::Could not open the swdb for E:/fpga_proj/ps/axi_dma/vitis/axi_dma/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+KEYINFO::2020-10-30.15:47:13::SCWMssOS::Could not open the sw design at  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+ERROR: [Hsi 55-1558] Software Design E:/fpga_proj/ps/axi_dma/vitis/axi_dma/ps7_cortexa9_0/standalone_domain/bsp/system.mss is not found
+
+TRACE::2020-10-30.15:47:13::SCWMssOS::Cleared the swdb table entry
+TRACE::2020-10-30.15:47:13::SCWMssOS::Adding the swdes entry, mss present, able to open swdb E:/fpga_proj/ps/axi_dma/vitis/axi_dma/ps7_cortexa9_0/standalone_domain/bsp/system.mss with des name system_0
+TRACE::2020-10-30.15:47:13::SCWMssOS::Writing the mss file completed E:/fpga_proj/ps/axi_dma/vitis/axi_dma/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-10-30.15:47:13::SCWMssOS::Commit changes completed.
+TRACE::2020-10-30.15:47:13::SCWPlatform::Trying to open the hw design at E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:13::SCWPlatform::DSA given E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:13::SCWPlatform::DSA absoulate path E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:13::SCWPlatform::DSA directory E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw
+TRACE::2020-10-30.15:47:13::SCWPlatform:: Platform Path E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:13::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-10-30.15:47:13::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2020-10-30.15:47:13::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2020-10-30.15:47:13::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-10-30.15:47:13::SCWMssOS::Checking the sw design at  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-30.15:47:13::SCWMssOS::DEBUG:  swdes dump  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-10-30.15:47:13::SCWMssOS::Sw design exists and opened at  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-30.15:47:13::SCWPlatform::Trying to open the hw design at E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:13::SCWPlatform::DSA given E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:13::SCWPlatform::DSA absoulate path E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:13::SCWPlatform::DSA directory E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw
+TRACE::2020-10-30.15:47:13::SCWPlatform:: Platform Path E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:13::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-10-30.15:47:13::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2020-10-30.15:47:13::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2020-10-30.15:47:13::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-10-30.15:47:13::SCWMssOS::Checking the sw design at  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-30.15:47:13::SCWMssOS::DEBUG:  swdes dump  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-10-30.15:47:13::SCWMssOS::Sw design exists and opened at  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-30.15:47:13::SCWPlatform::Trying to open the hw design at E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:13::SCWPlatform::DSA given E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:13::SCWPlatform::DSA absoulate path E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:13::SCWPlatform::DSA directory E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw
+TRACE::2020-10-30.15:47:13::SCWPlatform:: Platform Path E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:13::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-10-30.15:47:13::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2020-10-30.15:47:13::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2020-10-30.15:47:13::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-10-30.15:47:13::SCWMssOS::Checking the sw design at  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-30.15:47:13::SCWMssOS::DEBUG:  swdes dump  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-10-30.15:47:13::SCWMssOS::Sw design exists and opened at  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-30.15:47:13::SCWPlatform::Trying to open the hw design at E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:13::SCWPlatform::DSA given E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:13::SCWPlatform::DSA absoulate path E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:13::SCWPlatform::DSA directory E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw
+TRACE::2020-10-30.15:47:13::SCWPlatform:: Platform Path E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:13::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-10-30.15:47:13::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2020-10-30.15:47:13::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2020-10-30.15:47:13::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-10-30.15:47:13::SCWMssOS::Checking the sw design at  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-10-30.15:47:13::SCWMssOS::DEBUG:  swdes dump  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-10-30.15:47:13::SCWMssOS::Sw design exists and opened at  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-10-30.15:47:13::SCWPlatform::Trying to open the hw design at E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:13::SCWPlatform::DSA given E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:13::SCWPlatform::DSA absoulate path E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:13::SCWPlatform::DSA directory E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw
+TRACE::2020-10-30.15:47:13::SCWPlatform:: Platform Path E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:13::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-10-30.15:47:13::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2020-10-30.15:47:13::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2020-10-30.15:47:13::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-10-30.15:47:13::SCWMssOS::Checking the sw design at  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-10-30.15:47:13::SCWMssOS::DEBUG:  swdes dump  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-10-30.15:47:13::SCWMssOS::Sw design exists and opened at  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-10-30.15:47:13::SCWPlatform::Trying to open the hw design at E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:13::SCWPlatform::DSA given E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:13::SCWPlatform::DSA absoulate path E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:13::SCWPlatform::DSA directory E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw
+TRACE::2020-10-30.15:47:13::SCWPlatform:: Platform Path E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:13::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-10-30.15:47:13::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2020-10-30.15:47:13::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2020-10-30.15:47:13::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-10-30.15:47:13::SCWMssOS::Checking the sw design at  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-10-30.15:47:13::SCWMssOS::DEBUG:  swdes dump  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-10-30.15:47:13::SCWMssOS::Sw design exists and opened at  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-10-30.15:47:13::SCWWriter::formatted JSON is {
+	"platformName":	"axi_dma",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"axi_dma",
+	"platHandOff":	"E:/fpga_proj/ps/axi_dma/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"axi_dma",
+	"systems":	[{
+			"systemName":	"axi_dma",
+			"systemDesc":	"axi_dma",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"axi_dma",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.2",
+					"mssFile":	"",
+					"md5Digest":	"7fca24949fb867387f28213cb00c4977",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.3", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone_domain",
+					"domainDesc":	"standalone_domain",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"D:/Xilinx/Vitis/2020.1/data/emulation/platforms/zynq/qemu/qemu_args.txt",
+					"qemuData":	"D:/Xilinx/Vitis/2020.1/data/emulation/platforms/zynq/qemu/",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.2",
+					"mssFile":	"",
+					"md5Digest":	"8dae0d065ce408278666f80fb1594674",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+LOG::2020-10-30.15:47:13::SCWPlatform::Started generating the artifacts platform axi_dma
+TRACE::2020-10-30.15:47:13::SCWPlatform::Sanity checking of platform is completed
+LOG::2020-10-30.15:47:13::SCWPlatform::Started generating the artifacts for system configuration axi_dma
+LOG::2020-10-30.15:47:13::SCWSystem::Checking the domain zynq_fsbl
+LOG::2020-10-30.15:47:13::SCWSystem::Doing application build for :  zynq_fsbl
+TRACE::2020-10-30.15:47:13::SCWBDomain::Not a forced makefile updation, No changes are present. 
+TRACE::2020-10-30.15:47:13::SCWDomain::Skipping the build for domain :  zynq_fsbl
+LOG::2020-10-30.15:47:13::SCWSystem::Checking the domain standalone_domain
+LOG::2020-10-30.15:47:13::SCWSystem::Not a boot domain 
+LOG::2020-10-30.15:47:13::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2020-10-30.15:47:13::SCWDomain::Generating domain artifcats
+TRACE::2020-10-30.15:47:13::SCWMssOS::Generating standalone artifcats
+TRACE::2020-10-30.15:47:13::SCWMssOS::Copying the qemu file from  D:/Xilinx/Vitis/2020.1/data/emulation/platforms/zynq/qemu/qemu_args.txt To E:/fpga_proj/ps/axi_dma/vitis/axi_dma/export/axi_dma/sw/axi_dma/qemu/
+TRACE::2020-10-30.15:47:13::SCWMssOS::Copying the qemu file from  D:/Xilinx/Vitis/2020.1/data/emulation/platforms/zynq/qemu/qemu_args.txt To E:/fpga_proj/ps/axi_dma/vitis/axi_dma/export/axi_dma/sw/axi_dma/standalone_domain/qemu/
+TRACE::2020-10-30.15:47:13::SCWMssOS:: Copying the user libraries. 
+TRACE::2020-10-30.15:47:13::SCWPlatform::Trying to open the hw design at E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:13::SCWPlatform::DSA given E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:13::SCWPlatform::DSA absoulate path E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:13::SCWPlatform::DSA directory E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw
+TRACE::2020-10-30.15:47:13::SCWPlatform:: Platform Path E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:13::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-10-30.15:47:13::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2020-10-30.15:47:13::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2020-10-30.15:47:13::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-10-30.15:47:13::SCWMssOS::Checking the sw design at  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-10-30.15:47:14::SCWMssOS::DEBUG:  swdes dump  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-10-30.15:47:14::SCWMssOS::Sw design exists and opened at  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-10-30.15:47:14::SCWMssOS::Completed writing the mss file at E:/fpga_proj/ps/axi_dma/vitis/axi_dma/ps7_cortexa9_0/standalone_domain/bsp
+TRACE::2020-10-30.15:47:14::SCWMssOS::Mss edits present, copying mssfile into export location E:/fpga_proj/ps/axi_dma/vitis/axi_dma/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-10-30.15:47:14::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2020-10-30.15:47:14::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2020-10-30.15:47:14::SCWDomain::Skipping the build for domain :  standalone_domain
+TRACE::2020-10-30.15:47:14::SCWMssOS::skipping the bsp build ... 
+TRACE::2020-10-30.15:47:14::SCWMssOS::Copying to export directory.
+TRACE::2020-10-30.15:47:14::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2020-10-30.15:47:14::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+TRACE::2020-10-30.15:47:14::SCWMssOS:: Completed Standalone Artifacts creation 
+LOG::2020-10-30.15:47:14::SCWSystem::Completed Processing the domain standalone_domain
+LOG::2020-10-30.15:47:14::SCWSystem::Completed Processing the sysconfig axi_dma
+LOG::2020-10-30.15:47:14::SCWPlatform::Completed generating the artifacts for system configuration axi_dma
+TRACE::2020-10-30.15:47:14::SCWPlatform::Started preparing the platform 
+TRACE::2020-10-30.15:47:14::SCWSystem::Writing the bif file for system config axi_dma
+TRACE::2020-10-30.15:47:14::SCWSystem::dir created 
+TRACE::2020-10-30.15:47:14::SCWSystem::Writing the bif 
+TRACE::2020-10-30.15:47:14::SCWPlatform::Started writing the spfm file 
+TRACE::2020-10-30.15:47:14::SCWPlatform::Started writing the xpfm file 
+TRACE::2020-10-30.15:47:14::SCWPlatform::Completed generating the platform
+TRACE::2020-10-30.15:47:14::SCWMssOS::Saving the mss changes E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-30.15:47:14::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2020-10-30.15:47:14::SCWMssOS::Completed writemss as part of save.
+TRACE::2020-10-30.15:47:14::SCWMssOS::Commit changes completed.
+TRACE::2020-10-30.15:47:14::SCWMssOS::Saving the mss changes E:/fpga_proj/ps/axi_dma/vitis/axi_dma/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-10-30.15:47:14::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2020-10-30.15:47:14::SCWMssOS::Completed writemss as part of save.
+TRACE::2020-10-30.15:47:14::SCWMssOS::Commit changes completed.
+TRACE::2020-10-30.15:47:14::SCWPlatform::Trying to open the hw design at E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:14::SCWPlatform::DSA given E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:14::SCWPlatform::DSA absoulate path E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:14::SCWPlatform::DSA directory E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw
+TRACE::2020-10-30.15:47:14::SCWPlatform:: Platform Path E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:14::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-10-30.15:47:14::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2020-10-30.15:47:14::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2020-10-30.15:47:14::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-10-30.15:47:14::SCWMssOS::Checking the sw design at  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-30.15:47:14::SCWMssOS::DEBUG:  swdes dump  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-10-30.15:47:14::SCWMssOS::Sw design exists and opened at  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-30.15:47:14::SCWPlatform::Trying to open the hw design at E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:14::SCWPlatform::DSA given E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:14::SCWPlatform::DSA absoulate path E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:14::SCWPlatform::DSA directory E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw
+TRACE::2020-10-30.15:47:14::SCWPlatform:: Platform Path E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:14::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-10-30.15:47:14::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2020-10-30.15:47:14::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2020-10-30.15:47:14::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-10-30.15:47:14::SCWMssOS::Checking the sw design at  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-30.15:47:14::SCWMssOS::DEBUG:  swdes dump  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-10-30.15:47:14::SCWMssOS::Sw design exists and opened at  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-30.15:47:14::SCWPlatform::Trying to open the hw design at E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:14::SCWPlatform::DSA given E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:14::SCWPlatform::DSA absoulate path E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:14::SCWPlatform::DSA directory E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw
+TRACE::2020-10-30.15:47:14::SCWPlatform:: Platform Path E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:14::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-10-30.15:47:14::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2020-10-30.15:47:14::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2020-10-30.15:47:14::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-10-30.15:47:14::SCWMssOS::Checking the sw design at  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-30.15:47:14::SCWMssOS::DEBUG:  swdes dump  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-10-30.15:47:14::SCWMssOS::Sw design exists and opened at  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-30.15:47:14::SCWPlatform::Trying to open the hw design at E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:14::SCWPlatform::DSA given E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:14::SCWPlatform::DSA absoulate path E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:14::SCWPlatform::DSA directory E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw
+TRACE::2020-10-30.15:47:14::SCWPlatform:: Platform Path E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:14::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-10-30.15:47:14::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2020-10-30.15:47:14::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2020-10-30.15:47:14::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-10-30.15:47:14::SCWMssOS::Checking the sw design at  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-10-30.15:47:14::SCWMssOS::DEBUG:  swdes dump  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-10-30.15:47:14::SCWMssOS::Sw design exists and opened at  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-10-30.15:47:14::SCWPlatform::Trying to open the hw design at E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:14::SCWPlatform::DSA given E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:14::SCWPlatform::DSA absoulate path E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:14::SCWPlatform::DSA directory E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw
+TRACE::2020-10-30.15:47:14::SCWPlatform:: Platform Path E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:14::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-10-30.15:47:14::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2020-10-30.15:47:14::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2020-10-30.15:47:14::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-10-30.15:47:14::SCWMssOS::Checking the sw design at  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-10-30.15:47:14::SCWMssOS::DEBUG:  swdes dump  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-10-30.15:47:14::SCWMssOS::Sw design exists and opened at  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-10-30.15:47:14::SCWPlatform::Trying to open the hw design at E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:14::SCWPlatform::DSA given E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:14::SCWPlatform::DSA absoulate path E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:14::SCWPlatform::DSA directory E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw
+TRACE::2020-10-30.15:47:14::SCWPlatform:: Platform Path E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:14::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-10-30.15:47:14::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2020-10-30.15:47:14::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2020-10-30.15:47:14::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-10-30.15:47:14::SCWMssOS::Checking the sw design at  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-10-30.15:47:14::SCWMssOS::DEBUG:  swdes dump  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-10-30.15:47:14::SCWMssOS::Sw design exists and opened at  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-10-30.15:47:14::SCWWriter::formatted JSON is {
+	"platformName":	"axi_dma",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"axi_dma",
+	"platHandOff":	"E:/fpga_proj/ps/axi_dma/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"axi_dma",
+	"systems":	[{
+			"systemName":	"axi_dma",
+			"systemDesc":	"axi_dma",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"axi_dma",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.2",
+					"mssFile":	"",
+					"md5Digest":	"7fca24949fb867387f28213cb00c4977",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.3", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone_domain",
+					"domainDesc":	"standalone_domain",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"D:/Xilinx/Vitis/2020.1/data/emulation/platforms/zynq/qemu/qemu_args.txt",
+					"qemuData":	"D:/Xilinx/Vitis/2020.1/data/emulation/platforms/zynq/qemu/",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.2",
+					"mssFile":	"",
+					"md5Digest":	"8dae0d065ce408278666f80fb1594674",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2020-10-30.15:47:14::SCWPlatform::updated the xpfm file.
+TRACE::2020-10-30.15:47:14::SCWPlatform::Trying to open the hw design at E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:14::SCWPlatform::DSA given E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:14::SCWPlatform::DSA absoulate path E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:14::SCWPlatform::DSA directory E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw
+TRACE::2020-10-30.15:47:14::SCWPlatform:: Platform Path E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:14::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-10-30.15:47:14::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2020-10-30.15:47:14::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2020-10-30.15:47:14::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-10-30.15:47:14::SCWMssOS::Checking the sw design at  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-10-30.15:47:14::SCWMssOS::DEBUG:  swdes dump  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-10-30.15:47:14::SCWMssOS::Sw design exists and opened at  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-10-30.15:47:14::SCWMssOS::Saving the mss changes E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-30.15:47:14::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2020-10-30.15:47:14::SCWMssOS::Completed writemss as part of save.
+TRACE::2020-10-30.15:47:14::SCWMssOS::Commit changes completed.
+TRACE::2020-10-30.15:47:14::SCWMssOS::Saving the mss changes E:/fpga_proj/ps/axi_dma/vitis/axi_dma/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-10-30.15:47:14::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2020-10-30.15:47:14::SCWMssOS::Completed writemss as part of save.
+TRACE::2020-10-30.15:47:14::SCWMssOS::Commit changes completed.
+TRACE::2020-10-30.15:47:14::SCWPlatform::Trying to open the hw design at E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:14::SCWPlatform::DSA given E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:14::SCWPlatform::DSA absoulate path E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:14::SCWPlatform::DSA directory E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw
+TRACE::2020-10-30.15:47:14::SCWPlatform:: Platform Path E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:14::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-10-30.15:47:14::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2020-10-30.15:47:14::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2020-10-30.15:47:14::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-10-30.15:47:14::SCWMssOS::Checking the sw design at  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-30.15:47:14::SCWMssOS::DEBUG:  swdes dump  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-10-30.15:47:14::SCWMssOS::Sw design exists and opened at  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-30.15:47:14::SCWPlatform::Trying to open the hw design at E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:14::SCWPlatform::DSA given E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:14::SCWPlatform::DSA absoulate path E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:14::SCWPlatform::DSA directory E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw
+TRACE::2020-10-30.15:47:14::SCWPlatform:: Platform Path E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:14::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-10-30.15:47:14::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2020-10-30.15:47:14::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2020-10-30.15:47:14::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-10-30.15:47:14::SCWMssOS::Checking the sw design at  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-30.15:47:14::SCWMssOS::DEBUG:  swdes dump  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-10-30.15:47:14::SCWMssOS::Sw design exists and opened at  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-30.15:47:14::SCWPlatform::Trying to open the hw design at E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:14::SCWPlatform::DSA given E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:14::SCWPlatform::DSA absoulate path E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:14::SCWPlatform::DSA directory E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw
+TRACE::2020-10-30.15:47:14::SCWPlatform:: Platform Path E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:14::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-10-30.15:47:14::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2020-10-30.15:47:14::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2020-10-30.15:47:14::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-10-30.15:47:14::SCWMssOS::Checking the sw design at  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-30.15:47:14::SCWMssOS::DEBUG:  swdes dump  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-10-30.15:47:14::SCWMssOS::Sw design exists and opened at  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-30.15:47:14::SCWPlatform::Trying to open the hw design at E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:14::SCWPlatform::DSA given E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:14::SCWPlatform::DSA absoulate path E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:14::SCWPlatform::DSA directory E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw
+TRACE::2020-10-30.15:47:14::SCWPlatform:: Platform Path E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:14::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-10-30.15:47:14::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2020-10-30.15:47:14::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2020-10-30.15:47:14::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-10-30.15:47:14::SCWMssOS::Checking the sw design at  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-10-30.15:47:14::SCWMssOS::DEBUG:  swdes dump  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-10-30.15:47:14::SCWMssOS::Sw design exists and opened at  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-10-30.15:47:14::SCWPlatform::Trying to open the hw design at E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:14::SCWPlatform::DSA given E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:14::SCWPlatform::DSA absoulate path E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:14::SCWPlatform::DSA directory E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw
+TRACE::2020-10-30.15:47:14::SCWPlatform:: Platform Path E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:14::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-10-30.15:47:14::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2020-10-30.15:47:14::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2020-10-30.15:47:14::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-10-30.15:47:14::SCWMssOS::Checking the sw design at  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-10-30.15:47:14::SCWMssOS::DEBUG:  swdes dump  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-10-30.15:47:14::SCWMssOS::Sw design exists and opened at  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-10-30.15:47:14::SCWPlatform::Trying to open the hw design at E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:14::SCWPlatform::DSA given E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:14::SCWPlatform::DSA absoulate path E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:14::SCWPlatform::DSA directory E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw
+TRACE::2020-10-30.15:47:14::SCWPlatform:: Platform Path E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:14::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-10-30.15:47:14::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2020-10-30.15:47:14::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2020-10-30.15:47:14::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-10-30.15:47:14::SCWMssOS::Checking the sw design at  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-10-30.15:47:14::SCWMssOS::DEBUG:  swdes dump  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-10-30.15:47:14::SCWMssOS::Sw design exists and opened at  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-10-30.15:47:14::SCWWriter::formatted JSON is {
+	"platformName":	"axi_dma",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"axi_dma",
+	"platHandOff":	"E:/fpga_proj/ps/axi_dma/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"axi_dma",
+	"systems":	[{
+			"systemName":	"axi_dma",
+			"systemDesc":	"axi_dma",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"axi_dma",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.2",
+					"mssFile":	"",
+					"md5Digest":	"7fca24949fb867387f28213cb00c4977",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.3", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone_domain",
+					"domainDesc":	"standalone_domain",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"D:/Xilinx/Vitis/2020.1/data/emulation/platforms/zynq/qemu/qemu_args.txt",
+					"qemuData":	"D:/Xilinx/Vitis/2020.1/data/emulation/platforms/zynq/qemu/",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.2",
+					"mssFile":	"",
+					"md5Digest":	"8dae0d065ce408278666f80fb1594674",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2020-10-30.15:47:14::SCWPlatform::Trying to open the hw design at E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:14::SCWPlatform::DSA given E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:14::SCWPlatform::DSA absoulate path E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:14::SCWPlatform::DSA directory E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw
+TRACE::2020-10-30.15:47:14::SCWPlatform:: Platform Path E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:14::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-10-30.15:47:14::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2020-10-30.15:47:14::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2020-10-30.15:47:14::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-10-30.15:47:14::SCWMssOS::Checking the sw design at  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-10-30.15:47:14::SCWMssOS::DEBUG:  swdes dump  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-10-30.15:47:14::SCWMssOS::Sw design exists and opened at  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-10-30.15:47:14::SCWPlatform::Trying to open the hw design at E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:14::SCWPlatform::DSA given E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:14::SCWPlatform::DSA absoulate path E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:14::SCWPlatform::DSA directory E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw
+TRACE::2020-10-30.15:47:14::SCWPlatform:: Platform Path E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:14::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-10-30.15:47:14::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2020-10-30.15:47:14::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2020-10-30.15:47:14::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-10-30.15:47:14::SCWMssOS::Checking the sw design at  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-10-30.15:47:14::SCWMssOS::DEBUG:  swdes dump  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-10-30.15:47:14::SCWMssOS::Sw design exists and opened at  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-10-30.15:47:14::SCWPlatform::Trying to open the hw design at E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:14::SCWPlatform::DSA given E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:15::SCWPlatform::DSA absoulate path E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:15::SCWPlatform::DSA directory E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw
+TRACE::2020-10-30.15:47:15::SCWPlatform:: Platform Path E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:15::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-10-30.15:47:15::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2020-10-30.15:47:15::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2020-10-30.15:47:15::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-10-30.15:47:15::SCWMssOS::Checking the sw design at  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-10-30.15:47:15::SCWMssOS::DEBUG:  swdes dump  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-10-30.15:47:15::SCWMssOS::Sw design exists and opened at  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-10-30.15:47:15::SCWMssOS::Saving the mss changes E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-30.15:47:15::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2020-10-30.15:47:15::SCWMssOS::Completed writemss as part of save.
+TRACE::2020-10-30.15:47:15::SCWMssOS::Commit changes completed.
+TRACE::2020-10-30.15:47:15::SCWMssOS::Saving the mss changes E:/fpga_proj/ps/axi_dma/vitis/axi_dma/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-10-30.15:47:15::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2020-10-30.15:47:15::SCWMssOS::Completed writemss as part of save.
+TRACE::2020-10-30.15:47:15::SCWMssOS::Commit changes completed.
+TRACE::2020-10-30.15:47:15::SCWPlatform::Trying to open the hw design at E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:15::SCWPlatform::DSA given E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:15::SCWPlatform::DSA absoulate path E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:15::SCWPlatform::DSA directory E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw
+TRACE::2020-10-30.15:47:15::SCWPlatform:: Platform Path E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:15::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-10-30.15:47:15::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2020-10-30.15:47:15::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2020-10-30.15:47:15::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-10-30.15:47:15::SCWMssOS::Checking the sw design at  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-30.15:47:15::SCWMssOS::DEBUG:  swdes dump  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-10-30.15:47:15::SCWMssOS::Sw design exists and opened at  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-30.15:47:15::SCWPlatform::Trying to open the hw design at E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:15::SCWPlatform::DSA given E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:15::SCWPlatform::DSA absoulate path E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:15::SCWPlatform::DSA directory E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw
+TRACE::2020-10-30.15:47:15::SCWPlatform:: Platform Path E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:15::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-10-30.15:47:15::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2020-10-30.15:47:15::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2020-10-30.15:47:15::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-10-30.15:47:15::SCWMssOS::Checking the sw design at  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-30.15:47:15::SCWMssOS::DEBUG:  swdes dump  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-10-30.15:47:15::SCWMssOS::Sw design exists and opened at  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-30.15:47:15::SCWPlatform::Trying to open the hw design at E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:15::SCWPlatform::DSA given E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:15::SCWPlatform::DSA absoulate path E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:15::SCWPlatform::DSA directory E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw
+TRACE::2020-10-30.15:47:15::SCWPlatform:: Platform Path E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:15::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-10-30.15:47:15::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2020-10-30.15:47:15::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2020-10-30.15:47:15::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-10-30.15:47:15::SCWMssOS::Checking the sw design at  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-30.15:47:15::SCWMssOS::DEBUG:  swdes dump  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-10-30.15:47:15::SCWMssOS::Sw design exists and opened at  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-30.15:47:15::SCWPlatform::Trying to open the hw design at E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:15::SCWPlatform::DSA given E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:15::SCWPlatform::DSA absoulate path E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:15::SCWPlatform::DSA directory E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw
+TRACE::2020-10-30.15:47:15::SCWPlatform:: Platform Path E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:15::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-10-30.15:47:15::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2020-10-30.15:47:15::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2020-10-30.15:47:15::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-10-30.15:47:15::SCWMssOS::Checking the sw design at  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-10-30.15:47:15::SCWMssOS::DEBUG:  swdes dump  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-10-30.15:47:15::SCWMssOS::Sw design exists and opened at  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-10-30.15:47:15::SCWPlatform::Trying to open the hw design at E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:15::SCWPlatform::DSA given E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:15::SCWPlatform::DSA absoulate path E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:15::SCWPlatform::DSA directory E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw
+TRACE::2020-10-30.15:47:15::SCWPlatform:: Platform Path E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:15::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-10-30.15:47:15::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2020-10-30.15:47:15::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2020-10-30.15:47:15::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-10-30.15:47:15::SCWMssOS::Checking the sw design at  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-10-30.15:47:15::SCWMssOS::DEBUG:  swdes dump  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-10-30.15:47:15::SCWMssOS::Sw design exists and opened at  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-10-30.15:47:15::SCWPlatform::Trying to open the hw design at E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:15::SCWPlatform::DSA given E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:15::SCWPlatform::DSA absoulate path E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:15::SCWPlatform::DSA directory E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw
+TRACE::2020-10-30.15:47:15::SCWPlatform:: Platform Path E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:15::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-10-30.15:47:15::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2020-10-30.15:47:15::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2020-10-30.15:47:15::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-10-30.15:47:15::SCWMssOS::Checking the sw design at  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-10-30.15:47:15::SCWMssOS::DEBUG:  swdes dump  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-10-30.15:47:15::SCWMssOS::Sw design exists and opened at  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-10-30.15:47:15::SCWWriter::formatted JSON is {
+	"platformName":	"axi_dma",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"axi_dma",
+	"platHandOff":	"E:/fpga_proj/ps/axi_dma/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"axi_dma",
+	"systems":	[{
+			"systemName":	"axi_dma",
+			"systemDesc":	"axi_dma",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"axi_dma",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.2",
+					"mssFile":	"",
+					"md5Digest":	"7fca24949fb867387f28213cb00c4977",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.3", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on ps7_cortexa9_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"D:/Xilinx/Vitis/2020.1/data/emulation/platforms/zynq/qemu/qemu_args.txt",
+					"qemuData":	"D:/Xilinx/Vitis/2020.1/data/emulation/platforms/zynq/qemu/",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.2",
+					"mssFile":	"",
+					"md5Digest":	"8dae0d065ce408278666f80fb1594674",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2020-10-30.15:47:15::SCWMssOS::Saving the mss changes E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-30.15:47:15::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2020-10-30.15:47:15::SCWMssOS::Completed writemss as part of save.
+TRACE::2020-10-30.15:47:15::SCWMssOS::Commit changes completed.
+TRACE::2020-10-30.15:47:15::SCWMssOS::Saving the mss changes E:/fpga_proj/ps/axi_dma/vitis/axi_dma/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-10-30.15:47:15::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2020-10-30.15:47:15::SCWMssOS::Completed writemss as part of save.
+TRACE::2020-10-30.15:47:15::SCWMssOS::Commit changes completed.
+TRACE::2020-10-30.15:47:15::SCWPlatform::Trying to open the hw design at E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:15::SCWPlatform::DSA given E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:15::SCWPlatform::DSA absoulate path E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:15::SCWPlatform::DSA directory E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw
+TRACE::2020-10-30.15:47:15::SCWPlatform:: Platform Path E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:15::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-10-30.15:47:15::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2020-10-30.15:47:15::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2020-10-30.15:47:15::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-10-30.15:47:15::SCWMssOS::Checking the sw design at  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-30.15:47:15::SCWMssOS::DEBUG:  swdes dump  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-10-30.15:47:15::SCWMssOS::Sw design exists and opened at  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-30.15:47:15::SCWPlatform::Trying to open the hw design at E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:15::SCWPlatform::DSA given E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:15::SCWPlatform::DSA absoulate path E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:15::SCWPlatform::DSA directory E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw
+TRACE::2020-10-30.15:47:15::SCWPlatform:: Platform Path E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:15::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-10-30.15:47:15::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2020-10-30.15:47:15::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2020-10-30.15:47:15::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-10-30.15:47:15::SCWMssOS::Checking the sw design at  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-30.15:47:15::SCWMssOS::DEBUG:  swdes dump  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-10-30.15:47:15::SCWMssOS::Sw design exists and opened at  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-30.15:47:15::SCWPlatform::Trying to open the hw design at E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:15::SCWPlatform::DSA given E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:15::SCWPlatform::DSA absoulate path E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:15::SCWPlatform::DSA directory E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw
+TRACE::2020-10-30.15:47:15::SCWPlatform:: Platform Path E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:15::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-10-30.15:47:15::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2020-10-30.15:47:15::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2020-10-30.15:47:15::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-10-30.15:47:15::SCWMssOS::Checking the sw design at  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-30.15:47:15::SCWMssOS::DEBUG:  swdes dump  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-10-30.15:47:15::SCWMssOS::Sw design exists and opened at  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-30.15:47:15::SCWPlatform::Trying to open the hw design at E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:15::SCWPlatform::DSA given E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:15::SCWPlatform::DSA absoulate path E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:15::SCWPlatform::DSA directory E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw
+TRACE::2020-10-30.15:47:15::SCWPlatform:: Platform Path E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:15::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-10-30.15:47:15::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2020-10-30.15:47:15::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2020-10-30.15:47:15::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-10-30.15:47:15::SCWMssOS::Checking the sw design at  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-10-30.15:47:15::SCWMssOS::DEBUG:  swdes dump  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-10-30.15:47:15::SCWMssOS::Sw design exists and opened at  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-10-30.15:47:15::SCWPlatform::Trying to open the hw design at E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:15::SCWPlatform::DSA given E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:15::SCWPlatform::DSA absoulate path E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:15::SCWPlatform::DSA directory E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw
+TRACE::2020-10-30.15:47:15::SCWPlatform:: Platform Path E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:15::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-10-30.15:47:15::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2020-10-30.15:47:15::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2020-10-30.15:47:15::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-10-30.15:47:15::SCWMssOS::Checking the sw design at  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-10-30.15:47:15::SCWMssOS::DEBUG:  swdes dump  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-10-30.15:47:15::SCWMssOS::Sw design exists and opened at  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-10-30.15:47:15::SCWPlatform::Trying to open the hw design at E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:15::SCWPlatform::DSA given E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:15::SCWPlatform::DSA absoulate path E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:15::SCWPlatform::DSA directory E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw
+TRACE::2020-10-30.15:47:15::SCWPlatform:: Platform Path E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:15::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-10-30.15:47:15::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2020-10-30.15:47:15::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2020-10-30.15:47:15::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-10-30.15:47:15::SCWMssOS::Checking the sw design at  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-10-30.15:47:15::SCWMssOS::DEBUG:  swdes dump  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-10-30.15:47:16::SCWMssOS::Sw design exists and opened at  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-10-30.15:47:16::SCWWriter::formatted JSON is {
+	"platformName":	"axi_dma",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"axi_dma",
+	"platHandOff":	"E:/fpga_proj/ps/axi_dma/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"axi_dma",
+	"systems":	[{
+			"systemName":	"axi_dma",
+			"systemDesc":	"axi_dma",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"axi_dma",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.2",
+					"mssFile":	"",
+					"md5Digest":	"7fca24949fb867387f28213cb00c4977",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.3", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on ps7_cortexa9_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"D:/Xilinx/Vitis/2020.1/data/emulation/platforms/zynq/qemu/qemu_args.txt",
+					"qemuData":	"D:/Xilinx/Vitis/2020.1/data/emulation/platforms/zynq/qemu/",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.2",
+					"mssFile":	"",
+					"md5Digest":	"8dae0d065ce408278666f80fb1594674",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2020-10-30.15:47:16::SCWPlatform::Clearing the existing platform
+TRACE::2020-10-30.15:47:16::SCWSystem::Clearing the existing sysconfig
+TRACE::2020-10-30.15:47:16::SCWBDomain::clearing the fsbl build
+TRACE::2020-10-30.15:47:16::SCWMssOS::Removing the swdes entry for  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-30.15:47:16::SCWMssOS::Removing the swdes entry for  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-10-30.15:47:16::SCWSystem::Clearing the domains completed.
+TRACE::2020-10-30.15:47:16::SCWPlatform::Clearing the opened hw db.
+TRACE::2020-10-30.15:47:16::SCWPlatform::DSA given E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:16::SCWPlatform::DSA absoulate path E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:16::SCWPlatform:: Platform location is E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw
+TRACE::2020-10-30.15:47:16::SCWPlatform:: Platform Path E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:16::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-10-30.15:47:16::SCWPlatform::Removing the HwDB with name E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:16::SCWPlatform::Trying to open the hw design at E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:16::SCWPlatform::DSA given E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:16::SCWPlatform::DSA absoulate path E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:16::SCWPlatform::DSA directory E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw
+TRACE::2020-10-30.15:47:16::SCWPlatform:: Platform Path E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:16::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-10-30.15:47:16::SCWPlatform::Do not have an existing db opened. 
+TRACE::2020-10-30.15:47:18::SCWPlatform::Opened new HwDB with name design_1_wrapper_1
+TRACE::2020-10-30.15:47:18::SCWReader::Active system found as  axi_dma
+TRACE::2020-10-30.15:47:18::SCWReader::Handling sysconfig axi_dma
+TRACE::2020-10-30.15:47:19::SCWDomain::checking for install qemu data   : 
+TRACE::2020-10-30.15:47:19::SCWDomain:: Using the QEMU Data from install at  : D:/Xilinx/Vitis/2020.1/data/emulation/platforms/zynq/qemu/
+TRACE::2020-10-30.15:47:19::SCWDomain:: Using the QEMU args  from install at  : D:/Xilinx/Vitis/2020.1/data/emulation/platforms/zynq/qemu/qemu_args.txt
+TRACE::2020-10-30.15:47:19::SCWPlatform::Trying to open the hw design at E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:19::SCWPlatform::DSA given E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:19::SCWPlatform::DSA absoulate path E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:19::SCWPlatform::DSA directory E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw
+TRACE::2020-10-30.15:47:19::SCWPlatform:: Platform Path E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:19::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-10-30.15:47:19::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2020-10-30.15:47:19::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2020-10-30.15:47:19::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-10-30.15:47:19::SCWPlatform::Trying to open the hw design at E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:19::SCWPlatform::DSA given E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:19::SCWPlatform::DSA absoulate path E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:19::SCWPlatform::DSA directory E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw
+TRACE::2020-10-30.15:47:19::SCWPlatform:: Platform Path E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:19::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-10-30.15:47:19::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2020-10-30.15:47:19::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2020-10-30.15:47:19::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-10-30.15:47:19::SCWPlatform::Trying to open the hw design at E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:19::SCWPlatform::DSA given E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:19::SCWPlatform::DSA absoulate path E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:19::SCWPlatform::DSA directory E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw
+TRACE::2020-10-30.15:47:19::SCWPlatform:: Platform Path E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:19::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-10-30.15:47:19::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2020-10-30.15:47:19::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2020-10-30.15:47:19::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-10-30.15:47:19::SCWReader::Boot application domain added for zynq_fsbl
+TRACE::2020-10-30.15:47:19::SCWPlatform::Trying to open the hw design at E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:19::SCWPlatform::DSA given E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:19::SCWPlatform::DSA absoulate path E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:19::SCWPlatform::DSA directory E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw
+TRACE::2020-10-30.15:47:19::SCWPlatform:: Platform Path E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:19::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-10-30.15:47:19::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2020-10-30.15:47:19::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2020-10-30.15:47:19::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-10-30.15:47:19::SCWMssOS::Checking the sw design at  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-30.15:47:19::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2020-10-30.15:47:19::SCWMssOS::No sw design opened at  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-30.15:47:19::SCWMssOS::mss exists loading the mss file  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-30.15:47:19::SCWMssOS::Opened the sw design from mss  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-30.15:47:19::SCWMssOS::Adding the swdes entry E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/system.mss with des name system
+TRACE::2020-10-30.15:47:19::SCWMssOS::updating the scw layer about changes
+TRACE::2020-10-30.15:47:19::SCWMssOS::Opened the sw design.  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-30.15:47:19::SCWPlatform::Trying to open the hw design at E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:19::SCWPlatform::DSA given E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:19::SCWPlatform::DSA absoulate path E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:19::SCWPlatform::DSA directory E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw
+TRACE::2020-10-30.15:47:19::SCWPlatform:: Platform Path E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:19::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-10-30.15:47:19::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2020-10-30.15:47:19::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2020-10-30.15:47:19::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-10-30.15:47:19::SCWMssOS::Checking the sw design at  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-30.15:47:19::SCWMssOS::DEBUG:  swdes dump  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-10-30.15:47:19::SCWMssOS::Sw design exists and opened at  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-30.15:47:19::SCWMssOS:: library already available in sw design:  xilffs:4.3
+TRACE::2020-10-30.15:47:19::SCWPlatform::Trying to open the hw design at E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:19::SCWPlatform::DSA given E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:19::SCWPlatform::DSA absoulate path E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:19::SCWPlatform::DSA directory E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw
+TRACE::2020-10-30.15:47:19::SCWPlatform:: Platform Path E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:19::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-10-30.15:47:19::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2020-10-30.15:47:19::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2020-10-30.15:47:19::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-10-30.15:47:19::SCWMssOS::Checking the sw design at  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-30.15:47:19::SCWMssOS::DEBUG:  swdes dump  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-10-30.15:47:19::SCWMssOS::Sw design exists and opened at  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-30.15:47:19::SCWMssOS:: library already available in sw design:  xilrsa:1.6
+TRACE::2020-10-30.15:47:19::SCWMssOS::Saving the mss changes E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-30.15:47:19::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2020-10-30.15:47:19::SCWMssOS::Completed writemss as part of save.
+TRACE::2020-10-30.15:47:19::SCWMssOS::Commit changes completed.
+TRACE::2020-10-30.15:47:19::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2020-10-30.15:47:19::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2020-10-30.15:47:19::SCWPlatform::Trying to open the hw design at E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:19::SCWPlatform::DSA given E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:19::SCWPlatform::DSA absoulate path E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:19::SCWPlatform::DSA directory E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw
+TRACE::2020-10-30.15:47:19::SCWPlatform:: Platform Path E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:19::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-10-30.15:47:19::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2020-10-30.15:47:19::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2020-10-30.15:47:19::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-10-30.15:47:19::SCWMssOS::Checking the sw design at  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-30.15:47:19::SCWMssOS::DEBUG:  swdes dump  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-10-30.15:47:19::SCWMssOS::Sw design exists and opened at  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-30.15:47:19::SCWReader::No isolation master present  
+TRACE::2020-10-30.15:47:19::SCWDomain::checking for install qemu data   : 
+TRACE::2020-10-30.15:47:19::SCWDomain:: Using the QEMU Data from install at  : D:/Xilinx/Vitis/2020.1/data/emulation/platforms/zynq/qemu/
+TRACE::2020-10-30.15:47:19::SCWDomain:: Using the QEMU args  from install at  : D:/Xilinx/Vitis/2020.1/data/emulation/platforms/zynq/qemu/qemu_args.txt
+TRACE::2020-10-30.15:47:19::SCWPlatform::Trying to open the hw design at E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:19::SCWPlatform::DSA given E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:19::SCWPlatform::DSA absoulate path E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:19::SCWPlatform::DSA directory E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw
+TRACE::2020-10-30.15:47:19::SCWPlatform:: Platform Path E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:19::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-10-30.15:47:19::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2020-10-30.15:47:19::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2020-10-30.15:47:19::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-10-30.15:47:19::SCWPlatform::Trying to open the hw design at E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:19::SCWPlatform::DSA given E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:19::SCWPlatform::DSA absoulate path E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:19::SCWPlatform::DSA directory E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw
+TRACE::2020-10-30.15:47:19::SCWPlatform:: Platform Path E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:19::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-10-30.15:47:19::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2020-10-30.15:47:19::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2020-10-30.15:47:19::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-10-30.15:47:19::SCWPlatform::Trying to open the hw design at E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:19::SCWPlatform::DSA given E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:19::SCWPlatform::DSA absoulate path E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:19::SCWPlatform::DSA directory E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw
+TRACE::2020-10-30.15:47:19::SCWPlatform:: Platform Path E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:19::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-10-30.15:47:19::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2020-10-30.15:47:19::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2020-10-30.15:47:19::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-10-30.15:47:19::SCWMssOS::Checking the sw design at  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-10-30.15:47:19::SCWMssOS::DEBUG:  swdes dump  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-10-30.15:47:19::SCWMssOS::No sw design opened at  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-10-30.15:47:19::SCWMssOS::mss exists loading the mss file  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-10-30.15:47:19::SCWMssOS::Opened the sw design from mss  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-10-30.15:47:19::SCWMssOS::Adding the swdes entry E:/fpga_proj/ps/axi_dma/vitis/axi_dma/ps7_cortexa9_0/standalone_domain/bsp/system.mss with des name system_0
+TRACE::2020-10-30.15:47:19::SCWMssOS::updating the scw layer about changes
+TRACE::2020-10-30.15:47:19::SCWMssOS::Opened the sw design.  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-10-30.15:47:19::SCWMssOS::Saving the mss changes E:/fpga_proj/ps/axi_dma/vitis/axi_dma/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-10-30.15:47:19::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2020-10-30.15:47:19::SCWMssOS::Completed writemss as part of save.
+TRACE::2020-10-30.15:47:19::SCWMssOS::Commit changes completed.
+TRACE::2020-10-30.15:47:19::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2020-10-30.15:47:19::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2020-10-30.15:47:19::SCWPlatform::Trying to open the hw design at E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:19::SCWPlatform::DSA given E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:19::SCWPlatform::DSA absoulate path E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:19::SCWPlatform::DSA directory E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw
+TRACE::2020-10-30.15:47:19::SCWPlatform:: Platform Path E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.15:47:19::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-10-30.15:47:19::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2020-10-30.15:47:19::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2020-10-30.15:47:19::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-10-30.15:47:19::SCWMssOS::Checking the sw design at  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-10-30.15:47:19::SCWMssOS::DEBUG:  swdes dump  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-10-30.15:47:19::SCWMssOS::Sw design exists and opened at  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-10-30.15:47:19::SCWReader::No isolation master present  
+LOG::2020-10-30.20:23:00::SCWPlatform::Started generating the artifacts platform axi_dma
+TRACE::2020-10-30.20:23:00::SCWPlatform::Sanity checking of platform is completed
+LOG::2020-10-30.20:23:00::SCWPlatform::Started generating the artifacts for system configuration axi_dma
+LOG::2020-10-30.20:23:00::SCWSystem::Checking the domain zynq_fsbl
+LOG::2020-10-30.20:23:00::SCWSystem::Doing application build for :  zynq_fsbl
+TRACE::2020-10-30.20:23:00::SCWBDomain::Not a forced makefile updation, No changes are present. 
+TRACE::2020-10-30.20:23:00::SCWDomain::Building the domain as part of full build :  zynq_fsbl
+TRACE::2020-10-30.20:23:00::SCWPlatform::Trying to open the hw design at E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.20:23:00::SCWPlatform::DSA given E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.20:23:00::SCWPlatform::DSA absoulate path E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.20:23:00::SCWPlatform::DSA directory E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw
+TRACE::2020-10-30.20:23:00::SCWPlatform:: Platform Path E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.20:23:00::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-10-30.20:23:00::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2020-10-30.20:23:00::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2020-10-30.20:23:00::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-10-30.20:23:00::SCWMssOS::Checking the sw design at  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-30.20:23:00::SCWMssOS::DEBUG:  swdes dump  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-10-30.20:23:00::SCWMssOS::Sw design exists and opened at  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-30.20:23:00::SCWBDomain::Completed writing the mss file at E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp
+TRACE::2020-10-30.20:23:00::SCWBDomain::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2020-10-30.20:23:00::SCWBDomain::Not a forced makefile updation, No changes are present. 
+TRACE::2020-10-30.20:23:00::SCWBDomain::System Command Ran  E:&  cd  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl & make 
+TRACE::2020-10-30.20:23:00::SCWBDomain::make -C zynq_fsbl_bsp
+
+TRACE::2020-10-30.20:23:00::SCWBDomain::make[1]: Entering directory 'E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp'
+
+TRACE::2020-10-30.20:23:00::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/axidma_v9_11/src"
+
+TRACE::2020-10-30.20:23:00::SCWBDomain::make -C ps7_cortexa9_0/libsrc/axidma_v9_11/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2020-10-30.20:23:00::SCWBDomain::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2020-10-30.20:23:00::SCWBDomain::tartfiles -g -Wall -Wextra"
+
+TRACE::2020-10-30.20:23:00::SCWBDomain::make[2]: Entering directory 'E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/axidma_v9_11/s
+TRACE::2020-10-30.20:23:00::SCWBDomain::rc'
+
+TRACE::2020-10-30.20:23:00::SCWBDomain::make[2]: Leaving directory 'E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/axidma_v9_11/sr
+TRACE::2020-10-30.20:23:00::SCWBDomain::c'
+
+TRACE::2020-10-30.20:23:00::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_7/src"
+
+TRACE::2020-10-30.20:23:00::SCWBDomain::make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none
+TRACE::2020-10-30.20:23:00::SCWBDomain::-eabi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=h
+TRACE::2020-10-30.20:23:00::SCWBDomain::ard -nostartfiles -g -Wall -Wextra"
+
+TRACE::2020-10-30.20:23:00::SCWBDomain::make[2]: Entering directory 'E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/coresightps_dc
+TRACE::2020-10-30.20:23:00::SCWBDomain::c_v1_7/src'
+
+TRACE::2020-10-30.20:23:00::SCWBDomain::make[2]: Leaving directory 'E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/coresightps_dcc
+TRACE::2020-10-30.20:23:00::SCWBDomain::_v1_7/src'
+
+TRACE::2020-10-30.20:23:00::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_9/src"
+
+TRACE::2020-10-30.20:23:00::SCWBDomain::make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_9/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-ea
+TRACE::2020-10-30.20:23:00::SCWBDomain::bi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard
+TRACE::2020-10-30.20:23:00::SCWBDomain:: -nostartfiles -g -Wall -Wextra"
+
+TRACE::2020-10-30.20:23:00::SCWBDomain::make[2]: Entering directory 'E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/cpu_cortexa9_v
+TRACE::2020-10-30.20:23:00::SCWBDomain::2_9/src'
+
+TRACE::2020-10-30.20:23:00::SCWBDomain::make[2]: Leaving directory 'E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/cpu_cortexa9_v2
+TRACE::2020-10-30.20:23:00::SCWBDomain::_9/src'
+
+TRACE::2020-10-30.20:23:01::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_1/src"
+
+TRACE::2020-10-30.20:23:01::SCWBDomain::make -C ps7_cortexa9_0/libsrc/ddrps_v1_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+TRACE::2020-10-30.20:23:01::SCWBDomain::"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+TRACE::2020-10-30.20:23:01::SCWBDomain::rtfiles -g -Wall -Wextra"
+
+TRACE::2020-10-30.20:23:01::SCWBDomain::make[2]: Entering directory 'E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/ddrps_v1_1/src
+TRACE::2020-10-30.20:23:01::SCWBDomain::'
+
+TRACE::2020-10-30.20:23:01::SCWBDomain::make[2]: Leaving directory 'E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/ddrps_v1_1/src'
+TRACE::2020-10-30.20:23:01::SCWBDomain::
+
+TRACE::2020-10-30.20:23:01::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_6/src"
+
+TRACE::2020-10-30.20:23:01::SCWBDomain::make -C ps7_cortexa9_0/libsrc/devcfg_v3_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2020-10-30.20:23:01::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2020-10-30.20:23:01::SCWBDomain::artfiles -g -Wall -Wextra"
+
+TRACE::2020-10-30.20:23:01::SCWBDomain::make[2]: Entering directory 'E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/devcfg_v3_6/sr
+TRACE::2020-10-30.20:23:01::SCWBDomain::c'
+
+TRACE::2020-10-30.20:23:01::SCWBDomain::make[2]: Leaving directory 'E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/devcfg_v3_6/src
+TRACE::2020-10-30.20:23:01::SCWBDomain::'
+
+TRACE::2020-10-30.20:23:01::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_6/src"
+
+TRACE::2020-10-30.20:23:01::SCWBDomain::make -C ps7_cortexa9_0/libsrc/dmaps_v2_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+TRACE::2020-10-30.20:23:01::SCWBDomain::"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+TRACE::2020-10-30.20:23:01::SCWBDomain::rtfiles -g -Wall -Wextra"
+
+TRACE::2020-10-30.20:23:01::SCWBDomain::make[2]: Entering directory 'E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/dmaps_v2_6/src
+TRACE::2020-10-30.20:23:01::SCWBDomain::'
+
+TRACE::2020-10-30.20:23:01::SCWBDomain::make[2]: Leaving directory 'E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/dmaps_v2_6/src'
+TRACE::2020-10-30.20:23:01::SCWBDomain::
+
+TRACE::2020-10-30.20:23:01::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_11/src"
+
+TRACE::2020-10-30.20:23:01::SCWBDomain::make -C ps7_cortexa9_0/libsrc/emacps_v3_11/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2020-10-30.20:23:01::SCWBDomain::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2020-10-30.20:23:01::SCWBDomain::tartfiles -g -Wall -Wextra"
+
+TRACE::2020-10-30.20:23:01::SCWBDomain::make[2]: Entering directory 'E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/emacps_v3_11/s
+TRACE::2020-10-30.20:23:01::SCWBDomain::rc'
+
+TRACE::2020-10-30.20:23:01::SCWBDomain::make[2]: Leaving directory 'E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/emacps_v3_11/sr
+TRACE::2020-10-30.20:23:01::SCWBDomain::c'
+
+TRACE::2020-10-30.20:23:01::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_7/src"
+
+TRACE::2020-10-30.20:23:01::SCWBDomain::make -C ps7_cortexa9_0/libsrc/gpiops_v3_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2020-10-30.20:23:01::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2020-10-30.20:23:01::SCWBDomain::artfiles -g -Wall -Wextra"
+
+TRACE::2020-10-30.20:23:01::SCWBDomain::make[2]: Entering directory 'E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/gpiops_v3_7/sr
+TRACE::2020-10-30.20:23:01::SCWBDomain::c'
+
+TRACE::2020-10-30.20:23:01::SCWBDomain::make[2]: Leaving directory 'E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/gpiops_v3_7/src
+TRACE::2020-10-30.20:23:01::SCWBDomain::'
+
+TRACE::2020-10-30.20:23:01::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_7/src"
+
+TRACE::2020-10-30.20:23:01::SCWBDomain::make -C ps7_cortexa9_0/libsrc/qspips_v3_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2020-10-30.20:23:01::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2020-10-30.20:23:01::SCWBDomain::artfiles -g -Wall -Wextra"
+
+TRACE::2020-10-30.20:23:01::SCWBDomain::make[2]: Entering directory 'E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/qspips_v3_7/sr
+TRACE::2020-10-30.20:23:01::SCWBDomain::c'
+
+TRACE::2020-10-30.20:23:01::SCWBDomain::make[2]: Leaving directory 'E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/qspips_v3_7/src
+TRACE::2020-10-30.20:23:01::SCWBDomain::'
+
+TRACE::2020-10-30.20:23:01::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/scugic_v4_2/src"
+
+TRACE::2020-10-30.20:23:01::SCWBDomain::make -C ps7_cortexa9_0/libsrc/scugic_v4_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2020-10-30.20:23:01::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2020-10-30.20:23:01::SCWBDomain::artfiles -g -Wall -Wextra"
+
+TRACE::2020-10-30.20:23:01::SCWBDomain::make[2]: Entering directory 'E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/scugic_v4_2/sr
+TRACE::2020-10-30.20:23:01::SCWBDomain::c'
+
+TRACE::2020-10-30.20:23:01::SCWBDomain::make[2]: Leaving directory 'E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/scugic_v4_2/src
+TRACE::2020-10-30.20:23:01::SCWBDomain::'
+
+TRACE::2020-10-30.20:23:01::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_2/src"
+
+TRACE::2020-10-30.20:23:01::SCWBDomain::make -C ps7_cortexa9_0/libsrc/scutimer_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-a
+TRACE::2020-10-30.20:23:01::SCWBDomain::s" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -no
+TRACE::2020-10-30.20:23:01::SCWBDomain::startfiles -g -Wall -Wextra"
+
+TRACE::2020-10-30.20:23:01::SCWBDomain::make[2]: Entering directory 'E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/scutimer_v2_2/
+TRACE::2020-10-30.20:23:01::SCWBDomain::src'
+
+TRACE::2020-10-30.20:23:01::SCWBDomain::make[2]: Leaving directory 'E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/scutimer_v2_2/s
+TRACE::2020-10-30.20:23:01::SCWBDomain::rc'
+
+TRACE::2020-10-30.20:23:01::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_2/src"
+
+TRACE::2020-10-30.20:23:01::SCWBDomain::make -C ps7_cortexa9_0/libsrc/scuwdt_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2020-10-30.20:23:01::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2020-10-30.20:23:01::SCWBDomain::artfiles -g -Wall -Wextra"
+
+TRACE::2020-10-30.20:23:01::SCWBDomain::make[2]: Entering directory 'E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/scuwdt_v2_2/sr
+TRACE::2020-10-30.20:23:01::SCWBDomain::c'
+
+TRACE::2020-10-30.20:23:01::SCWBDomain::make[2]: Leaving directory 'E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/scuwdt_v2_2/src
+TRACE::2020-10-30.20:23:01::SCWBDomain::'
+
+TRACE::2020-10-30.20:23:01::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/sdps_v3_9/src"
+
+TRACE::2020-10-30.20:23:01::SCWBDomain::make -C ps7_cortexa9_0/libsrc/sdps_v3_9/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "
+TRACE::2020-10-30.20:23:01::SCWBDomain::ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostar
+TRACE::2020-10-30.20:23:01::SCWBDomain::tfiles -g -Wall -Wextra"
+
+TRACE::2020-10-30.20:23:01::SCWBDomain::make[2]: Entering directory 'E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/sdps_v3_9/src'
+TRACE::2020-10-30.20:23:01::SCWBDomain::
+
+TRACE::2020-10-30.20:23:01::SCWBDomain::make[2]: Leaving directory 'E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/sdps_v3_9/src'
+
+TRACE::2020-10-30.20:23:01::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/standalone_v7_2/src"
+
+TRACE::2020-10-30.20:23:01::SCWBDomain::make -C ps7_cortexa9_0/libsrc/standalone_v7_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2020-10-30.20:23:01::SCWBDomain::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2020-10-30.20:23:01::SCWBDomain::nostartfiles -g -Wall -Wextra"
+
+TRACE::2020-10-30.20:23:01::SCWBDomain::make[2]: Entering directory 'E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/standalone_v7_
+TRACE::2020-10-30.20:23:01::SCWBDomain::2/src'
+
+TRACE::2020-10-30.20:23:02::SCWBDomain::make[3]: Entering directory 'E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/standalone_v7_
+TRACE::2020-10-30.20:23:02::SCWBDomain::2/src/profile'
+
+TRACE::2020-10-30.20:23:02::SCWBDomain::make[3]: Leaving directory 'E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/standalone_v7_2
+TRACE::2020-10-30.20:23:02::SCWBDomain::/src/profile'
+
+TRACE::2020-10-30.20:23:02::SCWBDomain::make[2]: Leaving directory 'E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/standalone_v7_2
+TRACE::2020-10-30.20:23:02::SCWBDomain::/src'
+
+TRACE::2020-10-30.20:23:02::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/ttcps_v3_11/src"
+
+TRACE::2020-10-30.20:23:02::SCWBDomain::make -C ps7_cortexa9_0/libsrc/ttcps_v3_11/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2020-10-30.20:23:02::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2020-10-30.20:23:02::SCWBDomain::artfiles -g -Wall -Wextra"
+
+TRACE::2020-10-30.20:23:02::SCWBDomain::make[2]: Entering directory 'E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/ttcps_v3_11/sr
+TRACE::2020-10-30.20:23:02::SCWBDomain::c'
+
+TRACE::2020-10-30.20:23:02::SCWBDomain::make[2]: Leaving directory 'E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/ttcps_v3_11/src
+TRACE::2020-10-30.20:23:02::SCWBDomain::'
+
+TRACE::2020-10-30.20:23:02::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_9/src"
+
+TRACE::2020-10-30.20:23:02::SCWBDomain::make -C ps7_cortexa9_0/libsrc/uartps_v3_9/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2020-10-30.20:23:02::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2020-10-30.20:23:02::SCWBDomain::artfiles -g -Wall -Wextra"
+
+TRACE::2020-10-30.20:23:02::SCWBDomain::make[2]: Entering directory 'E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/uartps_v3_9/sr
+TRACE::2020-10-30.20:23:02::SCWBDomain::c'
+
+TRACE::2020-10-30.20:23:02::SCWBDomain::make[2]: Leaving directory 'E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/uartps_v3_9/src
+TRACE::2020-10-30.20:23:02::SCWBDomain::'
+
+TRACE::2020-10-30.20:23:02::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_5/src"
+
+TRACE::2020-10-30.20:23:02::SCWBDomain::make -C ps7_cortexa9_0/libsrc/usbps_v2_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+TRACE::2020-10-30.20:23:02::SCWBDomain::"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+TRACE::2020-10-30.20:23:02::SCWBDomain::rtfiles -g -Wall -Wextra"
+
+TRACE::2020-10-30.20:23:02::SCWBDomain::make[2]: Entering directory 'E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/usbps_v2_5/src
+TRACE::2020-10-30.20:23:02::SCWBDomain::'
+
+TRACE::2020-10-30.20:23:02::SCWBDomain::make[2]: Leaving directory 'E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/usbps_v2_5/src'
+TRACE::2020-10-30.20:23:02::SCWBDomain::
+
+TRACE::2020-10-30.20:23:02::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_4/src"
+
+TRACE::2020-10-30.20:23:02::SCWBDomain::make -C ps7_cortexa9_0/libsrc/xadcps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2020-10-30.20:23:02::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2020-10-30.20:23:02::SCWBDomain::artfiles -g -Wall -Wextra"
+
+TRACE::2020-10-30.20:23:02::SCWBDomain::make[2]: Entering directory 'E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/xadcps_v2_4/sr
+TRACE::2020-10-30.20:23:02::SCWBDomain::c'
+
+TRACE::2020-10-30.20:23:02::SCWBDomain::make[2]: Leaving directory 'E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/xadcps_v2_4/src
+TRACE::2020-10-30.20:23:02::SCWBDomain::'
+
+TRACE::2020-10-30.20:23:02::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/xilffs_v4_3/src"
+
+TRACE::2020-10-30.20:23:02::SCWBDomain::make -C ps7_cortexa9_0/libsrc/xilffs_v4_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2020-10-30.20:23:02::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2020-10-30.20:23:02::SCWBDomain::artfiles -g -Wall -Wextra"
+
+TRACE::2020-10-30.20:23:02::SCWBDomain::make[2]: Entering directory 'E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/xilffs_v4_3/sr
+TRACE::2020-10-30.20:23:02::SCWBDomain::c'
+
+TRACE::2020-10-30.20:23:02::SCWBDomain::make[2]: Leaving directory 'E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/xilffs_v4_3/src
+TRACE::2020-10-30.20:23:02::SCWBDomain::'
+
+TRACE::2020-10-30.20:23:02::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/xilrsa_v1_6/src"
+
+TRACE::2020-10-30.20:23:02::SCWBDomain::make -C ps7_cortexa9_0/libsrc/xilrsa_v1_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2020-10-30.20:23:02::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2020-10-30.20:23:02::SCWBDomain::artfiles -g -Wall -Wextra"
+
+TRACE::2020-10-30.20:23:02::SCWBDomain::make[2]: Entering directory 'E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/xilrsa_v1_6/sr
+TRACE::2020-10-30.20:23:02::SCWBDomain::c'
+
+TRACE::2020-10-30.20:23:02::SCWBDomain::make[2]: Leaving directory 'E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/xilrsa_v1_6/src
+TRACE::2020-10-30.20:23:02::SCWBDomain::'
+
+TRACE::2020-10-30.20:23:02::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/axidma_v9_11/src"
+
+TRACE::2020-10-30.20:23:02::SCWBDomain::make -C ps7_cortexa9_0/libsrc/axidma_v9_11/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "
+TRACE::2020-10-30.20:23:02::SCWBDomain::ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostar
+TRACE::2020-10-30.20:23:02::SCWBDomain::tfiles -g -Wall -Wextra"
+
+TRACE::2020-10-30.20:23:02::SCWBDomain::make[2]: Entering directory 'E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/axidma_v9_11/s
+TRACE::2020-10-30.20:23:02::SCWBDomain::rc'
+
+TRACE::2020-10-30.20:23:02::SCWBDomain::"Compiling axidma"
+
+TRACE::2020-10-30.20:23:03::SCWBDomain::make[2]: Leaving directory 'E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/axidma_v9_11/sr
+TRACE::2020-10-30.20:23:03::SCWBDomain::c'
+
+TRACE::2020-10-30.20:23:03::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_7/src"
+
+TRACE::2020-10-30.20:23:03::SCWBDomain::make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-ea
+TRACE::2020-10-30.20:23:03::SCWBDomain::bi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard
+TRACE::2020-10-30.20:23:03::SCWBDomain:: -nostartfiles -g -Wall -Wextra"
+
+TRACE::2020-10-30.20:23:03::SCWBDomain::make[2]: Entering directory 'E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/coresightps_dc
+TRACE::2020-10-30.20:23:03::SCWBDomain::c_v1_7/src'
+
+TRACE::2020-10-30.20:23:03::SCWBDomain::"Compiling coresightps_dcc"
+
+TRACE::2020-10-30.20:23:03::SCWBDomain::make[2]: Leaving directory 'E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/coresightps_dcc
+TRACE::2020-10-30.20:23:03::SCWBDomain::_v1_7/src'
+
+TRACE::2020-10-30.20:23:03::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_9/src"
+
+TRACE::2020-10-30.20:23:03::SCWBDomain::make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_9/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-
+TRACE::2020-10-30.20:23:03::SCWBDomain::as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -n
+TRACE::2020-10-30.20:23:03::SCWBDomain::ostartfiles -g -Wall -Wextra"
+
+TRACE::2020-10-30.20:23:03::SCWBDomain::make[2]: Entering directory 'E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/cpu_cortexa9_v
+TRACE::2020-10-30.20:23:03::SCWBDomain::2_9/src'
+
+TRACE::2020-10-30.20:23:03::SCWBDomain::"Compiling cpu_cortexa9"
+
+TRACE::2020-10-30.20:23:03::SCWBDomain::make[2]: Leaving directory 'E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/cpu_cortexa9_v2
+TRACE::2020-10-30.20:23:03::SCWBDomain::_9/src'
+
+TRACE::2020-10-30.20:23:03::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_1/src"
+
+TRACE::2020-10-30.20:23:03::SCWBDomain::make -C ps7_cortexa9_0/libsrc/ddrps_v1_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "AR
+TRACE::2020-10-30.20:23:03::SCWBDomain::CHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartf
+TRACE::2020-10-30.20:23:03::SCWBDomain::iles -g -Wall -Wextra"
+
+TRACE::2020-10-30.20:23:03::SCWBDomain::make[2]: Entering directory 'E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/ddrps_v1_1/src
+TRACE::2020-10-30.20:23:03::SCWBDomain::'
+
+TRACE::2020-10-30.20:23:03::SCWBDomain::"Compiling ddrps"
+
+TRACE::2020-10-30.20:23:04::SCWBDomain::make[2]: Leaving directory 'E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/ddrps_v1_1/src'
+TRACE::2020-10-30.20:23:04::SCWBDomain::
+
+TRACE::2020-10-30.20:23:04::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_6/src"
+
+TRACE::2020-10-30.20:23:04::SCWBDomain::make -C ps7_cortexa9_0/libsrc/devcfg_v3_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2020-10-30.20:23:04::SCWBDomain::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2020-10-30.20:23:04::SCWBDomain::files -g -Wall -Wextra"
+
+TRACE::2020-10-30.20:23:04::SCWBDomain::make[2]: Entering directory 'E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/devcfg_v3_6/sr
+TRACE::2020-10-30.20:23:04::SCWBDomain::c'
+
+TRACE::2020-10-30.20:23:04::SCWBDomain::"Compiling devcfg"
+
+TRACE::2020-10-30.20:23:04::SCWBDomain::make[2]: Leaving directory 'E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/devcfg_v3_6/src
+TRACE::2020-10-30.20:23:04::SCWBDomain::'
+
+TRACE::2020-10-30.20:23:04::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_6/src"
+
+TRACE::2020-10-30.20:23:04::SCWBDomain::make -C ps7_cortexa9_0/libsrc/dmaps_v2_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "AR
+TRACE::2020-10-30.20:23:04::SCWBDomain::CHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartf
+TRACE::2020-10-30.20:23:04::SCWBDomain::iles -g -Wall -Wextra"
+
+TRACE::2020-10-30.20:23:04::SCWBDomain::make[2]: Entering directory 'E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/dmaps_v2_6/src
+TRACE::2020-10-30.20:23:04::SCWBDomain::'
+
+TRACE::2020-10-30.20:23:04::SCWBDomain::"Compiling dmaps"
+
+TRACE::2020-10-30.20:23:05::SCWBDomain::make[2]: Leaving directory 'E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/dmaps_v2_6/src'
+TRACE::2020-10-30.20:23:05::SCWBDomain::
+
+TRACE::2020-10-30.20:23:05::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_11/src"
+
+TRACE::2020-10-30.20:23:05::SCWBDomain::make -C ps7_cortexa9_0/libsrc/emacps_v3_11/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "
+TRACE::2020-10-30.20:23:05::SCWBDomain::ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostar
+TRACE::2020-10-30.20:23:05::SCWBDomain::tfiles -g -Wall -Wextra"
+
+TRACE::2020-10-30.20:23:05::SCWBDomain::make[2]: Entering directory 'E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/emacps_v3_11/s
+TRACE::2020-10-30.20:23:05::SCWBDomain::rc'
+
+TRACE::2020-10-30.20:23:05::SCWBDomain::"Compiling emacps"
+
+TRACE::2020-10-30.20:23:06::SCWBDomain::make[2]: Leaving directory 'E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/emacps_v3_11/sr
+TRACE::2020-10-30.20:23:06::SCWBDomain::c'
+
+TRACE::2020-10-30.20:23:06::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_7/src"
+
+TRACE::2020-10-30.20:23:06::SCWBDomain::make -C ps7_cortexa9_0/libsrc/gpiops_v3_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2020-10-30.20:23:06::SCWBDomain::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2020-10-30.20:23:06::SCWBDomain::files -g -Wall -Wextra"
+
+TRACE::2020-10-30.20:23:06::SCWBDomain::make[2]: Entering directory 'E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/gpiops_v3_7/sr
+TRACE::2020-10-30.20:23:06::SCWBDomain::c'
+
+TRACE::2020-10-30.20:23:06::SCWBDomain::"Compiling gpiops"
+
+TRACE::2020-10-30.20:23:07::SCWBDomain::make[2]: Leaving directory 'E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/gpiops_v3_7/src
+TRACE::2020-10-30.20:23:07::SCWBDomain::'
+
+TRACE::2020-10-30.20:23:07::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_7/src"
+
+TRACE::2020-10-30.20:23:07::SCWBDomain::make -C ps7_cortexa9_0/libsrc/qspips_v3_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2020-10-30.20:23:07::SCWBDomain::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2020-10-30.20:23:07::SCWBDomain::files -g -Wall -Wextra"
+
+TRACE::2020-10-30.20:23:07::SCWBDomain::make[2]: Entering directory 'E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/qspips_v3_7/sr
+TRACE::2020-10-30.20:23:07::SCWBDomain::c'
+
+TRACE::2020-10-30.20:23:07::SCWBDomain::"Compiling qspips"
+
+TRACE::2020-10-30.20:23:08::SCWBDomain::make[2]: Leaving directory 'E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/qspips_v3_7/src
+TRACE::2020-10-30.20:23:08::SCWBDomain::'
+
+TRACE::2020-10-30.20:23:08::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v4_2/src"
+
+TRACE::2020-10-30.20:23:08::SCWBDomain::make -C ps7_cortexa9_0/libsrc/scugic_v4_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2020-10-30.20:23:08::SCWBDomain::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2020-10-30.20:23:08::SCWBDomain::files -g -Wall -Wextra"
+
+TRACE::2020-10-30.20:23:08::SCWBDomain::make[2]: Entering directory 'E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/scugic_v4_2/sr
+TRACE::2020-10-30.20:23:08::SCWBDomain::c'
+
+TRACE::2020-10-30.20:23:08::SCWBDomain::"Compiling scugic"
+
+TRACE::2020-10-30.20:23:08::SCWBDomain::make[2]: Leaving directory 'E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/scugic_v4_2/src
+TRACE::2020-10-30.20:23:08::SCWBDomain::'
+
+TRACE::2020-10-30.20:23:08::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_2/src"
+
+TRACE::2020-10-30.20:23:08::SCWBDomain::make -C ps7_cortexa9_0/libsrc/scutimer_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+TRACE::2020-10-30.20:23:08::SCWBDomain::"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+TRACE::2020-10-30.20:23:08::SCWBDomain::rtfiles -g -Wall -Wextra"
+
+TRACE::2020-10-30.20:23:08::SCWBDomain::make[2]: Entering directory 'E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/scutimer_v2_2/
+TRACE::2020-10-30.20:23:08::SCWBDomain::src'
+
+TRACE::2020-10-30.20:23:08::SCWBDomain::"Compiling scutimer"
+
+TRACE::2020-10-30.20:23:09::SCWBDomain::make[2]: Leaving directory 'E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/scutimer_v2_2/s
+TRACE::2020-10-30.20:23:09::SCWBDomain::rc'
+
+TRACE::2020-10-30.20:23:09::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_2/src"
+
+TRACE::2020-10-30.20:23:09::SCWBDomain::make -C ps7_cortexa9_0/libsrc/scuwdt_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2020-10-30.20:23:09::SCWBDomain::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2020-10-30.20:23:09::SCWBDomain::files -g -Wall -Wextra"
+
+TRACE::2020-10-30.20:23:09::SCWBDomain::make[2]: Entering directory 'E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/scuwdt_v2_2/sr
+TRACE::2020-10-30.20:23:09::SCWBDomain::c'
+
+TRACE::2020-10-30.20:23:09::SCWBDomain::"Compiling scuwdt"
+
+TRACE::2020-10-30.20:23:09::SCWBDomain::make[2]: Leaving directory 'E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/scuwdt_v2_2/src
+TRACE::2020-10-30.20:23:09::SCWBDomain::'
+
+TRACE::2020-10-30.20:23:09::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v3_9/src"
+
+TRACE::2020-10-30.20:23:09::SCWBDomain::make -C ps7_cortexa9_0/libsrc/sdps_v3_9/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "ARC
+TRACE::2020-10-30.20:23:09::SCWBDomain::HIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfi
+TRACE::2020-10-30.20:23:09::SCWBDomain::les -g -Wall -Wextra"
+
+TRACE::2020-10-30.20:23:09::SCWBDomain::make[2]: Entering directory 'E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/sdps_v3_9/src'
+TRACE::2020-10-30.20:23:09::SCWBDomain::
+
+TRACE::2020-10-30.20:23:09::SCWBDomain::"Compiling sdps"
+
+TRACE::2020-10-30.20:23:10::SCWBDomain::make[2]: Leaving directory 'E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/sdps_v3_9/src'
+
+TRACE::2020-10-30.20:23:10::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v7_2/src"
+
+TRACE::2020-10-30.20:23:10::SCWBDomain::make -C ps7_cortexa9_0/libsrc/standalone_v7_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2020-10-30.20:23:10::SCWBDomain::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2020-10-30.20:23:10::SCWBDomain::tartfiles -g -Wall -Wextra"
+
+TRACE::2020-10-30.20:23:10::SCWBDomain::make[2]: Entering directory 'E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/standalone_v7_
+TRACE::2020-10-30.20:23:10::SCWBDomain::2/src'
+
+TRACE::2020-10-30.20:23:10::SCWBDomain::"Compiling standalone"
+
+TRACE::2020-10-30.20:23:14::SCWBDomain::make[3]: Entering directory 'E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/standalone_v7_
+TRACE::2020-10-30.20:23:14::SCWBDomain::2/src/profile'
+
+TRACE::2020-10-30.20:23:14::SCWBDomain::make[3]: Leaving directory 'E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/standalone_v7_2
+TRACE::2020-10-30.20:23:14::SCWBDomain::/src/profile'
+
+TRACE::2020-10-30.20:23:14::SCWBDomain::make[2]: Leaving directory 'E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/standalone_v7_2
+TRACE::2020-10-30.20:23:14::SCWBDomain::/src'
+
+TRACE::2020-10-30.20:23:14::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/ttcps_v3_11/src"
+
+TRACE::2020-10-30.20:23:14::SCWBDomain::make -C ps7_cortexa9_0/libsrc/ttcps_v3_11/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2020-10-30.20:23:14::SCWBDomain::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2020-10-30.20:23:14::SCWBDomain::files -g -Wall -Wextra"
+
+TRACE::2020-10-30.20:23:14::SCWBDomain::make[2]: Entering directory 'E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/ttcps_v3_11/sr
+TRACE::2020-10-30.20:23:14::SCWBDomain::c'
+
+TRACE::2020-10-30.20:23:14::SCWBDomain::"Compiling ttcps"
+
+TRACE::2020-10-30.20:23:14::SCWBDomain::make[2]: Leaving directory 'E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/ttcps_v3_11/src
+TRACE::2020-10-30.20:23:14::SCWBDomain::'
+
+TRACE::2020-10-30.20:23:14::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_9/src"
+
+TRACE::2020-10-30.20:23:14::SCWBDomain::make -C ps7_cortexa9_0/libsrc/uartps_v3_9/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2020-10-30.20:23:14::SCWBDomain::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2020-10-30.20:23:14::SCWBDomain::files -g -Wall -Wextra"
+
+TRACE::2020-10-30.20:23:14::SCWBDomain::make[2]: Entering directory 'E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/uartps_v3_9/sr
+TRACE::2020-10-30.20:23:14::SCWBDomain::c'
+
+TRACE::2020-10-30.20:23:14::SCWBDomain::"Compiling uartps"
+
+TRACE::2020-10-30.20:23:15::SCWBDomain::make[2]: Leaving directory 'E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/uartps_v3_9/src
+TRACE::2020-10-30.20:23:15::SCWBDomain::'
+
+TRACE::2020-10-30.20:23:15::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_5/src"
+
+TRACE::2020-10-30.20:23:15::SCWBDomain::make -C ps7_cortexa9_0/libsrc/usbps_v2_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "AR
+TRACE::2020-10-30.20:23:15::SCWBDomain::CHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartf
+TRACE::2020-10-30.20:23:15::SCWBDomain::iles -g -Wall -Wextra"
+
+TRACE::2020-10-30.20:23:15::SCWBDomain::make[2]: Entering directory 'E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/usbps_v2_5/src
+TRACE::2020-10-30.20:23:15::SCWBDomain::'
+
+TRACE::2020-10-30.20:23:15::SCWBDomain::"Compiling usbps"
+
+TRACE::2020-10-30.20:23:16::SCWBDomain::make[2]: Leaving directory 'E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/usbps_v2_5/src'
+TRACE::2020-10-30.20:23:16::SCWBDomain::
+
+TRACE::2020-10-30.20:23:16::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_4/src"
+
+TRACE::2020-10-30.20:23:16::SCWBDomain::make -C ps7_cortexa9_0/libsrc/xadcps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2020-10-30.20:23:16::SCWBDomain::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2020-10-30.20:23:16::SCWBDomain::files -g -Wall -Wextra"
+
+TRACE::2020-10-30.20:23:16::SCWBDomain::make[2]: Entering directory 'E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/xadcps_v2_4/sr
+TRACE::2020-10-30.20:23:16::SCWBDomain::c'
+
+TRACE::2020-10-30.20:23:16::SCWBDomain::"Compiling xadcps"
+
+TRACE::2020-10-30.20:23:17::SCWBDomain::make[2]: Leaving directory 'E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/xadcps_v2_4/src
+TRACE::2020-10-30.20:23:17::SCWBDomain::'
+
+TRACE::2020-10-30.20:23:17::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/xilffs_v4_3/src"
+
+TRACE::2020-10-30.20:23:17::SCWBDomain::make -C ps7_cortexa9_0/libsrc/xilffs_v4_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2020-10-30.20:23:17::SCWBDomain::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2020-10-30.20:23:17::SCWBDomain::files -g -Wall -Wextra"
+
+TRACE::2020-10-30.20:23:17::SCWBDomain::make[2]: Entering directory 'E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/xilffs_v4_3/sr
+TRACE::2020-10-30.20:23:17::SCWBDomain::c'
+
+TRACE::2020-10-30.20:23:17::SCWBDomain::"Compiling XilFFs Library"
+
+TRACE::2020-10-30.20:23:18::SCWBDomain::make[2]: Leaving directory 'E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/xilffs_v4_3/src
+TRACE::2020-10-30.20:23:18::SCWBDomain::'
+
+TRACE::2020-10-30.20:23:18::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/xilrsa_v1_6/src"
+
+TRACE::2020-10-30.20:23:18::SCWBDomain::make -C ps7_cortexa9_0/libsrc/xilrsa_v1_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2020-10-30.20:23:18::SCWBDomain::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2020-10-30.20:23:18::SCWBDomain::files -g -Wall -Wextra"
+
+TRACE::2020-10-30.20:23:18::SCWBDomain::make[2]: Entering directory 'E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/xilrsa_v1_6/sr
+TRACE::2020-10-30.20:23:18::SCWBDomain::c'
+
+TRACE::2020-10-30.20:23:18::SCWBDomain::make[2]: Leaving directory 'E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/xilrsa_v1_6/src
+TRACE::2020-10-30.20:23:18::SCWBDomain::'
+
+TRACE::2020-10-30.20:23:18::SCWBDomain::'Finished building libraries'
+
+TRACE::2020-10-30.20:23:18::SCWBDomain::make[1]: Leaving directory 'E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp'
+
+TRACE::2020-10-30.20:23:18::SCWBDomain::arm-none-eabi-gcc -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -O2 -c -c sd.c -o sd.o -Izynq_fsbl_bsp/ps7_cort
+TRACE::2020-10-30.20:23:18::SCWBDomain::exa9_0/include -I.
+
+TRACE::2020-10-30.20:23:18::SCWBDomain::arm-none-eabi-gcc -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -O2 -c -c nand.c -o nand.o -Izynq_fsbl_bsp/ps7_
+TRACE::2020-10-30.20:23:18::SCWBDomain::cortexa9_0/include -I.
+
+TRACE::2020-10-30.20:23:18::SCWBDomain::arm-none-eabi-gcc -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -O2 -c -c nor.c -o nor.o -Izynq_fsbl_bsp/ps7_co
+TRACE::2020-10-30.20:23:18::SCWBDomain::rtexa9_0/include -I.
+
+TRACE::2020-10-30.20:23:19::SCWBDomain::arm-none-eabi-gcc -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -O2 -c -c image_mover.c -o image_mover.o -Izynq
+TRACE::2020-10-30.20:23:19::SCWBDomain::_fsbl_bsp/ps7_cortexa9_0/include -I.
+
+TRACE::2020-10-30.20:23:19::SCWBDomain::arm-none-eabi-gcc -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -O2 -c -c md5.c -o md5.o -Izynq_fsbl_bsp/ps7_co
+TRACE::2020-10-30.20:23:19::SCWBDomain::rtexa9_0/include -I.
+
+TRACE::2020-10-30.20:23:19::SCWBDomain::arm-none-eabi-gcc -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -O2 -c -c fsbl_hooks.c -o fsbl_hooks.o -Izynq_f
+TRACE::2020-10-30.20:23:19::SCWBDomain::sbl_bsp/ps7_cortexa9_0/include -I.
+
+TRACE::2020-10-30.20:23:19::SCWBDomain::arm-none-eabi-gcc -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -O2 -c -c main.c -o main.o -Izynq_fsbl_bsp/ps7_
+TRACE::2020-10-30.20:23:19::SCWBDomain::cortexa9_0/include -I.
+
+TRACE::2020-10-30.20:23:19::SCWBDomain::arm-none-eabi-gcc -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -O2 -c -c rsa.c -o rsa.o -Izynq_fsbl_bsp/ps7_co
+TRACE::2020-10-30.20:23:19::SCWBDomain::rtexa9_0/include -I.
+
+TRACE::2020-10-30.20:23:19::SCWBDomain::arm-none-eabi-gcc -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -O2 -c -c qspi.c -o qspi.o -Izynq_fsbl_bsp/ps7_
+TRACE::2020-10-30.20:23:19::SCWBDomain::cortexa9_0/include -I.
+
+TRACE::2020-10-30.20:23:19::SCWBDomain::arm-none-eabi-gcc -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -O2 -c -c ps7_init.c -o ps7_init.o -Izynq_fsbl_
+TRACE::2020-10-30.20:23:19::SCWBDomain::bsp/ps7_cortexa9_0/include -I.
+
+TRACE::2020-10-30.20:23:19::SCWBDomain::arm-none-eabi-gcc -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -O2 -c -c pcap.c -o pcap.o -Izynq_fsbl_bsp/ps7_
+TRACE::2020-10-30.20:23:19::SCWBDomain::cortexa9_0/include -I.
+
+TRACE::2020-10-30.20:23:20::SCWBDomain::arm-none-eabi-gcc -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -O2 -c -c fsbl_handoff.S -o fsbl_handoff.o -Izy
+TRACE::2020-10-30.20:23:20::SCWBDomain::nq_fsbl_bsp/ps7_cortexa9_0/include -I.
+
+TRACE::2020-10-30.20:23:20::SCWBDomain::arm-none-eabi-gcc -o executable.elf  sd.o  nand.o  nor.o  image_mover.o  md5.o  fsbl_hooks.o  main.o  rsa.o  qspi.o  ps7_init.o
+TRACE::2020-10-30.20:23:20::SCWBDomain::  pcap.o  fsbl_handoff.o -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=
+TRACE::2020-10-30.20:23:20::SCWBDomain::hard -Wl,-build-id=none -specs=Xilinx.spec  -lrsa -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxi
+TRACE::2020-10-30.20:23:20::SCWBDomain::l,-lgcc,-lc,--end-group -Wl,--start-group,-lrsa,-lxil,-lgcc,-lc,--end-group                                     -Wl,--gc-sectio
+TRACE::2020-10-30.20:23:20::SCWBDomain::ns -Lzynq_fsbl_bsp/ps7_cortexa9_0/lib -L./ -Tlscript.ld
+
+LOG::2020-10-30.20:23:20::SCWSystem::Checking the domain standalone_domain
+LOG::2020-10-30.20:23:20::SCWSystem::Not a boot domain 
+LOG::2020-10-30.20:23:20::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2020-10-30.20:23:20::SCWDomain::Generating domain artifcats
+TRACE::2020-10-30.20:23:20::SCWMssOS::Generating standalone artifcats
+TRACE::2020-10-30.20:23:20::SCWMssOS::Copying the qemu file from  D:/Xilinx/Vitis/2020.1/data/emulation/platforms/zynq/qemu/qemu_args.txt To E:/fpga_proj/ps/axi_dma/vitis/axi_dma/export/axi_dma/sw/axi_dma/qemu/
+TRACE::2020-10-30.20:23:20::SCWMssOS::Copying the qemu file from  D:/Xilinx/Vitis/2020.1/data/emulation/platforms/zynq/qemu/qemu_args.txt To E:/fpga_proj/ps/axi_dma/vitis/axi_dma/export/axi_dma/sw/axi_dma/standalone_domain/qemu/
+TRACE::2020-10-30.20:23:20::SCWMssOS:: Copying the user libraries. 
+TRACE::2020-10-30.20:23:20::SCWPlatform::Trying to open the hw design at E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.20:23:20::SCWPlatform::DSA given E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.20:23:20::SCWPlatform::DSA absoulate path E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.20:23:20::SCWPlatform::DSA directory E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw
+TRACE::2020-10-30.20:23:20::SCWPlatform:: Platform Path E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.20:23:20::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-10-30.20:23:20::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2020-10-30.20:23:20::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2020-10-30.20:23:20::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-10-30.20:23:20::SCWMssOS::Checking the sw design at  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-10-30.20:23:20::SCWMssOS::DEBUG:  swdes dump  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-10-30.20:23:20::SCWMssOS::Sw design exists and opened at  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-10-30.20:23:20::SCWMssOS::Completed writing the mss file at E:/fpga_proj/ps/axi_dma/vitis/axi_dma/ps7_cortexa9_0/standalone_domain/bsp
+TRACE::2020-10-30.20:23:20::SCWMssOS::Mss edits present, copying mssfile into export location E:/fpga_proj/ps/axi_dma/vitis/axi_dma/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-10-30.20:23:20::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2020-10-30.20:23:20::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2020-10-30.20:23:20::SCWDomain::Building the domain as part of full build :  standalone_domain
+TRACE::2020-10-30.20:23:20::SCWMssOS::doing bsp build ... 
+TRACE::2020-10-30.20:23:20::SCWMssOS::System Command Ran  E: & cd  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/ps7_cortexa9_0/standalone_domain/bsp & make 
+TRACE::2020-10-30.20:23:20::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/axidma_v9_11/src"
+
+TRACE::2020-10-30.20:23:20::SCWMssOS::make -C ps7_cortexa9_0/libsrc/axidma_v9_11/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2020-10-30.20:23:20::SCWMssOS::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2020-10-30.20:23:20::SCWMssOS::tartfiles -g -Wall -Wextra"
+
+TRACE::2020-10-30.20:23:20::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_7/src"
+
+TRACE::2020-10-30.20:23:20::SCWMssOS::make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none
+TRACE::2020-10-30.20:23:20::SCWMssOS::-eabi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=h
+TRACE::2020-10-30.20:23:20::SCWMssOS::ard -nostartfiles -g -Wall -Wextra"
+
+TRACE::2020-10-30.20:23:20::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_9/src"
+
+TRACE::2020-10-30.20:23:20::SCWMssOS::make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_9/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-ea
+TRACE::2020-10-30.20:23:20::SCWMssOS::bi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard
+TRACE::2020-10-30.20:23:20::SCWMssOS:: -nostartfiles -g -Wall -Wextra"
+
+TRACE::2020-10-30.20:23:20::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_1/src"
+
+TRACE::2020-10-30.20:23:20::SCWMssOS::make -C ps7_cortexa9_0/libsrc/ddrps_v1_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+TRACE::2020-10-30.20:23:20::SCWMssOS::"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+TRACE::2020-10-30.20:23:20::SCWMssOS::rtfiles -g -Wall -Wextra"
+
+TRACE::2020-10-30.20:23:20::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_6/src"
+
+TRACE::2020-10-30.20:23:20::SCWMssOS::make -C ps7_cortexa9_0/libsrc/devcfg_v3_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2020-10-30.20:23:20::SCWMssOS:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2020-10-30.20:23:20::SCWMssOS::artfiles -g -Wall -Wextra"
+
+TRACE::2020-10-30.20:23:21::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_6/src"
+
+TRACE::2020-10-30.20:23:21::SCWMssOS::make -C ps7_cortexa9_0/libsrc/dmaps_v2_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+TRACE::2020-10-30.20:23:21::SCWMssOS::"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+TRACE::2020-10-30.20:23:21::SCWMssOS::rtfiles -g -Wall -Wextra"
+
+TRACE::2020-10-30.20:23:21::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_11/src"
+
+TRACE::2020-10-30.20:23:21::SCWMssOS::make -C ps7_cortexa9_0/libsrc/emacps_v3_11/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2020-10-30.20:23:21::SCWMssOS::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2020-10-30.20:23:21::SCWMssOS::tartfiles -g -Wall -Wextra"
+
+TRACE::2020-10-30.20:23:21::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_7/src"
+
+TRACE::2020-10-30.20:23:21::SCWMssOS::make -C ps7_cortexa9_0/libsrc/gpiops_v3_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2020-10-30.20:23:21::SCWMssOS:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2020-10-30.20:23:21::SCWMssOS::artfiles -g -Wall -Wextra"
+
+TRACE::2020-10-30.20:23:21::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_7/src"
+
+TRACE::2020-10-30.20:23:21::SCWMssOS::make -C ps7_cortexa9_0/libsrc/qspips_v3_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2020-10-30.20:23:21::SCWMssOS:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2020-10-30.20:23:21::SCWMssOS::artfiles -g -Wall -Wextra"
+
+TRACE::2020-10-30.20:23:21::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/scugic_v4_2/src"
+
+TRACE::2020-10-30.20:23:21::SCWMssOS::make -C ps7_cortexa9_0/libsrc/scugic_v4_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2020-10-30.20:23:21::SCWMssOS:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2020-10-30.20:23:21::SCWMssOS::artfiles -g -Wall -Wextra"
+
+TRACE::2020-10-30.20:23:21::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_2/src"
+
+TRACE::2020-10-30.20:23:21::SCWMssOS::make -C ps7_cortexa9_0/libsrc/scutimer_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-a
+TRACE::2020-10-30.20:23:21::SCWMssOS::s" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -no
+TRACE::2020-10-30.20:23:21::SCWMssOS::startfiles -g -Wall -Wextra"
+
+TRACE::2020-10-30.20:23:21::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_2/src"
+
+TRACE::2020-10-30.20:23:21::SCWMssOS::make -C ps7_cortexa9_0/libsrc/scuwdt_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2020-10-30.20:23:21::SCWMssOS:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2020-10-30.20:23:21::SCWMssOS::artfiles -g -Wall -Wextra"
+
+TRACE::2020-10-30.20:23:21::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/sdps_v3_9/src"
+
+TRACE::2020-10-30.20:23:21::SCWMssOS::make -C ps7_cortexa9_0/libsrc/sdps_v3_9/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "
+TRACE::2020-10-30.20:23:21::SCWMssOS::ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostar
+TRACE::2020-10-30.20:23:21::SCWMssOS::tfiles -g -Wall -Wextra"
+
+TRACE::2020-10-30.20:23:21::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/standalone_v7_2/src"
+
+TRACE::2020-10-30.20:23:21::SCWMssOS::make -C ps7_cortexa9_0/libsrc/standalone_v7_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2020-10-30.20:23:21::SCWMssOS::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2020-10-30.20:23:21::SCWMssOS::nostartfiles -g -Wall -Wextra"
+
+TRACE::2020-10-30.20:23:21::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/ttcps_v3_11/src"
+
+TRACE::2020-10-30.20:23:21::SCWMssOS::make -C ps7_cortexa9_0/libsrc/ttcps_v3_11/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2020-10-30.20:23:21::SCWMssOS:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2020-10-30.20:23:21::SCWMssOS::artfiles -g -Wall -Wextra"
+
+TRACE::2020-10-30.20:23:21::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_9/src"
+
+TRACE::2020-10-30.20:23:21::SCWMssOS::make -C ps7_cortexa9_0/libsrc/uartps_v3_9/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2020-10-30.20:23:21::SCWMssOS:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2020-10-30.20:23:21::SCWMssOS::artfiles -g -Wall -Wextra"
+
+TRACE::2020-10-30.20:23:21::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_5/src"
+
+TRACE::2020-10-30.20:23:21::SCWMssOS::make -C ps7_cortexa9_0/libsrc/usbps_v2_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+TRACE::2020-10-30.20:23:21::SCWMssOS::"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+TRACE::2020-10-30.20:23:21::SCWMssOS::rtfiles -g -Wall -Wextra"
+
+TRACE::2020-10-30.20:23:21::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_4/src"
+
+TRACE::2020-10-30.20:23:21::SCWMssOS::make -C ps7_cortexa9_0/libsrc/xadcps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2020-10-30.20:23:21::SCWMssOS:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2020-10-30.20:23:21::SCWMssOS::artfiles -g -Wall -Wextra"
+
+TRACE::2020-10-30.20:23:22::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/axidma_v9_11/src"
+
+TRACE::2020-10-30.20:23:22::SCWMssOS::make -C ps7_cortexa9_0/libsrc/axidma_v9_11/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "
+TRACE::2020-10-30.20:23:22::SCWMssOS::ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostar
+TRACE::2020-10-30.20:23:22::SCWMssOS::tfiles -g -Wall -Wextra"
+
+TRACE::2020-10-30.20:23:22::SCWMssOS::"Compiling axidma"
+
+TRACE::2020-10-30.20:23:22::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_7/src"
+
+TRACE::2020-10-30.20:23:22::SCWMssOS::make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-ea
+TRACE::2020-10-30.20:23:22::SCWMssOS::bi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard
+TRACE::2020-10-30.20:23:22::SCWMssOS:: -nostartfiles -g -Wall -Wextra"
+
+TRACE::2020-10-30.20:23:22::SCWMssOS::"Compiling coresightps_dcc"
+
+TRACE::2020-10-30.20:23:23::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_9/src"
+
+TRACE::2020-10-30.20:23:23::SCWMssOS::make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_9/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-
+TRACE::2020-10-30.20:23:23::SCWMssOS::as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -n
+TRACE::2020-10-30.20:23:23::SCWMssOS::ostartfiles -g -Wall -Wextra"
+
+TRACE::2020-10-30.20:23:23::SCWMssOS::"Compiling cpu_cortexa9"
+
+TRACE::2020-10-30.20:23:23::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_1/src"
+
+TRACE::2020-10-30.20:23:23::SCWMssOS::make -C ps7_cortexa9_0/libsrc/ddrps_v1_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "AR
+TRACE::2020-10-30.20:23:23::SCWMssOS::CHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartf
+TRACE::2020-10-30.20:23:23::SCWMssOS::iles -g -Wall -Wextra"
+
+TRACE::2020-10-30.20:23:23::SCWMssOS::"Compiling ddrps"
+
+TRACE::2020-10-30.20:23:23::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_6/src"
+
+TRACE::2020-10-30.20:23:23::SCWMssOS::make -C ps7_cortexa9_0/libsrc/devcfg_v3_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2020-10-30.20:23:23::SCWMssOS::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2020-10-30.20:23:23::SCWMssOS::files -g -Wall -Wextra"
+
+TRACE::2020-10-30.20:23:23::SCWMssOS::"Compiling devcfg"
+
+TRACE::2020-10-30.20:23:23::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_6/src"
+
+TRACE::2020-10-30.20:23:23::SCWMssOS::make -C ps7_cortexa9_0/libsrc/dmaps_v2_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "AR
+TRACE::2020-10-30.20:23:23::SCWMssOS::CHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartf
+TRACE::2020-10-30.20:23:23::SCWMssOS::iles -g -Wall -Wextra"
+
+TRACE::2020-10-30.20:23:23::SCWMssOS::"Compiling dmaps"
+
+TRACE::2020-10-30.20:23:24::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_11/src"
+
+TRACE::2020-10-30.20:23:24::SCWMssOS::make -C ps7_cortexa9_0/libsrc/emacps_v3_11/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "
+TRACE::2020-10-30.20:23:24::SCWMssOS::ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostar
+TRACE::2020-10-30.20:23:24::SCWMssOS::tfiles -g -Wall -Wextra"
+
+TRACE::2020-10-30.20:23:24::SCWMssOS::"Compiling emacps"
+
+TRACE::2020-10-30.20:23:25::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_7/src"
+
+TRACE::2020-10-30.20:23:25::SCWMssOS::make -C ps7_cortexa9_0/libsrc/gpiops_v3_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2020-10-30.20:23:25::SCWMssOS::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2020-10-30.20:23:25::SCWMssOS::files -g -Wall -Wextra"
+
+TRACE::2020-10-30.20:23:25::SCWMssOS::"Compiling gpiops"
+
+TRACE::2020-10-30.20:23:26::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_7/src"
+
+TRACE::2020-10-30.20:23:26::SCWMssOS::make -C ps7_cortexa9_0/libsrc/qspips_v3_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2020-10-30.20:23:26::SCWMssOS::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2020-10-30.20:23:26::SCWMssOS::files -g -Wall -Wextra"
+
+TRACE::2020-10-30.20:23:26::SCWMssOS::"Compiling qspips"
+
+TRACE::2020-10-30.20:23:27::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v4_2/src"
+
+TRACE::2020-10-30.20:23:27::SCWMssOS::make -C ps7_cortexa9_0/libsrc/scugic_v4_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2020-10-30.20:23:27::SCWMssOS::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2020-10-30.20:23:27::SCWMssOS::files -g -Wall -Wextra"
+
+TRACE::2020-10-30.20:23:27::SCWMssOS::"Compiling scugic"
+
+TRACE::2020-10-30.20:23:27::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_2/src"
+
+TRACE::2020-10-30.20:23:27::SCWMssOS::make -C ps7_cortexa9_0/libsrc/scutimer_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+TRACE::2020-10-30.20:23:27::SCWMssOS::"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+TRACE::2020-10-30.20:23:27::SCWMssOS::rtfiles -g -Wall -Wextra"
+
+TRACE::2020-10-30.20:23:27::SCWMssOS::"Compiling scutimer"
+
+TRACE::2020-10-30.20:23:28::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_2/src"
+
+TRACE::2020-10-30.20:23:28::SCWMssOS::make -C ps7_cortexa9_0/libsrc/scuwdt_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2020-10-30.20:23:28::SCWMssOS::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2020-10-30.20:23:28::SCWMssOS::files -g -Wall -Wextra"
+
+TRACE::2020-10-30.20:23:28::SCWMssOS::"Compiling scuwdt"
+
+TRACE::2020-10-30.20:23:28::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v3_9/src"
+
+TRACE::2020-10-30.20:23:28::SCWMssOS::make -C ps7_cortexa9_0/libsrc/sdps_v3_9/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "ARC
+TRACE::2020-10-30.20:23:28::SCWMssOS::HIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfi
+TRACE::2020-10-30.20:23:28::SCWMssOS::les -g -Wall -Wextra"
+
+TRACE::2020-10-30.20:23:28::SCWMssOS::"Compiling sdps"
+
+TRACE::2020-10-30.20:23:29::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v7_2/src"
+
+TRACE::2020-10-30.20:23:29::SCWMssOS::make -C ps7_cortexa9_0/libsrc/standalone_v7_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2020-10-30.20:23:29::SCWMssOS::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2020-10-30.20:23:29::SCWMssOS::tartfiles -g -Wall -Wextra"
+
+TRACE::2020-10-30.20:23:29::SCWMssOS::"Compiling standalone"
+
+TRACE::2020-10-30.20:23:33::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/ttcps_v3_11/src"
+
+TRACE::2020-10-30.20:23:33::SCWMssOS::make -C ps7_cortexa9_0/libsrc/ttcps_v3_11/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2020-10-30.20:23:33::SCWMssOS::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2020-10-30.20:23:33::SCWMssOS::files -g -Wall -Wextra"
+
+TRACE::2020-10-30.20:23:33::SCWMssOS::"Compiling ttcps"
+
+TRACE::2020-10-30.20:23:33::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_9/src"
+
+TRACE::2020-10-30.20:23:33::SCWMssOS::make -C ps7_cortexa9_0/libsrc/uartps_v3_9/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2020-10-30.20:23:33::SCWMssOS::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2020-10-30.20:23:33::SCWMssOS::files -g -Wall -Wextra"
+
+TRACE::2020-10-30.20:23:33::SCWMssOS::"Compiling uartps"
+
+TRACE::2020-10-30.20:23:34::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_5/src"
+
+TRACE::2020-10-30.20:23:34::SCWMssOS::make -C ps7_cortexa9_0/libsrc/usbps_v2_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "AR
+TRACE::2020-10-30.20:23:34::SCWMssOS::CHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartf
+TRACE::2020-10-30.20:23:34::SCWMssOS::iles -g -Wall -Wextra"
+
+TRACE::2020-10-30.20:23:34::SCWMssOS::"Compiling usbps"
+
+TRACE::2020-10-30.20:23:35::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_4/src"
+
+TRACE::2020-10-30.20:23:35::SCWMssOS::make -C ps7_cortexa9_0/libsrc/xadcps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2020-10-30.20:23:35::SCWMssOS::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2020-10-30.20:23:35::SCWMssOS::files -g -Wall -Wextra"
+
+TRACE::2020-10-30.20:23:35::SCWMssOS::"Compiling xadcps"
+
+TRACE::2020-10-30.20:23:36::SCWMssOS::'Finished building libraries'
+
+TRACE::2020-10-30.20:23:36::SCWMssOS::Copying to export directory.
+TRACE::2020-10-30.20:23:36::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2020-10-30.20:23:36::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2020-10-30.20:23:36::SCWSystem::Completed Processing the domain standalone_domain
+LOG::2020-10-30.20:23:36::SCWSystem::Completed Processing the sysconfig axi_dma
+LOG::2020-10-30.20:23:36::SCWPlatform::Completed generating the artifacts for system configuration axi_dma
+TRACE::2020-10-30.20:23:36::SCWPlatform::Started preparing the platform 
+TRACE::2020-10-30.20:23:36::SCWSystem::Writing the bif file for system config axi_dma
+TRACE::2020-10-30.20:23:36::SCWSystem::dir created 
+TRACE::2020-10-30.20:23:36::SCWSystem::Writing the bif 
+TRACE::2020-10-30.20:23:36::SCWPlatform::Started writing the spfm file 
+TRACE::2020-10-30.20:23:36::SCWPlatform::Started writing the xpfm file 
+TRACE::2020-10-30.20:23:36::SCWPlatform::Completed generating the platform
+TRACE::2020-10-30.20:23:36::SCWMssOS::Saving the mss changes E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-30.20:23:36::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2020-10-30.20:23:36::SCWMssOS::Completed writemss as part of save.
+TRACE::2020-10-30.20:23:36::SCWMssOS::Commit changes completed.
+TRACE::2020-10-30.20:23:36::SCWMssOS::Saving the mss changes E:/fpga_proj/ps/axi_dma/vitis/axi_dma/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-10-30.20:23:36::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2020-10-30.20:23:36::SCWMssOS::Completed writemss as part of save.
+TRACE::2020-10-30.20:23:36::SCWMssOS::Commit changes completed.
+TRACE::2020-10-30.20:23:36::SCWPlatform::Trying to open the hw design at E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.20:23:36::SCWPlatform::DSA given E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.20:23:36::SCWPlatform::DSA absoulate path E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.20:23:36::SCWPlatform::DSA directory E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw
+TRACE::2020-10-30.20:23:36::SCWPlatform:: Platform Path E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.20:23:36::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-10-30.20:23:36::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2020-10-30.20:23:36::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2020-10-30.20:23:36::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-10-30.20:23:36::SCWMssOS::Checking the sw design at  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-30.20:23:36::SCWMssOS::DEBUG:  swdes dump  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-10-30.20:23:36::SCWMssOS::Sw design exists and opened at  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-10-30.20:23:36::SCWPlatform::Trying to open the hw design at E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.20:23:36::SCWPlatform::DSA given E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.20:23:36::SCWPlatform::DSA absoulate path E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.20:23:36::SCWPlatform::DSA directory E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw
+TRACE::2020-10-30.20:23:36::SCWPlatform:: Platform Path E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.20:23:36::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-10-30.20:23:36::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2020-10-30.20:23:36::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2020-10-30.20:23:36::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-10-30.20:23:36::SCWMssOS::Checking the sw design at  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-10-30.20:23:36::SCWMssOS::DEBUG:  swdes dump  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-10-30.20:23:36::SCWMssOS::Sw design exists and opened at  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-10-30.20:23:36::SCWWriter::formatted JSON is {
+	"platformName":	"axi_dma",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"axi_dma",
+	"platHandOff":	"E:/fpga_proj/ps/axi_dma/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"axi_dma",
+	"systems":	[{
+			"systemName":	"axi_dma",
+			"systemDesc":	"axi_dma",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"axi_dma",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.2",
+					"mssFile":	"",
+					"md5Digest":	"7fca24949fb867387f28213cb00c4977",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.3", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on ps7_cortexa9_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"D:/Xilinx/Vitis/2020.1/data/emulation/platforms/zynq/qemu/qemu_args.txt",
+					"qemuData":	"D:/Xilinx/Vitis/2020.1/data/emulation/platforms/zynq/qemu/",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.2",
+					"mssFile":	"",
+					"md5Digest":	"8dae0d065ce408278666f80fb1594674",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2020-10-30.20:23:36::SCWPlatform::updated the xpfm file.
+TRACE::2020-10-30.20:23:36::SCWPlatform::Trying to open the hw design at E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.20:23:36::SCWPlatform::DSA given E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.20:23:36::SCWPlatform::DSA absoulate path E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.20:23:36::SCWPlatform::DSA directory E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw
+TRACE::2020-10-30.20:23:36::SCWPlatform:: Platform Path E:/fpga_proj/ps/axi_dma/vitis/axi_dma/hw/design_1_wrapper.xsa
+TRACE::2020-10-30.20:23:36::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-10-30.20:23:36::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2020-10-30.20:23:36::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2020-10-30.20:23:36::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-10-30.20:23:36::SCWMssOS::Checking the sw design at  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-10-30.20:23:36::SCWMssOS::DEBUG:  swdes dump  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+E:/fpga_proj/ps/axi_dma/vitis/axi_dma/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-10-30.20:23:36::SCWMssOS::Sw design exists and opened at  E:/fpga_proj/ps/axi_dma/vitis/axi_dma/ps7_cortexa9_0/standalone_domain/bsp/system.mss

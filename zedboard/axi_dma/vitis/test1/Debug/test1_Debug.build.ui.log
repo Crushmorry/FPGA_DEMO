@@ -1,0 +1,25 @@
+2020-10-30T21:39:21.232697300255-21:39:21 **** Incremental Build of configuration Debug for project test1 ****
+000-make all 
+000-make --no-print-directory pre-build
+000-a9-linaro-pre-build-step
+000-' '
+000-make --no-print-directory main-build
+000-'Building file: ../src/main.c'
+000-'Invoking: ARM v7 gcc compiler'
+000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IE:/fpga_proj/ps/axi_dma/vitis/axi_dma/export/axi_dma/sw/axi_dma/standalone_domain/bspinclude/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+000-'Finished building: ../src/main.c'
+000-' '
+000-'Building target: test1.elf'
+000-'Invoking: ARM v7 gcc linker'
+000-arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LE:/fpga_proj/ps/axi_dma/vitis/axi_dma/export/axi_dma/sw/axi_dma/standalone_domain/bsplib/lib -o "test1.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+000-'Finished building target: test1.elf'
+000-' '
+000-'Invoking: ARM v7 Print Size'
+000-arm-none-eabi-size test1.elf  |tee "test1.elf.size"
+000-   text	   data	    bss	    dec	    hex	filename
+000-  36876	   3024	  22664	  62564	   f464	test1.elf
+000-'Finished building: test1.elf.size'
+000-' '
+00255-
+21:39:21 Build Finished (took 676ms)
+
