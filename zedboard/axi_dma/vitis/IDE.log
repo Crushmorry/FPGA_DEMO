@@ -391,3 +391,15 @@ con
 
 21:40:09 INFO  : Launch script is exported to file 'E:\fpga_proj\ps\axi_dma\vitis\.sdk\launch_scripts\single_application_debug\systemdebugger_test1_system_standalone.tcl'
 21:40:38 INFO  : Disconnected from the channel tcfchan#11.
+09:54:46 INFO  : Launching XSCT server: xsct.bat -n  -interactive E:\FPGA_DEMO\zedboard\axi_dma\vitis\temp_xsdb_launch_script.tcl
+09:54:48 INFO  : XSCT server has started successfully.
+09:54:48 INFO  : plnx-install-location is set to ''
+09:54:48 INFO  : Successfully done setting XSCT server connection channel  
+09:54:48 INFO  : Successfully done setting workspace for the tool. 
+09:54:52 ERROR : Error encountered while initializing user repository paths
+Reason: No Platforms Found.
+
+
+09:54:52 INFO  : Platform repository initialization has completed.
+09:54:53 INFO  : Registering command handlers for Vitis TCF services
+09:54:55 INFO  : Successfully done query RDI_DATADIR 

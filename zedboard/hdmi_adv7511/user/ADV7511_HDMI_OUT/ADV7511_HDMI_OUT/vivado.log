@@ -1,0 +1,26 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Mon Nov  2 21:57:05 2020
+# Process ID: 7104
+# Current directory: E:/Zedboard-Color-Bar-HDMI-Output/ADV7511_HDMI_OUT/ADV7511_HDMI_OUT
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5300 E:\Zedboard-Color-Bar-HDMI-Output\ADV7511_HDMI_OUT\ADV7511_HDMI_OUT\tmp_edit_project.xpr
+# Log file: E:/Zedboard-Color-Bar-HDMI-Output/ADV7511_HDMI_OUT/ADV7511_HDMI_OUT/vivado.log
+# Journal file: E:/Zedboard-Color-Bar-HDMI-Output/ADV7511_HDMI_OUT/ADV7511_HDMI_OUT\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project -read_only E:/Zedboard-Color-Bar-HDMI-Output/ADV7511_HDMI_OUT/ADV7511_HDMI_OUT/tmp_edit_project.xpr
+INFO: [Project 1-313] Project file moved from 'g:/baiduyundownload/ch28/ip_repo/adv7511_hdmi_out/adv7511_hdmi_out' since last save.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'E:/Zedboard-Color-Bar-HDMI-Output/ADV7511_HDMI_OUT/ADV7511_HDMI_OUT/component.xml', nor could it be found using path 'g:/baiduyundownload/ch28/ip_repo/adv7511_hdmi_out/adv7511_hdmi_out/component.xml'.
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-2] IPUserFilesDir: Could not find the directory 'E:/Zedboard-Color-Bar-HDMI-Output/ADV7511_HDMI_OUT/ADV7511_HDMI_OUT/tmp_edit_project.ip_user_files', nor could it be found using path 'g:/baiduyundownload/ch28/ip_repo/adv7511_hdmi_out/adv7511_hdmi_out/tmp_edit_project.ip_user_files'.
+WARNING: [Project 1-229] Project 'tmp_edit_project.xpr' is read-only and therefore could not be upgraded for this version of Vivado.  Use 'File | Save Project As...' if you wish to save an upgraded copy.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2020.1/data/ip'.
+open_project: Time (s): cpu = 00:00:13 ; elapsed = 00:00:05 . Memory (MB): peak = 1080.418 ; gain = 0.000
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Nov  2 21:57:54 2020...
