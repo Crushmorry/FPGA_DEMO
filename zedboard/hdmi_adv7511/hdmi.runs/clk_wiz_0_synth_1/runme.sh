@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='E:/fpga_proj/hdmi/hdmi.runs/clk_wiz_0_synth_1'
+HD_PWD='E:/FPGA_DEMO/zedboard/hdmi_adv7511/hdmi.runs/clk_wiz_0_synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

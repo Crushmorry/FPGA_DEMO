@@ -2,11 +2,11 @@
 # Vivado v2020.1 (64-bit)
 # SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
 # IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
-# Start of session at: Tue Nov  3 11:08:27 2020
-# Process ID: 3868
-# Current directory: E:/fpga_proj/hdmi/hdmi.runs/clk_wiz_0_synth_1
+# Start of session at: Tue Nov  3 20:27:11 2020
+# Process ID: 14524
+# Current directory: E:/FPGA_DEMO/zedboard/hdmi_adv7511/hdmi.runs/clk_wiz_0_synth_1
 # Command line: vivado.exe -log clk_wiz_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source clk_wiz_0.tcl
-# Log file: E:/fpga_proj/hdmi/hdmi.runs/clk_wiz_0_synth_1/clk_wiz_0.vds
-# Journal file: E:/fpga_proj/hdmi/hdmi.runs/clk_wiz_0_synth_1\vivado.jou
+# Log file: E:/FPGA_DEMO/zedboard/hdmi_adv7511/hdmi.runs/clk_wiz_0_synth_1/clk_wiz_0.vds
+# Journal file: E:/FPGA_DEMO/zedboard/hdmi_adv7511/hdmi.runs/clk_wiz_0_synth_1\vivado.jou
 #-----------------------------------------------------------
 source clk_wiz_0.tcl -notrace

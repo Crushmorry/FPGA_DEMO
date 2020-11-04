@@ -1,10 +1,10 @@
 -- Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
--- Date        : Tue Nov  3 11:09:05 2020
+-- Date        : Tue Nov  3 20:27:48 2020
 -- Host        : LAPTOP-43UBS83S running 64-bit major release  (build 9200)
 -- Command     : write_vhdl -force -mode funcsim
---               e:/fpga_proj/hdmi/hdmi.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_sim_netlist.vhdl
+--               e:/FPGA_DEMO/zedboard/hdmi_adv7511/hdmi.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_sim_netlist.vhdl
 -- Design      : clk_wiz_0
 -- Purpose     : This VHDL netlist is a functional simulation representation of the design and should not be modified or
 --               synthesized. This netlist cannot be used for SDF annotated simulation.
@@ -16,8 +16,8 @@ library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
 entity clk_wiz_0_clk_wiz_0_clk_wiz is
   port (
-    clk_out74_25 : out STD_LOGIC;
-    clk_out74_25_90 : out STD_LOGIC;
+    clk_out40 : out STD_LOGIC;
+    clk_out40_90 : out STD_LOGIC;
     clk_out100 : out STD_LOGIC;
     reset : in STD_LOGIC;
     locked : out STD_LOGIC;
@@ -30,8 +30,8 @@ end clk_wiz_0_clk_wiz_0_clk_wiz;
 architecture STRUCTURE of clk_wiz_0_clk_wiz_0_clk_wiz is
   signal clk_in1_clk_wiz_0 : STD_LOGIC;
   signal clk_out100_clk_wiz_0 : STD_LOGIC;
-  signal clk_out74_25_90_clk_wiz_0 : STD_LOGIC;
-  signal clk_out74_25_clk_wiz_0 : STD_LOGIC;
+  signal clk_out40_90_clk_wiz_0 : STD_LOGIC;
+  signal clk_out40_clk_wiz_0 : STD_LOGIC;
   signal clkfbout_buf_clk_wiz_0 : STD_LOGIC;
   signal clkfbout_clk_wiz_0 : STD_LOGIC;
   signal NLW_mmcm_adv_inst_CLKFBOUTB_UNCONNECTED : STD_LOGIC;
@@ -77,13 +77,13 @@ clkin1_ibufg: unisim.vcomponents.IBUF
     );
 clkout1_buf: unisim.vcomponents.BUFG
      port map (
-      I => clk_out74_25_clk_wiz_0,
-      O => clk_out74_25
+      I => clk_out40_clk_wiz_0,
+      O => clk_out40
     );
 clkout2_buf: unisim.vcomponents.BUFG
      port map (
-      I => clk_out74_25_90_clk_wiz_0,
-      O => clk_out74_25_90
+      I => clk_out40_90_clk_wiz_0,
+      O => clk_out40_90
     );
 clkout3_buf: unisim.vcomponents.BUFG
      port map (
@@ -93,20 +93,20 @@ clkout3_buf: unisim.vcomponents.BUFG
 mmcm_adv_inst: unisim.vcomponents.MMCME2_ADV
     generic map(
       BANDWIDTH => "OPTIMIZED",
-      CLKFBOUT_MULT_F => 11.875000,
+      CLKFBOUT_MULT_F => 10.000000,
       CLKFBOUT_PHASE => 0.000000,
       CLKFBOUT_USE_FINE_PS => false,
       CLKIN1_PERIOD => 10.000000,
       CLKIN2_PERIOD => 0.000000,
-      CLKOUT0_DIVIDE_F => 16.000000,
+      CLKOUT0_DIVIDE_F => 25.000000,
       CLKOUT0_DUTY_CYCLE => 0.500000,
       CLKOUT0_PHASE => 0.000000,
       CLKOUT0_USE_FINE_PS => false,
-      CLKOUT1_DIVIDE => 16,
+      CLKOUT1_DIVIDE => 25,
       CLKOUT1_DUTY_CYCLE => 0.500000,
       CLKOUT1_PHASE => 90.000000,
       CLKOUT1_USE_FINE_PS => false,
-      CLKOUT2_DIVIDE => 12,
+      CLKOUT2_DIVIDE => 10,
       CLKOUT2_DUTY_CYCLE => 0.500000,
       CLKOUT2_PHASE => 0.000000,
       CLKOUT2_USE_FINE_PS => false,
@@ -150,9 +150,9 @@ mmcm_adv_inst: unisim.vcomponents.MMCME2_ADV
       CLKIN2 => '0',
       CLKINSEL => '1',
       CLKINSTOPPED => NLW_mmcm_adv_inst_CLKINSTOPPED_UNCONNECTED,
-      CLKOUT0 => clk_out74_25_clk_wiz_0,
+      CLKOUT0 => clk_out40_clk_wiz_0,
       CLKOUT0B => NLW_mmcm_adv_inst_CLKOUT0B_UNCONNECTED,
-      CLKOUT1 => clk_out74_25_90_clk_wiz_0,
+      CLKOUT1 => clk_out40_90_clk_wiz_0,
       CLKOUT1B => NLW_mmcm_adv_inst_CLKOUT1B_UNCONNECTED,
       CLKOUT2 => clk_out100_clk_wiz_0,
       CLKOUT2B => NLW_mmcm_adv_inst_CLKOUT2B_UNCONNECTED,
@@ -183,8 +183,8 @@ library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
 entity clk_wiz_0 is
   port (
-    clk_out74_25 : out STD_LOGIC;
-    clk_out74_25_90 : out STD_LOGIC;
+    clk_out40 : out STD_LOGIC;
+    clk_out40_90 : out STD_LOGIC;
     clk_out100 : out STD_LOGIC;
     reset : in STD_LOGIC;
     locked : out STD_LOGIC;
@@ -200,8 +200,8 @@ inst: entity work.clk_wiz_0_clk_wiz_0_clk_wiz
      port map (
       clk_in1 => clk_in1,
       clk_out100 => clk_out100,
-      clk_out74_25 => clk_out74_25,
-      clk_out74_25_90 => clk_out74_25_90,
+      clk_out40 => clk_out40,
+      clk_out40_90 => clk_out40_90,
       locked => locked,
       reset => reset
     );

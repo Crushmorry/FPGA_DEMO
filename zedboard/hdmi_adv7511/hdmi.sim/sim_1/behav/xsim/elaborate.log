@@ -1,0 +1,33 @@
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto bee5719215db42d9862de25a54bc4cd2 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_top_behav xil_defaultlib.tb_top xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.create_color
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.MMCME2_ADV(CLKFBOUT_MULT_F=11.87...
+Compiling module unisims_ver.BUFG
+Compiling module xil_defaultlib.clk_wiz_0_clk_wiz
+Compiling module xil_defaultlib.clk_wiz_0
+Compiling module xil_defaultlib.convert_444_422
+Compiling module unisims_ver.DSP48E1(ACASCREG=0,ADREG=0,AREG=...
+Compiling module unisims_ver.DSP48E1(ADREG=0,CREG=0,DREG=0)
+Compiling module unisims_ver.DSP48E1(ACASCREG=2,ADREG=0,AREG=...
+Compiling module unisims_ver.DSP48E1(ACASCREG=2,ADREG=0,AREG=...
+Compiling module xil_defaultlib.colour_space_conversion
+Compiling module unisims_ver.ODDR(DDR_CLK_EDGE="SAME_EDGE")
+Compiling module xil_defaultlib.hdmi_ddr_output_default
+Compiling module xil_defaultlib.I2C_OV7670_RGB565_Config
+Compiling module xil_defaultlib.sccb_control
+Compiling module xil_defaultlib.sccb
+Compiling module xil_defaultlib.hdmi_display
+Compiling module xil_defaultlib.hdmi_display_0
+Compiling module xil_defaultlib.top
+Compiling module xil_defaultlib.tb_top
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_top_behav
