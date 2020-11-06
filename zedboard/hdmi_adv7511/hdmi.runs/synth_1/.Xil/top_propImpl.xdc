@@ -1,14 +1,8 @@
-set_property SRC_FILE_INFO {cfile:e:/FPGA_DEMO/zedboard/hdmi_adv7511/hdmi.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc rfile:../../../hdmi.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc id:1 order:EARLY scoped_inst:clock_inst} [current_design]
+set_property SRC_FILE_INFO {cfile:e:/FPGA_DEMO/zedboard/hdmi_adv7511/hdmi.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc rfile:../../../hdmi.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc id:1 order:EARLY scoped_inst:rgb_clk/inst} [current_design]
 set_property SRC_FILE_INFO {cfile:E:/FPGA_DEMO/zedboard/hdmi_adv7511/hdmi.srcs/constrs_1/new/hdmi_adv7511.xdc rfile:../../../hdmi.srcs/constrs_1/new/hdmi_adv7511.xdc id:2} [current_design]
-current_instance clock_inst
-set_property src_info {type:SCOPED_XDC file:1 line:1 export:INPUT save:INPUT read:READ} [current_design]
-create_clock -period 10.000 [get_ports -no_traverse {}]
-set_property src_info {type:SCOPED_XDC file:1 line:4 export:INPUT save:INPUT read:READ} [current_design]
-create_generated_clock -source [get_ports clk_in1] -edges {1 2 3} -edge_shift {6.250 13.750 21.250} [get_ports {}]
-set_property src_info {type:SCOPED_XDC file:1 line:6 export:INPUT save:INPUT read:READ} [current_design]
-create_generated_clock -source [get_ports clk_in1] -edges {1 2 3} -edge_shift {0.000 7.500 15.000} [get_ports {}]
-set_property src_info {type:SCOPED_XDC file:1 line:8 export:INPUT save:INPUT read:READ} [current_design]
-create_generated_clock -source [get_ports clk_in1] -edges {1 2 3} -edge_shift {0.000 0.000 0.000} [get_ports {}]
+current_instance rgb_clk/inst
+set_property src_info {type:SCOPED_XDC file:1 line:57 export:INPUT save:INPUT read:READ} [current_design]
+set_input_jitter [get_clocks -of_objects [get_ports clk_in1]] 0.1
 current_instance
 set_property src_info {type:XDC file:2 line:1 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN W18 [get_ports hdmi_clk]

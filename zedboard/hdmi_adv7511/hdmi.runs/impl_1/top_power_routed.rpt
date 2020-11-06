@@ -1,7 +1,7 @@
 Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
-| Date             : Wed Nov  4 16:42:56 2020
+| Date             : Fri Nov  6 15:19:09 2020
 | Host             : LAPTOP-43UBS83S running 64-bit major release  (build 9200)
 | Command          : report_power -file top_power_routed.rpt -pb top_power_summary_routed.pb -rpx top_power_routed.rpx
 | Design           : top
@@ -30,14 +30,14 @@ Table of Contents
 ----------
 
 +--------------------------+--------------+
-| Total On-Chip Power (W)  | 0.241        |
+| Total On-Chip Power (W)  | 0.307        |
 | Design Power Budget (W)  | Unspecified* |
 | Power Budget Margin (W)  | NA           |
-| Dynamic (W)              | 0.131        |
-| Device Static (W)        | 0.110        |
+| Dynamic (W)              | 0.196        |
+| Device Static (W)        | 0.111        |
 | Effective TJA (C/W)      | 11.5         |
-| Max Ambient (C)          | 82.2         |
-| Junction Temperature (C) | 27.8         |
+| Max Ambient (C)          | 81.5         |
+| Junction Temperature (C) | 28.5         |
 | Confidence Level         | Medium       |
 | Setting File             | ---          |
 | Simulation Activity File | ---          |
@@ -52,21 +52,21 @@ Table of Contents
 +-------------------------+-----------+----------+-----------+-----------------+
 | On-Chip                 | Power (W) | Used     | Available | Utilization (%) |
 +-------------------------+-----------+----------+-----------+-----------------+
-| Clocks                  |     0.003 |        7 |       --- |             --- |
-| Slice Logic             |    <0.001 |      750 |       --- |             --- |
-|   LUT as Logic          |    <0.001 |      284 |     53200 |            0.53 |
-|   Register              |    <0.001 |      222 |    106400 |            0.21 |
+| Clocks                  |     0.004 |        7 |       --- |             --- |
+| Slice Logic             |    <0.001 |      741 |       --- |             --- |
+|   LUT as Logic          |    <0.001 |      268 |     53200 |            0.50 |
 |   CARRY4                |    <0.001 |       10 |     13300 |            0.08 |
+|   Register              |    <0.001 |      223 |    106400 |            0.21 |
 |   LUT as Shift Register |    <0.001 |        3 |     17400 |            0.02 |
-|   F7/F8 Muxes           |    <0.001 |       54 |     53200 |            0.10 |
-|   Others                |     0.000 |      121 |       --- |             --- |
-| Signals                 |    <0.001 |      906 |       --- |             --- |
+|   Others                |     0.000 |      120 |       --- |             --- |
+|   F7/F8 Muxes           |     0.000 |       54 |     53200 |            0.10 |
+| Signals                 |    <0.001 |      915 |       --- |             --- |
 | Block RAM               |    <0.001 |       35 |       140 |           25.00 |
-| MMCM                    |     0.106 |        1 |         4 |           25.00 |
+| MMCM                    |     0.136 |        1 |         4 |           25.00 |
 | DSPs                    |    <0.001 |        6 |       220 |            2.73 |
-| I/O                     |     0.021 |       24 |       200 |           12.00 |
-| Static Power            |     0.110 |          |           |                 |
-| Total                   |     0.241 |          |           |                 |
+| I/O                     |     0.054 |       24 |       200 |           12.00 |
+| Static Power            |     0.111 |          |           |                 |
+| Total                   |     0.307 |          |           |                 |
 +-------------------------+-----------+----------+-----------+-----------------+
 
 
@@ -76,9 +76,9 @@ Table of Contents
 +-----------+-------------+-----------+-------------+------------+-------------+-------------+------------+
 | Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) | Powerup (A) | Budget (A)  | Margin (A) |
 +-----------+-------------+-----------+-------------+------------+-------------+-------------+------------+
-| Vccint    |       1.000 |     0.014 |       0.005 |      0.009 |       NA    | Unspecified | NA         |
-| Vccaux    |       1.800 |     0.070 |       0.059 |      0.011 |       NA    | Unspecified | NA         |
-| Vcco33    |       3.300 |     0.007 |       0.006 |      0.001 |       NA    | Unspecified | NA         |
+| Vccint    |       1.000 |     0.016 |       0.008 |      0.009 |       NA    | Unspecified | NA         |
+| Vccaux    |       1.800 |     0.088 |       0.077 |      0.011 |       NA    | Unspecified | NA         |
+| Vcco33    |       3.300 |     0.016 |       0.015 |      0.001 |       NA    | Unspecified | NA         |
 | Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
 | Vcco18    |       1.800 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
 | Vcco15    |       1.500 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
@@ -89,7 +89,7 @@ Table of Contents
 | MGTAVcc   |       1.000 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
 | MGTAVtt   |       1.200 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
 | MGTVccaux |       1.800 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
-| Vccpint   |       1.000 |     0.017 |       0.000 |      0.017 |       NA    | Unspecified | NA         |
+| Vccpint   |       1.000 |     0.018 |       0.000 |      0.018 |       NA    | Unspecified | NA         |
 | Vccpaux   |       1.800 |     0.010 |       0.000 |      0.010 |       NA    | Unspecified | NA         |
 | Vccpll    |       1.800 |     0.003 |       0.000 |      0.003 |       NA    | Unspecified | NA         |
 | Vcco_ddr  |       1.500 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
@@ -136,15 +136,15 @@ Table of Contents
 2.2 Clock Constraints
 ---------------------
 
-+------------------------+----------------------------------------+-----------------+
-| Clock                  | Domain                                 | Constraint (ns) |
-+------------------------+----------------------------------------+-----------------+
-| clk_out100_clk_wiz_0   | clock_inst/inst/clk_out100_clk_wiz_0   |            10.0 |
-| clk_out40_90_clk_wiz_0 | clock_inst/inst/clk_out40_90_clk_wiz_0 |            25.0 |
-| clk_out40_clk_wiz_0    | clock_inst/inst/clk_out40_clk_wiz_0    |            25.0 |
-| clkfbout_clk_wiz_0     | clock_inst/inst/clkfbout_clk_wiz_0     |            10.0 |
-| sys_clk                | sys_clk                                |            10.0 |
-+------------------------+----------------------------------------+-----------------+
++------------------------+-------------------------------------+-----------------+
+| Clock                  | Domain                              | Constraint (ns) |
++------------------------+-------------------------------------+-----------------+
+| clk_out100_clk_wiz_0   | rgb_clk/inst/clk_out100_clk_wiz_0   |            10.1 |
+| clk_out74_90_clk_wiz_0 | rgb_clk/inst/clk_out74_90_clk_wiz_0 |            13.5 |
+| clk_out74_clk_wiz_0    | rgb_clk/inst/clk_out74_clk_wiz_0    |            13.5 |
+| clkfbout_clk_wiz_0     | rgb_clk/inst/clkfbout_clk_wiz_0     |            10.0 |
+| sys_clk                | sys_clk                             |            10.0 |
++------------------------+-------------------------------------+-----------------+
 
 
 3. Detailed Reports
@@ -153,16 +153,17 @@ Table of Contents
 3.1 By Hierarchy
 ----------------
 
-+---------------------+-----------+
-| Name                | Power (W) |
-+---------------------+-----------+
-| top                 |     0.131 |
-|   clock_inst        |     0.107 |
-|     inst            |     0.107 |
-|   create_color_inst |     0.001 |
-|   hdmi_inst         |     0.002 |
-|     inst            |     0.002 |
-|       my_sccb       |     0.001 |
-+---------------------+-----------+
++----------------------------------+-----------+
+| Name                             | Power (W) |
++----------------------------------+-----------+
+| top                              |     0.196 |
+|   create_color_inst              |     0.002 |
+|   hdmi_inst                      |     0.004 |
+|     inst                         |     0.004 |
+|       my_colour_space_conversion |     0.001 |
+|       my_sccb                    |     0.001 |
+|   rgb_clk                        |     0.136 |
+|     inst                         |     0.136 |
++----------------------------------+-----------+
 
 

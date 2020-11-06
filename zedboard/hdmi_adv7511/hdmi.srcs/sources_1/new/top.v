@@ -35,8 +35,8 @@ module top(
 //    output wire[7:0] video_b    
                  
     );
- wire clk_out40;
- wire clk_out40_90;
+ wire clk_out74;
+ wire clk_out74_90;
  wire clk_out100;
  wire video_hs;
  wire video_vs;
@@ -46,7 +46,7 @@ module top(
  wire[7:0] video_b;
 create_color create_color_inst(
 
-.clk    (clk_out40),
+.clk    (clk_out74),
 .rst    (rst),
 .hs     (video_hs),
 .vs     (video_vs),
@@ -56,22 +56,22 @@ create_color create_color_inst(
 .rgb_b  (video_b)
     );
     
-  clk_wiz_0 clock_inst
+    clk_wiz_0 rgb_clk
    (
     // Clock out ports
-    .clk_out40(clk_out40),     // output clk_out40
-    .clk_out40_90(clk_out40_90),     // output clk_out40_90
+    .clk_out74(clk_out74),     // output clk_out74_25
+    .clk_out74_90(clk_out74_90),     // output clk_out74_25_90
     .clk_out100(clk_out100),     // output clk_out100
     // Status and control signals
     .reset(rst), // input reset
     .locked(),       // output locked
    // Clock in ports
-    .clk_in1(sys_clk));      // input clk_in1  
+    .clk_in1(sys_clk));      // input clk_in1
     
 hdmi_display_0 hdmi_inst (
   .i2c_clk(clk_out100),        // input wire i2c_clk
-  .vga_clk(clk_out40),        // input wire vga_clk
-  .vga_clk_90(clk_out40_90),  // input wire vga_clk_90
+  .vga_clk(clk_out74),        // input wire vga_clk
+  .vga_clk_90(clk_out74_90),  // input wire vga_clk_90
   .rgb_in({video_r, video_g, video_b}),          // input wire [23 : 0] rgb_in
   .hsync_in(video_hs),      // input wire hsync_in
   .vsync_in(video_vs),      // input wire vsync_in
