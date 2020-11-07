@@ -10,7 +10,6 @@
     ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 
 source design_1_axi_vdma_0_0.tcl -notrace
-create_project: Time (s): cpu = 00:00:05 ; elapsed = 00:00:08 . Memory (MB): peak = 1073.035 ; gain = 0.000
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/fpga_proj/Miz_ip_lib'.
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2020.1/data/ip'.
@@ -21,18 +20,18 @@ INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020
 INFO: [Device 21-403] Loading part xc7z020clg484-1
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 1860
+INFO: [Synth 8-7075] Helper process launched with PID 5836
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:15 ; elapsed = 00:00:19 . Memory (MB): peak = 1073.035 ; gain = 0.000
+Starting RTL Elaboration : Time (s): cpu = 00:00:13 ; elapsed = 00:00:18 . Memory (MB): peak = 1072.828 ; gain = 0.000
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-638] synthesizing module 'design_1_axi_vdma_0_0' [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ip/design_1_axi_vdma_0_0/synth/design_1_axi_vdma_0_0.vhd:106]
+INFO: [Synth 8-638] synthesizing module 'design_1_axi_vdma_0_0' [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ip/design_1_axi_vdma_0_0/synth/design_1_axi_vdma_0_0.vhd:105]
 	Parameter C_S_AXI_LITE_ADDR_WIDTH bound to: 9 - type: integer 
 	Parameter C_S_AXI_LITE_DATA_WIDTH bound to: 32 - type: integer 
 	Parameter C_DLYTMR_RESOLUTION bound to: 125 - type: integer 
 	Parameter C_PRMRY_IS_ACLK_ASYNC bound to: 0 - type: integer 
 	Parameter C_ENABLE_VIDPRMTR_READS bound to: 1 - type: integer 
 	Parameter C_DYNAMIC_RESOLUTION bound to: 1 - type: integer 
-	Parameter C_NUM_FSTORES bound to: 1 - type: integer 
+	Parameter C_NUM_FSTORES bound to: 3 - type: integer 
 	Parameter C_USE_FSYNC bound to: 1 - type: integer 
 	Parameter C_USE_MM2S_FSYNC bound to: 0 - type: integer 
 	Parameter C_USE_S2MM_FSYNC bound to: 2 - type: integer 
@@ -42,7 +41,7 @@ INFO: [Synth 8-638] synthesizing module 'design_1_axi_vdma_0_0' [e:/FPGA_DEMO/ze
 	Parameter C_M_AXI_SG_ADDR_WIDTH bound to: 32 - type: integer 
 	Parameter C_M_AXI_SG_DATA_WIDTH bound to: 32 - type: integer 
 	Parameter C_INCLUDE_MM2S bound to: 1 - type: integer 
-	Parameter C_MM2S_GENLOCK_MODE bound to: 3 - type: integer 
+	Parameter C_MM2S_GENLOCK_MODE bound to: 0 - type: integer 
 	Parameter C_MM2S_GENLOCK_NUM_MASTERS bound to: 1 - type: integer 
 	Parameter C_MM2S_GENLOCK_REPEAT_EN bound to: 0 - type: integer 
 	Parameter C_MM2S_SOF_ENABLE bound to: 1 - type: integer 
@@ -90,7 +89,7 @@ INFO: [Synth 8-638] synthesizing module 'design_1_axi_vdma_0_0' [e:/FPGA_DEMO/ze
 	Parameter C_SELECT_XPM bound to: 0 - type: integer 
 	Parameter C_ENABLE_VERT_FLIP bound to: 0 - type: integer 
 	Parameter C_FAMILY bound to: zynq - type: string 
-INFO: [Synth 8-3491] module 'axi_vdma' declared at 'e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/7af1/hdl/axi_vdma_v6_3_rfs.vhd:69488' bound to instance 'U0' of component 'axi_vdma' [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ip/design_1_axi_vdma_0_0/synth/design_1_axi_vdma_0_0.vhd:339]
+INFO: [Synth 8-3491] module 'axi_vdma' declared at 'e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/7af1/hdl/axi_vdma_v6_3_rfs.vhd:69488' bound to instance 'U0' of component 'axi_vdma' [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ip/design_1_axi_vdma_0_0/synth/design_1_axi_vdma_0_0.vhd:337]
 INFO: [Synth 8-638] synthesizing module 'axi_vdma' [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/7af1/hdl/axi_vdma_v6_3_rfs.vhd:69927]
 	Parameter C_S_AXI_LITE_ADDR_WIDTH bound to: 9 - type: integer 
 	Parameter C_S_AXI_LITE_DATA_WIDTH bound to: 32 - type: integer 
@@ -98,7 +97,7 @@ INFO: [Synth 8-638] synthesizing module 'axi_vdma' [e:/FPGA_DEMO/zedboard/hdmi_v
 	Parameter C_PRMRY_IS_ACLK_ASYNC bound to: 0 - type: integer 
 	Parameter C_ENABLE_VIDPRMTR_READS bound to: 1 - type: integer 
 	Parameter C_DYNAMIC_RESOLUTION bound to: 1 - type: integer 
-	Parameter C_NUM_FSTORES bound to: 1 - type: integer 
+	Parameter C_NUM_FSTORES bound to: 3 - type: integer 
 	Parameter C_USE_FSYNC bound to: 1 - type: integer 
 	Parameter C_USE_MM2S_FSYNC bound to: 0 - type: integer 
 	Parameter C_USE_S2MM_FSYNC bound to: 2 - type: integer 
@@ -108,7 +107,7 @@ INFO: [Synth 8-638] synthesizing module 'axi_vdma' [e:/FPGA_DEMO/zedboard/hdmi_v
 	Parameter C_M_AXI_SG_ADDR_WIDTH bound to: 32 - type: integer 
 	Parameter C_M_AXI_SG_DATA_WIDTH bound to: 32 - type: integer 
 	Parameter C_INCLUDE_MM2S bound to: 1 - type: integer 
-	Parameter C_MM2S_GENLOCK_MODE bound to: 3 - type: integer 
+	Parameter C_MM2S_GENLOCK_MODE bound to: 0 - type: integer 
 	Parameter C_MM2S_GENLOCK_NUM_MASTERS bound to: 1 - type: integer 
 	Parameter C_MM2S_GENLOCK_REPEAT_EN bound to: 0 - type: integer 
 	Parameter C_MM2S_SOF_ENABLE bound to: 1 - type: integer 
@@ -723,18 +722,18 @@ INFO: [Synth 8-638] synthesizing module 'axi_vdma_reg_module' [e:/FPGA_DEMO/zedb
 	Parameter C_ENABLE_DEBUG_INFO_14 bound to: 1 - type: integer 
 	Parameter C_ENABLE_DEBUG_INFO_15 bound to: 1 - type: integer 
 	Parameter C_ENABLE_VERT_FLIP bound to: 0 - type: integer 
-	Parameter C_NUM_FSTORES bound to: 1 - type: integer 
-	Parameter C_NUM_FSTORES_64 bound to: 1 - type: integer 
+	Parameter C_NUM_FSTORES bound to: 3 - type: integer 
+	Parameter C_NUM_FSTORES_64 bound to: 3 - type: integer 
 	Parameter C_LINEBUFFER_THRESH bound to: 4 - type: integer 
-	Parameter C_GENLOCK_MODE bound to: 3 - type: integer 
+	Parameter C_GENLOCK_MODE bound to: 0 - type: integer 
 	Parameter C_S_AXI_LITE_ADDR_WIDTH bound to: 9 - type: integer 
 	Parameter C_S_AXI_LITE_DATA_WIDTH bound to: 32 - type: integer 
 	Parameter C_M_AXI_SG_ADDR_WIDTH bound to: 32 - type: integer 
 	Parameter C_M_AXI_ADDR_WIDTH bound to: 32 - type: integer 
 INFO: [Synth 8-638] synthesizing module 'axi_vdma_register' [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/7af1/hdl/axi_vdma_v6_3_rfs.vhd:18717]
 	Parameter C_NUM_REGISTERS bound to: 8 - type: integer 
-	Parameter C_NUM_FSTORES bound to: 1 - type: integer 
-	Parameter C_NUM_FSTORES_64 bound to: 1 - type: integer 
+	Parameter C_NUM_FSTORES bound to: 3 - type: integer 
+	Parameter C_NUM_FSTORES_64 bound to: 3 - type: integer 
 	Parameter C_CHANNEL_IS_MM2S bound to: 1 - type: integer 
 	Parameter C_LINEBUFFER_THRESH bound to: 4 - type: integer 
 	Parameter C_ENABLE_DEBUG_ALL bound to: 0 - type: integer 
@@ -756,16 +755,16 @@ INFO: [Synth 8-638] synthesizing module 'axi_vdma_register' [e:/FPGA_DEMO/zedboa
 	Parameter C_ENABLE_DEBUG_INFO_15 bound to: 1 - type: integer 
 	Parameter C_INTERNAL_GENLOCK_ENABLE bound to: 0 - type: integer 
 	Parameter C_INCLUDE_SG bound to: 0 - type: integer 
-	Parameter C_GENLOCK_MODE bound to: 3 - type: integer 
+	Parameter C_GENLOCK_MODE bound to: 0 - type: integer 
 	Parameter C_ENABLE_FLUSH_ON_FSYNC bound to: 0 - type: integer 
 	Parameter C_S_AXI_LITE_DATA_WIDTH bound to: 32 - type: integer 
 	Parameter C_M_AXI_SG_ADDR_WIDTH bound to: 32 - type: integer 
 INFO: [Synth 8-256] done synthesizing module 'axi_vdma_register' (15#1) [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/7af1/hdl/axi_vdma_v6_3_rfs.vhd:18717]
 INFO: [Synth 8-638] synthesizing module 'axi_vdma_regdirect' [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/7af1/hdl/axi_vdma_v6_3_rfs.vhd:20533]
 	Parameter C_NUM_REGISTERS bound to: 19 - type: integer 
-	Parameter C_NUM_FSTORES bound to: 1 - type: integer 
-	Parameter C_NUM_FSTORES_64 bound to: 1 - type: integer 
-	Parameter C_GENLOCK_MODE bound to: 3 - type: integer 
+	Parameter C_NUM_FSTORES bound to: 3 - type: integer 
+	Parameter C_NUM_FSTORES_64 bound to: 3 - type: integer 
+	Parameter C_GENLOCK_MODE bound to: 0 - type: integer 
 	Parameter C_DYNAMIC_RESOLUTION bound to: 1 - type: integer 
 	Parameter C_S_AXI_LITE_DATA_WIDTH bound to: 32 - type: integer 
 	Parameter C_M_AXI_ADDR_WIDTH bound to: 32 - type: integer 
@@ -774,8 +773,8 @@ INFO: [Synth 8-638] synthesizing module 'axi_vdma_reg_mux' [e:/FPGA_DEMO/zedboar
 	Parameter C_TOTAL_NUM_REGISTER bound to: 62 - type: integer 
 	Parameter C_INCLUDE_SG bound to: 0 - type: integer 
 	Parameter C_CHANNEL_IS_MM2S bound to: 1 - type: integer 
-	Parameter C_NUM_FSTORES bound to: 1 - type: integer 
-	Parameter C_NUM_FSTORES_64 bound to: 1 - type: integer 
+	Parameter C_NUM_FSTORES bound to: 3 - type: integer 
+	Parameter C_NUM_FSTORES_64 bound to: 3 - type: integer 
 	Parameter C_ENABLE_VIDPRMTR_READS bound to: 1 - type: integer 
 	Parameter C_S_AXI_LITE_ADDR_WIDTH bound to: 9 - type: integer 
 	Parameter C_S_AXI_LITE_DATA_WIDTH bound to: 32 - type: integer 
@@ -807,8 +806,8 @@ INFO: [Synth 8-638] synthesizing module 'axi_vdma_mngr' [e:/FPGA_DEMO/zedboard/h
 	Parameter C_ENABLE_DEBUG_INFO_15 bound to: 1 - type: integer 
 	Parameter C_ENABLE_VERT_FLIP bound to: 0 - type: integer 
 	Parameter C_ENABLE_FLUSH_ON_FSYNC bound to: 0 - type: integer 
-	Parameter C_NUM_FSTORES bound to: 1 - type: integer 
-	Parameter C_GENLOCK_MODE bound to: 3 - type: integer 
+	Parameter C_NUM_FSTORES bound to: 3 - type: integer 
+	Parameter C_GENLOCK_MODE bound to: 0 - type: integer 
 	Parameter C_GENLOCK_NUM_MASTERS bound to: 1 - type: integer 
 	Parameter C_DYNAMIC_RESOLUTION bound to: 1 - type: integer 
 	Parameter C_INTERNAL_GENLOCK_ENABLE bound to: 0 - type: integer 
@@ -866,34 +865,30 @@ INFO: [Synth 8-638] synthesizing module 'axi_vdma_sts_mngr' [e:/FPGA_DEMO/zedboa
 INFO: [Synth 8-256] done synthesizing module 'axi_vdma_sts_mngr' (21#1) [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/7af1/hdl/axi_vdma_v6_3_rfs.vhd:63632]
 INFO: [Synth 8-638] synthesizing module 'axi_vdma_vidreg_module' [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/7af1/hdl/axi_vdma_v6_3_rfs.vhd:56087]
 	Parameter C_INCLUDE_SG bound to: 0 - type: integer 
-	Parameter C_NUM_FSTORES bound to: 1 - type: integer 
+	Parameter C_NUM_FSTORES bound to: 3 - type: integer 
 	Parameter C_DYNAMIC_RESOLUTION bound to: 1 - type: integer 
 	Parameter C_ADDR_WIDTH bound to: 32 - type: integer 
 	Parameter C_SELECT_XPM bound to: 0 - type: integer 
 	Parameter C_FAMILY bound to: zynq - type: string 
 INFO: [Synth 8-638] synthesizing module 'axi_vdma_vregister' [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/7af1/hdl/axi_vdma_v6_3_rfs.vhd:53973]
-	Parameter C_NUM_FSTORES bound to: 1 - type: integer 
+	Parameter C_NUM_FSTORES bound to: 3 - type: integer 
 	Parameter C_ADDR_WIDTH bound to: 32 - type: integer 
 INFO: [Synth 8-256] done synthesizing module 'axi_vdma_vregister' (22#1) [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/7af1/hdl/axi_vdma_v6_3_rfs.vhd:53973]
 INFO: [Synth 8-638] synthesizing module 'axi_vdma_vaddrreg_mux' [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/7af1/hdl/axi_vdma_v6_3_rfs.vhd:55564]
-	Parameter C_NUM_FSTORES bound to: 1 - type: integer 
+	Parameter C_NUM_FSTORES bound to: 3 - type: integer 
 	Parameter C_ADDR_WIDTH bound to: 32 - type: integer 
 INFO: [Synth 8-256] done synthesizing module 'axi_vdma_vaddrreg_mux' (23#1) [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/7af1/hdl/axi_vdma_v6_3_rfs.vhd:55564]
 INFO: [Synth 8-256] done synthesizing module 'axi_vdma_vidreg_module' (24#1) [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/7af1/hdl/axi_vdma_v6_3_rfs.vhd:56087]
 INFO: [Synth 8-638] synthesizing module 'axi_vdma_genlock_mngr' [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/7af1/hdl/axi_vdma_v6_3_rfs.vhd:58630]
-	Parameter C_GENLOCK_MODE bound to: 3 - type: integer 
+	Parameter C_GENLOCK_MODE bound to: 0 - type: integer 
 	Parameter C_GENLOCK_NUM_MASTERS bound to: 1 - type: integer 
 	Parameter C_INTERNAL_GENLOCK_ENABLE bound to: 0 - type: integer 
-	Parameter C_NUM_FSTORES bound to: 1 - type: integer 
-INFO: [Synth 8-638] synthesizing module 'axi_vdma_genlock_mux' [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/7af1/hdl/axi_vdma_v6_3_rfs.vhd:57368]
-	Parameter C_GENLOCK_NUM_MASTERS bound to: 1 - type: integer 
-	Parameter C_INTERNAL_GENLOCK_ENABLE bound to: 0 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'axi_vdma_genlock_mux' (25#1) [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/7af1/hdl/axi_vdma_v6_3_rfs.vhd:57368]
+	Parameter C_NUM_FSTORES bound to: 3 - type: integer 
 INFO: [Synth 8-638] synthesizing module 'axi_vdma_greycoder' [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/7af1/hdl/axi_vdma_v6_3_rfs.vhd:58343]
-	Parameter C_DWIDTH bound to: 1 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'axi_vdma_greycoder' (26#1) [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/7af1/hdl/axi_vdma_v6_3_rfs.vhd:58343]
-INFO: [Synth 8-256] done synthesizing module 'axi_vdma_genlock_mngr' (27#1) [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/7af1/hdl/axi_vdma_v6_3_rfs.vhd:58630]
-INFO: [Synth 8-256] done synthesizing module 'axi_vdma_mngr' (28#1) [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/7af1/hdl/axi_vdma_v6_3_rfs.vhd:64248]
+	Parameter C_DWIDTH bound to: 5 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'axi_vdma_greycoder' (25#1) [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/7af1/hdl/axi_vdma_v6_3_rfs.vhd:58343]
+INFO: [Synth 8-256] done synthesizing module 'axi_vdma_genlock_mngr' (26#1) [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/7af1/hdl/axi_vdma_v6_3_rfs.vhd:58630]
+INFO: [Synth 8-256] done synthesizing module 'axi_vdma_mngr' (27#1) [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/7af1/hdl/axi_vdma_v6_3_rfs.vhd:64248]
 INFO: [Synth 8-638] synthesizing module 'axi_vdma_fsync_gen' [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/7af1/hdl/axi_vdma_v6_3_rfs.vhd:53102]
 	Parameter C_USE_FSYNC bound to: 0 - type: integer 
 	Parameter ENABLE_FLUSH_ON_MM2S_FSYNC bound to: 0 - type: integer 
@@ -901,15 +896,15 @@ INFO: [Synth 8-638] synthesizing module 'axi_vdma_fsync_gen' [e:/FPGA_DEMO/zedbo
 	Parameter C_INCLUDE_S2MM bound to: 0 - type: integer 
 	Parameter C_INCLUDE_MM2S bound to: 1 - type: integer 
 	Parameter C_SOF_ENABLE bound to: 1 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'axi_vdma_fsync_gen' (29#1) [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/7af1/hdl/axi_vdma_v6_3_rfs.vhd:53102]
+INFO: [Synth 8-256] done synthesizing module 'axi_vdma_fsync_gen' (28#1) [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/7af1/hdl/axi_vdma_v6_3_rfs.vhd:53102]
 INFO: [Synth 8-638] synthesizing module 'axi_vdma_vid_cdc' [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/7af1/hdl/axi_vdma_v6_3_rfs.vhd:13253]
 	Parameter C_PRMRY_IS_ACLK_ASYNC bound to: 0 - type: integer 
 	Parameter C_GENLOCK_MSTR_PTR_DWIDTH bound to: 6 - type: integer 
 	Parameter C_GENLOCK_SLVE_PTR_DWIDTH bound to: 6 - type: integer 
 	Parameter C_INTERNAL_GENLOCK_ENABLE bound to: 0 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'axi_vdma_vid_cdc' (30#1) [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/7af1/hdl/axi_vdma_v6_3_rfs.vhd:13253]
+INFO: [Synth 8-256] done synthesizing module 'axi_vdma_vid_cdc' (29#1) [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/7af1/hdl/axi_vdma_v6_3_rfs.vhd:13253]
 INFO: [Synth 8-638] synthesizing module 'axi_vdma_sof_gen' [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/7af1/hdl/axi_vdma_v6_3_rfs.vhd:41253]
-INFO: [Synth 8-256] done synthesizing module 'axi_vdma_sof_gen' (31#1) [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/7af1/hdl/axi_vdma_v6_3_rfs.vhd:41253]
+INFO: [Synth 8-256] done synthesizing module 'axi_vdma_sof_gen' (30#1) [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/7af1/hdl/axi_vdma_v6_3_rfs.vhd:41253]
 INFO: [Synth 8-638] synthesizing module 'axi_vdma_mm2s_linebuf' [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/7af1/hdl/axi_vdma_v6_3_rfs.vhd:46414]
 	Parameter C_DATA_WIDTH bound to: 32 - type: integer 
 	Parameter C_M_AXIS_MM2S_TDATA_WIDTH bound to: 24 - type: integer 
@@ -1117,42 +1112,42 @@ INFO: [Synth 8-6157] synthesizing module 'xpm_memory_base' [D:/Xilinx/Vivado/202
 	Parameter P_MIN_WIDTH_DATA_SHFT bound to: 38 - type: integer 
 	Parameter P_MIN_WIDTH_DATA_LDW bound to: 4 - type: integer 
 INFO: [Synth 8-6059] Synth Info: [XPM_MEMORY 20-1] MEMORY_PRIMITIVE (0) instructs Vivado Synthesis to choose the memory primitive type. Depending on their values, other XPM_MEMORY parameters may preclude the choice of certain memory primitive types. Review XPM_MEMORY documentation and parameter values to understand any limitations, or set MEMORY_PRIMITIVE to a different value.   [D:/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:488]
-INFO: [Synth 8-6155] done synthesizing module 'xpm_memory_base' (32#1) [D:/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:57]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_memory_base' (31#1) [D:/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:57]
 INFO: [Synth 8-6157] synthesizing module 'xpm_fifo_reg_bit' [D:/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1798]
 	Parameter RST_VALUE bound to: 0 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'xpm_fifo_reg_bit' (33#1) [D:/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1798]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_fifo_reg_bit' (32#1) [D:/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1798]
 INFO: [Synth 8-226] default block is never used [D:/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1189]
 INFO: [Synth 8-226] default block is never used [D:/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1235]
 INFO: [Synth 8-226] default block is never used [D:/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1246]
 INFO: [Synth 8-6157] synthesizing module 'xpm_counter_updn' [D:/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1750]
 	Parameter COUNTER_WIDTH bound to: 2 - type: integer 
 	Parameter RESET_VALUE bound to: 0 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'xpm_counter_updn' (34#1) [D:/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1750]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_counter_updn' (33#1) [D:/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1750]
 INFO: [Synth 8-6157] synthesizing module 'xpm_fifo_rst' [D:/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1514]
 	Parameter COMMON_CLOCK bound to: 1 - type: integer 
 	Parameter CDC_DEST_SYNC_FF bound to: 2 - type: integer 
 	Parameter SIM_ASSERT_CHK bound to: 0 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'xpm_fifo_rst' (35#1) [D:/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1514]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_fifo_rst' (34#1) [D:/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1514]
 INFO: [Synth 8-6157] synthesizing module 'xpm_counter_updn__parameterized0' [D:/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1750]
 	Parameter COUNTER_WIDTH bound to: 10 - type: integer 
 	Parameter RESET_VALUE bound to: 0 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'xpm_counter_updn__parameterized0' (35#1) [D:/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1750]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_counter_updn__parameterized0' (34#1) [D:/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1750]
 INFO: [Synth 8-6157] synthesizing module 'xpm_counter_updn__parameterized1' [D:/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1750]
 	Parameter COUNTER_WIDTH bound to: 9 - type: integer 
 	Parameter RESET_VALUE bound to: 1 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'xpm_counter_updn__parameterized1' (35#1) [D:/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1750]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_counter_updn__parameterized1' (34#1) [D:/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1750]
 INFO: [Synth 8-6157] synthesizing module 'xpm_counter_updn__parameterized2' [D:/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1750]
 	Parameter COUNTER_WIDTH bound to: 9 - type: integer 
 	Parameter RESET_VALUE bound to: 2 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'xpm_counter_updn__parameterized2' (35#1) [D:/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1750]
-INFO: [Synth 8-6155] done synthesizing module 'xpm_fifo_base' (36#1) [D:/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:56]
-INFO: [Synth 8-6155] done synthesizing module 'xpm_fifo_sync' (37#1) [D:/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1843]
-INFO: [Synth 8-256] done synthesizing module 'axi_vdma_sfifo' (38#1) [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/7af1/hdl/axi_vdma_v6_3_rfs.vhd:42057]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_counter_updn__parameterized2' (34#1) [D:/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1750]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_fifo_base' (35#1) [D:/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:56]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_fifo_sync' (36#1) [D:/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1843]
+INFO: [Synth 8-256] done synthesizing module 'axi_vdma_sfifo' (37#1) [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/7af1/hdl/axi_vdma_v6_3_rfs.vhd:42057]
 INFO: [Synth 8-638] synthesizing module 'axi_vdma_skid_buf' [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/7af1/hdl/axi_vdma_v6_3_rfs.vhd:41500]
 	Parameter C_WDATA_WIDTH bound to: 32 - type: integer 
 	Parameter C_TUSER_WIDTH bound to: 1 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'axi_vdma_skid_buf' (39#1) [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/7af1/hdl/axi_vdma_v6_3_rfs.vhd:41500]
-INFO: [Synth 8-256] done synthesizing module 'axi_vdma_mm2s_linebuf' (40#1) [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/7af1/hdl/axi_vdma_v6_3_rfs.vhd:46414]
+INFO: [Synth 8-256] done synthesizing module 'axi_vdma_skid_buf' (38#1) [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/7af1/hdl/axi_vdma_v6_3_rfs.vhd:41500]
+INFO: [Synth 8-256] done synthesizing module 'axi_vdma_mm2s_linebuf' (39#1) [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/7af1/hdl/axi_vdma_v6_3_rfs.vhd:46414]
 INFO: [Synth 8-638] synthesizing module 'axi_datamover' [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/af86/hdl/axi_datamover_v5_1_vh_rfs.vhd:55436]
 	Parameter C_INCLUDE_MM2S bound to: 1 - type: integer 
 	Parameter C_M_AXI_MM2S_ARID bound to: 0 - type: integer 
@@ -1216,7 +1211,7 @@ INFO: [Synth 8-638] synthesizing module 'axi_datamover_mm2s_full_wrap' [e:/FPGA_
 	Parameter C_FAMILY bound to: zynq - type: string 
 INFO: [Synth 8-638] synthesizing module 'axi_datamover_reset' [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/af86/hdl/axi_datamover_v5_1_vh_rfs.vhd:153]
 	Parameter C_STSCMD_IS_ASYNC bound to: 0 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'axi_datamover_reset' (41#1) [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/af86/hdl/axi_datamover_v5_1_vh_rfs.vhd:153]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_reset' (40#1) [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/af86/hdl/axi_datamover_v5_1_vh_rfs.vhd:153]
 INFO: [Synth 8-638] synthesizing module 'axi_datamover_cmd_status' [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/af86/hdl/axi_datamover_v5_1_vh_rfs.vhd:2698]
 	Parameter C_ADDR_WIDTH bound to: 32 - type: integer 
 	Parameter C_INCLUDE_STSFIFO bound to: 1 - type: integer 
@@ -1243,15 +1238,15 @@ INFO: [Synth 8-638] synthesizing module 'srl_fifo_rbu_f' [e:/FPGA_DEMO/zedboard/
 INFO: [Synth 8-638] synthesizing module 'cntr_incr_decr_addn_f' [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd:143]
 	Parameter C_SIZE bound to: 3 - type: integer 
 	Parameter C_FAMILY bound to: zynq - type: string 
-INFO: [Synth 8-256] done synthesizing module 'cntr_incr_decr_addn_f' (42#1) [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd:143]
+INFO: [Synth 8-256] done synthesizing module 'cntr_incr_decr_addn_f' (41#1) [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd:143]
 INFO: [Synth 8-638] synthesizing module 'dynshreg_f' [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd:397]
 	Parameter C_DEPTH bound to: 4 - type: integer 
 	Parameter C_DWIDTH bound to: 68 - type: integer 
 	Parameter C_FAMILY bound to: zynq - type: string 
-INFO: [Synth 8-256] done synthesizing module 'dynshreg_f' (43#1) [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd:397]
-INFO: [Synth 8-256] done synthesizing module 'srl_fifo_rbu_f' (44#1) [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd:697]
-INFO: [Synth 8-256] done synthesizing module 'srl_fifo_f' (45#1) [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd:1000]
-INFO: [Synth 8-256] done synthesizing module 'axi_datamover_fifo' (46#1) [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/af86/hdl/axi_datamover_v5_1_vh_rfs.vhd:1886]
+INFO: [Synth 8-256] done synthesizing module 'dynshreg_f' (42#1) [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd:397]
+INFO: [Synth 8-256] done synthesizing module 'srl_fifo_rbu_f' (43#1) [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd:697]
+INFO: [Synth 8-256] done synthesizing module 'srl_fifo_f' (44#1) [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd:1000]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_fifo' (45#1) [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/af86/hdl/axi_datamover_v5_1_vh_rfs.vhd:1886]
 INFO: [Synth 8-638] synthesizing module 'axi_datamover_fifo__parameterized0' [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/af86/hdl/axi_datamover_v5_1_vh_rfs.vhd:1886]
 	Parameter C_DWIDTH bound to: 8 - type: integer 
 	Parameter C_DEPTH bound to: 4 - type: integer 
@@ -1270,15 +1265,15 @@ INFO: [Synth 8-638] synthesizing module 'dynshreg_f__parameterized0' [e:/FPGA_DE
 	Parameter C_DEPTH bound to: 4 - type: integer 
 	Parameter C_DWIDTH bound to: 8 - type: integer 
 	Parameter C_FAMILY bound to: zynq - type: string 
-INFO: [Synth 8-256] done synthesizing module 'dynshreg_f__parameterized0' (46#1) [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd:397]
-INFO: [Synth 8-256] done synthesizing module 'srl_fifo_rbu_f__parameterized0' (46#1) [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd:697]
-INFO: [Synth 8-256] done synthesizing module 'srl_fifo_f__parameterized0' (46#1) [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd:1000]
-INFO: [Synth 8-256] done synthesizing module 'axi_datamover_fifo__parameterized0' (46#1) [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/af86/hdl/axi_datamover_v5_1_vh_rfs.vhd:1886]
-INFO: [Synth 8-256] done synthesizing module 'axi_datamover_cmd_status' (47#1) [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/af86/hdl/axi_datamover_v5_1_vh_rfs.vhd:2698]
+INFO: [Synth 8-256] done synthesizing module 'dynshreg_f__parameterized0' (45#1) [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd:397]
+INFO: [Synth 8-256] done synthesizing module 'srl_fifo_rbu_f__parameterized0' (45#1) [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd:697]
+INFO: [Synth 8-256] done synthesizing module 'srl_fifo_f__parameterized0' (45#1) [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd:1000]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_fifo__parameterized0' (45#1) [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/af86/hdl/axi_datamover_v5_1_vh_rfs.vhd:1886]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_cmd_status' (46#1) [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/af86/hdl/axi_datamover_v5_1_vh_rfs.vhd:2698]
 INFO: [Synth 8-638] synthesizing module 'axi_datamover_rd_status_cntl' [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/af86/hdl/axi_datamover_v5_1_vh_rfs.vhd:13746]
 	Parameter C_STS_WIDTH bound to: 8 - type: integer 
 	Parameter C_TAG_WIDTH bound to: 4 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'axi_datamover_rd_status_cntl' (48#1) [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/af86/hdl/axi_datamover_v5_1_vh_rfs.vhd:13746]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_rd_status_cntl' (47#1) [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/af86/hdl/axi_datamover_v5_1_vh_rfs.vhd:13746]
 INFO: [Synth 8-638] synthesizing module 'axi_datamover_pcc' [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/af86/hdl/axi_datamover_v5_1_vh_rfs.vhd:7416]
 	Parameter C_IS_MM2S bound to: 1 - type: integer 
 	Parameter C_DRE_ALIGN_WIDTH bound to: 1 - type: integer 
@@ -1298,15 +1293,15 @@ INFO: [Synth 8-638] synthesizing module 'axi_datamover_strb_gen2' [e:/FPGA_DEMO/
 	Parameter C_STRB_WIDTH bound to: 8 - type: integer 
 	Parameter C_OFFSET_WIDTH bound to: 3 - type: integer 
 	Parameter C_NUM_BYTES_WIDTH bound to: 4 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'axi_datamover_strb_gen2' (49#1) [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/af86/hdl/axi_datamover_v5_1_vh_rfs.vhd:4342]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_strb_gen2' (48#1) [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/af86/hdl/axi_datamover_v5_1_vh_rfs.vhd:4342]
 INFO: [Synth 8-638] synthesizing module 'axi_datamover_strb_gen2__parameterized0' [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/af86/hdl/axi_datamover_v5_1_vh_rfs.vhd:4342]
 	Parameter C_OP_MODE bound to: 1 - type: integer 
 	Parameter C_STRB_WIDTH bound to: 8 - type: integer 
 	Parameter C_OFFSET_WIDTH bound to: 3 - type: integer 
 	Parameter C_NUM_BYTES_WIDTH bound to: 3 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'axi_datamover_strb_gen2__parameterized0' (49#1) [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/af86/hdl/axi_datamover_v5_1_vh_rfs.vhd:4342]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_strb_gen2__parameterized0' (48#1) [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/af86/hdl/axi_datamover_v5_1_vh_rfs.vhd:4342]
 INFO: [Synth 8-226] default block is never used [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/af86/hdl/axi_datamover_v5_1_vh_rfs.vhd:9490]
-INFO: [Synth 8-256] done synthesizing module 'axi_datamover_pcc' (50#1) [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/af86/hdl/axi_datamover_v5_1_vh_rfs.vhd:7416]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_pcc' (49#1) [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/af86/hdl/axi_datamover_v5_1_vh_rfs.vhd:7416]
 INFO: [Synth 8-638] synthesizing module 'axi_datamover_addr_cntl' [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/af86/hdl/axi_datamover_v5_1_vh_rfs.vhd:10000]
 	Parameter C_ADDR_FIFO_DEPTH bound to: 4 - type: integer 
 	Parameter C_ADDR_WIDTH bound to: 32 - type: integer 
@@ -1332,11 +1327,11 @@ INFO: [Synth 8-638] synthesizing module 'dynshreg_f__parameterized1' [e:/FPGA_DE
 	Parameter C_DEPTH bound to: 4 - type: integer 
 	Parameter C_DWIDTH bound to: 59 - type: integer 
 	Parameter C_FAMILY bound to: zynq - type: string 
-INFO: [Synth 8-256] done synthesizing module 'dynshreg_f__parameterized1' (50#1) [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd:397]
-INFO: [Synth 8-256] done synthesizing module 'srl_fifo_rbu_f__parameterized1' (50#1) [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd:697]
-INFO: [Synth 8-256] done synthesizing module 'srl_fifo_f__parameterized1' (50#1) [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd:1000]
-INFO: [Synth 8-256] done synthesizing module 'axi_datamover_fifo__parameterized1' (50#1) [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/af86/hdl/axi_datamover_v5_1_vh_rfs.vhd:1886]
-INFO: [Synth 8-256] done synthesizing module 'axi_datamover_addr_cntl' (51#1) [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/af86/hdl/axi_datamover_v5_1_vh_rfs.vhd:10000]
+INFO: [Synth 8-256] done synthesizing module 'dynshreg_f__parameterized1' (49#1) [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd:397]
+INFO: [Synth 8-256] done synthesizing module 'srl_fifo_rbu_f__parameterized1' (49#1) [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd:697]
+INFO: [Synth 8-256] done synthesizing module 'srl_fifo_f__parameterized1' (49#1) [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd:1000]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_fifo__parameterized1' (49#1) [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/af86/hdl/axi_datamover_v5_1_vh_rfs.vhd:1886]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_addr_cntl' (50#1) [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/af86/hdl/axi_datamover_v5_1_vh_rfs.vhd:10000]
 INFO: [Synth 8-638] synthesizing module 'axi_datamover_rddata_cntl' [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/af86/hdl/axi_datamover_v5_1_vh_rfs.vhd:12185]
 	Parameter C_INCLUDE_DRE bound to: 0 - type: integer 
 	Parameter C_ALIGN_WIDTH bound to: 1 - type: integer 
@@ -1351,7 +1346,7 @@ INFO: [Synth 8-638] synthesizing module 'axi_datamover_rdmux' [e:/FPGA_DEMO/zedb
 	Parameter C_SEL_ADDR_WIDTH bound to: 3 - type: integer 
 	Parameter C_MMAP_DWIDTH bound to: 64 - type: integer 
 	Parameter C_STREAM_DWIDTH bound to: 64 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'axi_datamover_rdmux' (52#1) [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/af86/hdl/axi_datamover_v5_1_vh_rfs.vhd:10681]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_rdmux' (51#1) [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/af86/hdl/axi_datamover_v5_1_vh_rfs.vhd:10681]
 INFO: [Synth 8-638] synthesizing module 'axi_datamover_fifo__parameterized2' [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/af86/hdl/axi_datamover_v5_1_vh_rfs.vhd:1886]
 	Parameter C_DWIDTH bound to: 38 - type: integer 
 	Parameter C_DEPTH bound to: 4 - type: integer 
@@ -1370,11 +1365,11 @@ INFO: [Synth 8-638] synthesizing module 'dynshreg_f__parameterized2' [e:/FPGA_DE
 	Parameter C_DEPTH bound to: 4 - type: integer 
 	Parameter C_DWIDTH bound to: 38 - type: integer 
 	Parameter C_FAMILY bound to: zynq - type: string 
-INFO: [Synth 8-256] done synthesizing module 'dynshreg_f__parameterized2' (52#1) [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd:397]
-INFO: [Synth 8-256] done synthesizing module 'srl_fifo_rbu_f__parameterized2' (52#1) [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd:697]
-INFO: [Synth 8-256] done synthesizing module 'srl_fifo_f__parameterized2' (52#1) [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd:1000]
-INFO: [Synth 8-256] done synthesizing module 'axi_datamover_fifo__parameterized2' (52#1) [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/af86/hdl/axi_datamover_v5_1_vh_rfs.vhd:1886]
-INFO: [Synth 8-256] done synthesizing module 'axi_datamover_rddata_cntl' (53#1) [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/af86/hdl/axi_datamover_v5_1_vh_rfs.vhd:12185]
+INFO: [Synth 8-256] done synthesizing module 'dynshreg_f__parameterized2' (51#1) [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd:397]
+INFO: [Synth 8-256] done synthesizing module 'srl_fifo_rbu_f__parameterized2' (51#1) [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd:697]
+INFO: [Synth 8-256] done synthesizing module 'srl_fifo_f__parameterized2' (51#1) [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd:1000]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_fifo__parameterized2' (51#1) [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/af86/hdl/axi_datamover_v5_1_vh_rfs.vhd:1886]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_rddata_cntl' (52#1) [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/af86/hdl/axi_datamover_v5_1_vh_rfs.vhd:12185]
 INFO: [Synth 8-638] synthesizing module 'axi_datamover_rd_sf' [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/af86/hdl/axi_datamover_v5_1_vh_rfs.vhd:20208]
 	Parameter C_SF_FIFO_DEPTH bound to: 128 - type: integer 
 	Parameter C_MAX_BURST_LEN bound to: 8 - type: integer 
@@ -1525,11 +1520,11 @@ INFO: [Synth 8-6157] synthesizing module 'xpm_fifo_base__parameterized0' [D:/Xil
 INFO: [Synth 8-6157] synthesizing module 'xpm_counter_updn__parameterized3' [D:/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1750]
 	Parameter COUNTER_WIDTH bound to: 7 - type: integer 
 	Parameter RESET_VALUE bound to: 3 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'xpm_counter_updn__parameterized3' (53#1) [D:/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1750]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_counter_updn__parameterized3' (52#1) [D:/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1750]
 INFO: [Synth 8-6157] synthesizing module 'xpm_counter_updn__parameterized4' [D:/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1750]
 	Parameter COUNTER_WIDTH bound to: 7 - type: integer 
 	Parameter RESET_VALUE bound to: 2 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'xpm_counter_updn__parameterized4' (53#1) [D:/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1750]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_counter_updn__parameterized4' (52#1) [D:/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1750]
 INFO: [Synth 8-6157] synthesizing module 'xpm_memory_base__parameterized0' [D:/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:57]
 	Parameter MEMORY_TYPE bound to: 1 - type: integer 
 	Parameter MEMORY_SIZE bound to: 9600 - type: integer 
@@ -1598,24 +1593,24 @@ INFO: [Synth 8-6157] synthesizing module 'xpm_memory_base__parameterized0' [D:/X
 	Parameter MAX_NUM_CHAR bound to: 0 - type: integer 
 	Parameter P_MIN_WIDTH_DATA_SHFT bound to: 75 - type: integer 
 	Parameter P_MIN_WIDTH_DATA_LDW bound to: 4 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'xpm_memory_base__parameterized0' (53#1) [D:/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:57]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_memory_base__parameterized0' (52#1) [D:/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:57]
 INFO: [Synth 8-226] default block is never used [D:/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1189]
 INFO: [Synth 8-226] default block is never used [D:/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1235]
 INFO: [Synth 8-226] default block is never used [D:/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1246]
 INFO: [Synth 8-6157] synthesizing module 'xpm_counter_updn__parameterized5' [D:/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1750]
 	Parameter COUNTER_WIDTH bound to: 8 - type: integer 
 	Parameter RESET_VALUE bound to: 0 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'xpm_counter_updn__parameterized5' (53#1) [D:/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1750]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_counter_updn__parameterized5' (52#1) [D:/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1750]
 INFO: [Synth 8-6157] synthesizing module 'xpm_counter_updn__parameterized6' [D:/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1750]
 	Parameter COUNTER_WIDTH bound to: 7 - type: integer 
 	Parameter RESET_VALUE bound to: 1 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'xpm_counter_updn__parameterized6' (53#1) [D:/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1750]
-INFO: [Synth 8-6155] done synthesizing module 'xpm_fifo_base__parameterized0' (53#1) [D:/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:56]
-INFO: [Synth 8-6155] done synthesizing module 'xpm_fifo_sync__parameterized1' (53#1) [D:/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1843]
-INFO: [Synth 8-256] done synthesizing module 'sync_fifo_fg' (54#1) [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/a5cb/hdl/lib_fifo_v1_0_rfs.vhd:2250]
-INFO: [Synth 8-256] done synthesizing module 'axi_datamover_sfifo_autord' (55#1) [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/af86/hdl/axi_datamover_v5_1_vh_rfs.vhd:1295]
-INFO: [Synth 8-256] done synthesizing module 'axi_datamover_rd_sf' (56#1) [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/af86/hdl/axi_datamover_v5_1_vh_rfs.vhd:20208]
-INFO: [Synth 8-256] done synthesizing module 'axi_datamover_mm2s_full_wrap' (57#1) [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/af86/hdl/axi_datamover_v5_1_vh_rfs.vhd:53572]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_counter_updn__parameterized6' (52#1) [D:/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1750]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_fifo_base__parameterized0' (52#1) [D:/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:56]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_fifo_sync__parameterized1' (52#1) [D:/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1843]
+INFO: [Synth 8-256] done synthesizing module 'sync_fifo_fg' (53#1) [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/a5cb/hdl/lib_fifo_v1_0_rfs.vhd:2250]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_sfifo_autord' (54#1) [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/af86/hdl/axi_datamover_v5_1_vh_rfs.vhd:1295]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_rd_sf' (55#1) [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/af86/hdl/axi_datamover_v5_1_vh_rfs.vhd:20208]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_mm2s_full_wrap' (56#1) [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/af86/hdl/axi_datamover_v5_1_vh_rfs.vhd:53572]
 INFO: [Synth 8-638] synthesizing module 'axi_datamover_s2mm_omit_wrap' [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/af86/hdl/axi_datamover_v5_1_vh_rfs.vhd:49604]
 	Parameter C_INCLUDE_S2MM bound to: 0 - type: integer 
 	Parameter C_S2MM_AWID bound to: 1 - type: integer 
@@ -1634,23 +1629,23 @@ INFO: [Synth 8-638] synthesizing module 'axi_datamover_s2mm_omit_wrap' [e:/FPGA_
 	Parameter C_ENABLE_CACHE_USER bound to: 0 - type: integer 
 	Parameter C_MCDMA bound to: 0 - type: integer 
 	Parameter C_FAMILY bound to: zynq - type: string 
-INFO: [Synth 8-256] done synthesizing module 'axi_datamover_s2mm_omit_wrap' (58#1) [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/af86/hdl/axi_datamover_v5_1_vh_rfs.vhd:49604]
-INFO: [Synth 8-256] done synthesizing module 'axi_datamover' (59#1) [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/af86/hdl/axi_datamover_v5_1_vh_rfs.vhd:55436]
-INFO: [Synth 8-256] done synthesizing module 'axi_vdma' (60#1) [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/7af1/hdl/axi_vdma_v6_3_rfs.vhd:69927]
-INFO: [Synth 8-256] done synthesizing module 'design_1_axi_vdma_0_0' (61#1) [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ip/design_1_axi_vdma_0_0/synth/design_1_axi_vdma_0_0.vhd:106]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_s2mm_omit_wrap' (57#1) [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/af86/hdl/axi_datamover_v5_1_vh_rfs.vhd:49604]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover' (58#1) [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/af86/hdl/axi_datamover_v5_1_vh_rfs.vhd:55436]
+INFO: [Synth 8-256] done synthesizing module 'axi_vdma' (59#1) [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/7af1/hdl/axi_vdma_v6_3_rfs.vhd:69927]
+INFO: [Synth 8-256] done synthesizing module 'design_1_axi_vdma_0_0' (60#1) [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ip/design_1_axi_vdma_0_0/synth/design_1_axi_vdma_0_0.vhd:105]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:33 ; elapsed = 00:00:51 . Memory (MB): peak = 1307.078 ; gain = 234.043
+Finished RTL Elaboration : Time (s): cpu = 00:00:29 ; elapsed = 00:00:35 . Memory (MB): peak = 1307.980 ; gain = 235.152
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:35 ; elapsed = 00:00:53 . Memory (MB): peak = 1307.078 ; gain = 234.043
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:30 ; elapsed = 00:00:36 . Memory (MB): peak = 1307.980 ; gain = 235.152
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:35 ; elapsed = 00:00:53 . Memory (MB): peak = 1307.078 ; gain = 234.043
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:30 ; elapsed = 00:00:36 . Memory (MB): peak = 1307.980 ; gain = 235.152
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.519 . Memory (MB): peak = 1307.078 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.357 . Memory (MB): peak = 1307.980 ; gain = 0.000
 INFO: [Netlist 29-17] Analyzing 129 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
@@ -1675,21 +1670,21 @@ INFO: [Project 1-236] Implementation specific constraints were found while readi
 Resolution: To avoid this warning, move constraints listed in [.Xil/design_1_axi_vdma_0_0_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 1369.313 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1372.359 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
   A total of 129 instances were transformed.
   FDR => FDRE: 129 instances
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.192 . Memory (MB): peak = 1369.316 ; gain = 0.004
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.143 . Memory (MB): peak = 1372.363 ; gain = 0.004
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:52 ; elapsed = 00:01:16 . Memory (MB): peak = 1369.316 ; gain = 296.281
+Finished Constraint Validation : Time (s): cpu = 00:00:44 ; elapsed = 00:00:51 . Memory (MB): peak = 1372.363 ; gain = 299.535
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7z020clg484-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:52 ; elapsed = 00:01:16 . Memory (MB): peak = 1369.316 ; gain = 296.281
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:44 ; elapsed = 00:00:51 . Memory (MB): peak = 1372.363 ; gain = 299.535
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
@@ -1698,7 +1693,7 @@ Applied set_property DONT_TOUCH = true for U0. (constraint file  E:/FPGA_DEMO/ze
 Applied set_property DONT_TOUCH = true for U0/\GEN_SPRT_FOR_MM2S.MM2S_LINEBUFFER_I /\GEN_LINEBUF_NO_SOF.GEN_LINEBUFFER.GEN_SYNC_FIFO.I_LINEBUFFER_FIFO /xpm_fifo_sync_inst. (constraint file  auto generated constraint, line ).
 Applied set_property DONT_TOUCH = true for U0/I_PRMRY_DATAMOVER/\GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER /\GEN_INCLUDE_MM2S_SF.I_RD_SF /I_DATA_FIFO/\BLK_MEM.I_SYNC_FIFOGEN_FIFO /\xpm_fifo_instance.xpm_fifo_sync_inst . (constraint file  auto generated constraint, line ).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:52 ; elapsed = 00:01:16 . Memory (MB): peak = 1369.316 ; gain = 296.281
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:44 ; elapsed = 00:00:51 . Memory (MB): peak = 1372.363 ; gain = 299.535
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'axi_vdma_v6_3_9_axis_dwidth_converter_v1_0_axisc_upsizer'
 INFO: [Synth 8-802] inferred FSM for state register 'dmacntrl_cs_reg' in module 'axi_vdma_sm'
@@ -1759,7 +1754,7 @@ INFO: [Synth 8-5775] Found 'rw_addr_collision' attribute set to 'no' on SDP RAM 
 ---------------------------------------------------------------------------------------------------
 INFO: [Synth 8-3354] encoded FSM with state register 'gen_fwft.curr_fwft_state_reg' using encoding 'sequential' in module 'xpm_fifo_base__parameterized0'
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:58 ; elapsed = 00:01:23 . Memory (MB): peak = 1369.316 ; gain = 296.281
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:48 ; elapsed = 00:00:56 . Memory (MB): peak = 1372.363 ; gain = 299.535
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start RTL Component Statistics 
@@ -1788,13 +1783,13 @@ Detailed RTL Component Info :
 	   4 Input    2 Bit       Adders := 2     
 	   2 Input    1 Bit       Adders := 1     
 +---XORs : 
-	   2 Input      1 Bit         XORs := 10    
+	   2 Input      1 Bit         XORs := 18    
 +---Registers : 
 	               96 Bit    Registers := 1     
 	               75 Bit    Registers := 2     
 	               72 Bit    Registers := 2     
 	               38 Bit    Registers := 2     
-	               32 Bit    Registers := 16    
+	               32 Bit    Registers := 20    
 	               24 Bit    Registers := 1     
 	               16 Bit    Registers := 10    
 	               13 Bit    Registers := 4     
@@ -1803,26 +1798,30 @@ Detailed RTL Component Info :
 	                9 Bit    Registers := 6     
 	                8 Bit    Registers := 14    
 	                7 Bit    Registers := 7     
-	                6 Bit    Registers := 7     
-	                5 Bit    Registers := 16    
+	                6 Bit    Registers := 6     
+	                5 Bit    Registers := 15    
 	                4 Bit    Registers := 29    
 	                3 Bit    Registers := 18    
 	                2 Bit    Registers := 7     
-	                1 Bit    Registers := 291   
+	                1 Bit    Registers := 292   
 +---RAMs : 
 	              19K Bit	(512 X 38 bit)          RAMs := 1     
 	               9K Bit	(128 X 75 bit)          RAMs := 1     
 +---Muxes : 
 	   2 Input   72 Bit        Muxes := 2     
 	   2 Input   32 Bit        Muxes := 9     
-	   2 Input   16 Bit        Muxes := 4     
+	  11 Input   32 Bit        Muxes := 1     
+	   3 Input   32 Bit        Muxes := 1     
+	   2 Input   16 Bit        Muxes := 3     
 	   2 Input   13 Bit        Muxes := 4     
-	   2 Input   11 Bit        Muxes := 1     
-	   2 Input    8 Bit        Muxes := 23    
+	   2 Input   11 Bit        Muxes := 2     
+	   2 Input    8 Bit        Muxes := 26    
 	   8 Input    8 Bit        Muxes := 5     
-	   5 Input    5 Bit        Muxes := 2     
+	   3 Input    6 Bit        Muxes := 1     
+	   2 Input    6 Bit        Muxes := 1     
+	   5 Input    5 Bit        Muxes := 1     
 	   2 Input    5 Bit        Muxes := 15    
-	   2 Input    4 Bit        Muxes := 7     
+	   2 Input    4 Bit        Muxes := 6     
 	   3 Input    4 Bit        Muxes := 1     
 	   2 Input    3 Bit        Muxes := 14    
 	   4 Input    3 Bit        Muxes := 3     
@@ -1830,8 +1829,8 @@ Detailed RTL Component Info :
 	   2 Input    2 Bit        Muxes := 67    
 	   3 Input    2 Bit        Muxes := 2     
 	   4 Input    2 Bit        Muxes := 14    
-	   2 Input    1 Bit        Muxes := 176   
-	   9 Input    1 Bit        Muxes := 1     
+	   2 Input    1 Bit        Muxes := 181   
+	  11 Input    1 Bit        Muxes := 1     
 	   6 Input    1 Bit        Muxes := 5     
 	   4 Input    1 Bit        Muxes := 4     
 	   8 Input    1 Bit        Muxes := 3     
@@ -1859,7 +1858,7 @@ INFO: [Synth 8-5784] Optimized 1 bits of RAM "gen_wr_a.gen_word_narrow.mem_reg" 
 INFO: [Synth 8-5775] Found 'rw_addr_collision' attribute set to 'no' on SDP RAM gen_wr_a.gen_word_narrow.mem_reg. Setting write mode to NO_CHANGE 
 INFO: [Synth 8-5775] Found 'rw_addr_collision' attribute set to 'no' on SDP RAM gen_wr_a.gen_word_narrow.mem_reg. Setting write mode to NO_CHANGE 
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:01:11 ; elapsed = 00:01:37 . Memory (MB): peak = 1369.316 ; gain = 296.281
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:01:01 ; elapsed = 00:01:09 . Memory (MB): peak = 1372.363 ; gain = 299.535
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-5775] Found 'rw_addr_collision' attribute set to 'no' on SDP RAM gen_wr_a.gen_word_narrow.mem_reg. Setting write mode to NO_CHANGE 
 ---------------------------------------------------------------------------------
@@ -1882,14 +1881,14 @@ Finished ROM, RAM, DSP and Shift Register Reporting
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:22 ; elapsed = 00:01:49 . Memory (MB): peak = 1369.316 ; gain = 296.281
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:09 ; elapsed = 00:01:17 . Memory (MB): peak = 1372.363 ; gain = 299.535
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-5775] Found 'rw_addr_collision' attribute set to 'no' on SDP RAM gen_wr_a.gen_word_narrow.mem_reg. Setting write mode to NO_CHANGE 
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:01:26 ; elapsed = 00:01:53 . Memory (MB): peak = 1369.316 ; gain = 296.281
+Finished Timing Optimization : Time (s): cpu = 00:01:13 ; elapsed = 00:01:21 . Memory (MB): peak = 1372.363 ; gain = 299.535
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP and Shift Register Reporting
@@ -1910,7 +1909,7 @@ Finished ROM, RAM, DSP and Shift Register Reporting
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:01:28 ; elapsed = 00:01:55 . Memory (MB): peak = 1369.316 ; gain = 296.281
+Finished Technology Mapping : Time (s): cpu = 00:01:14 ; elapsed = 00:01:23 . Memory (MB): peak = 1372.363 ; gain = 299.535
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -1928,37 +1927,37 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:01:33 ; elapsed = 00:01:59 . Memory (MB): peak = 1369.316 ; gain = 296.281
+Finished IO Insertion : Time (s): cpu = 00:01:18 ; elapsed = 00:01:26 . Memory (MB): peak = 1372.363 ; gain = 299.535
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:01:33 ; elapsed = 00:01:59 . Memory (MB): peak = 1369.316 ; gain = 296.281
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:18 ; elapsed = 00:01:26 . Memory (MB): peak = 1372.363 ; gain = 299.535
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:33 ; elapsed = 00:02:00 . Memory (MB): peak = 1369.316 ; gain = 296.281
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:18 ; elapsed = 00:01:27 . Memory (MB): peak = 1372.363 ; gain = 299.535
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:01:33 ; elapsed = 00:02:00 . Memory (MB): peak = 1369.316 ; gain = 296.281
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:18 ; elapsed = 00:01:27 . Memory (MB): peak = 1372.363 ; gain = 299.535
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:01:33 ; elapsed = 00:02:00 . Memory (MB): peak = 1369.316 ; gain = 296.281
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:18 ; elapsed = 00:01:27 . Memory (MB): peak = 1372.363 ; gain = 299.535
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:01:33 ; elapsed = 00:02:00 . Memory (MB): peak = 1369.316 ; gain = 296.281
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:18 ; elapsed = 00:01:27 . Memory (MB): peak = 1372.363 ; gain = 299.535
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP and Shift Register Reporting
@@ -2001,45 +2000,45 @@ Report Cell Usage:
 |      |Cell     |Count |
 +------+---------+------+
 |1     |CARRY4   |    51|
-|2     |LUT1     |   271|
-|3     |LUT2     |   193|
-|4     |LUT3     |   234|
-|5     |LUT4     |   256|
-|6     |LUT5     |   236|
-|7     |LUT6     |   329|
+|2     |LUT1     |   276|
+|3     |LUT2     |   195|
+|4     |LUT3     |   225|
+|5     |LUT4     |   258|
+|6     |LUT5     |   237|
+|7     |LUT6     |   401|
 |8     |MUXF7    |     5|
 |9     |RAMB18E1 |     1|
 |10    |RAMB36E1 |     2|
 |12    |SRL16E   |   118|
 |13    |FDR      |    94|
-|14    |FDRE     |  1560|
-|15    |FDSE     |    56|
+|14    |FDRE     |  1687|
+|15    |FDSE     |    57|
 +------+---------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:01:33 ; elapsed = 00:02:00 . Memory (MB): peak = 1369.316 ; gain = 296.281
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:18 ; elapsed = 00:01:27 . Memory (MB): peak = 1372.363 ; gain = 299.535
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:50 ; elapsed = 00:01:48 . Memory (MB): peak = 1369.316 ; gain = 234.043
-Synthesis Optimization Complete : Time (s): cpu = 00:01:33 ; elapsed = 00:02:00 . Memory (MB): peak = 1369.316 ; gain = 296.281
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:42 ; elapsed = 00:01:20 . Memory (MB): peak = 1372.363 ; gain = 235.152
+Synthesis Optimization Complete : Time (s): cpu = 00:01:19 ; elapsed = 00:01:27 . Memory (MB): peak = 1372.363 ; gain = 299.535
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.140 . Memory (MB): peak = 1369.316 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.123 . Memory (MB): peak = 1372.363 ; gain = 0.000
 INFO: [Netlist 29-17] Analyzing 153 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1369.316 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1372.363 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
   A total of 94 instances were transformed.
   FDR => FDRE: 94 instances
 
 INFO: [Common 17-83] Releasing license: Synthesis
-281 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+279 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:01:46 ; elapsed = 00:02:19 . Memory (MB): peak = 1369.316 ; gain = 296.281
+synth_design: Time (s): cpu = 00:01:30 ; elapsed = 00:01:41 . Memory (MB): peak = 1372.363 ; gain = 299.535
 INFO: [Common 17-1381] The checkpoint 'E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.runs/design_1_axi_vdma_0_0_synth_1/design_1_axi_vdma_0_0.dcp' has been generated.
 WARNING: [Common 17-576] 'use_project_ipc' is deprecated. This option is deprecated and no longer used.
-INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP design_1_axi_vdma_0_0, cache-ID = 636d157fa7f05a65
-INFO: [Coretcl 2-1174] Renamed 96 cell refs.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP design_1_axi_vdma_0_0, cache-ID = c9cdde3f8647c61f
+INFO: [Coretcl 2-1174] Renamed 97 cell refs.
 INFO: [Common 17-1381] The checkpoint 'E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.runs/design_1_axi_vdma_0_0_synth_1/design_1_axi_vdma_0_0.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file design_1_axi_vdma_0_0_utilization_synth.rpt -pb design_1_axi_vdma_0_0_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Thu Nov  5 21:00:14 2020...
+INFO: [Common 17-206] Exiting Vivado at Sat Nov  7 09:58:35 2020...

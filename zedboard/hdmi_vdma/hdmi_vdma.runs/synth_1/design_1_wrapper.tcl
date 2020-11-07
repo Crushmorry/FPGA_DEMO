@@ -70,7 +70,9 @@ proc create_report { reportName command } {
   }
 }
 OPTRACE "synth_1" START { ROLLUP_AUTO }
-set_param synth.incrementalSynthesisCache C:/Users/Admin/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-4264-LAPTOP-43UBS83S/incrSyn
+set_param chipscope.maxJobs 2
+set_param synth.incrementalSynthesisCache E:/FPGA_DEMO/zedboard/hdmi_vdma/.Xil/Vivado-2948-LAPTOP-43UBS83S/incrSyn
+set_msg_config -id {Common 17-41} -limit 10000000
 set_msg_config -id {Synth 8-256} -limit 10000
 set_msg_config -id {Synth 8-638} -limit 10000
 OPTRACE "Creating in-memory project" START { }
@@ -105,10 +107,9 @@ set_property used_in_implementation false [get_files -all e:/FPGA_DEMO/zedboard/
 set_property used_in_implementation false [get_files -all e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_board.xdc]
 set_property used_in_implementation false [get_files -all e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0.xdc]
 set_property used_in_implementation false [get_files -all e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_ooc.xdc]
-set_property used_in_implementation false [get_files -all e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ip/design_1_rst_ps7_0_100M_0/design_1_rst_ps7_0_100M_0_board.xdc]
-set_property used_in_implementation false [get_files -all e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ip/design_1_rst_ps7_0_100M_0/design_1_rst_ps7_0_100M_0.xdc]
-set_property used_in_implementation false [get_files -all e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ip/design_1_rst_ps7_0_100M_0/design_1_rst_ps7_0_100M_0_ooc.xdc]
-set_property used_in_implementation false [get_files -all e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ip/design_1_xbar_0/design_1_xbar_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ip/design_1_rst_clk_wiz_0_74M_0/design_1_rst_clk_wiz_0_74M_0_board.xdc]
+set_property used_in_implementation false [get_files -all e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ip/design_1_rst_clk_wiz_0_74M_0/design_1_rst_clk_wiz_0_74M_0.xdc]
+set_property used_in_implementation false [get_files -all e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ip/design_1_rst_clk_wiz_0_74M_0/design_1_rst_clk_wiz_0_74M_0_ooc.xdc]
 set_property used_in_implementation false [get_files -all e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0_ooc.xdc]
 set_property used_in_implementation false [get_files -all e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_1/design_1_auto_pc_1_ooc.xdc]
 set_property used_in_implementation false [get_files -all E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/design_1_ooc.xdc]

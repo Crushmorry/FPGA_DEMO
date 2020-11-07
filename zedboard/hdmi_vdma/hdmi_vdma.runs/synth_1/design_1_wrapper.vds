@@ -2,8 +2,8 @@
 # Vivado v2020.1 (64-bit)
 # SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
 # IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
-# Start of session at: Thu Nov  5 21:09:29 2020
-# Process ID: 19120
+# Start of session at: Sat Nov  7 10:24:25 2020
+# Process ID: 10060
 # Current directory: E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.runs/synth_1
 # Command line: vivado.exe -log design_1_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_wrapper.tcl
 # Log file: E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.runs/synth_1/design_1_wrapper.vds
@@ -20,108 +20,100 @@ INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020
 INFO: [Device 21-403] Loading part xc7z020clg484-1
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 19264
+INFO: [Synth 8-7075] Helper process launched with PID 11776
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1084.008 ; gain = 4.270
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1080.363 ; gain = 0.000
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-6157] synthesizing module 'design_1_wrapper' [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v:12]
 INFO: [Synth 8-6157] synthesizing module 'design_1' [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/synth/design_1.v:13]
-INFO: [Synth 8-6157] synthesizing module 'design_1_axi_mem_intercon_0' [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/synth/design_1.v:570]
-INFO: [Synth 8-6157] synthesizing module 'm00_couplers_imp_1R706YB' [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/synth/design_1.v:1522]
-INFO: [Synth 8-6157] synthesizing module 'design_1_auto_pc_1' [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.runs/synth_1/.Xil/Vivado-19120-LAPTOP-43UBS83S/realtime/design_1_auto_pc_1_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_auto_pc_1' (1#1) [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.runs/synth_1/.Xil/Vivado-19120-LAPTOP-43UBS83S/realtime/design_1_auto_pc_1_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'm00_couplers_imp_1R706YB' (2#1) [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/synth/design_1.v:1522]
-INFO: [Synth 8-6157] synthesizing module 's00_couplers_imp_7HNO1D' [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/synth/design_1.v:1927]
-INFO: [Synth 8-6155] done synthesizing module 's00_couplers_imp_7HNO1D' (3#1) [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/synth/design_1.v:1927]
-INFO: [Synth 8-6157] synthesizing module 's01_couplers_imp_1W60HW0' [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/synth/design_1.v:2321]
-INFO: [Synth 8-6155] done synthesizing module 's01_couplers_imp_1W60HW0' (4#1) [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/synth/design_1.v:2321]
-WARNING: [Synth 8-7071] port 'S_AXI_arready' of module 's01_couplers_imp_1W60HW0' is unconnected for instance 's01_couplers' [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/synth/design_1.v:1069]
-WARNING: [Synth 8-7071] port 'S_AXI_bid' of module 's01_couplers_imp_1W60HW0' is unconnected for instance 's01_couplers' [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/synth/design_1.v:1069]
-WARNING: [Synth 8-7071] port 'S_AXI_rdata' of module 's01_couplers_imp_1W60HW0' is unconnected for instance 's01_couplers' [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/synth/design_1.v:1069]
-WARNING: [Synth 8-7071] port 'S_AXI_rid' of module 's01_couplers_imp_1W60HW0' is unconnected for instance 's01_couplers' [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/synth/design_1.v:1069]
-WARNING: [Synth 8-7071] port 'S_AXI_rlast' of module 's01_couplers_imp_1W60HW0' is unconnected for instance 's01_couplers' [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/synth/design_1.v:1069]
-WARNING: [Synth 8-7071] port 'S_AXI_rresp' of module 's01_couplers_imp_1W60HW0' is unconnected for instance 's01_couplers' [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/synth/design_1.v:1069]
-WARNING: [Synth 8-7071] port 'S_AXI_rvalid' of module 's01_couplers_imp_1W60HW0' is unconnected for instance 's01_couplers' [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/synth/design_1.v:1069]
-WARNING: [Synth 8-7023] instance 's01_couplers' of module 's01_couplers_imp_1W60HW0' has 78 connections declared, but only 71 given [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/synth/design_1.v:1069]
-INFO: [Synth 8-6157] synthesizing module 'design_1_xbar_0' [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.runs/synth_1/.Xil/Vivado-19120-LAPTOP-43UBS83S/realtime/design_1_xbar_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_xbar_0' (5#1) [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.runs/synth_1/.Xil/Vivado-19120-LAPTOP-43UBS83S/realtime/design_1_xbar_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_axi_mem_intercon_0' (6#1) [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/synth/design_1.v:570]
-WARNING: [Synth 8-7071] port 'S01_AXI_awready' of module 'design_1_axi_mem_intercon_0' is unconnected for instance 'axi_mem_intercon' [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/synth/design_1.v:231]
-WARNING: [Synth 8-7071] port 'S01_AXI_bresp' of module 'design_1_axi_mem_intercon_0' is unconnected for instance 'axi_mem_intercon' [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/synth/design_1.v:231]
-WARNING: [Synth 8-7071] port 'S01_AXI_bvalid' of module 'design_1_axi_mem_intercon_0' is unconnected for instance 'axi_mem_intercon' [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/synth/design_1.v:231]
-WARNING: [Synth 8-7071] port 'S01_AXI_wready' of module 'design_1_axi_mem_intercon_0' is unconnected for instance 'axi_mem_intercon' [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/synth/design_1.v:231]
-WARNING: [Synth 8-7023] instance 'axi_mem_intercon' of module 'design_1_axi_mem_intercon_0' has 75 connections declared, but only 71 given [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/synth/design_1.v:231]
-INFO: [Synth 8-6157] synthesizing module 'design_1_axi_vdma_0_0' [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.runs/synth_1/.Xil/Vivado-19120-LAPTOP-43UBS83S/realtime/design_1_axi_vdma_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_axi_vdma_0_0' (7#1) [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.runs/synth_1/.Xil/Vivado-19120-LAPTOP-43UBS83S/realtime/design_1_axi_vdma_0_0_stub.v:6]
-WARNING: [Synth 8-7071] port 'mm2s_frame_ptr_out' of module 'design_1_axi_vdma_0_0' is unconnected for instance 'axi_vdma_0' [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/synth/design_1.v:303]
-WARNING: [Synth 8-7071] port 'm_axis_mm2s_tkeep' of module 'design_1_axi_vdma_0_0' is unconnected for instance 'axi_vdma_0' [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/synth/design_1.v:303]
-WARNING: [Synth 8-7071] port 'mm2s_introut' of module 'design_1_axi_vdma_0_0' is unconnected for instance 'axi_vdma_0' [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/synth/design_1.v:303]
-WARNING: [Synth 8-7023] instance 'axi_vdma_0' of module 'design_1_axi_vdma_0_0' has 42 connections declared, but only 39 given [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/synth/design_1.v:303]
-INFO: [Synth 8-6157] synthesizing module 'design_1_clk_wiz_0_0' [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.runs/synth_1/.Xil/Vivado-19120-LAPTOP-43UBS83S/realtime/design_1_clk_wiz_0_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_clk_wiz_0_0' (8#1) [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.runs/synth_1/.Xil/Vivado-19120-LAPTOP-43UBS83S/realtime/design_1_clk_wiz_0_0_stub.v:5]
-WARNING: [Synth 8-7071] port 'locked' of module 'design_1_clk_wiz_0_0' is unconnected for instance 'clk_wiz_0' [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/synth/design_1.v:343]
-WARNING: [Synth 8-7023] instance 'clk_wiz_0' of module 'design_1_clk_wiz_0_0' has 5 connections declared, but only 4 given [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/synth/design_1.v:343]
-INFO: [Synth 8-6157] synthesizing module 'design_1_hdmi_display_0_0' [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.runs/synth_1/.Xil/Vivado-19120-LAPTOP-43UBS83S/realtime/design_1_hdmi_display_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_hdmi_display_0_0' (9#1) [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.runs/synth_1/.Xil/Vivado-19120-LAPTOP-43UBS83S/realtime/design_1_hdmi_display_0_0_stub.v:6]
-INFO: [Synth 8-6157] synthesizing module 'design_1_processing_system7_0_0' [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.runs/synth_1/.Xil/Vivado-19120-LAPTOP-43UBS83S/realtime/design_1_processing_system7_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_processing_system7_0_0' (10#1) [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.runs/synth_1/.Xil/Vivado-19120-LAPTOP-43UBS83S/realtime/design_1_processing_system7_0_0_stub.v:6]
-WARNING: [Synth 8-7071] port 'TTC0_WAVE0_OUT' of module 'design_1_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/synth/design_1.v:363]
-WARNING: [Synth 8-7071] port 'TTC0_WAVE1_OUT' of module 'design_1_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/synth/design_1.v:363]
-WARNING: [Synth 8-7071] port 'TTC0_WAVE2_OUT' of module 'design_1_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/synth/design_1.v:363]
-WARNING: [Synth 8-7071] port 'USB0_PORT_INDCTL' of module 'design_1_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/synth/design_1.v:363]
-WARNING: [Synth 8-7071] port 'USB0_VBUS_PWRSELECT' of module 'design_1_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/synth/design_1.v:363]
-WARNING: [Synth 8-7071] port 'S_AXI_HP0_RCOUNT' of module 'design_1_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/synth/design_1.v:363]
-WARNING: [Synth 8-7071] port 'S_AXI_HP0_WCOUNT' of module 'design_1_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/synth/design_1.v:363]
-WARNING: [Synth 8-7071] port 'S_AXI_HP0_RACOUNT' of module 'design_1_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/synth/design_1.v:363]
-WARNING: [Synth 8-7071] port 'S_AXI_HP0_WACOUNT' of module 'design_1_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/synth/design_1.v:363]
-WARNING: [Synth 8-7023] instance 'processing_system7_0' of module 'design_1_processing_system7_0_0' has 113 connections declared, but only 104 given [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/synth/design_1.v:363]
-INFO: [Synth 8-6157] synthesizing module 'design_1_ps7_0_axi_periph_0' [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/synth/design_1.v:1222]
-INFO: [Synth 8-6157] synthesizing module 's00_couplers_imp_UYSKKA' [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/synth/design_1.v:2031]
-INFO: [Synth 8-6157] synthesizing module 'design_1_auto_pc_0' [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.runs/synth_1/.Xil/Vivado-19120-LAPTOP-43UBS83S/realtime/design_1_auto_pc_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_auto_pc_0' (11#1) [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.runs/synth_1/.Xil/Vivado-19120-LAPTOP-43UBS83S/realtime/design_1_auto_pc_0_stub.v:6]
-WARNING: [Synth 8-7071] port 'm_axi_awprot' of module 'design_1_auto_pc_0' is unconnected for instance 'auto_pc' [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/synth/design_1.v:2262]
-WARNING: [Synth 8-7071] port 'm_axi_wstrb' of module 'design_1_auto_pc_0' is unconnected for instance 'auto_pc' [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/synth/design_1.v:2262]
-WARNING: [Synth 8-7071] port 'm_axi_arprot' of module 'design_1_auto_pc_0' is unconnected for instance 'auto_pc' [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/synth/design_1.v:2262]
-WARNING: [Synth 8-7023] instance 'auto_pc' of module 'design_1_auto_pc_0' has 59 connections declared, but only 56 given [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/synth/design_1.v:2262]
-INFO: [Synth 8-6155] done synthesizing module 's00_couplers_imp_UYSKKA' (12#1) [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/synth/design_1.v:2031]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_ps7_0_axi_periph_0' (13#1) [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/synth/design_1.v:1222]
-INFO: [Synth 8-6157] synthesizing module 'design_1_rst_ps7_0_100M_0' [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.runs/synth_1/.Xil/Vivado-19120-LAPTOP-43UBS83S/realtime/design_1_rst_ps7_0_100M_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_rst_ps7_0_100M_0' (14#1) [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.runs/synth_1/.Xil/Vivado-19120-LAPTOP-43UBS83S/realtime/design_1_rst_ps7_0_100M_0_stub.v:6]
-WARNING: [Synth 8-7071] port 'mb_reset' of module 'design_1_rst_ps7_0_100M_0' is unconnected for instance 'rst_ps7_0_100M' [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/synth/design_1.v:529]
-WARNING: [Synth 8-7071] port 'bus_struct_reset' of module 'design_1_rst_ps7_0_100M_0' is unconnected for instance 'rst_ps7_0_100M' [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/synth/design_1.v:529]
-WARNING: [Synth 8-7071] port 'peripheral_reset' of module 'design_1_rst_ps7_0_100M_0' is unconnected for instance 'rst_ps7_0_100M' [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/synth/design_1.v:529]
-WARNING: [Synth 8-7071] port 'interconnect_aresetn' of module 'design_1_rst_ps7_0_100M_0' is unconnected for instance 'rst_ps7_0_100M' [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/synth/design_1.v:529]
-WARNING: [Synth 8-7023] instance 'rst_ps7_0_100M' of module 'design_1_rst_ps7_0_100M_0' has 10 connections declared, but only 6 given [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/synth/design_1.v:529]
-INFO: [Synth 8-6157] synthesizing module 'design_1_v_axi4s_vid_out_0_0' [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.runs/synth_1/.Xil/Vivado-19120-LAPTOP-43UBS83S/realtime/design_1_v_axi4s_vid_out_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_v_axi4s_vid_out_0_0' (15#1) [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.runs/synth_1/.Xil/Vivado-19120-LAPTOP-43UBS83S/realtime/design_1_v_axi4s_vid_out_0_0_stub.v:6]
-WARNING: [Synth 8-7071] port 'vid_vblank' of module 'design_1_v_axi4s_vid_out_0_0' is unconnected for instance 'v_axi4s_vid_out_0' [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/synth/design_1.v:536]
-WARNING: [Synth 8-7071] port 'vid_hblank' of module 'design_1_v_axi4s_vid_out_0_0' is unconnected for instance 'v_axi4s_vid_out_0' [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/synth/design_1.v:536]
-WARNING: [Synth 8-7071] port 'vid_field_id' of module 'design_1_v_axi4s_vid_out_0_0' is unconnected for instance 'v_axi4s_vid_out_0' [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/synth/design_1.v:536]
-WARNING: [Synth 8-7071] port 'locked' of module 'design_1_v_axi4s_vid_out_0_0' is unconnected for instance 'v_axi4s_vid_out_0' [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/synth/design_1.v:536]
-WARNING: [Synth 8-7071] port 'overflow' of module 'design_1_v_axi4s_vid_out_0_0' is unconnected for instance 'v_axi4s_vid_out_0' [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/synth/design_1.v:536]
-WARNING: [Synth 8-7071] port 'underflow' of module 'design_1_v_axi4s_vid_out_0_0' is unconnected for instance 'v_axi4s_vid_out_0' [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/synth/design_1.v:536]
-WARNING: [Synth 8-7071] port 'fifo_read_level' of module 'design_1_v_axi4s_vid_out_0_0' is unconnected for instance 'v_axi4s_vid_out_0' [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/synth/design_1.v:536]
-WARNING: [Synth 8-7071] port 'status' of module 'design_1_v_axi4s_vid_out_0_0' is unconnected for instance 'v_axi4s_vid_out_0' [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/synth/design_1.v:536]
-WARNING: [Synth 8-7023] instance 'v_axi4s_vid_out_0' of module 'design_1_v_axi4s_vid_out_0_0' has 29 connections declared, but only 21 given [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/synth/design_1.v:536]
-INFO: [Synth 8-6157] synthesizing module 'design_1_v_tc_0_0' [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.runs/synth_1/.Xil/Vivado-19120-LAPTOP-43UBS83S/realtime/design_1_v_tc_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_v_tc_0_0' (16#1) [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.runs/synth_1/.Xil/Vivado-19120-LAPTOP-43UBS83S/realtime/design_1_v_tc_0_0_stub.v:6]
-WARNING: [Synth 8-7071] port 'fsync_out' of module 'design_1_v_tc_0_0' is unconnected for instance 'v_tc_0' [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/synth/design_1.v:558]
-WARNING: [Synth 8-7023] instance 'v_tc_0' of module 'design_1_v_tc_0_0' has 10 connections declared, but only 9 given [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/synth/design_1.v:558]
-INFO: [Synth 8-6155] done synthesizing module 'design_1' (17#1) [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/synth/design_1.v:13]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_wrapper' (18#1) [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v:12]
+INFO: [Synth 8-6157] synthesizing module 'design_1_axi_mem_intercon_0' [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/synth/design_1.v:508]
+INFO: [Synth 8-6157] synthesizing module 's00_couplers_imp_7HNO1D' [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/synth/design_1.v:978]
+INFO: [Synth 8-6157] synthesizing module 'design_1_auto_pc_1' [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.runs/synth_1/.Xil/Vivado-10060-LAPTOP-43UBS83S/realtime/design_1_auto_pc_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_auto_pc_1' (1#1) [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.runs/synth_1/.Xil/Vivado-10060-LAPTOP-43UBS83S/realtime/design_1_auto_pc_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 's00_couplers_imp_7HNO1D' (2#1) [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/synth/design_1.v:978]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_axi_mem_intercon_0' (3#1) [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/synth/design_1.v:508]
+INFO: [Synth 8-6157] synthesizing module 'design_1_axi_vdma_0_0' [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.runs/synth_1/.Xil/Vivado-10060-LAPTOP-43UBS83S/realtime/design_1_axi_vdma_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_axi_vdma_0_0' (4#1) [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.runs/synth_1/.Xil/Vivado-10060-LAPTOP-43UBS83S/realtime/design_1_axi_vdma_0_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'mm2s_frame_ptr_out' of module 'design_1_axi_vdma_0_0' is unconnected for instance 'axi_vdma_0' [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/synth/design_1.v:244]
+WARNING: [Synth 8-7071] port 'm_axis_mm2s_tkeep' of module 'design_1_axi_vdma_0_0' is unconnected for instance 'axi_vdma_0' [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/synth/design_1.v:244]
+WARNING: [Synth 8-7071] port 'mm2s_introut' of module 'design_1_axi_vdma_0_0' is unconnected for instance 'axi_vdma_0' [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/synth/design_1.v:244]
+WARNING: [Synth 8-7023] instance 'axi_vdma_0' of module 'design_1_axi_vdma_0_0' has 41 connections declared, but only 38 given [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/synth/design_1.v:244]
+INFO: [Synth 8-6157] synthesizing module 'design_1_clk_wiz_0_0' [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.runs/synth_1/.Xil/Vivado-10060-LAPTOP-43UBS83S/realtime/design_1_clk_wiz_0_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_clk_wiz_0_0' (5#1) [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.runs/synth_1/.Xil/Vivado-10060-LAPTOP-43UBS83S/realtime/design_1_clk_wiz_0_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'design_1_hdmi_display_0_0' [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.runs/synth_1/.Xil/Vivado-10060-LAPTOP-43UBS83S/realtime/design_1_hdmi_display_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_hdmi_display_0_0' (6#1) [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.runs/synth_1/.Xil/Vivado-10060-LAPTOP-43UBS83S/realtime/design_1_hdmi_display_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_processing_system7_0_0' [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.runs/synth_1/.Xil/Vivado-10060-LAPTOP-43UBS83S/realtime/design_1_processing_system7_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_processing_system7_0_0' (7#1) [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.runs/synth_1/.Xil/Vivado-10060-LAPTOP-43UBS83S/realtime/design_1_processing_system7_0_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'TTC0_WAVE0_OUT' of module 'design_1_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/synth/design_1.v:304]
+WARNING: [Synth 8-7071] port 'TTC0_WAVE1_OUT' of module 'design_1_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/synth/design_1.v:304]
+WARNING: [Synth 8-7071] port 'TTC0_WAVE2_OUT' of module 'design_1_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/synth/design_1.v:304]
+WARNING: [Synth 8-7071] port 'USB0_PORT_INDCTL' of module 'design_1_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/synth/design_1.v:304]
+WARNING: [Synth 8-7071] port 'USB0_VBUS_PWRSELECT' of module 'design_1_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/synth/design_1.v:304]
+WARNING: [Synth 8-7071] port 'S_AXI_HP0_AWREADY' of module 'design_1_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/synth/design_1.v:304]
+WARNING: [Synth 8-7071] port 'S_AXI_HP0_BVALID' of module 'design_1_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/synth/design_1.v:304]
+WARNING: [Synth 8-7071] port 'S_AXI_HP0_WREADY' of module 'design_1_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/synth/design_1.v:304]
+WARNING: [Synth 8-7071] port 'S_AXI_HP0_BRESP' of module 'design_1_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/synth/design_1.v:304]
+WARNING: [Synth 8-7071] port 'S_AXI_HP0_BID' of module 'design_1_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/synth/design_1.v:304]
+WARNING: [Synth 8-7071] port 'S_AXI_HP0_RID' of module 'design_1_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/synth/design_1.v:304]
+WARNING: [Synth 8-7071] port 'S_AXI_HP0_RCOUNT' of module 'design_1_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/synth/design_1.v:304]
+WARNING: [Synth 8-7071] port 'S_AXI_HP0_WCOUNT' of module 'design_1_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/synth/design_1.v:304]
+WARNING: [Synth 8-7071] port 'S_AXI_HP0_RACOUNT' of module 'design_1_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/synth/design_1.v:304]
+WARNING: [Synth 8-7071] port 'S_AXI_HP0_WACOUNT' of module 'design_1_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/synth/design_1.v:304]
+WARNING: [Synth 8-7023] instance 'processing_system7_0' of module 'design_1_processing_system7_0_0' has 113 connections declared, but only 98 given [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/synth/design_1.v:304]
+INFO: [Synth 8-6157] synthesizing module 'design_1_ps7_0_axi_periph_0' [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/synth/design_1.v:678]
+INFO: [Synth 8-6157] synthesizing module 's00_couplers_imp_UYSKKA' [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/synth/design_1.v:1141]
+INFO: [Synth 8-6157] synthesizing module 'design_1_auto_pc_0' [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.runs/synth_1/.Xil/Vivado-10060-LAPTOP-43UBS83S/realtime/design_1_auto_pc_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_auto_pc_0' (8#1) [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.runs/synth_1/.Xil/Vivado-10060-LAPTOP-43UBS83S/realtime/design_1_auto_pc_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'm_axi_awprot' of module 'design_1_auto_pc_0' is unconnected for instance 'auto_pc' [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/synth/design_1.v:1372]
+WARNING: [Synth 8-7071] port 'm_axi_wstrb' of module 'design_1_auto_pc_0' is unconnected for instance 'auto_pc' [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/synth/design_1.v:1372]
+WARNING: [Synth 8-7071] port 'm_axi_arprot' of module 'design_1_auto_pc_0' is unconnected for instance 'auto_pc' [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/synth/design_1.v:1372]
+WARNING: [Synth 8-7023] instance 'auto_pc' of module 'design_1_auto_pc_0' has 59 connections declared, but only 56 given [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/synth/design_1.v:1372]
+INFO: [Synth 8-6155] done synthesizing module 's00_couplers_imp_UYSKKA' (9#1) [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/synth/design_1.v:1141]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_ps7_0_axi_periph_0' (10#1) [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/synth/design_1.v:678]
+INFO: [Synth 8-6157] synthesizing module 'design_1_rst_clk_wiz_0_74M_0' [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.runs/synth_1/.Xil/Vivado-10060-LAPTOP-43UBS83S/realtime/design_1_rst_clk_wiz_0_74M_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_rst_clk_wiz_0_74M_0' (11#1) [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.runs/synth_1/.Xil/Vivado-10060-LAPTOP-43UBS83S/realtime/design_1_rst_clk_wiz_0_74M_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'mb_reset' of module 'design_1_rst_clk_wiz_0_74M_0' is unconnected for instance 'rst_clk_wiz_0_74M' [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/synth/design_1.v:464]
+WARNING: [Synth 8-7071] port 'bus_struct_reset' of module 'design_1_rst_clk_wiz_0_74M_0' is unconnected for instance 'rst_clk_wiz_0_74M' [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/synth/design_1.v:464]
+WARNING: [Synth 8-7071] port 'peripheral_reset' of module 'design_1_rst_clk_wiz_0_74M_0' is unconnected for instance 'rst_clk_wiz_0_74M' [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/synth/design_1.v:464]
+WARNING: [Synth 8-7071] port 'interconnect_aresetn' of module 'design_1_rst_clk_wiz_0_74M_0' is unconnected for instance 'rst_clk_wiz_0_74M' [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/synth/design_1.v:464]
+WARNING: [Synth 8-7023] instance 'rst_clk_wiz_0_74M' of module 'design_1_rst_clk_wiz_0_74M_0' has 10 connections declared, but only 6 given [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/synth/design_1.v:464]
+INFO: [Synth 8-6157] synthesizing module 'design_1_v_axi4s_vid_out_0_0' [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.runs/synth_1/.Xil/Vivado-10060-LAPTOP-43UBS83S/realtime/design_1_v_axi4s_vid_out_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_v_axi4s_vid_out_0_0' (12#1) [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.runs/synth_1/.Xil/Vivado-10060-LAPTOP-43UBS83S/realtime/design_1_v_axi4s_vid_out_0_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'vid_vblank' of module 'design_1_v_axi4s_vid_out_0_0' is unconnected for instance 'v_axi4s_vid_out_0' [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/synth/design_1.v:471]
+WARNING: [Synth 8-7071] port 'vid_hblank' of module 'design_1_v_axi4s_vid_out_0_0' is unconnected for instance 'v_axi4s_vid_out_0' [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/synth/design_1.v:471]
+WARNING: [Synth 8-7071] port 'vid_field_id' of module 'design_1_v_axi4s_vid_out_0_0' is unconnected for instance 'v_axi4s_vid_out_0' [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/synth/design_1.v:471]
+WARNING: [Synth 8-7071] port 'vtg_ce' of module 'design_1_v_axi4s_vid_out_0_0' is unconnected for instance 'v_axi4s_vid_out_0' [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/synth/design_1.v:471]
+WARNING: [Synth 8-7071] port 'locked' of module 'design_1_v_axi4s_vid_out_0_0' is unconnected for instance 'v_axi4s_vid_out_0' [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/synth/design_1.v:471]
+WARNING: [Synth 8-7071] port 'overflow' of module 'design_1_v_axi4s_vid_out_0_0' is unconnected for instance 'v_axi4s_vid_out_0' [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/synth/design_1.v:471]
+WARNING: [Synth 8-7071] port 'underflow' of module 'design_1_v_axi4s_vid_out_0_0' is unconnected for instance 'v_axi4s_vid_out_0' [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/synth/design_1.v:471]
+WARNING: [Synth 8-7071] port 'fifo_read_level' of module 'design_1_v_axi4s_vid_out_0_0' is unconnected for instance 'v_axi4s_vid_out_0' [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/synth/design_1.v:471]
+WARNING: [Synth 8-7071] port 'status' of module 'design_1_v_axi4s_vid_out_0_0' is unconnected for instance 'v_axi4s_vid_out_0' [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/synth/design_1.v:471]
+WARNING: [Synth 8-7023] instance 'v_axi4s_vid_out_0' of module 'design_1_v_axi4s_vid_out_0_0' has 31 connections declared, but only 22 given [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/synth/design_1.v:471]
+INFO: [Synth 8-6157] synthesizing module 'design_1_v_tc_0_0' [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.runs/synth_1/.Xil/Vivado-10060-LAPTOP-43UBS83S/realtime/design_1_v_tc_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_v_tc_0_0' (13#1) [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.runs/synth_1/.Xil/Vivado-10060-LAPTOP-43UBS83S/realtime/design_1_v_tc_0_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'fsync_out' of module 'design_1_v_tc_0_0' is unconnected for instance 'v_tc_0' [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/synth/design_1.v:494]
+WARNING: [Synth 8-7023] instance 'v_tc_0' of module 'design_1_v_tc_0_0' has 10 connections declared, but only 9 given [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/synth/design_1.v:494]
+INFO: [Synth 8-6157] synthesizing module 'design_1_xlconstant_0_0' [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ip/design_1_xlconstant_0_0/synth/design_1_xlconstant_0_0.v:57]
+INFO: [Synth 8-6157] synthesizing module 'xlconstant_v1_1_7_xlconstant' [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/fcfc/hdl/xlconstant_v1_1_vl_rfs.v:23]
+	Parameter CONST_VAL bound to: 1 - type: integer 
+	Parameter CONST_WIDTH bound to: 1 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'xlconstant_v1_1_7_xlconstant' (14#1) [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/fcfc/hdl/xlconstant_v1_1_vl_rfs.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_xlconstant_0_0' (15#1) [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ip/design_1_xlconstant_0_0/synth/design_1_xlconstant_0_0.v:57]
+INFO: [Synth 8-6155] done synthesizing module 'design_1' (16#1) [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/synth/design_1.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_wrapper' (17#1) [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v:12]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1141.012 ; gain = 61.273
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1133.301 ; gain = 52.938
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1141.012 ; gain = 61.273
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1133.301 ; gain = 52.938
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1141.012 ; gain = 61.273
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1133.301 ; gain = 52.938
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.036 . Memory (MB): peak = 1141.012 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.027 . Memory (MB): peak = 1133.301 ; gain = 0.000
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
@@ -142,14 +134,12 @@ WARNING: [Vivado 12-584] No ports matched ''. [e:/FPGA_DEMO/zedboard/hdmi_vdma/h
 WARNING: [Vivado 12-584] No ports matched ''. [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_in_context.xdc:4]
 WARNING: [Vivado 12-584] No ports matched ''. [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_in_context.xdc:6]
 Finished Parsing XDC File [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_in_context.xdc] for cell 'design_1_i/clk_wiz_0'
-Parsing XDC File [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ip/design_1_rst_ps7_0_100M_0/design_1_rst_ps7_0_100M_0/design_1_rst_ps7_0_100M_0_in_context.xdc] for cell 'design_1_i/rst_ps7_0_100M'
-Finished Parsing XDC File [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ip/design_1_rst_ps7_0_100M_0/design_1_rst_ps7_0_100M_0/design_1_rst_ps7_0_100M_0_in_context.xdc] for cell 'design_1_i/rst_ps7_0_100M'
-Parsing XDC File [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ip/design_1_xbar_0/design_1_xbar_0/design_1_xbar_0_in_context.xdc] for cell 'design_1_i/axi_mem_intercon/xbar'
-Finished Parsing XDC File [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ip/design_1_xbar_0/design_1_xbar_0/design_1_xbar_0_in_context.xdc] for cell 'design_1_i/axi_mem_intercon/xbar'
+Parsing XDC File [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ip/design_1_rst_clk_wiz_0_74M_0/design_1_rst_clk_wiz_0_74M_0/design_1_rst_clk_wiz_0_74M_0_in_context.xdc] for cell 'design_1_i/rst_clk_wiz_0_74M'
+Finished Parsing XDC File [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ip/design_1_rst_clk_wiz_0_74M_0/design_1_rst_clk_wiz_0_74M_0/design_1_rst_clk_wiz_0_74M_0_in_context.xdc] for cell 'design_1_i/rst_clk_wiz_0_74M'
 Parsing XDC File [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0/design_1_auto_pc_0_in_context.xdc] for cell 'design_1_i/ps7_0_axi_periph/s00_couplers/auto_pc'
 Finished Parsing XDC File [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0/design_1_auto_pc_0_in_context.xdc] for cell 'design_1_i/ps7_0_axi_periph/s00_couplers/auto_pc'
-Parsing XDC File [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_1/design_1_auto_pc_1/design_1_auto_pc_1_in_context.xdc] for cell 'design_1_i/axi_mem_intercon/m00_couplers/auto_pc'
-Finished Parsing XDC File [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_1/design_1_auto_pc_1/design_1_auto_pc_1_in_context.xdc] for cell 'design_1_i/axi_mem_intercon/m00_couplers/auto_pc'
+Parsing XDC File [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_1/design_1_auto_pc_1/design_1_auto_pc_1_in_context.xdc] for cell 'design_1_i/axi_mem_intercon/s00_couplers/auto_pc'
+Finished Parsing XDC File [e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_1/design_1_auto_pc_1/design_1_auto_pc_1_in_context.xdc] for cell 'design_1_i/axi_mem_intercon/s00_couplers/auto_pc'
 Parsing XDC File [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/constrs_1/new/hdmi.xdc]
 Finished Parsing XDC File [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/constrs_1/new/hdmi.xdc]
 INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/constrs_1/new/hdmi.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/design_1_wrapper_propImpl.xdc].
@@ -158,20 +148,20 @@ Parsing XDC File [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.runs/synth_1/dont_to
 Finished Parsing XDC File [E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.runs/synth_1/dont_touch.xdc]
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1205.008 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1194.625 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.011 . Memory (MB): peak = 1205.008 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.012 . Memory (MB): peak = 1194.625 ; gain = 0.000
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1205.008 ; gain = 125.270
+Finished Constraint Validation : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1194.625 ; gain = 114.262
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7z020clg484-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1205.008 ; gain = 125.270
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1194.625 ; gain = 114.262
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
@@ -444,16 +434,16 @@ Applied set_property DONT_TOUCH = true for design_1_i/v_tc_0. (constraint file  
 Applied set_property DONT_TOUCH = true for design_1_i/hdmi_display_0. (constraint file  auto generated constraint, line ).
 Applied set_property DONT_TOUCH = true for design_1_i/clk_wiz_0. (constraint file  auto generated constraint, line ).
 Applied set_property DONT_TOUCH = true for design_1_i/ps7_0_axi_periph. (constraint file  auto generated constraint, line ).
-Applied set_property DONT_TOUCH = true for design_1_i/rst_ps7_0_100M. (constraint file  auto generated constraint, line ).
-Applied set_property DONT_TOUCH = true for design_1_i/axi_mem_intercon/xbar. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/rst_clk_wiz_0_74M. (constraint file  auto generated constraint, line ).
 Applied set_property DONT_TOUCH = true for design_1_i/axi_mem_intercon. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/xlconstant_0. (constraint file  auto generated constraint, line ).
 Applied set_property DONT_TOUCH = true for design_1_i/ps7_0_axi_periph/s00_couplers/auto_pc. (constraint file  auto generated constraint, line ).
-Applied set_property DONT_TOUCH = true for design_1_i/axi_mem_intercon/m00_couplers/auto_pc. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/axi_mem_intercon/s00_couplers/auto_pc. (constraint file  auto generated constraint, line ).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1205.008 ; gain = 125.270
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1194.625 ; gain = 114.262
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1205.008 ; gain = 125.270
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1194.625 ; gain = 114.262
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start RTL Component Statistics 
@@ -475,25 +465,25 @@ Finished Part Resource Summary
 Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1205.008 ; gain = 125.270
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1194.625 ; gain = 114.262
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1233.840 ; gain = 154.102
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 1222.020 ; gain = 141.656
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1233.988 ; gain = 154.250
+Finished Timing Optimization : Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 1222.430 ; gain = 142.066
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1253.055 ; gain = 173.316
+Finished Technology Mapping : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 1241.492 ; gain = 161.129
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -511,37 +501,37 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 1257.848 ; gain = 178.109
+Finished IO Insertion : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 1247.266 ; gain = 166.902
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 1257.848 ; gain = 178.109
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 1247.266 ; gain = 166.902
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 1257.848 ; gain = 178.109
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 1247.266 ; gain = 166.902
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 1257.848 ; gain = 178.109
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 1247.266 ; gain = 166.902
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 1257.848 ; gain = 178.109
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 1247.266 ; gain = 166.902
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 1257.848 ; gain = 178.109
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 1247.266 ; gain = 166.902
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -551,16 +541,15 @@ Report BlackBoxes:
 +------+--------------------------------+----------+
 |      |BlackBox name                   |Instances |
 +------+--------------------------------+----------+
-|1     |design_1_xbar_0                 |         1|
-|2     |design_1_auto_pc_1              |         1|
-|3     |design_1_auto_pc_0              |         1|
-|4     |design_1_axi_vdma_0_0           |         1|
-|5     |design_1_clk_wiz_0_0            |         1|
-|6     |design_1_hdmi_display_0_0       |         1|
-|7     |design_1_processing_system7_0_0 |         1|
-|8     |design_1_rst_ps7_0_100M_0       |         1|
-|9     |design_1_v_axi4s_vid_out_0_0    |         1|
-|10    |design_1_v_tc_0_0               |         1|
+|1     |design_1_auto_pc_1              |         1|
+|2     |design_1_auto_pc_0              |         1|
+|3     |design_1_axi_vdma_0_0           |         1|
+|4     |design_1_clk_wiz_0_0            |         1|
+|5     |design_1_hdmi_display_0_0       |         1|
+|6     |design_1_processing_system7_0_0 |         1|
+|7     |design_1_rst_clk_wiz_0_74M_0    |         1|
+|8     |design_1_v_axi4s_vid_out_0_0    |         1|
+|9     |design_1_v_tc_0_0               |         1|
 +------+--------------------------------+----------+
 
 Report Cell Usage: 
@@ -572,30 +561,29 @@ Report Cell Usage:
 |4     |design_1_clk_wiz_0            |     1|
 |5     |design_1_hdmi_display_0       |     1|
 |6     |design_1_processing_system7_0 |     1|
-|7     |design_1_rst_ps7_0_100M       |     1|
+|7     |design_1_rst_clk_wiz_0_74M    |     1|
 |8     |design_1_v_axi4s_vid_out_0    |     1|
 |9     |design_1_v_tc_0               |     1|
-|10    |design_1_xbar                 |     1|
-|11    |OBUF                          |    21|
+|10    |OBUF                          |    21|
 +------+------------------------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 1257.848 ; gain = 178.109
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 1247.266 ; gain = 166.902
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:17 ; elapsed = 00:00:24 . Memory (MB): peak = 1257.848 ; gain = 114.113
-Synthesis Optimization Complete : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 1257.848 ; gain = 178.109
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:17 ; elapsed = 00:00:24 . Memory (MB): peak = 1247.266 ; gain = 105.578
+Synthesis Optimization Complete : Time (s): cpu = 00:00:25 ; elapsed = 00:00:27 . Memory (MB): peak = 1247.266 ; gain = 166.902
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.049 . Memory (MB): peak = 1270.895 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.028 . Memory (MB): peak = 1259.328 ; gain = 0.000
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1282.516 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1266.656 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
 INFO: [Common 17-83] Releasing license: Synthesis
-52 Infos, 53 Warnings, 0 Critical Warnings and 0 Errors encountered.
+50 Infos, 45 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:31 ; elapsed = 00:00:34 . Memory (MB): peak = 1282.516 ; gain = 202.777
+synth_design: Time (s): cpu = 00:00:32 ; elapsed = 00:00:35 . Memory (MB): peak = 1266.656 ; gain = 186.293
 INFO: [Common 17-1381] The checkpoint 'E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.runs/synth_1/design_1_wrapper.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file design_1_wrapper_utilization_synth.rpt -pb design_1_wrapper_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Thu Nov  5 21:10:10 2020...
+INFO: [Common 17-206] Exiting Vivado at Sat Nov  7 10:25:07 2020...

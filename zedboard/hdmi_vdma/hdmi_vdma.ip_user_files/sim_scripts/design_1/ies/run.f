@@ -100,28 +100,28 @@
   "../../../bd/design_1/ip/design_1_hdmi_display_0_0/sim/design_1_hdmi_display_0_0.v" \
   "../../../bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_clk_wiz.v" \
   "../../../bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0.v" \
+  "../../../bd/design_1/sim/design_1.v" \
 -endlib
 -makelib ies_lib/proc_sys_reset_v5_0_13 \
   "../../../../hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd" \
 -endlib
 -makelib ies_lib/xil_defaultlib \
-  "../../../bd/design_1/ip/design_1_rst_ps7_0_100M_0/sim/design_1_rst_ps7_0_100M_0.vhd" \
+  "../../../bd/design_1/ip/design_1_rst_clk_wiz_0_74M_0/sim/design_1_rst_clk_wiz_0_74M_0.vhd" \
+-endlib
+-makelib ies_lib/xlconstant_v1_1_7 \
+  "../../../../hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/fcfc/hdl/xlconstant_v1_1_vl_rfs.v" \
+-endlib
+-makelib ies_lib/xil_defaultlib \
+  "../../../bd/design_1/ip/design_1_xlconstant_0_0/sim/design_1_xlconstant_0_0.v" \
 -endlib
 -makelib ies_lib/generic_baseblocks_v2_1_0 \
   "../../../../hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v" \
 -endlib
--makelib ies_lib/axi_register_slice_v2_1_21 \
-  "../../../../hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/2ef9/hdl/axi_register_slice_v2_1_vl_rfs.v" \
--endlib
 -makelib ies_lib/axi_data_fifo_v2_1_20 \
   "../../../../hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/47c9/hdl/axi_data_fifo_v2_1_vl_rfs.v" \
 -endlib
--makelib ies_lib/axi_crossbar_v2_1_22 \
-  "../../../../hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/b68e/hdl/axi_crossbar_v2_1_vl_rfs.v" \
--endlib
--makelib ies_lib/xil_defaultlib \
-  "../../../bd/design_1/ip/design_1_xbar_0/sim/design_1_xbar_0.v" \
-  "../../../bd/design_1/sim/design_1.v" \
+-makelib ies_lib/axi_register_slice_v2_1_21 \
+  "../../../../hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/2ef9/hdl/axi_register_slice_v2_1_vl_rfs.v" \
 -endlib
 -makelib ies_lib/axi_protocol_converter_v2_1_21 \
   "../../../../hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/8dfa/hdl/axi_protocol_converter_v2_1_vl_rfs.v" \

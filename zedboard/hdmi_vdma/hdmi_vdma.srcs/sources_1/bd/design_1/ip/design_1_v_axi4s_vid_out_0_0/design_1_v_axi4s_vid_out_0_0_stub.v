@@ -1,7 +1,7 @@
 // Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
-// Date        : Thu Nov  5 20:59:15 2020
+// Date        : Sat Nov  7 09:58:01 2020
 // Host        : LAPTOP-43UBS83S running 64-bit major release  (build 9200)
 // Command     : write_verilog -force -mode synth_stub
 //               e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ip/design_1_v_axi4s_vid_out_0_0/design_1_v_axi4s_vid_out_0_0_stub.v
@@ -16,10 +16,10 @@
 (* X_CORE_INFO = "v_axi4s_vid_out_v4_0_10,Vivado 2020.1" *)
 module design_1_v_axi4s_vid_out_0_0(aclk, aclken, aresetn, s_axis_video_tdata, 
   s_axis_video_tvalid, s_axis_video_tready, s_axis_video_tuser, s_axis_video_tlast, fid, 
-  vid_io_out_ce, vid_active_video, vid_vsync, vid_hsync, vid_vblank, vid_hblank, vid_field_id, 
-  vid_data, vtg_vsync, vtg_hsync, vtg_vblank, vtg_hblank, vtg_active_video, vtg_field_id, vtg_ce, 
-  locked, overflow, underflow, fifo_read_level, status)
-/* synthesis syn_black_box black_box_pad_pin="aclk,aclken,aresetn,s_axis_video_tdata[23:0],s_axis_video_tvalid,s_axis_video_tready,s_axis_video_tuser,s_axis_video_tlast,fid,vid_io_out_ce,vid_active_video,vid_vsync,vid_hsync,vid_vblank,vid_hblank,vid_field_id,vid_data[23:0],vtg_vsync,vtg_hsync,vtg_vblank,vtg_hblank,vtg_active_video,vtg_field_id,vtg_ce,locked,overflow,underflow,fifo_read_level[10:0],status[31:0]" */;
+  vid_io_out_clk, vid_io_out_ce, vid_io_out_reset, vid_active_video, vid_vsync, vid_hsync, 
+  vid_vblank, vid_hblank, vid_field_id, vid_data, vtg_vsync, vtg_hsync, vtg_vblank, vtg_hblank, 
+  vtg_active_video, vtg_field_id, vtg_ce, locked, overflow, underflow, fifo_read_level, status)
+/* synthesis syn_black_box black_box_pad_pin="aclk,aclken,aresetn,s_axis_video_tdata[23:0],s_axis_video_tvalid,s_axis_video_tready,s_axis_video_tuser,s_axis_video_tlast,fid,vid_io_out_clk,vid_io_out_ce,vid_io_out_reset,vid_active_video,vid_vsync,vid_hsync,vid_vblank,vid_hblank,vid_field_id,vid_data[23:0],vtg_vsync,vtg_hsync,vtg_vblank,vtg_hblank,vtg_active_video,vtg_field_id,vtg_ce,locked,overflow,underflow,fifo_read_level[10:0],status[31:0]" */;
   input aclk;
   input aclken;
   input aresetn;
@@ -29,7 +29,9 @@ module design_1_v_axi4s_vid_out_0_0(aclk, aclken, aresetn, s_axis_video_tdata,
   input s_axis_video_tuser;
   input s_axis_video_tlast;
   input fid;
+  input vid_io_out_clk;
   input vid_io_out_ce;
+  input vid_io_out_reset;
   output vid_active_video;
   output vid_vsync;
   output vid_hsync;
