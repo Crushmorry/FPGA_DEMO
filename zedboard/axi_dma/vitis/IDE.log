@@ -403,3 +403,27 @@ Reason: No Platforms Found.
 09:54:52 INFO  : Platform repository initialization has completed.
 09:54:53 INFO  : Registering command handlers for Vitis TCF services
 09:54:55 INFO  : Successfully done query RDI_DATADIR 
+17:04:10 INFO  : Launching XSCT server: xsct.bat -n  -interactive E:\FPGA_DEMO\zedboard\axi_dma\vitis\temp_xsdb_launch_script.tcl
+17:04:13 INFO  : XSCT server has started successfully.
+17:04:13 INFO  : Successfully done setting XSCT server connection channel  
+17:04:13 INFO  : plnx-install-location is set to ''
+17:04:13 INFO  : Successfully done setting workspace for the tool. 
+17:04:17 ERROR : Error encountered while initializing user repository paths
+Reason: No Platforms Found.
+
+
+17:04:17 INFO  : Platform repository initialization has completed.
+17:04:18 INFO  : Registering command handlers for Vitis TCF services
+17:04:20 INFO  : Successfully done query RDI_DATADIR 
+18:49:58 INFO  : Launching XSCT server: xsct.bat -n  -interactive E:\FPGA_DEMO\zedboard\axi_dma\vitis\temp_xsdb_launch_script.tcl
+18:50:00 INFO  : XSCT server has started successfully.
+18:50:00 INFO  : plnx-install-location is set to ''
+18:50:00 INFO  : Successfully done setting XSCT server connection channel  
+18:50:00 INFO  : Successfully done setting workspace for the tool. 
+18:50:02 ERROR : Error encountered while initializing user repository paths
+Reason: No Platforms Found.
+
+
+18:50:02 INFO  : Platform repository initialization has completed.
+18:50:03 INFO  : Successfully done query RDI_DATADIR 
+18:50:03 INFO  : Registering command handlers for Vitis TCF services
