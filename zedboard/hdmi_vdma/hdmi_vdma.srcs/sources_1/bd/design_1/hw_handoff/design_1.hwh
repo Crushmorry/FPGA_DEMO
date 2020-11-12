@@ -1,9 +1,44 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Sat Nov  7 10:24:19 2020" VIVADOVERSION="2020.1">
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Thu Nov 12 21:16:56 2020" VIVADOVERSION="2020.1">
 
   <SYSTEMINFO ARCH="zynq" BOARD="em.avnet.com:zed:part0:1.4" DEVICE="7z020" NAME="design_1" PACKAGE="clg484" SPEEDGRADE="-1"/>
 
   <EXTERNALPORTS>
+    <PORT CLKFREQUENCY="100000000" DIR="O" NAME="hdmi_clk_0" SIGIS="clk" SIGNAME="hdmi_display_0_hdmi_clk">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="hdmi_display_0" PORT="hdmi_clk"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="hdmi_hsync_0" SIGIS="undef" SIGNAME="hdmi_display_0_hdmi_hsync">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="hdmi_display_0" PORT="hdmi_hsync"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="hdmi_vsync_0" SIGIS="undef" SIGNAME="hdmi_display_0_hdmi_vsync">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="hdmi_display_0" PORT="hdmi_vsync"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="15" NAME="hdmi_d_0" RIGHT="0" SIGIS="undef" SIGNAME="hdmi_display_0_hdmi_d">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="hdmi_display_0" PORT="hdmi_d"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="hdmi_de_0" SIGIS="undef" SIGNAME="hdmi_display_0_hdmi_de">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="hdmi_display_0" PORT="hdmi_de"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="hdmi_scl_0" SIGIS="undef" SIGNAME="hdmi_display_0_hdmi_scl">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="hdmi_display_0" PORT="hdmi_scl"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="IO" NAME="hdmi_sda_0" SIGIS="undef" SIGNAME="External_Ports_hdmi_sda_0">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="hdmi_display_0" PORT="hdmi_sda"/>
+      </CONNECTIONS>
+    </PORT>
     <PORT DIR="IO" NAME="DDR_cas_n" SIGIS="undef" SIGNAME="processing_system7_0_DDR_CAS_n">
       <CONNECTIONS>
         <CONNECTION INSTANCE="processing_system7_0" PORT="DDR_CAS_n"/>
@@ -107,41 +142,6 @@
     <PORT DIR="IO" NAME="FIXED_IO_ps_porb" SIGIS="undef" SIGNAME="processing_system7_0_PS_PORB">
       <CONNECTIONS>
         <CONNECTION INSTANCE="processing_system7_0" PORT="PS_PORB"/>
-      </CONNECTIONS>
-    </PORT>
-    <PORT CLKFREQUENCY="100000000" DIR="O" NAME="hdmi_clk_0" SIGIS="clk" SIGNAME="hdmi_display_0_hdmi_clk">
-      <CONNECTIONS>
-        <CONNECTION INSTANCE="hdmi_display_0" PORT="hdmi_clk"/>
-      </CONNECTIONS>
-    </PORT>
-    <PORT DIR="O" NAME="hdmi_hsync_0" SIGIS="undef" SIGNAME="hdmi_display_0_hdmi_hsync">
-      <CONNECTIONS>
-        <CONNECTION INSTANCE="hdmi_display_0" PORT="hdmi_hsync"/>
-      </CONNECTIONS>
-    </PORT>
-    <PORT DIR="O" NAME="hdmi_vsync_0" SIGIS="undef" SIGNAME="hdmi_display_0_hdmi_vsync">
-      <CONNECTIONS>
-        <CONNECTION INSTANCE="hdmi_display_0" PORT="hdmi_vsync"/>
-      </CONNECTIONS>
-    </PORT>
-    <PORT DIR="O" LEFT="15" NAME="hdmi_d_0" RIGHT="0" SIGIS="undef" SIGNAME="hdmi_display_0_hdmi_d">
-      <CONNECTIONS>
-        <CONNECTION INSTANCE="hdmi_display_0" PORT="hdmi_d"/>
-      </CONNECTIONS>
-    </PORT>
-    <PORT DIR="O" NAME="hdmi_de_0" SIGIS="undef" SIGNAME="hdmi_display_0_hdmi_de">
-      <CONNECTIONS>
-        <CONNECTION INSTANCE="hdmi_display_0" PORT="hdmi_de"/>
-      </CONNECTIONS>
-    </PORT>
-    <PORT DIR="O" NAME="hdmi_scl_0" SIGIS="undef" SIGNAME="hdmi_display_0_hdmi_scl">
-      <CONNECTIONS>
-        <CONNECTION INSTANCE="hdmi_display_0" PORT="hdmi_scl"/>
-      </CONNECTIONS>
-    </PORT>
-    <PORT DIR="IO" NAME="hdmi_sda_0" SIGIS="undef" SIGNAME="External_Ports_hdmi_sda_0">
-      <CONNECTIONS>
-        <CONNECTION INSTANCE="hdmi_display_0" PORT="hdmi_sda"/>
       </CONNECTIONS>
     </PORT>
   </EXTERNALPORTS>
@@ -513,7 +513,7 @@
         <PARAMETER NAME="S13_ARB_PRIORITY" VALUE="0"/>
         <PARAMETER NAME="S14_ARB_PRIORITY" VALUE="0"/>
         <PARAMETER NAME="S15_ARB_PRIORITY" VALUE="0"/>
-        <PARAMETER NAME="Component_Name" VALUE="design_1_axi_mem_intercon_0"/>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_axi_mem_intercon_1"/>
         <PARAMETER NAME="EDK_IPTYPE" VALUE="BUS"/>
       </PARAMETERS>
       <PORTS>
@@ -3269,16 +3269,16 @@
         </PORT>
         <PORT CLKFREQUENCY="74250000" DIR="O" NAME="clk_out74_25" SIGIS="clk" SIGNAME="clk_wiz_0_clk_out74_25">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="hdmi_display_0" PORT="vga_clk"/>
-            <CONNECTION INSTANCE="v_axi4s_vid_out_0" PORT="aclk"/>
             <CONNECTION INSTANCE="v_tc_0" PORT="clk"/>
             <CONNECTION INSTANCE="v_tc_0" PORT="gen_clken"/>
-            <CONNECTION INSTANCE="v_axi4s_vid_out_0" PORT="vid_io_out_clk"/>
+            <CONNECTION INSTANCE="hdmi_display_0" PORT="vga_clk"/>
             <CONNECTION INSTANCE="axi_vdma_0" PORT="s_axi_lite_aclk"/>
-            <CONNECTION INSTANCE="axi_vdma_0" PORT="m_axi_mm2s_aclk"/>
             <CONNECTION INSTANCE="axi_vdma_0" PORT="m_axis_mm2s_aclk"/>
-            <CONNECTION INSTANCE="processing_system7_0" PORT="M_AXI_GP0_ACLK"/>
+            <CONNECTION INSTANCE="axi_vdma_0" PORT="m_axi_mm2s_aclk"/>
+            <CONNECTION INSTANCE="v_axi4s_vid_out_0" PORT="aclk"/>
+            <CONNECTION INSTANCE="v_axi4s_vid_out_0" PORT="vid_io_out_clk"/>
             <CONNECTION INSTANCE="processing_system7_0" PORT="S_AXI_HP0_ACLK"/>
+            <CONNECTION INSTANCE="processing_system7_0" PORT="M_AXI_GP0_ACLK"/>
             <CONNECTION INSTANCE="ps7_0_axi_periph" PORT="ACLK"/>
             <CONNECTION INSTANCE="ps7_0_axi_periph" PORT="S00_ACLK"/>
             <CONNECTION INSTANCE="rst_clk_wiz_0_74M" PORT="slowest_sync_clk"/>
@@ -3550,7 +3550,7 @@
         <PARAMETER NAME="PCW_CRYSTAL_PERIPHERAL_FREQMHZ" VALUE="33.333333"/>
         <PARAMETER NAME="PCW_APU_PERIPHERAL_FREQMHZ" VALUE="666.666667"/>
         <PARAMETER NAME="PCW_DCI_PERIPHERAL_FREQMHZ" VALUE="10.159"/>
-        <PARAMETER NAME="PCW_QSPI_PERIPHERAL_FREQMHZ" VALUE="200"/>
+        <PARAMETER NAME="PCW_QSPI_PERIPHERAL_FREQMHZ" VALUE="200.000000"/>
         <PARAMETER NAME="PCW_SMC_PERIPHERAL_FREQMHZ" VALUE="100"/>
         <PARAMETER NAME="PCW_USB0_PERIPHERAL_FREQMHZ" VALUE="60"/>
         <PARAMETER NAME="PCW_USB1_PERIPHERAL_FREQMHZ" VALUE="60"/>
@@ -3572,8 +3572,8 @@
         <PARAMETER NAME="PCW_PCAP_PERIPHERAL_FREQMHZ" VALUE="200"/>
         <PARAMETER NAME="PCW_TPIU_PERIPHERAL_FREQMHZ" VALUE="200"/>
         <PARAMETER NAME="PCW_FPGA0_PERIPHERAL_FREQMHZ" VALUE="100.000000"/>
-        <PARAMETER NAME="PCW_FPGA1_PERIPHERAL_FREQMHZ" VALUE="200.000000"/>
-        <PARAMETER NAME="PCW_FPGA2_PERIPHERAL_FREQMHZ" VALUE="50"/>
+        <PARAMETER NAME="PCW_FPGA1_PERIPHERAL_FREQMHZ" VALUE="150.000000"/>
+        <PARAMETER NAME="PCW_FPGA2_PERIPHERAL_FREQMHZ" VALUE="50.000000"/>
         <PARAMETER NAME="PCW_FPGA3_PERIPHERAL_FREQMHZ" VALUE="50"/>
         <PARAMETER NAME="PCW_ACT_APU_PERIPHERAL_FREQMHZ" VALUE="666.666687"/>
         <PARAMETER NAME="PCW_UIPARAM_ACT_DDR_FREQ_MHZ" VALUE="533.333374"/>
@@ -4319,7 +4319,7 @@
         <PARAMETER NAME="PCW_SMC_CYCLE_T6" VALUE="NA"/>
         <PARAMETER NAME="PCW_PACKAGE_NAME" VALUE="clg484"/>
         <PARAMETER NAME="PCW_PLL_BYPASSMODE_ENABLE" VALUE="0"/>
-        <PARAMETER NAME="Component_Name" VALUE="design_1_processing_system7_0_0"/>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_processing_system7_0_1"/>
         <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
         <PARAMETER NAME="C_BASEADDR" VALUE="0x00000000"/>
         <PARAMETER NAME="C_HIGHADDR" VALUE="0x1FFFFFFF"/>
@@ -4637,8 +4637,8 @@
         <PORT DIR="I" LEFT="7" NAME="S_AXI_HP0_WSTRB" RIGHT="0" SIGIS="undef"/>
         <PORT CLKFREQUENCY="100000000" DIR="O" NAME="FCLK_CLK0" SIGIS="clk" SIGNAME="processing_system7_0_FCLK_CLK0">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="hdmi_display_0" PORT="i2c_clk"/>
             <CONNECTION INSTANCE="clk_wiz_0" PORT="clk_in1"/>
+            <CONNECTION INSTANCE="hdmi_display_0" PORT="i2c_clk"/>
           </CONNECTIONS>
         </PORT>
         <PORT DIR="O" NAME="FCLK_RESET0_N" POLARITY="ACTIVE_LOW" SIGIS="rst" SIGNAME="processing_system7_0_FCLK_RESET0_N">
@@ -5288,7 +5288,7 @@
         <PARAMETER NAME="S13_ARB_PRIORITY" VALUE="0"/>
         <PARAMETER NAME="S14_ARB_PRIORITY" VALUE="0"/>
         <PARAMETER NAME="S15_ARB_PRIORITY" VALUE="0"/>
-        <PARAMETER NAME="Component_Name" VALUE="design_1_ps7_0_axi_periph_0"/>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_ps7_0_axi_periph_1"/>
         <PARAMETER NAME="EDK_IPTYPE" VALUE="BUS"/>
       </PARAMETERS>
       <PORTS>
@@ -5716,7 +5716,7 @@
         <PARAMETER NAME="C_NUM_PERP_RST" VALUE="1"/>
         <PARAMETER NAME="C_NUM_INTERCONNECT_ARESETN" VALUE="1"/>
         <PARAMETER NAME="C_NUM_PERP_ARESETN" VALUE="1"/>
-        <PARAMETER NAME="Component_Name" VALUE="design_1_rst_clk_wiz_0_74M_0"/>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_rst_clk_wiz_0_74M_1"/>
         <PARAMETER NAME="USE_BOARD_FLOW" VALUE="false"/>
         <PARAMETER NAME="RESET_BOARD_INTERFACE" VALUE="Custom"/>
         <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
@@ -5788,11 +5788,7 @@
             <CONNECTION INSTANCE="clk_wiz_0" PORT="clk_out74_25"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="I" NAME="aclken" POLARITY="ACTIVE_HIGH" SIGIS="ce" SIGNAME="xlconstant_0_dout">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="xlconstant_0" PORT="dout"/>
-          </CONNECTIONS>
-        </PORT>
+        <PORT DIR="I" NAME="aclken" POLARITY="ACTIVE_HIGH" SIGIS="ce"/>
         <PORT DIR="I" NAME="aresetn" POLARITY="ACTIVE_LOW" SIGIS="rst"/>
         <PORT DIR="I" LEFT="23" NAME="s_axis_video_tdata" RIGHT="0" SIGIS="undef" SIGNAME="axi_vdma_0_m_axis_mm2s_tdata">
           <CONNECTIONS>
@@ -6160,23 +6156,6 @@
           </PORTMAPS>
         </BUSINTERFACE>
       </BUSINTERFACES>
-    </MODULE>
-    <MODULE COREREVISION="7" FULLNAME="/xlconstant_0" HWVERSION="1.1" INSTANCE="xlconstant_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xlconstant" VLNV="xilinx.com:ip:xlconstant:1.1">
-      <DOCUMENTS/>
-      <PARAMETERS>
-        <PARAMETER NAME="CONST_WIDTH" VALUE="1"/>
-        <PARAMETER NAME="CONST_VAL" VALUE="0x1"/>
-        <PARAMETER NAME="Component_Name" VALUE="design_1_xlconstant_0_0"/>
-        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
-      </PARAMETERS>
-      <PORTS>
-        <PORT DIR="O" LEFT="0" NAME="dout" RIGHT="0" SIGIS="undef" SIGNAME="xlconstant_0_dout">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="v_axi4s_vid_out_0" PORT="aclken"/>
-          </CONNECTIONS>
-        </PORT>
-      </PORTS>
-      <BUSINTERFACES/>
     </MODULE>
   </MODULES>
 

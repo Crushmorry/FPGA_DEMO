@@ -1,0 +1,119 @@
+21:22:38 INFO  : Registering command handlers for Vitis TCF services
+21:22:38 INFO  : Launching XSCT server: xsct.bat -n  -interactive E:\FPGA_DEMO\zedboard\hdmi_vdma\vitis\temp_xsdb_launch_script.tcl
+21:22:41 INFO  : Platform repository initialization has completed.
+21:22:41 INFO  : XSCT server has started successfully.
+21:22:41 INFO  : Successfully done setting XSCT server connection channel  
+21:22:41 INFO  : plnx-install-location is set to ''
+21:22:44 INFO  : Successfully done setting workspace for the tool. 
+21:22:44 INFO  : Successfully done query RDI_DATADIR 
+21:24:10 INFO  : Result from executing command 'getProjects': hdmi
+21:24:10 INFO  : Result from executing command 'getPlatforms': 
+21:24:40 INFO  : Successfully done sdx_reload_mss "E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi/ps7_cortexa9_0/standalone_domain/bsp/system.mss"
+21:25:20 INFO  : Example project xaxivdma_example_selftest_1 has been created successfully.
+21:25:28 INFO  : Example project vdma_1 has been created successfully.
+21:26:36 INFO  : Result from executing command 'getProjects': hdmi
+21:26:36 INFO  : Result from executing command 'getPlatforms': hdmi|E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi/export/hdmi/hdmi.xpfm
+21:26:36 INFO  : Checking for BSP changes to sync application flags for project 'xaxivdma_example_selftest_1'...
+21:27:01 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:27:02 INFO  : Jtag cable 'Digilent Zed 210248553016' is selected.
+21:27:02 INFO  : 'jtag frequency' command is executed.
+21:27:02 INFO  : Context for 'APU' is selected.
+21:27:02 INFO  : System reset is completed.
+21:27:05 INFO  : 'after 3000' command is executed.
+21:27:05 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248553016" && level==0 && jtag_device_ctx=="jsn-Zed-210248553016-23727093-0"}' command is executed.
+21:27:08 INFO  : FPGA configured successfully with bitstream "E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/xaxivdma_example_selftest_1/_ide/bitstream/design_1_wrapper.bit"
+21:27:08 INFO  : Context for 'APU' is selected.
+21:27:08 INFO  : Hardware design and registers information is loaded from 'E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi/export/hdmi/hw/design_1_wrapper.xsa'.
+21:27:08 INFO  : 'configparams force-mem-access 1' command is executed.
+21:27:08 INFO  : Context for 'APU' is selected.
+21:27:08 INFO  : Sourcing of 'E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/xaxivdma_example_selftest_1/_ide/psinit/ps7_init.tcl' is done.
+21:27:08 INFO  : 'ps7_init' command is executed.
+21:27:08 INFO  : 'ps7_post_config' command is executed.
+21:27:08 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+21:27:08 INFO  : The application 'E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/xaxivdma_example_selftest_1/Debug/xaxivdma_example_selftest_1.elf' is downloaded to processor 'ps7_cortexa9_0'.
+21:27:08 INFO  : 'configparams force-mem-access 0' command is executed.
+21:27:08 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248553016" && level==0 && jtag_device_ctx=="jsn-Zed-210248553016-23727093-0"}
+fpga -file E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/xaxivdma_example_selftest_1/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi/export/hdmi/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/xaxivdma_example_selftest_1/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/xaxivdma_example_selftest_1/Debug/xaxivdma_example_selftest_1.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+21:27:08 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+21:27:08 INFO  : 'con' command is executed.
+21:27:08 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+21:27:08 INFO  : Launch script is exported to file 'E:\FPGA_DEMO\zedboard\hdmi_vdma\vitis\.sdk\launch_scripts\single_application_debug\systemdebugger_xaxivdma_example_selftest_1_system_standalone.tcl'
+21:27:36 INFO  : Disconnected from the channel tcfchan#3.
+21:27:36 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:27:36 INFO  : Jtag cable 'Digilent Zed 210248553016' is selected.
+21:27:36 INFO  : 'jtag frequency' command is executed.
+21:27:36 INFO  : Context for 'APU' is selected.
+21:27:36 INFO  : System reset is completed.
+21:27:39 INFO  : 'after 3000' command is executed.
+21:27:39 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248553016" && level==0 && jtag_device_ctx=="jsn-Zed-210248553016-23727093-0"}' command is executed.
+21:27:42 INFO  : FPGA configured successfully with bitstream "E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/xaxivdma_example_selftest_1/_ide/bitstream/design_1_wrapper.bit"
+21:27:42 INFO  : Context for 'APU' is selected.
+21:27:42 INFO  : Hardware design and registers information is loaded from 'E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi/export/hdmi/hw/design_1_wrapper.xsa'.
+21:27:42 INFO  : 'configparams force-mem-access 1' command is executed.
+21:27:42 INFO  : Context for 'APU' is selected.
+21:27:42 INFO  : Sourcing of 'E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/xaxivdma_example_selftest_1/_ide/psinit/ps7_init.tcl' is done.
+21:27:42 INFO  : 'ps7_init' command is executed.
+21:27:42 INFO  : 'ps7_post_config' command is executed.
+21:27:42 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+21:27:42 INFO  : The application 'E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/xaxivdma_example_selftest_1/Debug/xaxivdma_example_selftest_1.elf' is downloaded to processor 'ps7_cortexa9_0'.
+21:27:42 INFO  : 'configparams force-mem-access 0' command is executed.
+21:27:42 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248553016" && level==0 && jtag_device_ctx=="jsn-Zed-210248553016-23727093-0"}
+fpga -file E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/xaxivdma_example_selftest_1/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi/export/hdmi/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/xaxivdma_example_selftest_1/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/xaxivdma_example_selftest_1/Debug/xaxivdma_example_selftest_1.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+21:27:42 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+21:27:42 INFO  : 'con' command is executed.
+21:27:42 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+21:27:42 INFO  : Launch script is exported to file 'E:\FPGA_DEMO\zedboard\hdmi_vdma\vitis\.sdk\launch_scripts\single_application_debug\systemdebugger_xaxivdma_example_selftest_1_system_standalone.tcl'
+21:28:03 INFO  : Checking for BSP changes to sync application flags for project 'vdma_1'...
+21:28:54 INFO  : Checking for BSP changes to sync application flags for project 'vdma_1'...
+21:30:37 INFO  : Hardware specification for platform project 'hdmi' is updated.
+21:38:18 INFO  : Successfully done sdx_reload_mss "E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi/zynq_fsbl/zynq_fsbl_bsp/system.mss"
+21:38:20 INFO  : Successfully done sdx_reload_mss "E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi/ps7_cortexa9_0/standalone_domain/bsp/system.mss"
+21:38:41 INFO  : Successfully done sdx_reload_mss "E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi/ps7_cortexa9_0/standalone_domain/bsp/system.mss"
+21:38:41 INFO  : No changes in MSS file content so sources will not be generated.
+21:39:37 INFO  : Result from executing command 'getProjects': hdmi
+21:39:37 INFO  : Result from executing command 'getPlatforms': hdmi|E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi/export/hdmi/hdmi.xpfm
+21:40:40 INFO  : Checking for BSP changes to sync application flags for project 'vdma_1'...
+21:49:02 INFO  : Hardware specification for platform project 'hdmi' is updated.
+21:51:42 INFO  : Disconnected from the channel tcfchan#4.

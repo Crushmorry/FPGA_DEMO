@@ -1,17 +1,17 @@
-set_property SRC_FILE_INFO {cfile:e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0/design_1_processing_system7_0_0_in_context.xdc rfile:../../../hdmi_vdma.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0/design_1_processing_system7_0_0_in_context.xdc id:1 order:EARLY scoped_inst:design_1_i/processing_system7_0} [current_design]
-set_property SRC_FILE_INFO {cfile:e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_in_context.xdc rfile:../../../hdmi_vdma.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_in_context.xdc id:2 order:EARLY scoped_inst:design_1_i/clk_wiz_0} [current_design]
+set_property SRC_FILE_INFO {cfile:e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_in_context.xdc rfile:../../../hdmi_vdma.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_in_context.xdc id:1 order:EARLY scoped_inst:design_1_i/clk_wiz_0} [current_design]
+set_property SRC_FILE_INFO {cfile:e:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc rfile:../../../hdmi_vdma.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc id:2 order:EARLY scoped_inst:design_1_i/processing_system7_0} [current_design]
 set_property SRC_FILE_INFO {cfile:E:/FPGA_DEMO/zedboard/hdmi_vdma/hdmi_vdma.srcs/constrs_1/new/hdmi.xdc rfile:../../../hdmi_vdma.srcs/constrs_1/new/hdmi.xdc id:3} [current_design]
-current_instance design_1_i/processing_system7_0
-set_property src_info {type:SCOPED_XDC file:1 line:2 export:INPUT save:INPUT read:READ} [current_design]
-create_clock -period 10.000 [get_ports {}]
-current_instance
 current_instance design_1_i/clk_wiz_0
-set_property src_info {type:SCOPED_XDC file:2 line:1 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:SCOPED_XDC file:1 line:1 export:INPUT save:INPUT read:READ} [current_design]
 create_clock -period 10.000 [get_ports -no_traverse {}]
-set_property src_info {type:SCOPED_XDC file:2 line:4 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:SCOPED_XDC file:1 line:4 export:INPUT save:INPUT read:READ} [current_design]
 create_generated_clock -source [get_ports clk_in1] -edges {1 2 3} -edge_shift {3.367 5.101 6.835} [get_ports {}]
-set_property src_info {type:SCOPED_XDC file:2 line:6 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:SCOPED_XDC file:1 line:6 export:INPUT save:INPUT read:READ} [current_design]
 create_generated_clock -source [get_ports clk_in1] -edges {1 2 3} -edge_shift {0.000 1.734 3.468} [get_ports {}]
+current_instance
+current_instance design_1_i/processing_system7_0
+set_property src_info {type:SCOPED_XDC file:2 line:2 export:INPUT save:INPUT read:READ} [current_design]
+create_clock -period 10.000 [get_ports {}]
 current_instance
 set_property src_info {type:XDC file:3 line:1 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN Y13 [get_ports {hdmi_d_0[0]}]
