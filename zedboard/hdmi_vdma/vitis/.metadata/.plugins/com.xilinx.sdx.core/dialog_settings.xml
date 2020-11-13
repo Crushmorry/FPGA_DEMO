@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
-	<item value="E:\FPGA_DEMO\zedboard\hdmi_vdma\vitis\hdmi\export\hdmi" key="sdx.custom.platform.repository.locations"/>
+	<item value="E:\FPGA_DEMO\zedboard\hdmi_vdma\vitis\hdmi_adv7511\export\hdmi_adv7511" key="sdx.custom.platform.repository.locations"/>
 </section>

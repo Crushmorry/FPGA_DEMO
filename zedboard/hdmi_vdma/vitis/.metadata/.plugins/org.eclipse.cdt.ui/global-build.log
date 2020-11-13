@@ -1,40 +1,31 @@
-Nothing to build in platform 'hdmi'
+Nothing to build in platform 'hdmi_adv7511'
 
-21:40:40 **** Incremental Build of configuration Debug for project vdma_1 ****
+10:54:28 **** Build of configuration Debug for project test1 ****
 make all 
 make --no-print-directory pre-build
 a9-linaro-pre-build-step
 ' '
 make --no-print-directory main-build
-'Building file: ../src/vdma.c'
+'Building file: ../src/main.c'
 'Invoking: ARM v7 gcc compiler'
-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/vdma.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IE:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi/export/hdmi/sw/hdmi/standalone_domain/bspinclude/include -MMD -MP -MF"src/vdma.d" -MT"src/vdma.o" -o "src/vdma.o" "../src/vdma.c"
-../src/vdma.c:29:10: fatal error: xintc.h: No such file or directory
-   29 | #include "xintc.h"
-      |          ^~~~~~~~~
-compilation terminated.
-'Finished building: ../src/vdma.c'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IE:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi_adv7511/export/hdmi_adv7511/sw/hdmi_adv7511/standalone_domain/bspinclude/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
 ' '
-'Building file: ../src/vdma_api.c'
-'Invoking: ARM v7 gcc compiler'
-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/vdma_api.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IE:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi/export/hdmi/sw/hdmi/standalone_domain/bspinclude/include -MMD -MP -MF"src/vdma_api.d" -MT"src/vdma_api.o" -o "src/vdma_api.o" "../src/vdma_api.c"
-'Finished building: ../src/vdma_api.c'
-' '
-'Building target: vdma_1.elf'
+'Building target: test1.elf'
 'Invoking: ARM v7 gcc linker'
-arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LE:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi/export/hdmi/sw/hdmi/standalone_domain/bsplib/lib -o "vdma_1.elf"  ./src/vdma.o ./src/vdma_api.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-arm-xilinx-eabi-gcc.exe: error: ./src/vdma.o: No such file or directory
-'Finished building target: vdma_1.elf'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LE:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi_adv7511/export/hdmi_adv7511/sw/hdmi_adv7511/standalone_domain/bsplib/lib -o "test1.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: test1.elf'
 ' '
 'Invoking: ARM v7 Print Size'
-arm-none-eabi-size vdma_1.elf  |tee "vdma_1.elf.size"
-arm-none-eabi-size: 'vdma_1.elf': No such file
-'Finished building: vdma_1.elf.size'
+arm-none-eabi-size test1.elf  |tee "test1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  18652	   1144	  22568	  42364	   a57c	test1.elf
+'Finished building: test1.elf.size'
 ' '
-21:40:41 **** Incremental Build of configuration Debug for project vdma_1_system ****
+10:54:29 **** Build of configuration Debug for project test1_system ****
 make all 
 Generating bif file for the system project
-generate_system_bif.bat 58711 E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi/export/hdmi/hdmi.xpfm standalone_domain E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/vdma_1_system/Debug/system.bif
-sdcard_gen --xpfm E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi/export/hdmi/hdmi.xpfm --sys_config hdmi --bif E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/vdma_1_system/Debug/system.bif --bitstream E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/vdma_1/_ide/bitstream/design_1_wrapper.bit --elf E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/vdma_1/Debug/vdma_1.elf,ps7_cortexa9_0
-ELF does not exist: E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/vdma_1/Debug/vdma_1.elf
-make: *** [makefile:39: package] Error 1
+generate_system_bif.bat 52004 E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi_adv7511/export/hdmi_adv7511/hdmi_adv7511.xpfm standalone_domain E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/test1_system/Debug/system.bif
+sdcard_gen --xpfm E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi_adv7511/export/hdmi_adv7511/hdmi_adv7511.xpfm --sys_config hdmi_adv7511 --bif E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/test1_system/Debug/system.bif --bitstream E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/test1/_ide/bitstream/design_1_wrapper.bit --elf E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/test1/Debug/test1.elf,ps7_cortexa9_0
+creating BOOT.BIN using E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/test1/_ide/bitstream/design_1_wrapper.bit
+Running D:/Xilinx/Vitis/2020.1/bin/bootgen  -image E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/test1_system/Debug/sd_card_temp/boot.bif -w -o i BOOT.BIN

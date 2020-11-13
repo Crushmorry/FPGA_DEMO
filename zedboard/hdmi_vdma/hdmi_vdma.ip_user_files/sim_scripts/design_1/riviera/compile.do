@@ -21,11 +21,11 @@ vlib riviera/v_tc_v6_2_0
 vlib riviera/axi_infrastructure_v1_1_0
 vlib riviera/axi_vip_v1_1_7
 vlib riviera/processing_system7_vip_v1_0_9
+vlib riviera/proc_sys_reset_v5_0_13
 vlib riviera/generic_baseblocks_v2_1_0
 vlib riviera/axi_data_fifo_v2_1_20
 vlib riviera/axi_register_slice_v2_1_21
 vlib riviera/axi_protocol_converter_v2_1_21
-vlib riviera/proc_sys_reset_v5_0_13
 
 vmap xilinx_vip riviera/xilinx_vip
 vmap xpm riviera/xpm
@@ -47,11 +47,11 @@ vmap v_tc_v6_2_0 riviera/v_tc_v6_2_0
 vmap axi_infrastructure_v1_1_0 riviera/axi_infrastructure_v1_1_0
 vmap axi_vip_v1_1_7 riviera/axi_vip_v1_1_7
 vmap processing_system7_vip_v1_0_9 riviera/processing_system7_vip_v1_0_9
+vmap proc_sys_reset_v5_0_13 riviera/proc_sys_reset_v5_0_13
 vmap generic_baseblocks_v2_1_0 riviera/generic_baseblocks_v2_1_0
 vmap axi_data_fifo_v2_1_20 riviera/axi_data_fifo_v2_1_20
 vmap axi_register_slice_v2_1_21 riviera/axi_register_slice_v2_1_21
 vmap axi_protocol_converter_v2_1_21 riviera/axi_protocol_converter_v2_1_21
-vmap proc_sys_reset_v5_0_13 riviera/proc_sys_reset_v5_0_13
 
 vlog -work xilinx_vip  -sv2k12 "+incdir+D:/Xilinx/Vivado/2020.1/data/xilinx_vip/include" \
 "D:/Xilinx/Vivado/2020.1/data/xilinx_vip/hdl/axi4stream_vip_axi4streampc.sv" \
@@ -133,14 +133,6 @@ vcom -work xil_defaultlib -93 \
 "../../../bd/design_1/ip/design_1_v_tc_0_0/sim/design_1_v_tc_0_0.vhd" \
 
 vlog -work xil_defaultlib  -v2k5 "+incdir+../../../../hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/7af1/hdl" "+incdir+../../../../hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/8b3d" "+incdir+../../../../hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/ec67/hdl" "+incdir+../../../../hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/6b56/hdl" "+incdir+D:/Xilinx/Vivado/2020.1/data/xilinx_vip/include" \
-"../../../../hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/d9e4/IPSRC/sccb_control.v" \
-"../../../../hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/d9e4/IPSRC/I2C_OV7670_RGB565_Config.v" \
-"../../../../hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/d9e4/IPSRC/hdmi_ddr_output.v" \
-"../../../../hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/d9e4/IPSRC/convert_444_422.v" \
-"../../../../hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/d9e4/IPSRC/colour_space_conversion.v" \
-"../../../../hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/d9e4/IPSRC/sccb.v" \
-"../../../../hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/d9e4/IPSRC/hdmi_display.v" \
-"../../../bd/design_1/ip/design_1_hdmi_display_0_0/sim/design_1_hdmi_display_0_0.v" \
 "../../../bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_clk_wiz.v" \
 "../../../bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0.v" \
 "../../../bd/design_1/sim/design_1.v" \
@@ -157,6 +149,22 @@ vlog -work processing_system7_vip_v1_0_9  -sv2k12 "+incdir+../../../../hdmi_vdma
 vlog -work xil_defaultlib  -v2k5 "+incdir+../../../../hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/7af1/hdl" "+incdir+../../../../hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/8b3d" "+incdir+../../../../hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/ec67/hdl" "+incdir+../../../../hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/6b56/hdl" "+incdir+D:/Xilinx/Vivado/2020.1/data/xilinx_vip/include" \
 "../../../bd/design_1/ip/design_1_processing_system7_0_1/sim/design_1_processing_system7_0_1.v" \
 
+vcom -work proc_sys_reset_v5_0_13 -93 \
+"../../../../hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd" \
+
+vcom -work xil_defaultlib -93 \
+"../../../bd/design_1/ip/design_1_rst_clk_wiz_0_74M_1/sim/design_1_rst_clk_wiz_0_74M_1.vhd" \
+
+vlog -work xil_defaultlib  -v2k5 "+incdir+../../../../hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/7af1/hdl" "+incdir+../../../../hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/8b3d" "+incdir+../../../../hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/ec67/hdl" "+incdir+../../../../hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/6b56/hdl" "+incdir+D:/Xilinx/Vivado/2020.1/data/xilinx_vip/include" \
+"../../../bd/design_1/ipshared/10f9/I2C_OV7670_RGB565_Config.v" \
+"../../../bd/design_1/ipshared/10f9/colour_space_conversion.v" \
+"../../../bd/design_1/ipshared/10f9/convert_444_422.v" \
+"../../../bd/design_1/ipshared/10f9/hdmi_ddr_output.v" \
+"../../../bd/design_1/ipshared/10f9/sccb.v" \
+"../../../bd/design_1/ipshared/10f9/sccb_control.v" \
+"../../../bd/design_1/ipshared/10f9/hdmi_display.v" \
+"../../../bd/design_1/ip/design_1_hdmi_display_0_1/sim/design_1_hdmi_display_0_1.v" \
+
 vlog -work generic_baseblocks_v2_1_0  -v2k5 "+incdir+../../../../hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/7af1/hdl" "+incdir+../../../../hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/8b3d" "+incdir+../../../../hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/ec67/hdl" "+incdir+../../../../hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/6b56/hdl" "+incdir+D:/Xilinx/Vivado/2020.1/data/xilinx_vip/include" \
 "../../../../hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v" \
 
@@ -170,16 +178,8 @@ vlog -work axi_protocol_converter_v2_1_21  -v2k5 "+incdir+../../../../hdmi_vdma.
 "../../../../hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/8dfa/hdl/axi_protocol_converter_v2_1_vl_rfs.v" \
 
 vlog -work xil_defaultlib  -v2k5 "+incdir+../../../../hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/7af1/hdl" "+incdir+../../../../hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/8b3d" "+incdir+../../../../hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/ec67/hdl" "+incdir+../../../../hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/6b56/hdl" "+incdir+D:/Xilinx/Vivado/2020.1/data/xilinx_vip/include" \
-"../../../bd/design_1/ip/design_1_auto_pc_2/sim/design_1_auto_pc_2.v" \
-
-vcom -work proc_sys_reset_v5_0_13 -93 \
-"../../../../hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd" \
-
-vcom -work xil_defaultlib -93 \
-"../../../bd/design_1/ip/design_1_rst_clk_wiz_0_74M_1/sim/design_1_rst_clk_wiz_0_74M_1.vhd" \
-
-vlog -work xil_defaultlib  -v2k5 "+incdir+../../../../hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/7af1/hdl" "+incdir+../../../../hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/8b3d" "+incdir+../../../../hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/ec67/hdl" "+incdir+../../../../hdmi_vdma.srcs/sources_1/bd/design_1/ipshared/6b56/hdl" "+incdir+D:/Xilinx/Vivado/2020.1/data/xilinx_vip/include" \
-"../../../bd/design_1/ip/design_1_auto_pc_3/sim/design_1_auto_pc_3.v" \
+"../../../bd/design_1/ip/design_1_auto_pc_0/sim/design_1_auto_pc_0.v" \
+"../../../bd/design_1/ip/design_1_auto_pc_1/sim/design_1_auto_pc_1.v" \
 
 vlog -work xil_defaultlib \
 "glbl.v"

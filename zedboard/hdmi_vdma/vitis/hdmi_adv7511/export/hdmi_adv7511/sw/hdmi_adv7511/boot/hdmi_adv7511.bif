@@ -1,0 +1,7 @@
+/*hdmi_adv7511*/
+the_ROM_image:
+{
+  [bootloader]<hdmi_adv7511/boot/fsbl.elf>
+   <bitstream> 
+  <elf,ps7_cortexa9_0>
+}

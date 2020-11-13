@@ -1,4 +1,4 @@
-21:40:40 **** Incremental Build of configuration Debug for project vdma_1 ****
+10:50:00 **** Build of configuration Debug for project vdma_1 ****
 make all 
 make --no-print-directory pre-build
 a9-linaro-pre-build-step
@@ -6,21 +6,41 @@ a9-linaro-pre-build-step
 make --no-print-directory main-build
 'Building file: ../src/vdma.c'
 'Invoking: ARM v7 gcc compiler'
-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/vdma.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IE:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi/export/hdmi/sw/hdmi/standalone_domain/bspinclude/include -MMD -MP -MF"src/vdma.d" -MT"src/vdma.o" -o "src/vdma.o" "../src/vdma.c"
-../src/vdma.c:29:10: fatal error: xintc.h: No such file or directory
-   29 | #include "xintc.h"
-      |          ^~~~~~~~~
-compilation terminated.
+arm-none-eabi-gcc -Wall -O0 -g3 -IE:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi_adv7511/export/hdmi_adv7511/sw/hdmi_adv7511/standalone_domain/bspinclude/include -I"D:\Xilinx\Vitis\2020.1\data\embeddedsw\XilinxProcessorIPLib\drivers\intc_v3_11\src" -c -fmessage-length=0 -MT"src/vdma.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/vdma.d" -MT"src/vdma.d" -o "src/vdma.o" "../src/vdma.c"
+In file included from ../src/vdma.c:29:
+D:\Xilinx\Vitis\2020.1\data\embeddedsw\XilinxProcessorIPLib\drivers\intc_v3_11\src/xintc.h:296:38: error: 'XPAR_INTC_MAX_NUM_INTR_INPUTS' undeclared here (not in a function)
+  296 |  XIntc_VectorTableEntry HandlerTable[XPAR_INTC_MAX_NUM_INTR_INPUTS];
+      |                                      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/vdma.c:45:2: warning: #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, DEFAULT SET TO 0x01000000 [-Wcpp]
+   45 | #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, \
+      |  ^~~~~~~
+../src/vdma.c: In function 'main':
+../src/vdma.c:105:34: error: 'XPAR_INTC_0_AXIVDMA_1_MM2S_INTROUT_VEC_ID' undeclared (first use in this function)
+  105 |  SetupIntrSystem(&InstancePtr_1, XPAR_INTC_0_AXIVDMA_1_MM2S_INTROUT_VEC_ID,
+      |                                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/vdma.c:105:34: note: each undeclared identifier is reported only once for each function it appears in
+../src/vdma.c:106:4: error: 'XPAR_INTC_0_AXIVDMA_1_S2MM_INTROUT_VEC_ID' undeclared (first use in this function)
+  106 |    XPAR_INTC_0_AXIVDMA_1_S2MM_INTROUT_VEC_ID);
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/vdma.c: In function 'SetupIntrSystem':
+../src/vdma.c:212:45: error: 'XPAR_INTC_0_DEVICE_ID' undeclared (first use in this function); did you mean 'XPAR_XTTCPS_0_DEVICE_ID'?
+  212 |  Status = XIntc_Initialize(IntcInstancePtr, XPAR_INTC_0_DEVICE_ID);
+      |                                             ^~~~~~~~~~~~~~~~~~~~~
+      |                                             XPAR_XTTCPS_0_DEVICE_ID
+At top level:
+../src/vdma.c:279:13: warning: 'DisableIntrSystem' defined but not used [-Wunused-function]
+  279 | static void DisableIntrSystem(u16 ReadIntrId, u16 WriteIntrId)
+      |             ^~~~~~~~~~~~~~~~~
 'Finished building: ../src/vdma.c'
 ' '
 'Building file: ../src/vdma_api.c'
 'Invoking: ARM v7 gcc compiler'
-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/vdma_api.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IE:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi/export/hdmi/sw/hdmi/standalone_domain/bspinclude/include -MMD -MP -MF"src/vdma_api.d" -MT"src/vdma_api.o" -o "src/vdma_api.o" "../src/vdma_api.c"
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/vdma_api.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IE:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi_adv7511/export/hdmi_adv7511/sw/hdmi_adv7511/standalone_domain/bspinclude/include -MMD -MP -MF"src/vdma_api.d" -MT"src/vdma_api.o" -o "src/vdma_api.o" "../src/vdma_api.c"
 'Finished building: ../src/vdma_api.c'
 ' '
 'Building target: vdma_1.elf'
 'Invoking: ARM v7 gcc linker'
-arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LE:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi/export/hdmi/sw/hdmi/standalone_domain/bsplib/lib -o "vdma_1.elf"  ./src/vdma.o ./src/vdma_api.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LE:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi_adv7511/export/hdmi_adv7511/sw/hdmi_adv7511/standalone_domain/bsplib/lib -o "vdma_1.elf"  ./src/vdma.o ./src/vdma_api.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
 arm-xilinx-eabi-gcc.exe: error: ./src/vdma.o: No such file or directory
 'Finished building target: vdma_1.elf'
 ' '
@@ -30,5 +50,5 @@ arm-none-eabi-size: 'vdma_1.elf': No such file
 'Finished building: vdma_1.elf.size'
 ' '
 
-21:40:41 Build Finished (took 769ms)
+10:50:01 Build Finished (took 774ms)
 

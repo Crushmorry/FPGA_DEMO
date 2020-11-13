@@ -1,7 +1,7 @@
 //Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 //--------------------------------------------------------------------------------
 //Tool Version: Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
-//Date        : Thu Nov 12 21:16:28 2020
+//Date        : Fri Nov 13 10:17:24 2020
 //Host        : LAPTOP-43UBS83S running 64-bit major release  (build 9200)
 //Command     : generate_target design_1.bd
 //Design      : design_1
@@ -60,7 +60,7 @@ module design_1
   (* X_INTERFACE_INFO = "xilinx.com:display_processing_system7:fixedio:1.0 FIXED_IO PS_CLK" *) inout FIXED_IO_ps_clk;
   (* X_INTERFACE_INFO = "xilinx.com:display_processing_system7:fixedio:1.0 FIXED_IO PS_PORB" *) inout FIXED_IO_ps_porb;
   (* X_INTERFACE_INFO = "xilinx.com:display_processing_system7:fixedio:1.0 FIXED_IO PS_SRSTB" *) inout FIXED_IO_ps_srstb;
-  (* X_INTERFACE_INFO = "xilinx.com:signal:clock:1.0 CLK.HDMI_CLK_0 CLK" *) (* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME CLK.HDMI_CLK_0, CLK_DOMAIN design_1_hdmi_display_0_0_hdmi_clk, FREQ_HZ 100000000, FREQ_TOLERANCE_HZ 0, INSERT_VIP 0, PHASE 0.000" *) output hdmi_clk_0;
+  (* X_INTERFACE_INFO = "xilinx.com:signal:clock:1.0 CLK.HDMI_CLK_0 CLK" *) (* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME CLK.HDMI_CLK_0, CLK_DOMAIN design_1_hdmi_display_0_1_hdmi_clk, FREQ_HZ 100000000, FREQ_TOLERANCE_HZ 0, INSERT_VIP 0, PHASE 0.000" *) output hdmi_clk_0;
   output [15:0]hdmi_d_0;
   output hdmi_de_0;
   output hdmi_hsync_0;
@@ -285,7 +285,7 @@ module design_1
         .clk_out74_25_90(clk_wiz_0_clk_out74_25_90),
         .locked(clk_wiz_0_locked),
         .resetn(processing_system7_0_FCLK_RESET0_N));
-  design_1_hdmi_display_0_0 hdmi_display_0
+  design_1_hdmi_display_0_1 hdmi_display_0
        (.de_in(v_axi4s_vid_out_0_vid_active_video),
         .hdmi_clk(hdmi_display_0_hdmi_clk),
         .hdmi_d(hdmi_display_0_hdmi_d),
@@ -1099,7 +1099,7 @@ module s00_couplers_imp_7HNO1D
   assign s00_couplers_to_auto_pc_ARSIZE = S_AXI_arsize[2:0];
   assign s00_couplers_to_auto_pc_ARVALID = S_AXI_arvalid;
   assign s00_couplers_to_auto_pc_RREADY = S_AXI_rready;
-  design_1_auto_pc_3 auto_pc
+  design_1_auto_pc_1 auto_pc
        (.aclk(S_ACLK_1),
         .aresetn(S_ARESETN_1),
         .m_axi_araddr(auto_pc_to_s00_couplers_ARADDR),
@@ -1366,7 +1366,7 @@ module s00_couplers_imp_UYSKKA
   assign s00_couplers_to_auto_pc_WLAST = S_AXI_wlast;
   assign s00_couplers_to_auto_pc_WSTRB = S_AXI_wstrb[3:0];
   assign s00_couplers_to_auto_pc_WVALID = S_AXI_wvalid;
-  design_1_auto_pc_2 auto_pc
+  design_1_auto_pc_0 auto_pc
        (.aclk(S_ACLK_1),
         .aresetn(S_ARESETN_1),
         .m_axi_araddr(auto_pc_to_s00_couplers_ARADDR),

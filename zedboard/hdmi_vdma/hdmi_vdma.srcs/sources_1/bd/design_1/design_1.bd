@@ -13,7 +13,6 @@
       "axi_vdma_0": "",
       "v_axi4s_vid_out_0": "",
       "v_tc_0": "",
-      "hdmi_display_0": "",
       "clk_wiz_0": "",
       "processing_system7_0": "",
       "ps7_0_axi_periph": {
@@ -26,7 +25,8 @@
         "s00_couplers": {
           "auto_pc": ""
         }
-      }
+      },
+      "hdmi_display_0": ""
     },
     "interface_ports": {
       "DDR": {
@@ -100,7 +100,7 @@
         "direction": "O",
         "parameters": {
           "CLK_DOMAIN": {
-            "value": "design_1_hdmi_display_0_0_hdmi_clk",
+            "value": "design_1_hdmi_display_0_1_hdmi_clk",
             "value_src": "default_prop"
           },
           "FREQ_HZ": {
@@ -127,16 +127,16 @@
       "hdmi_vsync_0": {
         "direction": "O"
       },
-      "hdmi_d_0": {
-        "direction": "O",
-        "left": "15",
-        "right": "0"
-      },
       "hdmi_de_0": {
         "direction": "O"
       },
       "hdmi_scl_0": {
         "direction": "O"
+      },
+      "hdmi_d_0": {
+        "direction": "O",
+        "left": "15",
+        "right": "0"
       },
       "hdmi_sda_0": {
         "direction": "IO"
@@ -206,10 +206,6 @@
             "value": "false"
           }
         }
-      },
-      "hdmi_display_0": {
-        "vlnv": "xilinx.com:user:hdmi_display:1.0",
-        "xci_name": "design_1_hdmi_display_0_0"
       },
       "clk_wiz_0": {
         "vlnv": "xilinx.com:ip:clk_wiz:6.0",
@@ -1202,7 +1198,7 @@
             "components": {
               "auto_pc": {
                 "vlnv": "xilinx.com:ip:axi_protocol_converter:2.1",
-                "xci_name": "design_1_auto_pc_2",
+                "xci_name": "design_1_auto_pc_0",
                 "parameters": {
                   "MI_PROTOCOL": {
                     "value": "AXI4LITE"
@@ -1412,7 +1408,7 @@
             "components": {
               "auto_pc": {
                 "vlnv": "xilinx.com:ip:axi_protocol_converter:2.1",
-                "xci_name": "design_1_auto_pc_3",
+                "xci_name": "design_1_auto_pc_1",
                 "parameters": {
                   "MI_PROTOCOL": {
                     "value": "AXI3"
@@ -1503,19 +1499,35 @@
             ]
           }
         }
+      },
+      "hdmi_display_0": {
+        "vlnv": "xilinx.com:user:hdmi_display:1.0",
+        "xci_name": "design_1_hdmi_display_0_1"
       }
     },
     "interface_nets": {
+      "ps7_0_axi_periph_M00_AXI": {
+        "interface_ports": [
+          "ps7_0_axi_periph/M00_AXI",
+          "axi_vdma_0/S_AXI_LITE"
+        ]
+      },
       "axi_vdma_0_M_AXI_MM2S": {
         "interface_ports": [
           "axi_vdma_0/M_AXI_MM2S",
           "axi_mem_intercon/S00_AXI"
         ]
       },
-      "ps7_0_axi_periph_M00_AXI": {
+      "processing_system7_0_DDR": {
         "interface_ports": [
-          "ps7_0_axi_periph/M00_AXI",
-          "axi_vdma_0/S_AXI_LITE"
+          "DDR",
+          "processing_system7_0/DDR"
+        ]
+      },
+      "axi_vdma_0_M_AXIS_MM2S": {
+        "interface_ports": [
+          "v_axi4s_vid_out_0/video_in",
+          "axi_vdma_0/M_AXIS_MM2S"
         ]
       },
       "processing_system7_0_FIXED_IO": {
@@ -1530,16 +1542,10 @@
           "v_axi4s_vid_out_0/vtiming_in"
         ]
       },
-      "axi_vdma_0_M_AXIS_MM2S": {
+      "processing_system7_0_M_AXI_GP0": {
         "interface_ports": [
-          "v_axi4s_vid_out_0/video_in",
-          "axi_vdma_0/M_AXIS_MM2S"
-        ]
-      },
-      "processing_system7_0_DDR": {
-        "interface_ports": [
-          "DDR",
-          "processing_system7_0/DDR"
+          "processing_system7_0/M_AXI_GP0",
+          "ps7_0_axi_periph/S00_AXI"
         ]
       },
       "axi_mem_intercon_M00_AXI": {
@@ -1547,87 +1553,14 @@
           "axi_mem_intercon/M00_AXI",
           "processing_system7_0/S_AXI_HP0"
         ]
-      },
-      "processing_system7_0_M_AXI_GP0": {
-        "interface_ports": [
-          "processing_system7_0/M_AXI_GP0",
-          "ps7_0_axi_periph/S00_AXI"
-        ]
       }
     },
     "nets": {
-      "v_axi4s_vid_out_0_vid_data": {
-        "ports": [
-          "v_axi4s_vid_out_0/vid_data",
-          "hdmi_display_0/rgb_in"
-        ]
-      },
-      "v_axi4s_vid_out_0_vid_hsync": {
-        "ports": [
-          "v_axi4s_vid_out_0/vid_hsync",
-          "hdmi_display_0/hsync_in"
-        ]
-      },
-      "v_axi4s_vid_out_0_vid_vsync": {
-        "ports": [
-          "v_axi4s_vid_out_0/vid_vsync",
-          "hdmi_display_0/vsync_in"
-        ]
-      },
-      "v_axi4s_vid_out_0_vid_active_video": {
-        "ports": [
-          "v_axi4s_vid_out_0/vid_active_video",
-          "hdmi_display_0/de_in"
-        ]
-      },
-      "hdmi_display_0_hdmi_clk": {
-        "ports": [
-          "hdmi_display_0/hdmi_clk",
-          "hdmi_clk_0"
-        ]
-      },
-      "hdmi_display_0_hdmi_hsync": {
-        "ports": [
-          "hdmi_display_0/hdmi_hsync",
-          "hdmi_hsync_0"
-        ]
-      },
-      "hdmi_display_0_hdmi_vsync": {
-        "ports": [
-          "hdmi_display_0/hdmi_vsync",
-          "hdmi_vsync_0"
-        ]
-      },
-      "hdmi_display_0_hdmi_d": {
-        "ports": [
-          "hdmi_display_0/hdmi_d",
-          "hdmi_d_0"
-        ]
-      },
-      "hdmi_display_0_hdmi_de": {
-        "ports": [
-          "hdmi_display_0/hdmi_de",
-          "hdmi_de_0"
-        ]
-      },
-      "hdmi_display_0_hdmi_scl": {
-        "ports": [
-          "hdmi_display_0/hdmi_scl",
-          "hdmi_scl_0"
-        ]
-      },
-      "Net": {
-        "ports": [
-          "hdmi_sda_0",
-          "hdmi_display_0/hdmi_sda"
-        ]
-      },
       "clk_wiz_0_clk_out74_25": {
         "ports": [
           "clk_wiz_0/clk_out74_25",
           "v_tc_0/clk",
           "v_tc_0/gen_clken",
-          "hdmi_display_0/vga_clk",
           "axi_vdma_0/s_axi_lite_aclk",
           "axi_vdma_0/m_axis_mm2s_aclk",
           "axi_vdma_0/m_axi_mm2s_aclk",
@@ -1641,13 +1574,8 @@
           "ps7_0_axi_periph/M00_ACLK",
           "axi_mem_intercon/ACLK",
           "axi_mem_intercon/S00_ACLK",
-          "axi_mem_intercon/M00_ACLK"
-        ]
-      },
-      "clk_wiz_0_clk_out74_25_90": {
-        "ports": [
-          "clk_wiz_0/clk_out74_25_90",
-          "hdmi_display_0/vga_clk_90"
+          "axi_mem_intercon/M00_ACLK",
+          "hdmi_display_0/vga_clk"
         ]
       },
       "processing_system7_0_FCLK_CLK0": {
@@ -1680,6 +1608,78 @@
           "processing_system7_0/FCLK_RESET0_N",
           "clk_wiz_0/resetn",
           "rst_clk_wiz_0_74M/ext_reset_in"
+        ]
+      },
+      "v_axi4s_vid_out_0_vid_active_video": {
+        "ports": [
+          "v_axi4s_vid_out_0/vid_active_video",
+          "hdmi_display_0/de_in"
+        ]
+      },
+      "v_axi4s_vid_out_0_vid_data": {
+        "ports": [
+          "v_axi4s_vid_out_0/vid_data",
+          "hdmi_display_0/rgb_in"
+        ]
+      },
+      "v_axi4s_vid_out_0_vid_hsync": {
+        "ports": [
+          "v_axi4s_vid_out_0/vid_hsync",
+          "hdmi_display_0/hsync_in"
+        ]
+      },
+      "v_axi4s_vid_out_0_vid_vsync": {
+        "ports": [
+          "v_axi4s_vid_out_0/vid_vsync",
+          "hdmi_display_0/vsync_in"
+        ]
+      },
+      "clk_wiz_0_clk_out74_25_90": {
+        "ports": [
+          "clk_wiz_0/clk_out74_25_90",
+          "hdmi_display_0/vga_clk_90"
+        ]
+      },
+      "hdmi_display_0_hdmi_clk": {
+        "ports": [
+          "hdmi_display_0/hdmi_clk",
+          "hdmi_clk_0"
+        ]
+      },
+      "hdmi_display_0_hdmi_hsync": {
+        "ports": [
+          "hdmi_display_0/hdmi_hsync",
+          "hdmi_hsync_0"
+        ]
+      },
+      "hdmi_display_0_hdmi_vsync": {
+        "ports": [
+          "hdmi_display_0/hdmi_vsync",
+          "hdmi_vsync_0"
+        ]
+      },
+      "hdmi_display_0_hdmi_de": {
+        "ports": [
+          "hdmi_display_0/hdmi_de",
+          "hdmi_de_0"
+        ]
+      },
+      "hdmi_display_0_hdmi_scl": {
+        "ports": [
+          "hdmi_display_0/hdmi_scl",
+          "hdmi_scl_0"
+        ]
+      },
+      "hdmi_display_0_hdmi_d": {
+        "ports": [
+          "hdmi_display_0/hdmi_d",
+          "hdmi_d_0"
+        ]
+      },
+      "Net": {
+        "ports": [
+          "hdmi_sda_0",
+          "hdmi_display_0/hdmi_sda"
         ]
       }
     },

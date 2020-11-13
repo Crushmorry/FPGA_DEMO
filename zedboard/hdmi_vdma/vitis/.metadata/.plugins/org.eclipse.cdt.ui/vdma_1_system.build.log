@@ -1,10 +1,10 @@
-21:40:41 **** Incremental Build of configuration Debug for project vdma_1_system ****
+10:50:01 **** Build of configuration Debug for project vdma_1_system ****
 make all 
 Generating bif file for the system project
-generate_system_bif.bat 58711 E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi/export/hdmi/hdmi.xpfm standalone_domain E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/vdma_1_system/Debug/system.bif
-sdcard_gen --xpfm E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi/export/hdmi/hdmi.xpfm --sys_config hdmi --bif E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/vdma_1_system/Debug/system.bif --bitstream E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/vdma_1/_ide/bitstream/design_1_wrapper.bit --elf E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/vdma_1/Debug/vdma_1.elf,ps7_cortexa9_0
+generate_system_bif.bat 52004 E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi_adv7511/export/hdmi_adv7511/hdmi_adv7511.xpfm standalone_domain E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/vdma_1_system/Debug/system.bif
+sdcard_gen --xpfm E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi_adv7511/export/hdmi_adv7511/hdmi_adv7511.xpfm --sys_config hdmi_adv7511 --bif E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/vdma_1_system/Debug/system.bif --bitstream E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/vdma_1/_ide/bitstream/design_1_wrapper.bit --elf E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/vdma_1/Debug/vdma_1.elf,ps7_cortexa9_0
 ELF does not exist: E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/vdma_1/Debug/vdma_1.elf
 make: *** [makefile:39: package] Error 1
 
-21:40:44 Build Finished (took 2s.549ms)
+10:50:03 Build Finished (took 2s.139ms)
 

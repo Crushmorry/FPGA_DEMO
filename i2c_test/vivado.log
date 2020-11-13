@@ -57,3 +57,5 @@ update_compile_order -fileset sources_1
 INFO: [Ipptcl 7-1463] No Compatible Board Interface found. Board Tab not created in customize GUI
 INFO: [Ipptcl 7-1463] No Compatible Board Interface found. Board Tab not created in customize GUI
 update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Nov 12 21:56:03 2020...
