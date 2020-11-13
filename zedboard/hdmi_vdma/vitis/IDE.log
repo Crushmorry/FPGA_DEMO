@@ -16,3 +16,15 @@
 10:48:35 INFO  : Example project vdma_1 has been created successfully.
 10:50:00 INFO  : Checking for BSP changes to sync application flags for project 'vdma_1'...
 10:54:28 INFO  : Checking for BSP changes to sync application flags for project 'test1'...
+11:01:28 INFO  : Launching XSCT server: xsct.bat -n  -interactive E:\FPGA_DEMO\zedboard\hdmi_vdma\vitis\temp_xsdb_launch_script.tcl
+11:01:30 INFO  : XSCT server has started successfully.
+11:01:30 INFO  : Successfully done setting XSCT server connection channel  
+11:01:30 INFO  : plnx-install-location is set to ''
+11:01:30 INFO  : Successfully done setting workspace for the tool. 
+11:01:33 INFO  : Platform repository initialization has completed.
+11:01:33 INFO  : Successfully done query RDI_DATADIR 
+11:01:33 INFO  : Registering command handlers for Vitis TCF services
+11:05:47 INFO  : Checking for BSP changes to sync application flags for project 'test1'...
+11:05:52 ERROR : (XSDB Server)ERROR: [Hsi 55-1571] The design file E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi_adv7511/export/hdmi_adv7511/hw/design_1_wrapper.xsa is already opened
+
+11:09:27 INFO  : Successfully done sdx_reload_mss "E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi_adv7511/ps7_cortexa9_0/standalone_domain/bsp/system.mss"

@@ -3068,3 +3068,227 @@ TRACE::2020-11-13.10:48:03::SCWMssOS::DEBUG:  swdes dump  E:/FPGA_DEMO/zedboard/
 E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi_adv7511/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
 
 TRACE::2020-11-13.10:48:03::SCWMssOS::Sw design exists and opened at  E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi_adv7511/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-11-13.11:09:22::SCWPlatform::Trying to open the hw design at E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi_adv7511/hw/design_1_wrapper.xsa
+TRACE::2020-11-13.11:09:22::SCWPlatform::DSA given E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi_adv7511/hw/design_1_wrapper.xsa
+TRACE::2020-11-13.11:09:22::SCWPlatform::DSA absoulate path E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi_adv7511/hw/design_1_wrapper.xsa
+TRACE::2020-11-13.11:09:22::SCWPlatform::DSA directory E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi_adv7511/hw
+TRACE::2020-11-13.11:09:22::SCWPlatform:: Platform Path E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi_adv7511/hw/design_1_wrapper.xsa
+TRACE::2020-11-13.11:09:22::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-11-13.11:09:22::SCWPlatform::Do not have an existing db opened. 
+TRACE::2020-11-13.11:09:25::SCWPlatform::Opened new HwDB with name design_1_wrapper_0
+TRACE::2020-11-13.11:09:25::SCWReader::Active system found as  hdmi_adv7511
+TRACE::2020-11-13.11:09:25::SCWReader::Handling sysconfig hdmi_adv7511
+TRACE::2020-11-13.11:09:25::SCWDomain::checking for install qemu data   : 
+TRACE::2020-11-13.11:09:25::SCWDomain:: Using the QEMU Data from install at  : D:/Xilinx/Vitis/2020.1/data/emulation/platforms/zynq/qemu/
+TRACE::2020-11-13.11:09:25::SCWDomain:: Using the QEMU args  from install at  : D:/Xilinx/Vitis/2020.1/data/emulation/platforms/zynq/qemu/qemu_args.txt
+TRACE::2020-11-13.11:09:25::SCWPlatform::Trying to open the hw design at E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi_adv7511/hw/design_1_wrapper.xsa
+TRACE::2020-11-13.11:09:25::SCWPlatform::DSA given E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi_adv7511/hw/design_1_wrapper.xsa
+TRACE::2020-11-13.11:09:25::SCWPlatform::DSA absoulate path E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi_adv7511/hw/design_1_wrapper.xsa
+TRACE::2020-11-13.11:09:25::SCWPlatform::DSA directory E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi_adv7511/hw
+TRACE::2020-11-13.11:09:25::SCWPlatform:: Platform Path E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi_adv7511/hw/design_1_wrapper.xsa
+TRACE::2020-11-13.11:09:25::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-11-13.11:09:25::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2020-11-13.11:09:25::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2020-11-13.11:09:25::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-11-13.11:09:25::SCWPlatform::Trying to open the hw design at E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi_adv7511/hw/design_1_wrapper.xsa
+TRACE::2020-11-13.11:09:25::SCWPlatform::DSA given E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi_adv7511/hw/design_1_wrapper.xsa
+TRACE::2020-11-13.11:09:25::SCWPlatform::DSA absoulate path E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi_adv7511/hw/design_1_wrapper.xsa
+TRACE::2020-11-13.11:09:25::SCWPlatform::DSA directory E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi_adv7511/hw
+TRACE::2020-11-13.11:09:25::SCWPlatform:: Platform Path E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi_adv7511/hw/design_1_wrapper.xsa
+TRACE::2020-11-13.11:09:25::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-11-13.11:09:25::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2020-11-13.11:09:25::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2020-11-13.11:09:25::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-11-13.11:09:25::SCWPlatform::Trying to open the hw design at E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi_adv7511/hw/design_1_wrapper.xsa
+TRACE::2020-11-13.11:09:25::SCWPlatform::DSA given E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi_adv7511/hw/design_1_wrapper.xsa
+TRACE::2020-11-13.11:09:25::SCWPlatform::DSA absoulate path E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi_adv7511/hw/design_1_wrapper.xsa
+TRACE::2020-11-13.11:09:25::SCWPlatform::DSA directory E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi_adv7511/hw
+TRACE::2020-11-13.11:09:25::SCWPlatform:: Platform Path E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi_adv7511/hw/design_1_wrapper.xsa
+TRACE::2020-11-13.11:09:25::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-11-13.11:09:25::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2020-11-13.11:09:25::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2020-11-13.11:09:25::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-11-13.11:09:25::SCWReader::Boot application domain added for zynq_fsbl
+TRACE::2020-11-13.11:09:25::SCWPlatform::Trying to open the hw design at E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi_adv7511/hw/design_1_wrapper.xsa
+TRACE::2020-11-13.11:09:25::SCWPlatform::DSA given E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi_adv7511/hw/design_1_wrapper.xsa
+TRACE::2020-11-13.11:09:25::SCWPlatform::DSA absoulate path E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi_adv7511/hw/design_1_wrapper.xsa
+TRACE::2020-11-13.11:09:25::SCWPlatform::DSA directory E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi_adv7511/hw
+TRACE::2020-11-13.11:09:25::SCWPlatform:: Platform Path E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi_adv7511/hw/design_1_wrapper.xsa
+TRACE::2020-11-13.11:09:25::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-11-13.11:09:25::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2020-11-13.11:09:25::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2020-11-13.11:09:25::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-11-13.11:09:25::SCWMssOS::Checking the sw design at  E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi_adv7511/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-11-13.11:09:25::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2020-11-13.11:09:25::SCWMssOS::No sw design opened at  E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi_adv7511/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-11-13.11:09:25::SCWMssOS::mss exists loading the mss file  E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi_adv7511/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-11-13.11:09:25::SCWMssOS::Opened the sw design from mss  E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi_adv7511/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-11-13.11:09:25::SCWMssOS::Adding the swdes entry E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi_adv7511/zynq_fsbl/zynq_fsbl_bsp/system.mss with des name system
+TRACE::2020-11-13.11:09:25::SCWMssOS::updating the scw layer about changes
+TRACE::2020-11-13.11:09:25::SCWMssOS::Opened the sw design.  E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi_adv7511/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-11-13.11:09:25::SCWPlatform::Trying to open the hw design at E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi_adv7511/hw/design_1_wrapper.xsa
+TRACE::2020-11-13.11:09:25::SCWPlatform::DSA given E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi_adv7511/hw/design_1_wrapper.xsa
+TRACE::2020-11-13.11:09:25::SCWPlatform::DSA absoulate path E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi_adv7511/hw/design_1_wrapper.xsa
+TRACE::2020-11-13.11:09:25::SCWPlatform::DSA directory E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi_adv7511/hw
+TRACE::2020-11-13.11:09:25::SCWPlatform:: Platform Path E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi_adv7511/hw/design_1_wrapper.xsa
+TRACE::2020-11-13.11:09:25::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-11-13.11:09:25::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2020-11-13.11:09:25::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2020-11-13.11:09:25::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-11-13.11:09:25::SCWMssOS::Checking the sw design at  E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi_adv7511/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-11-13.11:09:25::SCWMssOS::DEBUG:  swdes dump  E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi_adv7511/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-11-13.11:09:25::SCWMssOS::Sw design exists and opened at  E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi_adv7511/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-11-13.11:09:25::SCWMssOS:: library already available in sw design:  xilffs:4.3
+TRACE::2020-11-13.11:09:25::SCWPlatform::Trying to open the hw design at E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi_adv7511/hw/design_1_wrapper.xsa
+TRACE::2020-11-13.11:09:25::SCWPlatform::DSA given E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi_adv7511/hw/design_1_wrapper.xsa
+TRACE::2020-11-13.11:09:25::SCWPlatform::DSA absoulate path E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi_adv7511/hw/design_1_wrapper.xsa
+TRACE::2020-11-13.11:09:25::SCWPlatform::DSA directory E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi_adv7511/hw
+TRACE::2020-11-13.11:09:25::SCWPlatform:: Platform Path E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi_adv7511/hw/design_1_wrapper.xsa
+TRACE::2020-11-13.11:09:25::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-11-13.11:09:25::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2020-11-13.11:09:25::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2020-11-13.11:09:25::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-11-13.11:09:25::SCWMssOS::Checking the sw design at  E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi_adv7511/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-11-13.11:09:25::SCWMssOS::DEBUG:  swdes dump  E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi_adv7511/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-11-13.11:09:25::SCWMssOS::Sw design exists and opened at  E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi_adv7511/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-11-13.11:09:25::SCWMssOS:: library already available in sw design:  xilrsa:1.6
+TRACE::2020-11-13.11:09:25::SCWMssOS::Saving the mss changes E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi_adv7511/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-11-13.11:09:25::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2020-11-13.11:09:25::SCWMssOS::Completed writemss as part of save.
+TRACE::2020-11-13.11:09:25::SCWMssOS::Commit changes completed.
+TRACE::2020-11-13.11:09:25::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2020-11-13.11:09:25::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2020-11-13.11:09:25::SCWPlatform::Trying to open the hw design at E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi_adv7511/hw/design_1_wrapper.xsa
+TRACE::2020-11-13.11:09:25::SCWPlatform::DSA given E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi_adv7511/hw/design_1_wrapper.xsa
+TRACE::2020-11-13.11:09:25::SCWPlatform::DSA absoulate path E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi_adv7511/hw/design_1_wrapper.xsa
+TRACE::2020-11-13.11:09:25::SCWPlatform::DSA directory E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi_adv7511/hw
+TRACE::2020-11-13.11:09:25::SCWPlatform:: Platform Path E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi_adv7511/hw/design_1_wrapper.xsa
+TRACE::2020-11-13.11:09:25::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-11-13.11:09:25::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2020-11-13.11:09:25::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2020-11-13.11:09:25::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-11-13.11:09:25::SCWMssOS::Checking the sw design at  E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi_adv7511/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-11-13.11:09:25::SCWMssOS::DEBUG:  swdes dump  E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi_adv7511/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-11-13.11:09:25::SCWMssOS::Sw design exists and opened at  E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi_adv7511/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-11-13.11:09:25::SCWReader::No isolation master present  
+TRACE::2020-11-13.11:09:25::SCWDomain::checking for install qemu data   : 
+TRACE::2020-11-13.11:09:25::SCWDomain:: Using the QEMU Data from install at  : D:/Xilinx/Vitis/2020.1/data/emulation/platforms/zynq/qemu/
+TRACE::2020-11-13.11:09:25::SCWDomain:: Using the QEMU args  from install at  : D:/Xilinx/Vitis/2020.1/data/emulation/platforms/zynq/qemu/qemu_args.txt
+TRACE::2020-11-13.11:09:25::SCWPlatform::Trying to open the hw design at E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi_adv7511/hw/design_1_wrapper.xsa
+TRACE::2020-11-13.11:09:25::SCWPlatform::DSA given E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi_adv7511/hw/design_1_wrapper.xsa
+TRACE::2020-11-13.11:09:25::SCWPlatform::DSA absoulate path E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi_adv7511/hw/design_1_wrapper.xsa
+TRACE::2020-11-13.11:09:25::SCWPlatform::DSA directory E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi_adv7511/hw
+TRACE::2020-11-13.11:09:25::SCWPlatform:: Platform Path E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi_adv7511/hw/design_1_wrapper.xsa
+TRACE::2020-11-13.11:09:25::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-11-13.11:09:25::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2020-11-13.11:09:25::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2020-11-13.11:09:25::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-11-13.11:09:25::SCWPlatform::Trying to open the hw design at E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi_adv7511/hw/design_1_wrapper.xsa
+TRACE::2020-11-13.11:09:25::SCWPlatform::DSA given E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi_adv7511/hw/design_1_wrapper.xsa
+TRACE::2020-11-13.11:09:25::SCWPlatform::DSA absoulate path E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi_adv7511/hw/design_1_wrapper.xsa
+TRACE::2020-11-13.11:09:25::SCWPlatform::DSA directory E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi_adv7511/hw
+TRACE::2020-11-13.11:09:25::SCWPlatform:: Platform Path E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi_adv7511/hw/design_1_wrapper.xsa
+TRACE::2020-11-13.11:09:25::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-11-13.11:09:25::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2020-11-13.11:09:25::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2020-11-13.11:09:25::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-11-13.11:09:25::SCWPlatform::Trying to open the hw design at E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi_adv7511/hw/design_1_wrapper.xsa
+TRACE::2020-11-13.11:09:26::SCWPlatform::DSA given E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi_adv7511/hw/design_1_wrapper.xsa
+TRACE::2020-11-13.11:09:26::SCWPlatform::DSA absoulate path E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi_adv7511/hw/design_1_wrapper.xsa
+TRACE::2020-11-13.11:09:26::SCWPlatform::DSA directory E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi_adv7511/hw
+TRACE::2020-11-13.11:09:26::SCWPlatform:: Platform Path E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi_adv7511/hw/design_1_wrapper.xsa
+TRACE::2020-11-13.11:09:26::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-11-13.11:09:26::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2020-11-13.11:09:26::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2020-11-13.11:09:26::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-11-13.11:09:26::SCWMssOS::Checking the sw design at  E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi_adv7511/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-11-13.11:09:26::SCWMssOS::DEBUG:  swdes dump  E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi_adv7511/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-11-13.11:09:26::SCWMssOS::No sw design opened at  E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi_adv7511/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-11-13.11:09:26::SCWMssOS::mss exists loading the mss file  E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi_adv7511/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-11-13.11:09:26::SCWMssOS::Opened the sw design from mss  E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi_adv7511/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-11-13.11:09:26::SCWMssOS::Adding the swdes entry E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi_adv7511/ps7_cortexa9_0/standalone_domain/bsp/system.mss with des name system_0
+TRACE::2020-11-13.11:09:26::SCWMssOS::updating the scw layer about changes
+TRACE::2020-11-13.11:09:26::SCWMssOS::Opened the sw design.  E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi_adv7511/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-11-13.11:09:26::SCWMssOS::Saving the mss changes E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi_adv7511/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-11-13.11:09:26::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2020-11-13.11:09:26::SCWMssOS::Completed writemss as part of save.
+TRACE::2020-11-13.11:09:26::SCWMssOS::Commit changes completed.
+TRACE::2020-11-13.11:09:26::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2020-11-13.11:09:26::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2020-11-13.11:09:26::SCWPlatform::Trying to open the hw design at E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi_adv7511/hw/design_1_wrapper.xsa
+TRACE::2020-11-13.11:09:26::SCWPlatform::DSA given E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi_adv7511/hw/design_1_wrapper.xsa
+TRACE::2020-11-13.11:09:26::SCWPlatform::DSA absoulate path E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi_adv7511/hw/design_1_wrapper.xsa
+TRACE::2020-11-13.11:09:26::SCWPlatform::DSA directory E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi_adv7511/hw
+TRACE::2020-11-13.11:09:26::SCWPlatform:: Platform Path E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi_adv7511/hw/design_1_wrapper.xsa
+TRACE::2020-11-13.11:09:26::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-11-13.11:09:26::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2020-11-13.11:09:26::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2020-11-13.11:09:26::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-11-13.11:09:26::SCWMssOS::Checking the sw design at  E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi_adv7511/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-11-13.11:09:26::SCWMssOS::DEBUG:  swdes dump  E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi_adv7511/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi_adv7511/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-11-13.11:09:26::SCWMssOS::Sw design exists and opened at  E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi_adv7511/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-11-13.11:09:26::SCWReader::No isolation master present  
+TRACE::2020-11-13.11:09:26::SCWPlatform::Trying to open the hw design at E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi_adv7511/hw/design_1_wrapper.xsa
+TRACE::2020-11-13.11:09:26::SCWPlatform::DSA given E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi_adv7511/hw/design_1_wrapper.xsa
+TRACE::2020-11-13.11:09:26::SCWPlatform::DSA absoulate path E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi_adv7511/hw/design_1_wrapper.xsa
+TRACE::2020-11-13.11:09:26::SCWPlatform::DSA directory E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi_adv7511/hw
+TRACE::2020-11-13.11:09:26::SCWPlatform:: Platform Path E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi_adv7511/hw/design_1_wrapper.xsa
+TRACE::2020-11-13.11:09:26::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-11-13.11:09:26::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2020-11-13.11:09:26::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2020-11-13.11:09:26::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-11-13.11:09:26::SCWMssOS::Checking the sw design at  E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi_adv7511/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-11-13.11:09:26::SCWMssOS::DEBUG:  swdes dump  E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi_adv7511/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi_adv7511/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-11-13.11:09:26::SCWMssOS::Sw design exists and opened at  E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi_adv7511/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-11-13.11:09:26::SCWMssOS::In reload Mss file.
+TRACE::2020-11-13.11:09:26::SCWPlatform::Trying to open the hw design at E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi_adv7511/hw/design_1_wrapper.xsa
+TRACE::2020-11-13.11:09:26::SCWPlatform::DSA given E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi_adv7511/hw/design_1_wrapper.xsa
+TRACE::2020-11-13.11:09:26::SCWPlatform::DSA absoulate path E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi_adv7511/hw/design_1_wrapper.xsa
+TRACE::2020-11-13.11:09:26::SCWPlatform::DSA directory E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi_adv7511/hw
+TRACE::2020-11-13.11:09:26::SCWPlatform:: Platform Path E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi_adv7511/hw/design_1_wrapper.xsa
+TRACE::2020-11-13.11:09:26::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-11-13.11:09:26::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2020-11-13.11:09:26::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2020-11-13.11:09:27::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-11-13.11:09:27::SCWMssOS::Checking the sw design at  E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi_adv7511/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-11-13.11:09:27::SCWMssOS::DEBUG:  swdes dump  E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi_adv7511/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi_adv7511/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+KEYINFO::2020-11-13.11:09:27::SCWMssOS::Could not open the swdb for system_0
+KEYINFO::2020-11-13.11:09:27::SCWMssOS::Could not open the sw design at  system_0
+ERROR: [Hsi 55-1558] Software Design system_0 is not found
+
+TRACE::2020-11-13.11:09:27::SCWMssOS::Cleared the swdb table entry
+TRACE::2020-11-13.11:09:27::SCWMssOS::No sw design opened at  E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi_adv7511/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-11-13.11:09:27::SCWMssOS::mss exists loading the mss file  E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi_adv7511/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-11-13.11:09:27::SCWMssOS::Opened the sw design from mss  E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi_adv7511/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-11-13.11:09:27::SCWMssOS::Adding the swdes entry E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi_adv7511/ps7_cortexa9_0/standalone_domain/bsp/system.mss with des name system_0
+TRACE::2020-11-13.11:09:27::SCWMssOS::updating the scw layer about changes
+TRACE::2020-11-13.11:09:27::SCWMssOS::Opened the sw design.  E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi_adv7511/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-11-13.11:09:27::SCWMssOS::Saving the mss changes E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi_adv7511/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-11-13.11:09:27::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2020-11-13.11:09:27::SCWMssOS::Completed writemss as part of save.
+TRACE::2020-11-13.11:09:27::SCWMssOS::Commit changes completed.
+TRACE::2020-11-13.11:09:27::SCWPlatform::Trying to open the hw design at E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi_adv7511/hw/design_1_wrapper.xsa
+TRACE::2020-11-13.11:09:27::SCWPlatform::DSA given E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi_adv7511/hw/design_1_wrapper.xsa
+TRACE::2020-11-13.11:09:27::SCWPlatform::DSA absoulate path E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi_adv7511/hw/design_1_wrapper.xsa
+TRACE::2020-11-13.11:09:27::SCWPlatform::DSA directory E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi_adv7511/hw
+TRACE::2020-11-13.11:09:27::SCWPlatform:: Platform Path E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi_adv7511/hw/design_1_wrapper.xsa
+TRACE::2020-11-13.11:09:27::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2020-11-13.11:09:27::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2020-11-13.11:09:27::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2020-11-13.11:09:27::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-11-13.11:09:27::SCWMssOS::Checking the sw design at  E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi_adv7511/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-11-13.11:09:27::SCWMssOS::DEBUG:  swdes dump  E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi_adv7511/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi_adv7511/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-11-13.11:09:27::SCWMssOS::Sw design exists and opened at  E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi_adv7511/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-11-13.11:09:27::SCWMssOS::Removing the swdes entry for  E:/FPGA_DEMO/zedboard/hdmi_vdma/vitis/hdmi_adv7511/ps7_cortexa9_0/standalone_domain/bsp/system.mss

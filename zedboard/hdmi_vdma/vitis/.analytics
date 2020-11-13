@@ -12,3 +12,5 @@ timestamp=[2020-11-13 10:54:34], mode=BUILD, duration=0:00:04.797, duration_ms=4
 timestamp=[2020-11-13 11:01:32], mode=WORKBENCH_START, duration=0:00:08.363, duration_ms=8363, data={}
 timestamp=[2020-11-13 11:01:33], mode=WORKBENCH_UI_INIT, duration=0:00:00.734, duration_ms=734, data={editors_count=7, platform_editors_count=4, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,hdmi_adv7511,test1,test1_system}
 timestamp=[2020-11-13 11:01:33], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.038, duration_ms=38, data={}
+timestamp=[2020-11-13 11:05:48], mode=BUILD, duration=0:00:00.264, duration_ms=264, data={name=test1, configuration=Debug, clean_build=false}
+timestamp=[2020-11-13 11:05:55], mode=BUILD, duration=0:00:06.854, duration_ms=6854, data={name=test1_system, configuration=Debug, clean_build=false}
