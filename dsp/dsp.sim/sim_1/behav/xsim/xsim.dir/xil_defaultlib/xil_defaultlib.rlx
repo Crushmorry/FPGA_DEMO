@@ -1,0 +1,9 @@
+0.7
+2020.1
+May 27 2020
+20:09:33
+E:/fpga_proj/dsp/dsp.sim/sim_1/behav/xsim/glbl.v,1590624368,verilog,,,,glbl,,,,,,,,
+E:/fpga_proj/dsp/dsp.srcs/sim_1/new/tb_top.v,1605516809,verilog,,,,tb_top,,,,,,,,
+E:/fpga_proj/dsp/dsp.srcs/sources_1/ip/xbip_dsp48_macro_0/sim/xbip_dsp48_macro_0.vhd,1605510688,vhdl,,,,xbip_dsp48_macro_0,,,,,,,,
+E:/fpga_proj/dsp/dsp.srcs/sources_1/ip/xbip_dsp48_macro_1/sim/xbip_dsp48_macro_1.vhd,1605516790,vhdl,,,,xbip_dsp48_macro_1,,,,,,,,
+E:/fpga_proj/dsp/dsp.srcs/sources_1/new/top.v,1605516911,verilog,,E:/fpga_proj/dsp/dsp.srcs/sim_1/new/tb_top.v,,top,,,,,,,,
