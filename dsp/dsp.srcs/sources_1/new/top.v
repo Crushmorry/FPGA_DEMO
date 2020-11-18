@@ -56,6 +56,6 @@ xbip_dsp48_macro_2 inst3 (
   .A(A_inst3),      // input wire [26 : 0] A
   .B(B_inst3),      // input wire [17 : 0] B
   .D(D_inst3),      // input wire [26 : 0] D
-  .P(P_inst3)      // output wire [44 : 0] P
+  .P(P_inst3)      // output wire [34 : 0] P
 );
 endmodule
