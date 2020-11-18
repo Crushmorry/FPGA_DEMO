@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Mon Nov 16 17:03:27 2020
+# Process ID: 10876
+# Current directory: E:/FPGA_DEMO/dsp
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2092 E:\FPGA_DEMO\dsp\dsp.xpr
+# Log file: E:/FPGA_DEMO/dsp/vivado.log
+# Journal file: E:/FPGA_DEMO/dsp\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/FPGA_DEMO/dsp/dsp.xpr
+INFO: [Project 1-313] Project file moved from 'E:/fpga_proj/dsp' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2020.1/data/ip'.
+open_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:08 . Memory (MB): peak = 1074.191 ; gain = 0.000
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Nov 16 19:52:35 2020...
