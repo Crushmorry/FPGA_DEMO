@@ -48,36 +48,36 @@ initial begin
     A_inst3 = a << 8'd18;
     B_inst3 = -18'd20;
     D_inst3 = b;
-//    #2500
-//    A=18'd2;
-//    B=18'd16;
-//    C=48'd20;
-//    SEL = 1'b1;
-//    a = 8'd10;
-//    b = 8'd2;
-//    A_inst3 = a << 8'd18;
-//    //A_inst3 = {a << 8'd18,2'b11,16'd0};
-//    B_inst3 = 18'd20;
-//    D_inst3 = b;
-//    #2500
-//    a = 8'd10;
-//    b = 8'd2;
-//    A_inst3 = a << 8'd18;
-//    B_inst3 = -18'd30;
-//    D_inst3 = b;
-//    #2500
-//    a = 8'd10;
-//    b = 8'd2;
-//    A_inst3 = a << 8'd18;
-//    B_inst3 = 18'd0;
-//    D_inst3 = b;
+    #2500
+    A=18'd2;
+    B=18'd16;
+    C=48'd20;
+    SEL = 1'b1;
+    a = 8'd10;
+    b = 8'd2;
+    A_inst3 = a << 8'd18;
+    //A_inst3 = {a << 8'd18,2'b11,16'd0};
+    B_inst3 = 18'd20;
+    D_inst3 = b;
+    #2500
+    a = 8'd10;
+    b = 8'd2;
+    A_inst3 = a << 8'd18;
+    B_inst3 = -18'd30;
+    D_inst3 = b;
+    #2500
+    a = 8'd10;
+    b = 8'd2;
+    A_inst3 = a << 8'd18;
+    B_inst3 = 18'd0;
+    D_inst3 = b;
 end
 
 always #10 clk = ~clk;
 //always #410 SEL = ~SEL;
 wire signed [15:0] p3_x,p3_y;
 assign p3_x = P_inst3[15:0];
-assign p3_y = P_inst3[34:18];    
+assign p3_y = (P_inst3[34:34]==1'b1)?P_inst3[34:18]+1'b1:P_inst3[34:18];    
     
 top t(
 . CLK  (clk),
