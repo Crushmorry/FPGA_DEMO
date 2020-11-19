@@ -1,5 +1,9 @@
 # compile verilog/system verilog design source files
 verilog xil_defaultlib  \
+"../../../../dsp.srcs/sources_1/ip/blk_mem_gen_2/sim/blk_mem_gen_2.v" \
+"../../../../dsp.srcs/sources_1/ip/blk_mem_gen_3/sim/blk_mem_gen_3.v" \
+"../../../../dsp.srcs/sources_1/ip/blk_mem_gen_1/sim/blk_mem_gen_1.v" \
+"../../../../dsp.srcs/sources_1/ip/blk_mem_gen_0/sim/blk_mem_gen_0.v" \
 "../../../../dsp.srcs/sources_1/new/top.v" \
 "../../../../dsp.srcs/sim_1/new/tb_top.v" \
 

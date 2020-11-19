@@ -12,65 +12,86 @@
    </db_ref_list>
    <zoom_setting>
       <ZoomStartTime time="0fs"></ZoomStartTime>
-      <ZoomEndTime time="636001fs"></ZoomEndTime>
-      <Cursor1Time time="289000fs"></Cursor1Time>
+      <ZoomEndTime time="50000001fs"></ZoomEndTime>
+      <Cursor1Time time="12999385fs"></Cursor1Time>
    </zoom_setting>
    <column_width_setting>
-      <NameColumnWidth column_width="174"></NameColumnWidth>
-      <ValueColumnWidth column_width="82"></ValueColumnWidth>
+      <NameColumnWidth column_width="169"></NameColumnWidth>
+      <ValueColumnWidth column_width="72"></ValueColumnWidth>
    </column_width_setting>
-   <WVObjectSize size="15" />
+   <WVObjectSize size="20" />
    <wvobject fp_name="/tb_top/clk" type="logic">
       <obj_property name="ElementShortName">clk</obj_property>
       <obj_property name="ObjectShortName">clk</obj_property>
-   </wvobject>
-   <wvobject fp_name="/tb_top/A" type="array">
-      <obj_property name="ElementShortName">A[17:0]</obj_property>
-      <obj_property name="ObjectShortName">A[17:0]</obj_property>
-      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-   </wvobject>
-   <wvobject fp_name="/tb_top/B" type="array">
-      <obj_property name="ElementShortName">B[17:0]</obj_property>
-      <obj_property name="ObjectShortName">B[17:0]</obj_property>
-      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-   </wvobject>
-   <wvobject fp_name="/tb_top/C" type="array">
-      <obj_property name="ElementShortName">C[47:0]</obj_property>
-      <obj_property name="ObjectShortName">C[47:0]</obj_property>
-      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
    </wvobject>
    <wvobject fp_name="/tb_top/SEL" type="logic">
       <obj_property name="ElementShortName">SEL</obj_property>
       <obj_property name="ObjectShortName">SEL</obj_property>
    </wvobject>
+   <wvobject fp_name="/tb_top/cnt" type="array">
+      <obj_property name="ElementShortName">cnt[11:0]</obj_property>
+      <obj_property name="ObjectShortName">cnt[11:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/douta" type="array">
+      <obj_property name="ElementShortName">douta[7:0]</obj_property>
+      <obj_property name="ObjectShortName">douta[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/doutb" type="array">
+      <obj_property name="ElementShortName">doutb[7:0]</obj_property>
+      <obj_property name="ObjectShortName">doutb[7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/doutc" type="array">
+      <obj_property name="ElementShortName">doutc[7:0]</obj_property>
+      <obj_property name="ObjectShortName">doutc[7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/doutd" type="array">
+      <obj_property name="ElementShortName">doutd[7:0]</obj_property>
+      <obj_property name="ObjectShortName">doutd[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/A_inst1" type="array">
+      <obj_property name="ElementShortName">A_inst1[17:0]</obj_property>
+      <obj_property name="ObjectShortName">A_inst1[17:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/B_inst1" type="array">
+      <obj_property name="ElementShortName">B_inst1[17:0]</obj_property>
+      <obj_property name="ObjectShortName">B_inst1[17:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
    <wvobject fp_name="/tb_top/P_inst1" type="array">
       <obj_property name="ElementShortName">P_inst1[35:0]</obj_property>
       <obj_property name="ObjectShortName">P_inst1[35:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/A_inst2" type="array">
+      <obj_property name="ElementShortName">A_inst2[17:0]</obj_property>
+      <obj_property name="ObjectShortName">A_inst2[17:0]</obj_property>
       <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/B_inst2" type="array">
+      <obj_property name="ElementShortName">B_inst2[17:0]</obj_property>
+      <obj_property name="ObjectShortName">B_inst2[17:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/C_inst2" type="array">
+      <obj_property name="ElementShortName">C_inst2[47:0]</obj_property>
+      <obj_property name="ObjectShortName">C_inst2[47:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
    </wvobject>
    <wvobject fp_name="/tb_top/P_inst2" type="array">
       <obj_property name="ElementShortName">P_inst2[47:0]</obj_property>
       <obj_property name="ObjectShortName">P_inst2[47:0]</obj_property>
-      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-   </wvobject>
-   <wvobject fp_name="/tb_top/a" type="array">
-      <obj_property name="ElementShortName">a[7:0]</obj_property>
-      <obj_property name="ObjectShortName">a[7:0]</obj_property>
-      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
-      <obj_property name="UseCustomSignalColor">true</obj_property>
-   </wvobject>
-   <wvobject fp_name="/tb_top/b" type="array">
-      <obj_property name="ElementShortName">b[7:0]</obj_property>
-      <obj_property name="ObjectShortName">b[7:0]</obj_property>
-      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
-      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
    </wvobject>
    <wvobject fp_name="/tb_top/A_inst3" type="array">
       <obj_property name="ElementShortName">A_inst3[26:0]</obj_property>
       <obj_property name="ObjectShortName">A_inst3[26:0]</obj_property>
-      <obj_property name="Radix">BINARYRADIX</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
    </wvobject>
    <wvobject fp_name="/tb_top/B_inst3" type="array">
       <obj_property name="ElementShortName">B_inst3[7:0]</obj_property>
@@ -79,28 +100,24 @@
       <obj_property name="CustomSignalColor">#0000FF</obj_property>
       <obj_property name="UseCustomSignalColor">true</obj_property>
    </wvobject>
+   <wvobject fp_name="/tb_top/D_inst3" type="array">
+      <obj_property name="ElementShortName">D_inst3[26:0]</obj_property>
+      <obj_property name="ObjectShortName">D_inst3[26:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
    <wvobject fp_name="/tb_top/P_inst3" type="array">
       <obj_property name="ElementShortName">P_inst3[34:0]</obj_property>
       <obj_property name="ObjectShortName">P_inst3[34:0]</obj_property>
-      <obj_property name="Radix">BINARYRADIX</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
    </wvobject>
    <wvobject fp_name="/tb_top/p3_x" type="array">
       <obj_property name="ElementShortName">p3_x[15:0]</obj_property>
       <obj_property name="ObjectShortName">p3_x[15:0]</obj_property>
       <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
-      <obj_property name="CustomSignalColor">#808000</obj_property>
-      <obj_property name="UseCustomSignalColor">true</obj_property>
    </wvobject>
    <wvobject fp_name="/tb_top/p3_y" type="array">
       <obj_property name="ElementShortName">p3_y[15:0]</obj_property>
       <obj_property name="ObjectShortName">p3_y[15:0]</obj_property>
       <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
-      <obj_property name="CustomSignalColor">#FFFF00</obj_property>
-      <obj_property name="UseCustomSignalColor">true</obj_property>
-   </wvobject>
-   <wvobject fp_name="/tb_top/D_inst3" type="array">
-      <obj_property name="ElementShortName">D_inst3[26:0]</obj_property>
-      <obj_property name="ObjectShortName">D_inst3[26:0]</obj_property>
-      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
    </wvobject>
 </wave_config>
