@@ -3,121 +3,109 @@
    <wave_state>
    </wave_state>
    <db_ref_list>
-      <db_ref path="tb_top_behav.wdb" id="1">
+      <db_ref path="tb_dsp_t_behav.wdb" id="1">
          <top_modules>
             <top_module name="glbl" />
-            <top_module name="tb_top" />
+            <top_module name="tb_dsp_t" />
          </top_modules>
       </db_ref>
    </db_ref_list>
    <zoom_setting>
-      <ZoomStartTime time="0fs"></ZoomStartTime>
-      <ZoomEndTime time="50000001fs"></ZoomEndTime>
-      <Cursor1Time time="12999385fs"></Cursor1Time>
+      <ZoomStartTime time="612131fs"></ZoomStartTime>
+      <ZoomEndTime time="746932fs"></ZoomEndTime>
+      <Cursor1Time time="672031fs"></Cursor1Time>
    </zoom_setting>
    <column_width_setting>
-      <NameColumnWidth column_width="169"></NameColumnWidth>
+      <NameColumnWidth column_width="108"></NameColumnWidth>
       <ValueColumnWidth column_width="72"></ValueColumnWidth>
    </column_width_setting>
-   <WVObjectSize size="20" />
-   <wvobject fp_name="/tb_top/clk" type="logic">
+   <WVObjectSize size="19" />
+   <wvobject fp_name="/tb_dsp_t/clk_in" type="logic">
+      <obj_property name="ElementShortName">clk_in</obj_property>
+      <obj_property name="ObjectShortName">clk_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_dsp_t/clk" type="logic">
       <obj_property name="ElementShortName">clk</obj_property>
       <obj_property name="ObjectShortName">clk</obj_property>
    </wvobject>
-   <wvobject fp_name="/tb_top/SEL" type="logic">
-      <obj_property name="ElementShortName">SEL</obj_property>
-      <obj_property name="ObjectShortName">SEL</obj_property>
+   <wvobject fp_name="/tb_dsp_t/clk_2x" type="logic">
+      <obj_property name="ElementShortName">clk_2x</obj_property>
+      <obj_property name="ObjectShortName">clk_2x</obj_property>
    </wvobject>
-   <wvobject fp_name="/tb_top/cnt" type="array">
-      <obj_property name="ElementShortName">cnt[11:0]</obj_property>
-      <obj_property name="ObjectShortName">cnt[11:0]</obj_property>
+   <wvobject fp_name="/tb_dsp_t/rst_n" type="logic">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_dsp_t/data" type="array">
+      <obj_property name="ElementShortName">data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data[31:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_dsp_t/result" type="array">
+      <obj_property name="ElementShortName">result[63:0]</obj_property>
+      <obj_property name="ObjectShortName">result[63:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_dsp_t/data1" type="array">
+      <obj_property name="ElementShortName">data1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data1[7:0]</obj_property>
       <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
    </wvobject>
-   <wvobject fp_name="/tb_top/douta" type="array">
-      <obj_property name="ElementShortName">douta[7:0]</obj_property>
-      <obj_property name="ObjectShortName">douta[7:0]</obj_property>
+   <wvobject fp_name="/tb_dsp_t/data2" type="array">
+      <obj_property name="ElementShortName">data2[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data2[7:0]</obj_property>
       <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
    </wvobject>
-   <wvobject fp_name="/tb_top/doutb" type="array">
-      <obj_property name="ElementShortName">doutb[7:0]</obj_property>
-      <obj_property name="ObjectShortName">doutb[7:0]</obj_property>
-      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
-   </wvobject>
-   <wvobject fp_name="/tb_top/doutc" type="array">
-      <obj_property name="ElementShortName">doutc[7:0]</obj_property>
-      <obj_property name="ObjectShortName">doutc[7:0]</obj_property>
-      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
-   </wvobject>
-   <wvobject fp_name="/tb_top/doutd" type="array">
-      <obj_property name="ElementShortName">doutd[7:0]</obj_property>
-      <obj_property name="ObjectShortName">doutd[7:0]</obj_property>
+   <wvobject fp_name="/tb_dsp_t/data3" type="array">
+      <obj_property name="ElementShortName">data3[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data3[7:0]</obj_property>
       <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
    </wvobject>
-   <wvobject fp_name="/tb_top/A_inst1" type="array">
-      <obj_property name="ElementShortName">A_inst1[17:0]</obj_property>
-      <obj_property name="ObjectShortName">A_inst1[17:0]</obj_property>
+   <wvobject fp_name="/tb_dsp_t/data4" type="array">
+      <obj_property name="ElementShortName">data4[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data4[7:0]</obj_property>
       <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
    </wvobject>
-   <wvobject fp_name="/tb_top/B_inst1" type="array">
-      <obj_property name="ElementShortName">B_inst1[17:0]</obj_property>
-      <obj_property name="ObjectShortName">B_inst1[17:0]</obj_property>
+   <wvobject fp_name="/tb_dsp_t/weight" type="array">
+      <obj_property name="ElementShortName">weight[7:0]</obj_property>
+      <obj_property name="ObjectShortName">weight[7:0]</obj_property>
       <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
    </wvobject>
-   <wvobject fp_name="/tb_top/P_inst1" type="array">
-      <obj_property name="ElementShortName">P_inst1[35:0]</obj_property>
-      <obj_property name="ObjectShortName">P_inst1[35:0]</obj_property>
+   <wvobject fp_name="/tb_dsp_t/re1" type="array">
+      <obj_property name="ElementShortName">re1[15:0]</obj_property>
+      <obj_property name="ObjectShortName">re1[15:0]</obj_property>
       <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
    </wvobject>
-   <wvobject fp_name="/tb_top/A_inst2" type="array">
-      <obj_property name="ElementShortName">A_inst2[17:0]</obj_property>
-      <obj_property name="ObjectShortName">A_inst2[17:0]</obj_property>
-      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-   </wvobject>
-   <wvobject fp_name="/tb_top/B_inst2" type="array">
-      <obj_property name="ElementShortName">B_inst2[17:0]</obj_property>
-      <obj_property name="ObjectShortName">B_inst2[17:0]</obj_property>
+   <wvobject fp_name="/tb_dsp_t/re2" type="array">
+      <obj_property name="ElementShortName">re2[15:0]</obj_property>
+      <obj_property name="ObjectShortName">re2[15:0]</obj_property>
       <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
    </wvobject>
-   <wvobject fp_name="/tb_top/C_inst2" type="array">
-      <obj_property name="ElementShortName">C_inst2[47:0]</obj_property>
-      <obj_property name="ObjectShortName">C_inst2[47:0]</obj_property>
+   <wvobject fp_name="/tb_dsp_t/re3" type="array">
+      <obj_property name="ElementShortName">re3[15:0]</obj_property>
+      <obj_property name="ObjectShortName">re3[15:0]</obj_property>
       <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
    </wvobject>
-   <wvobject fp_name="/tb_top/P_inst2" type="array">
-      <obj_property name="ElementShortName">P_inst2[47:0]</obj_property>
-      <obj_property name="ObjectShortName">P_inst2[47:0]</obj_property>
+   <wvobject fp_name="/tb_dsp_t/re4" type="array">
+      <obj_property name="ElementShortName">re4[15:0]</obj_property>
+      <obj_property name="ObjectShortName">re4[15:0]</obj_property>
       <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
    </wvobject>
-   <wvobject fp_name="/tb_top/A_inst3" type="array">
-      <obj_property name="ElementShortName">A_inst3[26:0]</obj_property>
-      <obj_property name="ObjectShortName">A_inst3[26:0]</obj_property>
-      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   <wvobject fp_name="/tb_dsp_t/A" type="array">
+      <obj_property name="ElementShortName">A[26:0]</obj_property>
+      <obj_property name="ObjectShortName">A[26:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
    </wvobject>
-   <wvobject fp_name="/tb_top/B_inst3" type="array">
-      <obj_property name="ElementShortName">B_inst3[7:0]</obj_property>
-      <obj_property name="ObjectShortName">B_inst3[7:0]</obj_property>
-      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
-      <obj_property name="CustomSignalColor">#0000FF</obj_property>
-      <obj_property name="UseCustomSignalColor">true</obj_property>
+   <wvobject fp_name="/tb_dsp_t/B" type="array">
+      <obj_property name="ElementShortName">B[7:0]</obj_property>
+      <obj_property name="ObjectShortName">B[7:0]</obj_property>
    </wvobject>
-   <wvobject fp_name="/tb_top/D_inst3" type="array">
-      <obj_property name="ElementShortName">D_inst3[26:0]</obj_property>
-      <obj_property name="ObjectShortName">D_inst3[26:0]</obj_property>
-      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   <wvobject fp_name="/tb_dsp_t/D" type="array">
+      <obj_property name="ElementShortName">D[26:0]</obj_property>
+      <obj_property name="ObjectShortName">D[26:0]</obj_property>
    </wvobject>
-   <wvobject fp_name="/tb_top/P_inst3" type="array">
-      <obj_property name="ElementShortName">P_inst3[34:0]</obj_property>
-      <obj_property name="ObjectShortName">P_inst3[34:0]</obj_property>
-      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
-   </wvobject>
-   <wvobject fp_name="/tb_top/p3_x" type="array">
-      <obj_property name="ElementShortName">p3_x[15:0]</obj_property>
-      <obj_property name="ObjectShortName">p3_x[15:0]</obj_property>
-      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
-   </wvobject>
-   <wvobject fp_name="/tb_top/p3_y" type="array">
-      <obj_property name="ElementShortName">p3_y[15:0]</obj_property>
-      <obj_property name="ObjectShortName">p3_y[15:0]</obj_property>
-      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   <wvobject fp_name="/tb_dsp_t/switch" type="logic">
+      <obj_property name="ElementShortName">switch</obj_property>
+      <obj_property name="ObjectShortName">switch</obj_property>
    </wvobject>
 </wave_config>

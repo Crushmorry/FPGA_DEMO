@@ -1,0 +1,12 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../dsp.srcs/sources_1/ip/clk_wiz_0" \
+"../../../../dsp.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v" \
+"../../../../dsp.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.v" \
+"../../../../dsp.srcs/sources_1/new/dsp_t.v" \
+"../../../../dsp.srcs/sim_1/new/tb_dsp_t.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
